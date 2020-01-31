@@ -22,3 +22,6 @@ let blockState = system.getComponent(block, "minecraft:blockstate")
 // Get Numeric Data value of block by passing block name and blockstate to function
 let blockData = Block.getData(blockName, blockState)
 ```
+
+### Download
+[Click here](blockstate_to_data.js) to get the file

@@ -1,5 +1,5 @@
 # Blockstate to Numeric Data
-#### Bedrock v1.14.1
+#### Bedrock v1.13 - v1.14.1
 A custom utility for Bedrock Scripting API for geting the Data value of block by there blockstates, data value which we use in commands like `/setblock` `/fill` `/give` etc..
 
 ### Command Parameter

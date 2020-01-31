@@ -23,5 +23,5 @@ let blockState = system.getComponent(block, "minecraft:blockstate")
 let blockData = Block.getData(blockName, blockState)
 ```
 
-### Download
-[Click here](blockstate_to_data.js) to get the file
+### Source
+[Click here](blockstate_to_data.js) to view the file

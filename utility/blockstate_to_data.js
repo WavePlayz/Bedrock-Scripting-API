@@ -1,21 +1,31 @@
 // Block's blockstates by Data value order
 // Bedrock v1.14
 // by WavePlayz
-let BlockData = {
-	getData: function(blockstate) {
-		let block_name = blockstate.__identifier__
-		if (block_name in this) {
-			let data_entries = Object.entries(this[block_name])
+let Block = {
+	getData: function(blockName, blockstate) {
+		let data_value = 0 // by default
+		blockName = blockName.startsWith("minecraft:") ? blockName : "minecraft:" + blockName
+		
+		if (blockName in this) {
+			let entries = Object.entries(this[blockName])
 			
-			for (let i = 0; i < data_entries.length; i++) {
-				let matched = true
-				Object.entries(data_entries[i][1]).forEach(([property, value]) => {
-					if (blockstate.data[property] != value) matched = false;
-				})
+			for (let entry = 0; entry < entries.length; entry++) {
+				let [dataNumber, dataStates] = entries[entry]
+				let match = true
 				
-				if (matched) break
+				for (let key in dataStates) {
+					if (dataStates[key] != blockstate.data[key]) {
+						match = false
+						break
+					}
+				}
+				if(match) {
+					data_value = dataNumber
+					break
+				}
 			}
 		}
+		return data_value
 	},
 	"minecraft:air": {},
 	"minecraft:stone": {
@@ -144,20 +154,20 @@ let BlockData = {
 	"minecraft:iron_ore": {},
 	"minecraft:coal_ore": {},
 	"minecraft:log": {
-		0 : {old_log_type: "oak", piller_axis: "y"},
-		1 : {old_log_type: "spruce", piller_axis: "y"},
-		2 : {old_log_type: "birch", piller_axis: "y"},
-		3 : {old_log_type: "jungle", piller_axis: "x"},
+		0 : {old_log_type: "oak", pillar_axis: "y"},
+		1 : {old_log_type: "spruce", pillar_axis: "y"},
+		2 : {old_log_type: "birch", pillar_axis: "y"},
+		3 : {old_log_type: "jungle", pillar_axis: "x"},
 		
-		4 : {old_log_type: "oak", piller_axis: "x"},
-		5 : {old_log_type: "spruce", piller_axis: "x"},
-		6 : {old_log_type: "birch", piller_axis: "x"},
-		7 : {old_log_type: "jungle", piller_axis: "x"},
+		4 : {old_log_type: "oak", pillar_axis: "x"},
+		5 : {old_log_type: "spruce", pillar_axis: "x"},
+		6 : {old_log_type: "birch", pillar_axis: "x"},
+		7 : {old_log_type: "jungle", pillar_axis: "x"},
 		
-		8 : {old_log_type: "oak", piller_axis: "z"},
-		9 : {old_log_type: "spruce", piller_axis: "z"},
-		10 : {old_log_type: "birch", piller_axis: "z"},
-		11 : {old_log_type: "jungle", piller_axis: "z"}
+		8 : {old_log_type: "oak", pillar_axis: "z"},
+		9 : {old_log_type: "spruce", pillar_axis: "z"},
+		10 : {old_log_type: "birch", pillar_axis: "z"},
+		11 : {old_log_type: "jungle", pillar_axis: "z"}
 	},
 	"minecraft:leaves": {
 		0 : {old_leaf_type: "oak", update_bit: false, persistent_bit: false},
@@ -1296,20 +1306,20 @@ let BlockData = {
 		15 : {facing_direction: 0, toggle_bit: true}
 	},
 	"minecraft:quartz_block": {
-		0 : {chisel_type: "default", piller_axis: "y"},
-		1 : {chisel_type: "chiseled", piller_axis: "y"},
-		2 : {chisel_type: "lines", piller_axis: "y"},
-		3 : {chisel_type: "smooth", piller_axis: "y"},
+		0 : {chisel_type: "default", pillar_axis: "y"},
+		1 : {chisel_type: "chiseled", pillar_axis: "y"},
+		2 : {chisel_type: "lines", pillar_axis: "y"},
+		3 : {chisel_type: "smooth", pillar_axis: "y"},
 		
-		4 : {chisel_type: "default", piller_axis: "x"},
-		5 : {chisel_type: "chiseled", piller_axis: "x"},
-		6 : {chisel_type: "lines", piller_axis: "x"},
-		7 : {chisel_type: "smooth", piller_axis: "x"},
+		4 : {chisel_type: "default", pillar_axis: "x"},
+		5 : {chisel_type: "chiseled", pillar_axis: "x"},
+		6 : {chisel_type: "lines", pillar_axis: "x"},
+		7 : {chisel_type: "smooth", pillar_axis: "x"},
 		
-		8 : {chisel_type: "default", piller_axis: "z"},
-		9 : {chisel_type: "chiseled", piller_axis: "z"},
-		10 : {chisel_type: "lines", piller_axis: "z"},
-		11 : {chisel_type: "smooth", piller_axis: "z"}
+		8 : {chisel_type: "default", pillar_axis: "z"},
+		9 : {chisel_type: "chiseled", pillar_axis: "z"},
+		10 : {chisel_type: "lines", pillar_axis: "z"},
+		11 : {chisel_type: "smooth", pillar_axis: "z"}
 	},
 	"minecraft:quartz_stairs": {
 		0 : {weirdo_direction: 0, upside_down_bit: false},
@@ -1406,14 +1416,14 @@ let BlockData = {
 		
 	},
 	"minecraft:log2": {
-		0 : {new_log_type: "acacia", piller_axis: "y"},
-		1 : {new_log_type: "dark_oak", piller_axis: "y"},
+		0 : {new_log_type: "acacia", pillar_axis: "y"},
+		1 : {new_log_type: "dark_oak", pillar_axis: "y"},
 		
-		4 : {new_log_type: "acacia", piller_axis: "x"},
-		5 : {new_log_type: "dark_oak", piller_axis: "x"},
+		4 : {new_log_type: "acacia", pillar_axis: "x"},
+		5 : {new_log_type: "dark_oak", pillar_axis: "x"},
 		
-		8 : {new_log_type: "acacia", piller_axis: "z"},
-		9 : {new_log_type: "dark_oak", piller_axis: "z"}
+		8 : {new_log_type: "acacia", pillar_axis: "z"},
+		9 : {new_log_type: "dark_oak", pillar_axis: "z"}
 	},
 	"minecraft:acacia_stairs": {
 		0 : {weirdo_direction: 0, upside_down_bit: false},

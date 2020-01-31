@@ -2,6 +2,21 @@
 // Bedrock v1.14
 // by WavePlayz
 let BlockData = {
+	getData: function(blockstate) {
+		let block_name = blockstate.__identifier__
+		if (block_name in this) {
+			let data_entries = Object.entries(this[block_name])
+			
+			for (let i = 0; i < data_entries.length; i++) {
+				let matched = true
+				Object.entries(data_entries[i][1]).forEach(([property, value]) => {
+					if (blockstate.data[property] != value) matched = false;
+				})
+				
+				if (matched) break
+			}
+		}
+	},
 	"minecraft:air": {},
 	"minecraft:stone": {
 		0 : {stone_type: "stone"},
@@ -142,7 +157,7 @@ let BlockData = {
 		8 : {old_log_type: "oak", piller_axis: "z"},
 		9 : {old_log_type: "spruce", piller_axis: "z"},
 		10 : {old_log_type: "birch", piller_axis: "z"},
-		11 : {old_log_type: "jungle", piller_axis: "z"},
+		11 : {old_log_type: "jungle", piller_axis: "z"}
 	},
 	"minecraft:leaves": {
 		0 : {old_leaf_type: "oak", update_bit: false, persistent_bit: false},
@@ -163,7 +178,7 @@ let BlockData = {
 		12 : {old_leaf_type: "oak", update_bit: true, persistent_bit: true},
 		13 : {old_leaf_type: "spruce", update_bit: true, persistent_bit: true},
 		14 : {old_leaf_type: "birch", update_bit: true, persistent_bit: true},
-		15 : {old_leaf_type: "jungle", update_bit: true, persistent_bit: true},
+		15 : {old_leaf_type: "jungle", update_bit: true, persistent_bit: true}
 	},
 	"minecraft:sponge": {
 		0 : {sponge_type: "dry"},
@@ -191,20 +206,20 @@ let BlockData = {
 		13 : {facing_direction: 5, triggered_bit: true},
 		
 		14 : {facing_direction: 0, triggered_bit: false},
-		15 : {facing_direction: 0, triggered_bit: false},
+		15 : {facing_direction: 0, triggered_bit: false}
 	},
 	"minecraft:sandstone": {
 		0 : {sand_stone_type: "default"},
 		1 : {sand_stone_type: "heiroglyphs"},
 		2 : {sand_stone_type: "cut"},
-		3 : {sand_stone_type: "smooth"},
+		3 : {sand_stone_type: "smooth"}
 	},
 	"minecraft:noteblock": {},
 	"minecraft:bed": {
 		0 : {direction: 0},
 		1 : {direction: 1},
 		2 : {direction: 2},
-		3 : {direction: 3},
+		3 : {direction: 3}
 	},
 	"minecraft:golden_rail": {
 		0 : {rail_direction: 0, rail_data_bit: false},
@@ -246,7 +261,7 @@ let BlockData = {
 		13 : {facing_direction: 5, triggered_bit: true},
 		
 		14 : {facing_direction: 0, triggered_bit: false},
-		15 : {facing_direction: 0, triggered_bit: false},
+		15 : {facing_direction: 0, triggered_bit: false}
 	},
 	"minecraft:sticky_piston": {
 		0 : {facing_direction: 0},
@@ -261,7 +276,7 @@ let BlockData = {
 		0 : {tall_grass_type: "default"},
 		1 : {tall_grass_type: "tall"},
 		2 : {tall_grass_type: "fern"},
-		3 : {tall_grass_type: "snow"},
+		3 : {tall_grass_type: "snow"}
 	},
 	"minecraft:deadbush": {},
 	"minecraft:piston": {
@@ -327,7 +342,7 @@ let BlockData = {
 		12 : {stone_slab_type: "brick", top_slot_bit: true},
 		13 : {stone_slab_type: "stone_brick", top_slot_bit: true},
 		14 : {stone_slab_type: "quartz", top_slot_bit: true},
-		15 : {stone_slab_type: "nether_brick", top_slot_bit: true},
+		15 : {stone_slab_type: "nether_brick", top_slot_bit: true}
 	},
 	"minecraft:stone_slab": {
 		0 : {stone_slab_type: "smooth_stone", top_slot_bit: false},
@@ -346,7 +361,7 @@ let BlockData = {
 		12 : {stone_slab_type: "brick", top_slot_bit: true},
 		13 : {stone_slab_type: "stone_brick", top_slot_bit: true},
 		14 : {stone_slab_type: "quartz", top_slot_bit: true},
-		15 : {stone_slab_type: "nether_brick", top_slot_bit: true},
+		15 : {stone_slab_type: "nether_brick", top_slot_bit: true}
 	},
 	"minecraft:brick_block": {},
 	"minecraft:tnt": {
@@ -354,7 +369,7 @@ let BlockData = {
 		1 : {explode_bit: true, allow_underwater_bit: false},
 		
 		2 : {explode_bit: false, allow_underwater_bit: true},
-		3 : {explode_bit: true, allow_underwater_bit: true},
+		3 : {explode_bit: true, allow_underwater_bit: true}
 	},
 	"minecraft:bookshelf": {},
 	"minecraft:mossy_cobblestone": {},
@@ -416,7 +431,7 @@ let BlockData = {
 		9 : {redstone_signal: 9},
 		10 : {redstone_signal: 10},
 		11 : {redstone_signal: 11},
-		12 : {redstone_signal: 12}
+		12 : {redstone_signal: 12},
 		13 : {redstone_signal: 13},
 		14 : {redstone_signal: 14},
 		15 : {redstone_signal: 15}
@@ -472,7 +487,7 @@ let BlockData = {
 		12 : {ground_sign_direction: 12},
 		13 : {ground_sign_direction: 13},
 		14 : {ground_sign_direction: 14},
-		15 : {ground_sign_direction: 15},
+		15 : {ground_sign_direction: 15}
 	},
 	"minecraft:wooden_door": {
 		0 : {direction: 0, door_hinge_bit: false, open_bit: false, upper_block_bit: false},
@@ -548,7 +563,7 @@ let BlockData = {
 		12 : {lever_direction: "north", open_bit: true},
 		13 : {lever_direction: "up_north_south", open_bit: true},
 		14 : {lever_direction: "up_east_west", open_bit: true},
-		15 : {lever_direction: "down_north_south", open_bit: true},
+		15 : {lever_direction: "down_north_south", open_bit: true}
 	},
 	"minecraft:stone_pressure_plate": {
 		0 : {redstone_signal: 0},
@@ -712,7 +727,7 @@ let BlockData = {
 		3 : {bite_counter: 3},
 		4 : {bite_counter: 4},
 		5 : {bite_counter: 5},
-		6 : {bite_counter: 6},
+		6 : {bite_counter: 6}
 	},
 	"minecraft:unpowered_repeater": {
 		0 : {repeater_delay: 0, direction: 0},
@@ -733,7 +748,7 @@ let BlockData = {
 		12 : {repeater_delay: 3, direction: 0},
 		13 : {repeater_delay: 3, direction: 1},
 		14 : {repeater_delay: 3, direction: 2},
-		15 : {repeater_delay: 3, direction: 3},
+		15 : {repeater_delay: 3, direction: 3}
 	},
 	"minecraft:powered_repeater": {
 		0 : {repeater_delay: 0, direction: 0},
@@ -754,7 +769,7 @@ let BlockData = {
 		12 : {repeater_delay: 3, direction: 0},
 		13 : {repeater_delay: 3, direction: 1},
 		14 : {repeater_delay: 3, direction: 2},
-		15 : {repeater_delay: 3, direction: 3},
+		15 : {repeater_delay: 3, direction: 3}
 	},
 	"minecraft:invisibleBedrock": {},
 	"minecraft:trapdoor": {
@@ -784,7 +799,7 @@ let BlockData = {
 		2 : {monster_egg_stone_type: "stone_brick"},
 		3 : {monster_egg_stone_type: "mossy_stone_brick"},
 		4 : {monster_egg_stone_type: "cracked_stone_brick"},
-		5 : {monster_egg_stone_type: "chiseled_stone_brick"},
+		5 : {monster_egg_stone_type: "chiseled_stone_brick"}
 	},
 	"minecraft:stonebrick": {
 		0 : {stone_brick_type: "default"},
@@ -936,7 +951,7 @@ let BlockData = {
 		13 : {facing_direction: 5, triggered_bit: true},
 		
 		14 : {facing_direction: 0, triggered_bit: false},
-		15 : {facing_direction: 0, triggered_bit: false},
+		15 : {facing_direction: 0, triggered_bit: false}
 	},
 	"minecraft:activator_rail": {
 		0 : {facing_direction: 0, triggered_bit: false},
@@ -957,7 +972,7 @@ let BlockData = {
 		13 : {facing_direction: 5, triggered_bit: true},
 		
 		14 : {facing_direction: 0, triggered_bit: false},
-		15 : {facing_direction: 0, triggered_bit: false},
+		15 : {facing_direction: 0, triggered_bit: false}
 	},
 	"minecraft:cocoa": {
 		0 : {direction: 0, age: 0},
@@ -1025,7 +1040,7 @@ let BlockData = {
 		9 : {powered_bit: true, attached_bit: false, disarmed_bit: true},
 		
 		12 : {powered_bit: false, attached_bit: true, disarmed_bit: true},
-		13 : {powered_bit: true, attached_bit: true, disarmed_bit: true},
+		13 : {powered_bit: true, attached_bit: true, disarmed_bit: true}
 	},
 	"minecraft:emerald_block": {},
 	"minecraft:spruce_stairs": {
@@ -1252,7 +1267,7 @@ let BlockData = {
 		9 : {redstone_signal: 9},
 		10 : {redstone_signal: 10},
 		11 : {redstone_signal: 11},
-		12 : {redstone_signal: 12}
+		12 : {redstone_signal: 12},
 		13 : {redstone_signal: 13},
 		14 : {redstone_signal: 14},
 		15 : {redstone_signal: 15}
@@ -1294,7 +1309,7 @@ let BlockData = {
 		8 : {chisel_type: "default", piller_axis: "z"},
 		9 : {chisel_type: "chiseled", piller_axis: "z"},
 		10 : {chisel_type: "lines", piller_axis: "z"},
-		11 : {chisel_type: "smooth", piller_axis: "z"},
+		11 : {chisel_type: "smooth", piller_axis: "z"}
 	},
 	"minecraft:quartz_stairs": {
 		0 : {weirdo_direction: 0, upside_down_bit: false},
@@ -1308,34 +1323,34 @@ let BlockData = {
 		7 : {weirdo_direction: 3, upside_down_bit: true}
 	},
 	"minecraft:double_wooden_slab": {
-		0 : {wood_type: wood_type: "oak", top_slot_bit: false},
-		1 : {wood_type: wood_type: "spruce", top_slot_bit: false},
-		2 : {wood_type: wood_type: "birch", top_slot_bit: false},
-		3 : {wood_type: wood_type: "jungle", top_slot_bit: false},
-		4 : {wood_type: wood_type: "acacia", top_slot_bit: false},
-		5 : {wood_type: wood_type: "dark_Oak", top_slot_bit: false},
+		0 : {wood_type: "oak", top_slot_bit: false},
+		1 : {wood_type: "spruce", top_slot_bit: false},
+		2 : {wood_type: "birch", top_slot_bit: false},
+		3 : {wood_type: "jungle", top_slot_bit: false},
+		4 : {wood_type: "acacia", top_slot_bit: false},
+		5 : {wood_type: "dark_Oak", top_slot_bit: false},
 		
-		8 : {wood_type: wood_type: "oak", top_slot_bit: true},
-		9 : {wood_type: wood_type: "spruce", top_slot_bit: true},
-		10 : {wood_type: wood_type: "birch", top_slot_bit: true},
-		11 : {wood_type: wood_type: "jungle", top_slot_bit: true},
-		12 : {wood_type: wood_type: "acacia", top_slot_bit: true},
-		13 : {wood_type: wood_type: "dark_Oak", top_slot_bit: true},
+		8 : {wood_type: "oak", top_slot_bit: true},
+		9 : {wood_type: "spruce", top_slot_bit: true},
+		10 : {wood_type: "birch", top_slot_bit: true},
+		11 : {wood_type: "jungle", top_slot_bit: true},
+		12 : {wood_type: "acacia", top_slot_bit: true},
+		13 : {wood_type: "dark_Oak", top_slot_bit: true}
 	},
 	"minecraft:wooden_slab": {
-		0 : {wood_type: wood_type: "oak", top_slot_bit: false},
-		1 : {wood_type: wood_type: "spruce", top_slot_bit: false},
-		2 : {wood_type: wood_type: "birch", top_slot_bit: false},
-		3 : {wood_type: wood_type: "jungle", top_slot_bit: false},
-		4 : {wood_type: wood_type: "acacia", top_slot_bit: false},
-		5 : {wood_type: wood_type: "dark_Oak", top_slot_bit: false},
+		0 : {wood_type: "oak", top_slot_bit: false},
+		1 : {wood_type: "spruce", top_slot_bit: false},
+		2 : {wood_type: "birch", top_slot_bit: false},
+		3 : {wood_type: "jungle", top_slot_bit: false},
+		4 : {wood_type: "acacia", top_slot_bit: false},
+		5 : {wood_type: "dark_Oak", top_slot_bit: false},
 		
-		8 : {wood_type: wood_type: "oak", top_slot_bit: true},
-		9 : {wood_type: wood_type: "spruce", top_slot_bit: true},
-		10 : {wood_type: wood_type: "birch", top_slot_bit: true},
-		11 : {wood_type: wood_type: "jungle", top_slot_bit: true},
-		12 : {wood_type: wood_type: "acacia", top_slot_bit: true},
-		13 : {wood_type: wood_type: "dark_Oak", top_slot_bit: true},
+		8 : {wood_type: "oak", top_slot_bit: true},
+		9 : {wood_type: "spruce", top_slot_bit: true},
+		10 : {wood_type: "birch", top_slot_bit: true},
+		11 : {wood_type: "jungle", top_slot_bit: true},
+		12 : {wood_type: "acacia", top_slot_bit: true},
+		13 : {wood_type: "dark_Oak", top_slot_bit: true}
 	},
 	"minecraft:stained_hardened_clay": {
 		0 : {color: "white"},
@@ -1398,7 +1413,7 @@ let BlockData = {
 		5 : {new_log_type: "dark_oak", piller_axis: "x"},
 		
 		8 : {new_log_type: "acacia", piller_axis: "z"},
-		9 : {new_log_type: "dark_oak", piller_axis: "z"},
+		9 : {new_log_type: "dark_oak", piller_axis: "z"}
 	},
 	"minecraft:acacia_stairs": {
 		0 : {weirdo_direction: 0, upside_down_bit: false},
@@ -1464,7 +1479,7 @@ let BlockData = {
 		8 : {deprecated: 0, pillar_axis: "z"},
 		9 : {deprecated: 1, pillar_axis: "z"},
 		10 : {deprecated: 2, pillar_axis: "z"},
-		11 : {deprecated: 3, pillar_axis: "z"},
+		11 : {deprecated: 3, pillar_axis: "z"}
 	},
 	"minecraft:carpet": {
 		0 : {color: "white"},
@@ -1518,7 +1533,7 @@ let BlockData = {
 		12 : {ground_sign_direction: 12},
 		13 : {ground_sign_direction: 13},
 		14 : {ground_sign_direction: 14},
-		15 : {ground_sign_direction: 15},
+		15 : {ground_sign_direction: 15}
 	},
 	"minecraft:wall_banner": {
 		2 : {facing_direction: 2},
@@ -1539,7 +1554,7 @@ let BlockData = {
 		9 : {redstone_signal: 9},
 		10 : {redstone_signal: 10},
 		11 : {redstone_signal: 11},
-		12 : {redstone_signal: 12}
+		12 : {redstone_signal: 12},
 		13 : {redstone_signal: 13},
 		14 : {redstone_signal: 14},
 		15 : {redstone_signal: 15}
@@ -1578,7 +1593,7 @@ let BlockData = {
 		12 : {stone_slab_type_2: "prismarine_brick", top_slot_bit: true},
 		13 : {stone_slab_type_2: "mossy_cobblestone", top_slot_bit: true},
 		14 : {stone_slab_type_2: "smooth_sandstone", top_slot_bit: true},
-		15 : {stone_slab_type_2: "red_nether_brick", top_slot_bit: true},
+		15 : {stone_slab_type_2: "red_nether_brick", top_slot_bit: true}
 	},
 	"minecraft:stone_slab2": {
 		0 : {stone_slab_type_2: "red_sandstone", top_slot_bit: false},
@@ -1597,7 +1612,7 @@ let BlockData = {
 		12 : {stone_slab_type_2: "prismarine_brick", top_slot_bit: true},
 		13 : {stone_slab_type_2: "mossy_cobblestone", top_slot_bit: true},
 		14 : {stone_slab_type_2: "smooth_sandstone", top_slot_bit: true},
-		15 : {stone_slab_type_2: "red_nether_brick", top_slot_bit: true},
+		15 : {stone_slab_type_2: "red_nether_brick", top_slot_bit: true}
 	},
 	"minecraft:spruce_fence_gate": {
 		0 : {direction: 0, open_bit: false},
@@ -2693,7 +2708,7 @@ let BlockData = {
 		9 : {stone_slab_type_4: "smooth_quartz", top_slot_bit: true},
 		10 : {stone_slab_type_4: "stone", top_slot_bit: true},
 		11 : {stone_slab_type_4: "cut_sandstone", top_slot_bit: true},
-		12 : {stone_slab_type_4: "cut_red_sandstone", top_slot_bit: true},
+		12 : {stone_slab_type_4: "cut_red_sandstone", top_slot_bit: true}
 	},
 	"minecraft:double_stone_slab3": {
 		0 : {stone_slab_type_3: "end_stone_brick", top_slot_bit: false},
@@ -2725,7 +2740,7 @@ let BlockData = {
 		9 : {stone_slab_type_4: "smooth_quartz", top_slot_bit: true},
 		10 : {stone_slab_type_4: "stone", top_slot_bit: true},
 		11 : {stone_slab_type_4: "cut_sandstone", top_slot_bit: true},
-		12 : {stone_slab_type_4: "cut_red_sandstone", top_slot_bit: true},
+		12 : {stone_slab_type_4: "cut_red_sandstone", top_slot_bit: true}
 	},
 	"minecraft:granite_stairs": {
 		0 : {weirdo_direction: 0, upside_down_bit: false},
@@ -2875,7 +2890,7 @@ let BlockData = {
 		12 : {ground_sign_direction: 12},
 		13 : {ground_sign_direction: 13},
 		14 : {ground_sign_direction: 14},
-		15 : {ground_sign_direction: 15},
+		15 : {ground_sign_direction: 15}
 	},
 	"minecraft:spruce_wall_sign": {
 		0 : {facing_direction: 0},
@@ -2885,9 +2900,29 @@ let BlockData = {
 		4 : {facing_direction: 4},
 		5 : {facing_direction: 5}
 	},
-	"minecraft:smooth_stone": 438,
-	"minecraft:red_nether_brick_stairs": 439,
-	"minecraft:smooth_quartz_stairs": 440,
+	"minecraft:smooth_stone": {},
+	"minecraft:red_nether_brick_stairs": {
+		0 : {weirdo_direction: 0, upside_down_bit: false},
+		1 : {weirdo_direction: 1, upside_down_bit: false},
+		2 : {weirdo_direction: 2, upside_down_bit: false},
+		3 : {weirdo_direction: 3, upside_down_bit: false},
+		
+		4 : {weirdo_direction: 0, upside_down_bit: true},
+		5 : {weirdo_direction: 1, upside_down_bit: true},
+		6 : {weirdo_direction: 2, upside_down_bit: true},
+		7 : {weirdo_direction: 3, upside_down_bit: true}
+	},
+	"minecraft:smooth_quartz_stairs": {
+		0 : {weirdo_direction: 0, upside_down_bit: false},
+		1 : {weirdo_direction: 1, upside_down_bit: false},
+		2 : {weirdo_direction: 2, upside_down_bit: false},
+		3 : {weirdo_direction: 3, upside_down_bit: false},
+		
+		4 : {weirdo_direction: 0, upside_down_bit: true},
+		5 : {weirdo_direction: 1, upside_down_bit: true},
+		6 : {weirdo_direction: 2, upside_down_bit: true},
+		7 : {weirdo_direction: 3, upside_down_bit: true}
+	},
 	"minecraft:birch_standing_sign": {
 		0 : {ground_sign_direction: 0},
 		1 : {ground_sign_direction: 1},
@@ -2904,7 +2939,7 @@ let BlockData = {
 		12 : {ground_sign_direction: 12},
 		13 : {ground_sign_direction: 13},
 		14 : {ground_sign_direction: 14},
-		15 : {ground_sign_direction: 15},
+		15 : {ground_sign_direction: 15}
 	},
 	"minecraft:birch_wall_sign": {
 		0 : {facing_direction: 0},
@@ -2930,7 +2965,7 @@ let BlockData = {
 		12 : {ground_sign_direction: 12},
 		13 : {ground_sign_direction: 13},
 		14 : {ground_sign_direction: 14},
-		15 : {ground_sign_direction: 15},
+		15 : {ground_sign_direction: 15}
 	},
 	"minecraft:jungle_wall_sign": {
 		0 : {facing_direction: 0},
@@ -2956,7 +2991,7 @@ let BlockData = {
 		12 : {ground_sign_direction: 12},
 		13 : {ground_sign_direction: 13},
 		14 : {ground_sign_direction: 14},
-		15 : {ground_sign_direction: 15},
+		15 : {ground_sign_direction: 15}
 	},
 	"minecraft:acacia_wall_sign": {
 		0 : {facing_direction: 0},
@@ -2982,7 +3017,7 @@ let BlockData = {
 		12 : {ground_sign_direction: 12},
 		13 : {ground_sign_direction: 13},
 		14 : {ground_sign_direction: 14},
-		15 : {ground_sign_direction: 15},
+		15 : {ground_sign_direction: 15}
 	},
 	"minecraft:darkoak_wall_sign": {
 		0 : {facing_direction: 0},
@@ -3167,7 +3202,7 @@ let BlockData = {
 		12 : {block_light_level: 12},
 		13 : {block_light_level: 13},
 		14 : {block_light_level: 14},
-		15 : {block_light_level: 15},
+		15 : {block_light_level: 15}
 	},
 	"minecraft:wither_rose": {},
 	"minecraft:stickyPistonArmCollision": {},

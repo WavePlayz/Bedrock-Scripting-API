@@ -27,7 +27,7 @@
 > let block = system.getBlock(*tickingarea, *x, *y, *z)
 > 
 > // Get block name
-> 	let blockName = block.__identifier__
+> let blockName = block.__identifier__
 > 
 > // Get block's blockstate
 > let blockState = system.getComponent(block, "minecraft:blockstate")

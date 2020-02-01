@@ -35,5 +35,5 @@ let blockName = block.__identifier__
 let blockState = system.getComponent(block, "minecraft:blockstate")
 
 // Get the block Data by passing name and blockstate
-let blockID = Block.getData("minecraft:stone", blockState)
+let blockID = Block.getData(blockName, blockState)
 ```

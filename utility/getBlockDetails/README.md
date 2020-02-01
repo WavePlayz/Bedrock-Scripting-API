@@ -8,7 +8,7 @@
 | blockName    | string    | Blocks's name or identifier both are allowed |
 
 
-> #### Example
+#### Example
 ```javascript
 let blockID = Block.getID("minecraft:glass") // 20
 let blockID = Block.getID("glass") // 20
@@ -22,7 +22,7 @@ let blockID = Block.getID("glass") // 20
 |    blockState    |    Object    |  Block's raw blockstate |
 
 
-> #### Example
+#### Example
 ```javascript
 // Get your block like normally
 let block = system.getBlock(*tickingarea, *x, *y, *z)

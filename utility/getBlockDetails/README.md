@@ -1,5 +1,5 @@
 # Block.js
-##### Tool for getting block's ID/Data by there name/blockstate
+##### Tool for getting block's ID/Data by there name/blockstate. [Click here](Block.js) to get file
 
 ### Methods
 #### `getID`  

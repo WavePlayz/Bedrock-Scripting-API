@@ -2,21 +2,7 @@
 #### Tool for getting block's ID/Data by there name/blockstate. [Click here](Block.js) to get the file
 
 ### Methods
-#### `getID`  
-| Parameters | Type | Description |
-|:------:|:------:|:------:|
-| blockName    | string    | Blocks's name or identifier both are allowed |
-
-
-Example
-```javascript
-let blockID = Block.getID("minecraft:glass") // 20
-let blockID = Block.getID("glass") // 20
-```
-
-##
-
-#### `getData`
+#### `get` 
 | Parameters | Type | Description |
 |:------:|:------:|:------:|
 |    blockName    | string    | Blocks's name or identifier   |
@@ -35,5 +21,13 @@ let blockName = block.__identifier__
 let blockState = system.getComponent(block, "minecraft:blockstate")
 
 // Get the block Data by passing name and blockstate
-let blockID = Block.getData(blockName, blockState)
+let block = new Block.get(blockName, blockState)
+/*
+{
+  id: ...
+  tileData: ...
+}
+*/
+
+
 ```

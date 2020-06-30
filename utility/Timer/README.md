@@ -1,5 +1,5 @@
 # Timer.js
-Simple until module offer setTimeout and setInterval functionality.
+Simple util module offering setTimeout and setInterval functionality.
 
 ## Usage
 ```javascript

@@ -46,4 +46,12 @@ class Timer {
 	setInterval () {
 		Timer._appendTask.call(this, 1, ...arguments);
 	}
+	
+	clear () {
+		this.system.queue = [];
+	}
+	
+	size () {
+		return this.system.queue.length
+	}
 }

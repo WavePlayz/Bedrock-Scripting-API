@@ -10,11 +10,11 @@ class Block {
 id:472,data:{}}],["bee_nest",{id:473,data:{}}],["beehive",{id:474,data:{}}],["honey_block",{id:475,data:{}}],["honeycomb_block",{id:476,data:{}}]]);
 	} 
 	
-	_fixName (namespace) {
-		return namespace.replace("minecraft:", "")
+	static _fixName (namespace) {
+		return namespace.replace("minecraft:", "");
 	}
 	
-	_isEqualObjects (object1, object2) {
+	static _isEqualObjects (object1, object2) {
 		for (const key in object1) {
 			if (object1[ key ] !== object2[ key ]) 
 				return false;
@@ -23,10 +23,10 @@ id:472,data:{}}],["bee_nest",{id:473,data:{}}],["beehive",{id:474,data:{}}],["ho
 	}
 	
 	get (blockName, blockState) {
-		const { id, data } = this.blocks.get(this._fixName(blockName));
+		const { id, data } = this.blocks.get( Block._fixName(blockName) );
 		
 		const state = Object.entries(data)
-				.find( ([, stateData ]) => this._isEqualObjects(blockState, stateData));
+				.find( ([ _, stateData ]) => Block._isEqualObjects(blockState, stateData));
 		
 		const tileData = +(state !== undefined ? state[0] : 0);
 		
@@ -34,6 +34,6 @@ id:472,data:{}}],["bee_nest",{id:473,data:{}}],["beehive",{id:474,data:{}}],["ho
 	}
 	
 	has (blockName) {
-		return this.blocks.has(blockName);
+		return this.blocks.has( Block._fixName(blockName) );
 	}
 }

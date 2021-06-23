@@ -1,6 +1,6 @@
 *initial version 1.17.10*
 
-BlockTypes 
+### BlockTypes 
 - acaciaButton: `BlockType`
 - acaciaDoor: `BlockType`
 - acaciaFenceGate: `BlockType`
@@ -701,7 +701,7 @@ BlockTypes
 - **getAllBlockTypes**(): `Array`<BlockType>
 - **get**(typeName: `string`): `BlockType`
 
-Block 
+### Block 
 - x: `number`
 - y: `number`
 - z: `number`
@@ -717,12 +717,12 @@ Block
 - **setType**(): `void`
 - **setWaterlogged**(setWaterlogged: `boolean`): `void`
 
-BlockType 
+### BlockType 
 - **getName**(): `string`
 - **canBeWaterlogged**(): `boolean`
 - **createDefaultBlockPermutation**(): `BlockPermutation`
 
-BlockPermutation 
+### BlockPermutation 
 - **clone**(): `BlockPermutation`
 - **getAllProperties**(): `Array`<any>
 - **getProperty**(propertyName: `string`): `any`
@@ -730,12 +730,12 @@ BlockPermutation
 - **getType**(): `BlockType`
 - **hasTag**(tag: `string`): `boolean`
 
-BlockComponent 
+### BlockComponent 
 
-BlockInventoryComponent 
+### BlockInventoryComponent 
 - container: `BlockInventoryComponentContainer`
 
-BlockInventoryComponentContainer 
+### BlockInventoryComponentContainer 
 - size: `number`
 - emptySlotsCount: `number`
 - **setItem**(slot: `number`, itemStack: `ItemStack`): `void`
@@ -744,7 +744,7 @@ BlockInventoryComponentContainer
 - **transferItem**(fromSlot: `number`, toSlot: `number`, toContainer: `Container`): `boolean`
 - **swapItems**(slot: `number`, otherSlot: `number`, otherContainer: `Container`): `boolean`
 
-BlockProperties 
+### BlockProperties 
 - candles: `string`
 - lit: `string`
 - multiFaceDirectionBits: `string`
@@ -867,62 +867,62 @@ BlockProperties
 - age: `string`
 - ageBit: `string`
 
-StringBlockProperty 
+### StringBlockProperty 
 - value: `string`
 - validValues: `Array`<any>
 - name: `string`
 
-IntBlockProperty 
+### IntBlockProperty 
 - value: `number`
 - validValues: `Array`<number>
 - name: `string`
 
-BoolBlockProperty 
+### BoolBlockProperty 
 - value: `boolean`
 - validValues: `Array`<boolean>
 - name: `string`
 
-WeatherChangedEvent 
+### WeatherChangedEvent 
 - dimension: `string`
 - raining: `boolean`
 - lightning: `boolean`
 
-WeatherChangedEventSignal 
+### WeatherChangedEventSignal 
 - **subscribe**(callback: (arg0: `WeatherChangedEvent`) => void): (arg0: `WeatherChangedEvent`, ) => void
 - **unsubscribe**(callback: (arg0: `WeatherChangedEvent`) => void): `void`
 
-ChatEvent 
+### ChatEvent 
 - canceled: `boolean`
 - message: `string`
 - sender: `Player`
 - targets: `Array`<Player>
 - sendToTargets: `boolean`
 
-ChatEventSignal 
+### ChatEventSignal 
 - **subscribe**(callback: (arg0: `ChatEvent`) => void): (arg0: `ChatEvent`, ) => void
 - **unsubscribe**(callback: (arg0: `ChatEvent`) => void): `void`
 
-ActorAddEffectEvent 
+### ActorAddEffectEvent 
 - entity: `Entity`
 - effect: `Effect`
 - effectState: `number`
 
-AddEffectEventSignal 
+### AddEffectEventSignal 
 - **subscribe**(callback: (arg0: `ActorAddEffectEvent`) => void): (arg0: `ActorAddEffectEvent`, ) => void
 - **unsubscribe**(callback: (arg0: `ActorAddEffectEvent`) => void): `void`
 
-EntityEvent 
+### EntityEvent 
 - entity: `Entity`
 
-EntityEventSignal 
+### EntityEventSignal 
 - **subscribe**(callback: (arg0: `EntityEvent`) => void): (arg0: `EntityEvent`, ) => void
 - **unsubscribe**(callback: (arg0: `EntityEvent`) => void): `void`
 
-EmptySignal 
+### EmptySignal 
 - **subscribe**(callback: () => void): () => void
 - **unsubscribe**(callback: () => void): `void`
 
-Entity 
+### Entity 
 - id: `string`
 - location: `Location`
 - velocity: `Location`
@@ -935,23 +935,23 @@ Entity
 - **addEffect**(effectType: `EffectType`, duration: `number`, amplifier: `number`): `void`
 - **triggerEvent**(eventName: `string`): `void`
 
-EntityDefinitionFeedItem 
+### EntityDefinitionFeedItem 
 - growth: `number`
 - item: `string`
 
-AddRider 
+### AddRider 
 - id: `string`
 - entityType: `string`
 - spawnEvent: `string`
 
-Ageable 
+### Ageable 
 - id: `string`
 - duration: `number`
 - feedItems: `Array`<EntityDefinitionFeedItem>
 - dropItems: `Array`<any>
 - growUp: `Trigger`
 
-Breathable 
+### Breathable 
 - id: `string`
 - totalSupply: `number`
 - suffocateTime: `number`
@@ -965,23 +965,23 @@ Breathable
 - nonBreatheBlocks: `Array`<BlockPermutation>
 - **setAirSupply**(value: `number`): `void`
 
-Color 
+### Color 
 - id: `string`
 - value: `number`
 
-Commands 
+### Commands 
 - **run**(commandString: `string`): `any`
 
-Trigger 
+### Trigger 
 
-Dimension 
+### Dimension 
 - **isEmpty**(location: `BlockLocation`): `boolean`
 - **getEntitiesAtBlockLocation**(location: `BlockLocation`): `Array`<Entity>
 - **getBlock**(location: `BlockLocation`): `Block`
 - **spawnEntity**(identifier: `string`, location: `BlockLocation`): `Entity`
 - **createExplosion**(location: `Location`, radius: `number`, explosionOptions: `ExplosionOptions`): `void`
 
-Effects 
+### Effects 
 - empty: `EffectType`
 - speed: `EffectType`
 - slowness: `EffectType`
@@ -1013,17 +1013,17 @@ Effects
 - badOmen: `EffectType`
 - villageHero: `EffectType`
 
-EffectType 
+### EffectType 
 - **getName**(): `string`
 
-ExplosionOptions 
+### ExplosionOptions 
 - source: `Entity`
 - breaksBlocks: `boolean`
 - causesFire: `boolean`
 - allowUnderwater: `boolean`
 - **constructor**()
 
-Events 
+### Events 
 - tick: `EmptySignal`
 - changeWeather: `WeatherChangedEventSignal`
 - addEffect: `AddEffectEventSignal`
@@ -1031,30 +1031,30 @@ Events
 - chat: `ChatEventSignal`
 - createEntity: `EntityEventSignal`
 
-FeedItem 
+### FeedItem 
 - effects: `Array`<FeedItemEffect>
 - healAmount: `number`
 - item: `string`
 
-FeedItemEffect 
+### FeedItemEffect 
 - amplifier: `number`
 - chance: `number`
 - duration: `number`
 - name: `string`
 
-FilterGroup 
+### FilterGroup 
 
-FlyingSpeed 
+### FlyingSpeed 
 - id: `string`
 - value: `number`
 
-Healable 
+### Healable 
 - id: `string`
 - filters: `FilterGroup`
 - forceUse: `boolean`
 - items: `Array`<FeedItem>
 
-Health 
+### Health 
 - id: `string`
 - value: `number`
 - current: `number`
@@ -1063,7 +1063,7 @@ Health
 - **resetToMaxValue**(): `void`
 - **resetToDefaultValue**(): `void`
 
-Inventory 
+### Inventory 
 - additionalSlotsPerStrength: `number`
 - canBeSiphonedFrom: `boolean`
 - containerType: `string`
@@ -1072,7 +1072,7 @@ Inventory
 - restrictToOwner: `boolean`
 - container: `InventoryComponentContainer`
 
-InventoryComponentContainer 
+### InventoryComponentContainer 
 - size: `number`
 - emptySlotsCount: `number`
 - **setItem**(slot: `number`, itemStack: `ItemStack`): `void`
@@ -1081,7 +1081,7 @@ InventoryComponentContainer
 - **transferItem**(fromSlot: `number`, toSlot: `number`, toContainer: `Container`): `boolean`
 - **swapItems**(slot: `number`, otherSlot: `number`, otherContainer: `Container`): `boolean`
 
-Container 
+### Container 
 - size: `number`
 - emptySlotsCount: `number`
 - **setItem**(slot: `number`, itemStack: `ItemStack`): `void`
@@ -1090,7 +1090,7 @@ Container
 - **transferItem**(fromSlot: `number`, toSlot: `number`, toContainer: `Container`): `boolean`
 - **swapItems**(slot: `number`, otherSlot: `number`, otherContainer: `Container`): `boolean`
 
-Items 
+### Items 
 - minecraft:air: `ItemType`
 - air: `ItemType`
 - minecraft:apple: `ItemType`
@@ -3237,17 +3237,17 @@ Items
 - yellowCandleCake: `ItemType`
 - minecraft:yellow_glazed_terracotta: `ItemType`
 - yellowGlazedTerracotta: `ItemType`
-- 
-- ItemStack 
+
+### ItemStack 
 - id: `string`
 - amount: `number`
 - data: `number`
 - **constructor**(itemType: `ItemType`, amount: `number`, data: `number`)
 
-ItemType 
+### ItemType 
 - **getName**(): `string`
 
-LavaMovement 
+### LavaMovement 
 - id: `string`
 - value: `number`
 - current: `number`
@@ -3256,30 +3256,30 @@ LavaMovement
 - **resetToMaxValue**(): `void`
 - **resetToDefaultValue**(): `void`
 
-Leashable 
+### Leashable 
 - id: `string`
 - softDistance: `number`
 - **leash**(leashHolder: `Entity`): `void`
 - **unleash**(): `void`
 
-Effect 
+### Effect 
 - amplifier: `number`
 - duration: `number`
 - displayName: `string`
 
-MountTaming 
+### MountTaming 
 - id: `string`
 - **setTamed**(showParticles: `boolean`): `void`
 
-MovementAmphibious 
+### MovementAmphibious 
 - id: `string`
 - maxTurn: `number`
 
-MovementBasic 
+### MovementBasic 
 - id: `string`
 - maxTurn: `number`
 
-Movement 
+### Movement 
 - id: `string`
 - value: `number`
 - current: `number`
@@ -3288,39 +3288,39 @@ Movement
 - **resetToMaxValue**(): `void`
 - **resetToDefaultValue**(): `void`
 
-MovementFly 
+### MovementFly 
 - id: `string`
 - maxTurn: `number`
 
-MovementGeneric 
+### MovementGeneric 
 - id: `string`
 - maxTurn: `number`
 
-MovementGlide 
+### MovementGlide 
 - id: `string`
 - maxTurn: `number`
 - startSpeed: `number`
 - speedWhenTurning: `number`
 
-MovementHover 
+### MovementHover 
 - id: `string`
 - maxTurn: `number`
 
-MovementJump 
+### MovementJump 
 - id: `string`
 - maxTurn: `number`
 
-MovementSkip 
+### MovementSkip 
 - id: `string`
 - maxTurn: `number`
 
-MovementSway 
+### MovementSway 
 - id: `string`
 - maxTurn: `number`
 - swayFrequency: `number`
 - swayAmplitude: `number`
 
-NavigationClimb 
+### NavigationClimb 
 - id: `string`
 - isAmphibious: `boolean`
 - avoidSun: `boolean`
@@ -3342,7 +3342,7 @@ NavigationClimb
 - canJump: `boolean`
 - canPathFromAir: `boolean`
 
-NavigationFloat 
+### NavigationFloat 
 - id: `string`
 - isAmphibious: `boolean`
 - avoidSun: `boolean`
@@ -3364,7 +3364,7 @@ NavigationFloat
 - canJump: `boolean`
 - canPathFromAir: `boolean`
 
-NavigationFly 
+### NavigationFly 
 - id: `string`
 - isAmphibious: `boolean`
 - avoidSun: `boolean`
@@ -3386,7 +3386,7 @@ NavigationFly
 - canJump: `boolean`
 - canPathFromAir: `boolean`
 
-NavigationGeneric 
+### NavigationGeneric 
 - id: `string`
 - isAmphibious: `boolean`
 - avoidSun: `boolean`
@@ -3408,7 +3408,7 @@ NavigationGeneric
 - canJump: `boolean`
 - canPathFromAir: `boolean`
 
-NavigationHover 
+### NavigationHover 
 - id: `string`
 - isAmphibious: `boolean`
 - avoidSun: `boolean`
@@ -3430,7 +3430,7 @@ NavigationHover
 - canJump: `boolean`
 - canPathFromAir: `boolean`
 
-NavigationWalk 
+### NavigationWalk 
 - id: `string`
 - isAmphibious: `boolean`
 - avoidSun: `boolean`
@@ -3452,7 +3452,7 @@ NavigationWalk
 - canJump: `boolean`
 - canPathFromAir: `boolean`
 
-Player 
+### Player 
 - id: `string`
 - location: `Location`
 - velocity: `Location`
@@ -3466,7 +3466,7 @@ Player
 - **addEffect**(effectType: `EffectType`, duration: `number`, amplifier: `number`): `void`
 - **triggerEvent**(eventName: `string`): `void`
 
-Rideable 
+### Rideable 
 - id: `string`
 - seatCount: `number`
 - crouchingSkipInteract: `boolean`
@@ -3480,25 +3480,25 @@ Rideable
 - **ejectRider**(rider: `Entity`): `void`
 - **ejectRiders**(): `void`
 
-Seat 
+### Seat 
 - position: `Location`
 - minRiderCount: `number`
 - maxRiderCount: `number`
 - lockRiderRotation: `number`
 
-Strength 
+### Strength 
 - id: `string`
 - value: `number`
 - max: `number`
 
-Tameable 
+### Tameable 
 - id: `string`
 - probability: `number`
 - tameItems: `Array`<any>
 - tameEvent: `Trigger`
 - **tame**(): `boolean`
 
-UnderwaterMovement 
+### UnderwaterMovement 
 - id: `string`
 - value: `number`
 - current: `number`
@@ -3507,7 +3507,7 @@ UnderwaterMovement
 - **resetToMaxValue**(): `void`
 - **resetToDefaultValue**(): `void`
 
-BlockLocation 
+### BlockLocation 
 - x: `number`
 - y: `number`
 - z: `number`
@@ -3516,14 +3516,14 @@ BlockLocation
 - **above**(): `BlockLocation`
 - **constructor**(x: `number`, y: `number`, z: `number`)
   
-Location 
+### Location 
 - x: `number`
 - y: `number`
 - z: `number`
 - **equals**(other: `Location`): `boolean`
 - **constructor**(x: `number`, y: `number`, z: `number`)
   
-World 
+### World 
 - events: `Events`
 - **getDimension**(dimensionName: ('overworld'|'nether'|'the end')): `Dimension`
 - **getPlayers**(): `Array`<Player>

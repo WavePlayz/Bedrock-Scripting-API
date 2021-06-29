@@ -5,8 +5,8 @@
  - piston: `BlockPistonComponent`
 
 #### ActivatePistonEventSignal
- - subscribe(callback: (arg: `ActivatePistonEvent`) => void): `void`
- - unsubscribe(callback: (arg: `ActivatePistonEvent`) => void): `void`
+ - **subscribe**(callback: (arg: `ActivatePistonEvent`) => void): `void`
+ - **unsubscribe**(callback: (arg: `ActivatePistonEvent`) => void): `void`
 
 #### ActorAddEffectEvent
  - effect: `Effect`
@@ -14,8 +14,8 @@
  - entity: `Entity`
 
 #### AddEffectEventSignal
- - subscribe(callback: (arg: `ActorAddEffectEvent`) => void): `void`
- - unsubscribe(callback: (arg: `ActorAddEffectEvent`) => void): `void`
+ - **subscribe**(callback: (arg: `ActorAddEffectEvent`) => void): `void`
+ - **unsubscribe**(callback: (arg: `ActorAddEffectEvent`) => void): `void`
 
 #### AddRider
  - entityType: `string`
@@ -35,8 +35,8 @@
  - piston: `BlockPistonComponent`
 
 #### BeforeActivatePistonEventSignal
- - subscribe(callback: (arg: `BeforeActivatePistonEvent`) => void): `void`
- - unsubscribe(callback: (arg: `BeforeActivatePistonEvent`) => void): `void`
+ - **subscribe**(callback: (arg: `BeforeActivatePistonEvent`) => void): `void`
+ - **unsubscribe**(callback: (arg: `BeforeActivatePistonEvent`) => void): `void`
 
 #### BeforeChatEvent
  - cancel: `boolean`
@@ -46,8 +46,8 @@
  - targets: `Array<Player>`
 
 #### BeforeChatEventSignal
- - subscribe(callback: (arg: `BeforeChatEvent`) => void): `void`
- - unsubscribe(callback: (arg: `BeforeChatEvent`) => void): `void`
+ - **subscribe**(callback: (arg: `BeforeChatEvent`) => void): `void`
+ - **unsubscribe**(callback: (arg: `BeforeChatEvent`) => void): `void`
 
 #### BeforeExplosionEvent
  - cancel: `boolean`
@@ -56,25 +56,25 @@
  - source: `Entity`
 
 #### BeforeExplosionEventSignal
- - subscribe(callback: (arg: `BeforeExplosionEvent`) => void): `void`
- - unsubscribe(callback: (arg: `BeforeExplosionEvent`) => void): `void`
+ - **subscribe**(callback: (arg: `BeforeExplosionEvent`) => void): `void`
+ - **unsubscribe**(callback: (arg: `BeforeExplosionEvent`) => void): `void`
 
 #### Block
  - x: `number`
  - y: `number`
  - z: `number`
- - canBeWaterlogged(): `boolean`
- - getBlockData(): `BlockPermutation`
- - getComponent(): `any`
- - getDimension(): `Dimension`
- - getLocation(): `BlockLocation`
- - getTags(): `Array<any>`
- - hasTag(): `boolean`
- - isEmpty(): `boolean`
- - isWaterlogged(): `boolean`
- - setPermutation(permutation: `BlockPermutation`): `void`
- - setType(): `void`
- - setWaterlogged(setWaterlogged: `boolean`): `void`
+ - **canBeWaterlogged**(): `boolean`
+ - **getBlockData**(): `BlockPermutation`
+ - **getComponent**(): `any`
+ - **getDimension**(): `Dimension`
+ - **getLocation**(): `BlockLocation`
+ - **getTags**(): `Array<any>`
+ - **hasTag**(): `boolean`
+ - **isEmpty**(): `boolean`
+ - **isWaterlogged**(): `boolean`
+ - **setPermutation**(permutation: `BlockPermutation`): `void`
+ - **setType**(): `void`
+ - **setWaterlogged**(setWaterlogged: `boolean`): `void`
 
 #### BlockComponent
 
@@ -85,28 +85,28 @@
 #### BlockInventoryComponentContainer
  - emptySlotsCount: `number`
  - size: `number`
- - addItem(itemStack: `ItemStack`): `void`
- - getItem(slot: `number`): `ItemStack`
- - setItem(slot: `number`, itemStack: `ItemStack`): `void`
- - swapItems(slot: `number`, otherSlot: `number`, otherContainer: `Container`): `boolean`
- - transferItem(fromSlot: `number`, toSlot: `number`, toContainer: `Container`): `boolean`
+ - **addItem**(itemStack: `ItemStack`): `void`
+ - **getItem**(slot: `number`): `ItemStack`
+ - **setItem**(slot: `number`, itemStack: `ItemStack`): `void`
+ - **swapItems**(slot: `number`, otherSlot: `number`, otherContainer: `Container`): `boolean`
+ - **transferItem**(fromSlot: `number`, toSlot: `number`, toContainer: `Container`): `boolean`
 
 #### BlockLocation
  - x: `number`
  - y: `number`
  - z: `number`
- - above(): `BlockLocation`
- - constructor(x: `number`, y: `number`, z: `number`)
- - equals(other: `BlockLocation`): `boolean`
- - offset(x: `number`, y: `number`, z: `number`): `BlockLocation`
+ - **above**(): `BlockLocation`
+ - **constructor**(x: `number`, y: `number`, z: `number`)
+ - **equals**(other: `BlockLocation`): `boolean`
+ - **offset**(x: `number`, y: `number`, z: `number`): `BlockLocation`
 
 #### BlockPermutation
- - clone(): `BlockPermutation`
- - getAllProperties(): `Array<any>`
- - getProperty(propertyName: `string`): `any`
- - getTags(): `Array<any>`
- - getType(): `BlockType`
- - hasTag(tag: `string`): `boolean`
+ - **clone**(): `BlockPermutation`
+ - **getAllProperties**(): `Array<any>`
+ - **getProperty**(propertyName: `string`): `any`
+ - **getTags**(): `Array<any>`
+ - **getType**(): `BlockType`
+ - **hasTag**(tag: `string`): `boolean`
 
 #### BlockPistonComponent
  - attachedBlocks: `Array<BlockLocation>`
@@ -241,9 +241,9 @@
  - woodType: `string`
 
 #### BlockType
- - canBeWaterlogged(): `boolean`
- - createDefaultBlockPermutation(): `BlockPermutation`
- - getName(): `string`
+ - **canBeWaterlogged**(): `boolean`
+ - **createDefaultBlockPermutation**(): `BlockPermutation`
+ - **getName**(): `string`
 
 #### BlockTypes
  - acaciaButton: `BlockType`
@@ -943,8 +943,8 @@
  - yellowCandleCake: `BlockType`
  - yellowFlower: `BlockType`
  - yellowGlazedTerracotta: `BlockType`
- - get(typeName: `string`): `BlockType`
- - getAllBlockTypes(): `Array<BlockType>`
+ - **get**(typeName: `string`): `BlockType`
+ - **getAllBlockTypes**(): `Array<BlockType>`
 
 #### BoolBlockProperty
  - name: `string`
@@ -963,11 +963,11 @@
  - nonBreatheBlocks: `Array<BlockPermutation>`
  - suffocateTime: `number`
  - totalSupply: `number`
- - setAirSupply(value: `number`): `void`
+ - **setAirSupply**(value: `number`): `void`
 
 #### ChangeWeatherEventSignal
- - subscribe(callback: (arg: `WeatherChangedEvent`) => void): `void`
- - unsubscribe(callback: (arg: `WeatherChangedEvent`) => void): `void`
+ - **subscribe**(callback: (arg: `WeatherChangedEvent`) => void): `void`
+ - **unsubscribe**(callback: (arg: `WeatherChangedEvent`) => void): `void`
 
 #### ChatEvent
  - message: `string`
@@ -976,31 +976,31 @@
  - targets: `Array<Player>`
 
 #### ChatEventSignal
- - subscribe(callback: (arg: `ChatEvent`) => void): `void`
- - unsubscribe(callback: (arg: `ChatEvent`) => void): `void`
+ - **subscribe**(callback: (arg: `ChatEvent`) => void): `void`
+ - **unsubscribe**(callback: (arg: `ChatEvent`) => void): `void`
 
 #### Color
  - id: `string`
  - value: `number`
 
 #### Commands
- - run(commandString: `string`): `any`
+ - **run**(commandString: `string`): `any`
 
 #### Container
  - emptySlotsCount: `number`
  - size: `number`
- - addItem(itemStack: `ItemStack`): `void`
- - getItem(slot: `number`): `ItemStack`
- - setItem(slot: `number`, itemStack: `ItemStack`): `void`
- - swapItems(slot: `number`, otherSlot: `number`, otherContainer: `Container`): `boolean`
- - transferItem(fromSlot: `number`, toSlot: `number`, toContainer: `Container`): `boolean`
+ - **addItem**(itemStack: `ItemStack`): `void`
+ - **getItem**(slot: `number`): `ItemStack`
+ - **setItem**(slot: `number`, itemStack: `ItemStack`): `void`
+ - **swapItems**(slot: `number`, otherSlot: `number`, otherContainer: `Container`): `boolean`
+ - **transferItem**(fromSlot: `number`, toSlot: `number`, toContainer: `Container`): `boolean`
 
 #### Dimension
- - createExplosion(location: `Location`, radius: `number`, explosionOptions: `ExplosionOptions`): `void`
- - getBlock(location: `BlockLocation`): `Block`
- - getEntitiesAtBlockLocation(location: `BlockLocation`): `Array<Entity>`
- - isEmpty(location: `BlockLocation`): `boolean`
- - spawnEntity(identifier: `string`, location: `BlockLocation`): `Entity`
+ - **createExplosion**(location: `Location`, radius: `number`, explosionOptions: `ExplosionOptions`): `void`
+ - **getBlock**(location: `BlockLocation`): `Block`
+ - **getEntitiesAtBlockLocation**(location: `BlockLocation`): `Array<Entity>`
+ - **isEmpty**(location: `BlockLocation`): `boolean`
+ - **spawnEntity**(identifier: `string`, location: `BlockLocation`): `Entity`
 
 #### Direction
  - down: `number`
@@ -1048,11 +1048,11 @@
  - wither: `EffectType`
 
 #### EffectType
- - getName(): `string`
+ - **getName**(): `string`
 
 #### EmptySignal
- - subscribe(callback: () => void): () => #### void
- - unsubscribe(callback: () => void): `void`
+ - **subscribe**(callback: () => void): () => #### void
+ - **unsubscribe**(callback: () => void): `void`
 
 #### Entity
  - id: `string`
@@ -1060,13 +1060,13 @@
  - location: `Location`
  - nameTag: `string`
  - velocity: `Location`
- - addEffect(effectType: `EffectType`, duration: `number`, amplifier: `number`): `void`
- - getComponent(componentId: `string`): `any`
- - getComponents(): `Array<any>`
- - getEffect(effectType: `EffectType`): `Effect`
- - hasComponent(componentId: `string`): `boolean`
- - kill(): `void`
- - triggerEvent(eventName: `string`): `void`
+ - **addEffect**(effectType: `EffectType`, duration: `number`, amplifier: `number`): `void`
+ - **getComponent**(componentId: `string`): `any`
+ - **getComponents**(): `Array<any>`
+ - **getEffect**(effectType: `EffectType`): `Effect`
+ - **hasComponent**(componentId: `string`): `boolean`
+ - **kill**(): `void`
+ - **triggerEvent**(eventName: `string`): `void`
 
 #### EntityDefinitionFeedItem
  - growth: `number`
@@ -1076,8 +1076,8 @@
  - entity: `Entity`
 
 #### EntityEventSignal
- - subscribe(callback: (arg: `EntityEvent`) => void): `void`
- - unsubscribe(callback: (arg: `EntityEvent`) => void): `void`
+ - **subscribe**(callback: (arg: `EntityEvent`) => void): `void`
+ - **unsubscribe**(callback: (arg: `EntityEvent`) => void): `void`
 
 #### Events
  - activatePiston: `ActivatePistonEventSignal`
@@ -1097,8 +1097,8 @@
  - source: `Entity`
 
 #### ExplodeBlockSignal
- - subscribe(callback: (arg: `ExplodeBlockEvent`) => void): `void`
- - unsubscribe(callback: (arg: `ExplodeBlockEvent`) => void): `void`
+ - **subscribe**(callback: (arg: `ExplodeBlockEvent`) => void): `void`
+ - **unsubscribe**(callback: (arg: `ExplodeBlockEvent`) => void): `void`
 
 #### ExplosionEvent
  - dimension: `Dimension`
@@ -1106,15 +1106,15 @@
  - source: `Entity`
 
 #### ExplosionEventSignal
- - subscribe(callback: (arg: `ExplosionEvent`) => void): `void`
- - unsubscribe(callback: (arg: `ExplosionEvent`) => void): `void`
+ - **subscribe**(callback: (arg: `ExplosionEvent`) => void): `void`
+ - **unsubscribe**(callback: (arg: `ExplosionEvent`) => void): `void`
 
 #### ExplosionOptions
  - allowUnderwater: `boolean`
  - breaksBlocks: `boolean`
  - causesFire: `boolean`
  - source: `Entity`
- - constructor()
+ - **constructor**()
 
 #### FeedItem
  - effects: `Array<FeedItemEffect>`
@@ -1142,10 +1142,10 @@
  - current: `number`
  - id: `string`
  - value: `number`
- - resetToDefaultValue(): `void`
- - resetToMaxValue(): `void`
- - resetToMinValue(): `void`
- - setCurrent(): `void`
+ - **resetToDefaultValue**(): `void`
+ - **resetToMaxValue**(): `void`
+ - **resetToMinValue**(): `void`
+ - **setCurrent**(): `void`
 
 #### IntBlockProperty
  - name: `string`
@@ -1164,11 +1164,11 @@
 #### InventoryComponentContainer
  - emptySlotsCount: `number`
  - size: `number`
- - addItem(itemStack: `ItemStack`): `void`
- - getItem(slot: `number`): `ItemStack`
- - setItem(slot: `number`, itemStack: `ItemStack`): `void`
- - swapItems(slot: `number`, otherSlot: `number`, otherContainer: `Container`): `boolean`
- - transferItem(fromSlot: `number`, toSlot: `number`, toContainer: `Container`): `boolean`
+ - **addItem**(itemStack: `ItemStack`): `void`
+ - **getItem**(slot: `number`): `ItemStack`
+ - **setItem**(slot: `number`, itemStack: `ItemStack`): `void`
+ - **swapItems**(slot: `number`, otherSlot: `number`, otherContainer: `Container`): `boolean`
+ - **transferItem**(fromSlot: `number`, toSlot: `number`, toContainer: `Container`): `boolean`
 
 #### Items
  - acaciaBoat: `ItemType`
@@ -3322,46 +3322,46 @@
  - amount: `number`
  - data: `number`
  - id: `string`
- - constructor(itemType: `ItemType`, amount: `number`, data: `number`)
+ - **constructor**(itemType: `ItemType`, amount: `number`, data: `number`)
 
 #### ItemType
- - getName(): `string`
+ - **getName**(): `string`
 
 #### LavaMovement
  - current: `number`
  - id: `string`
  - value: `number`
- - resetToDefaultValue(): `void`
- - resetToMaxValue(): `void`
- - resetToMinValue(): `void`
- - setCurrent(): `void`
+ - **resetToDefaultValue**(): `void`
+ - **resetToMaxValue**(): `void`
+ - **resetToMinValue**(): `void`
+ - **setCurrent**(): `void`
 
 #### Leashable
  - id: `string`
  - softDistance: `number`
- - leash(leashHolder: `Entity`): `void`
- - unleash(): `void`
+ - **leash**(leashHolder: `Entity`): `void`
+ - **unleash**(): `void`
 
 #### Location
  - x: `number`
  - y: `number`
  - z: `number`
- - constructor(x: `number`, y: `number`, z: `number`)
- - equals(other: `Location`): `boolean`
- - isNear(other: `Location`, epsilon: `number`): `boolean`
+ - **constructor**(x: `number`, y: `number`, z: `number`)
+ - **equals**(other: `Location`): `boolean`
+ - **isNear**(other: `Location`, epsilon: `number`): `boolean`
 
 #### MountTaming
  - id: `string`
- - setTamed(showParticles: `boolean`): `void`
+ - **setTamed**(showParticles: `boolean`): `void`
 
 #### Movement
  - current: `number`
  - id: `string`
  - value: `number`
- - resetToDefaultValue(): `void`
- - resetToMaxValue(): `void`
- - resetToMinValue(): `void`
- - setCurrent(): `void`
+ - **resetToDefaultValue**(): `void`
+ - **resetToMaxValue**(): `void`
+ - **resetToMinValue**(): `void`
+ - **setCurrent**(): `void`
 
 #### MovementAmphibious
  - id: `string`
@@ -3542,13 +3542,13 @@
  - name: `string`
  - nameTag: `string`
  - velocity: `Location`
- - addEffect(effectType: `EffectType`, duration: `number`, amplifier: `number`): `void`
- - getComponent(componentId: `string`): `any`
- - getComponents(): `Array<any>`
- - getEffect(effectType: `EffectType`): `Effect`
- - hasComponent(componentId: `string`): `boolean`
- - kill(): `void`
- - triggerEvent(eventName: `string`): `void`
+ - **addEffect**(effectType: `EffectType`, duration: `number`, amplifier: `number`): `void`
+ - **getComponent**(componentId: `string`): `any`
+ - **getComponents**(): `Array<any>`
+ - **getEffect**(effectType: `EffectType`): `Effect`
+ - **hasComponent**(componentId: `string`): `boolean`
+ - **kill**(): `void`
+ - **triggerEvent**(eventName: `string`): `void`
 
 #### Rideable
  - controllingSeat: `number`
@@ -3560,9 +3560,9 @@
  - riderCanInteract: `boolean`
  - seatCount: `number`
  - seats: `Array<Seat>`
- - addRider(rider: `Entity`): `boolean`
- - ejectRider(rider: `Entity`): `void`
- - ejectRiders(): `void`
+ - **addRider**(rider: `Entity`): `boolean`
+ - **ejectRider**(rider: `Entity`): `void`
+ - **ejectRiders**(): `void`
 
 #### Seat	
  - lockRiderRotation: `number`
@@ -3585,7 +3585,7 @@
  - probability: `number`
  - tameEvent: `Trigger`
  - tameItems: `Array<any>`
- - tame(): `boolean`
+ - **tame**(): `boolean`
 
 #### Trigger
 
@@ -3594,10 +3594,10 @@
  - current: `number`
  - id: `string`
  - value: `number`
- - resetToDefaultValue(): `void`
- - resetToMaxValue(): `void`
- - resetToMinValue(): `void`
- - setCurrent(): `void`
+ - **resetToDefaultValue**(): `void`
+ - **resetToMaxValue**(): `void`
+ - **resetToMinValue**(): `void`
+ - **setCurrent**(): `void`
  
 #### WeatherChangedEvent	
  - dimension: `string`
@@ -3606,6 +3606,6 @@
 
 #### World
  - events: `Events`
- - getDimension(dimensionName: ('overworld'|'nether'|'the end')): `Dimension`
- - getPlayers(): `Array<Player>`
+ - **getDimension**(dimensionName: ('overworld'|'nether'|'the end')): `Dimension`
+ - **getPlayers**(): `Array<Player>`
 

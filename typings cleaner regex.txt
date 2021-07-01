@@ -1,0 +1,17 @@
+Multiline comment
+(/\*([^*]|[\r\n]|(\*+([^*/]|[\r\n])))*\*+/)|(//.*) => 
+
+empty line
+(?<=\n)(\s+\n) => 
+
+space to tab
+(?<=(\n| ))  => \t
+
+sy,bol remover
+\{|\}|;|" => 
+
+title fixer
+ +export class (\w+) => #### $1
+
+space to tab
+(?<=\n) +(?! *\n) => \t

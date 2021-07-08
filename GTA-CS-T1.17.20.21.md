@@ -2,128 +2,128 @@
 <details>
 <summary>ActivatePistonEvent</summary>
 <ul> 
-	isExpanding: boolean
-	piston: BlockPistonComponent
+<li>isExpanding: boolean</li>
+<li>piston: BlockPistonComponent</li>
 </ul>
 </details>
 
 <details>
 <summary>ActivatePistonEventSignal</summary>
 <ul> 
-	subscribe(callback: (arg: ActivatePistonEvent) => void): (arg: ActivatePistonEvent) => void
-	unsubscribe(callback: (arg: ActivatePistonEvent) => void): void
+<li>subscribe(callback: (arg: ActivatePistonEvent) => void): (arg: ActivatePistonEvent) => void</li>
+<li>unsubscribe(callback: (arg: ActivatePistonEvent) => void): void</li>
 </ul>
 </details>
 
 <details>
 <summary>ActorAddEffectEvent</summary>
 <ul> 
-	effect: Effect
-	effectState: number
-	entity: Entity
+<li>effect: Effect</li>
+<li>effectState: number</li>
+<li>entity: Entity</li>
 </ul>
 </details>
 
 <details>
 <summary>AddEffectEventSignal</summary>
 <ul> 
-	subscribe(callback: (arg: ActorAddEffectEvent) => void): (arg: ActorAddEffectEvent) => void
-	unsubscribe(callback: (arg: ActorAddEffectEvent) => void): void
+<li>subscribe(callback: (arg: ActorAddEffectEvent) => void): (arg: ActorAddEffectEvent) => void</li>
+<li>unsubscribe(callback: (arg: ActorAddEffectEvent) => void): void</li>
 </ul>
 </details>
 
 <details>
 <summary>AddRider</summary>
 <ul> 
-	entityType: string
-	id: string
-	spawnEvent: string
+<li>entityType: string</li>
+<li>id: string</li>
+<li>spawnEvent: string</li>
 </ul>
 </details>
 
 <details>
 <summary>Ageable</summary>
 <ul> 
-	dropItems: Array<any>
-	duration: number
-	feedItems: Array<EntityDefinitionFeedItem>
-	growUp: Trigger
-	id: string
+<li>dropItems: Array<any></li>
+<li>duration: number</li>
+<li>feedItems: Array<EntityDefinitionFeedItem></li>
+<li>growUp: Trigger</li>
+<li>id: string</li>
 </ul>
 </details>
 
 <details>
 <summary>BeforeActivatePistonEvent</summary>
 <ul> 
-	cancel: boolean
-	isExpanding: boolean
-	piston: BlockPistonComponent
+<li>cancel: boolean</li>
+<li>isExpanding: boolean</li>
+<li>piston: BlockPistonComponent</li>
 </ul>
 </details>
 
 <details>
 <summary>BeforeActivatePistonEventSignal</summary>
 <ul> 
-	subscribe(callback: (arg: BeforeActivatePistonEvent) => void): (arg: BeforeActivatePistonEvent) => void
-	unsubscribe(callback: (arg: BeforeActivatePistonEvent) => void): void
+<li>subscribe(callback: (arg: BeforeActivatePistonEvent) => void): (arg: BeforeActivatePistonEvent) => void</li>
+<li>unsubscribe(callback: (arg: BeforeActivatePistonEvent) => void): void</li>
 </ul>
 </details>
 
 <details>
 <summary>BeforeChatEvent</summary>
 <ul> 
-	cancel: boolean
-	message: string
-	sender: Player
-	sendToTargets: boolean
-	targets: Array<Player>
+<li>cancel: boolean</li>
+<li>message: string</li>
+<li>sender: Player</li>
+<li>sendToTargets: boolean</li>
+<li>targets: Array<Player></li>
 </ul>
 </details>
 
 <details>
 <summary>BeforeChatEventSignal</summary>
 <ul> 
-	subscribe(callback: (arg: BeforeChatEvent) => void): (arg: BeforeChatEvent) => void
-	unsubscribe(callback: (arg: BeforeChatEvent) => void): void
+<li>subscribe(callback: (arg: BeforeChatEvent) => void): (arg: BeforeChatEvent) => void</li>
+<li>unsubscribe(callback: (arg: BeforeChatEvent) => void): void</li>
 </ul>
 </details>
 
 <details>
 <summary>BeforeExplosionEvent</summary>
 <ul> 
-	cancel: boolean
-	dimension: Dimension
-	impactedBlocks: Array<BlockLocation>
-	source: Entity
+<li>cancel: boolean</li>
+<li>dimension: Dimension</li>
+<li>impactedBlocks: Array<BlockLocation></li>
+<li>source: Entity</li>
 </ul>
 </details>
 
 <details>
 <summary>BeforeExplosionEventSignal</summary>
 <ul> 
-	subscribe(callback: (arg: BeforeExplosionEvent) => void): (arg: BeforeExplosionEvent) => void
-	unsubscribe(callback: (arg: BeforeExplosionEvent) => void): void
+<li>subscribe(callback: (arg: BeforeExplosionEvent) => void): (arg: BeforeExplosionEvent) => void</li>
+<li>unsubscribe(callback: (arg: BeforeExplosionEvent) => void): void</li>
 </ul>
 </details>
 
 <details>
 <summary>Block</summary>
 <ul> 
-	x: number
-	y: number
-	z: number
-	canBeWaterlogged(): boolean
-	getBlockData(): BlockPermutation
-	getComponent(): any
-	getDimension(): Dimension
-	getLocation(): BlockLocation
-	getTags(): Array<any>
-	hasTag(): boolean
-	isEmpty(): boolean
-	isWaterlogged(): boolean
-	setPermutation(permutation: BlockPermutation): void
-	setType(): void
-	setWaterlogged(setWaterlogged: boolean): void
+<li>x: number</li>
+<li>y: number</li>
+<li>z: number</li>
+<li>canBeWaterlogged(): boolean</li>
+<li>getBlockData(): BlockPermutation</li>
+<li>getComponent(): any</li>
+<li>getDimension(): Dimension</li>
+<li>getLocation(): BlockLocation</li>
+<li>getTags(): Array<any></li>
+<li>hasTag(): boolean</li>
+<li>isEmpty(): boolean</li>
+<li>isWaterlogged(): boolean</li>
+<li>setPermutation(permutation: BlockPermutation): void</li>
+<li>setType(): void</li>
+<li>setWaterlogged(setWaterlogged: boolean): void</li>
 </ul>
 </details>
 
@@ -136,1166 +136,1166 @@
 <details>
 <summary>BlockInventoryComponent</summary>
 <ul> 
-	container: BlockInventoryComponentContainer
-	location: BlockLocation
+<li>container: BlockInventoryComponentContainer</li>
+<li>location: BlockLocation</li>
 </ul>
 </details>
 
 <details>
 <summary>BlockInventoryComponentContainer</summary>
 <ul> 
-	emptySlotsCount: number
-	size: number
-	addItem(itemStack: ItemStack): void
-	getItem(slot: number): ItemStack
-	setItem(slot: number, itemStack: ItemStack): void
-	swapItems(slot: number, otherSlot: number, otherContainer: Container): boolean
-	transferItem(fromSlot: number, toSlot: number, toContainer: Container): boolean
+<li>emptySlotsCount: number</li>
+<li>size: number</li>
+<li>addItem(itemStack: ItemStack): void</li>
+<li>getItem(slot: number): ItemStack</li>
+<li>setItem(slot: number, itemStack: ItemStack): void</li>
+<li>swapItems(slot: number, otherSlot: number, otherContainer: Container): boolean</li>
+<li>transferItem(fromSlot: number, toSlot: number, toContainer: Container): boolean</li>
 </ul>
 </details>
 
 <details>
 <summary>BlockLocation</summary>
 <ul> 
-	x: number
-	y: number
-	z: number
-	above(): BlockLocation
-	blocksBetween(): Array<any>
-	constructor(x: number, y: number, z: number)
-	equals(other: BlockLocation): boolean
-	offset(x: number, y: number, z: number): BlockLocation
+<li>x: number</li>
+<li>y: number</li>
+<li>z: number</li>
+<li>above(): BlockLocation</li>
+<li>blocksBetween(): Array<any></li>
+<li>constructor(x: number, y: number, z: number)</li>
+<li>equals(other: BlockLocation): boolean</li>
+<li>offset(x: number, y: number, z: number): BlockLocation</li>
 </ul>
 </details>
 
 <details>
 <summary>BlockPermutation</summary>
 <ul> 
-	clone(): BlockPermutation
-	getAllProperties(): Array<any>
-	getProperty(propertyName: string): any
-	getTags(): Array<any>
-	getType(): BlockType
-	hasTag(tag: string): boolean
+<li>clone(): BlockPermutation</li>
+<li>getAllProperties(): Array<any></li>
+<li>getProperty(propertyName: string): any</li>
+<li>getTags(): Array<any></li>
+<li>getType(): BlockType</li>
+<li>hasTag(tag: string): boolean</li>
 </ul>
 </details>
 
 <details>
 <summary>BlockPistonComponent</summary>
 <ul> 
-	attachedBlocks: Array<BlockLocation>
-	isExpanded: boolean
-	isExpanding: boolean
-	isMoving: boolean
-	isRetracted: boolean
-	isRetracting: boolean
-	location: BlockLocation
+<li>attachedBlocks: Array<BlockLocation></li>
+<li>isExpanded: boolean</li>
+<li>isExpanding: boolean</li>
+<li>isMoving: boolean</li>
+<li>isRetracted: boolean</li>
+<li>isRetracting: boolean</li>
+<li>location: BlockLocation</li>
 </ul>
 </details>
 
 <details>
 <summary>BlockProperties</summary>
 <ul> 
-	age: string
-	ageBit: string
-	allowUnderwaterBit: string
-	attachedBit: string
-	attachment: string
-	bambooLeafSize: string
-	bambooStalkThickness: string
-	bigDripleafHead: string
-	bigDripleafTilt: string
-	biteCounter: string
-	blockLightLevel: string
-	brewingStandSlotABit: string
-	brewingStandSlotBBit: string
-	brewingStandSlotCBit: string
-	buttonPressedBit: string
-	candles: string
-	cauldronLiquid: string
-	chemistryTableType: string
-	chiselType: string
-	clusterCount: string
-	color: string
-	colorBit: string
-	composterFillLevel: string
-	conditionalBit: string
-	coralColor: string
-	coralDirection: string
-	coralFanDirection: string
-	coralHangTypeBit: string
-	coveredBit: string
-	crackedState: string
-	damage: string
-	deadBit: string
-	deprecated: string
-	direction: string
-	dirtType: string
-	disarmedBit: string
-	doorHingeBit: string
-	doublePlantType: string
-	dragDown: string
-	dripstoneThickness: string
-	endPortalEyeBit: string
-	explodeBit: string
-	extinguished: string
-	facingDirection: string
-	fillLevel: string
-	flowerType: string
-	groundSignDirection: string
-	growingPlantAge: string
-	growth: string
-	hanging: string
-	headPieceBit: string
-	height: string
-	honeyLevel: string
-	hugeMushroomBits: string
-	infiniburnBit: string
-	inWallBit: string
-	itemFrameMapBit: string
-	kelpAge: string
-	leverDirection: string
-	liquidDepth: string
-	lit: string
-	moisturizedAmount: string
-	monsterEggStoneType: string
-	multiFaceDirectionBits: string
-	newLeafType: string
-	newLogType: string
-	noDropBit: string
-	occupiedBit: string
-	oldLeafType: string
-	oldLogType: string
-	openBit: string
-	outputLitBit: string
-	outputSubtractBit: string
-	persistentBit: string
-	pillarAxis: string
-	portalAxis: string
-	poweredBit: string
-	prismarineBlockType: string
-	railDataBit: string
-	railDirection: string
-	redstoneSignal: string
-	repeaterDelay: string
-	respawnAnchorCharge: string
-	rotation: string
-	sandStoneType: string
-	sandType: string
-	saplingType: string
-	seaGrassType: string
-	spongeType: string
-	stability: string
-	stabilityCheck: string
-	stoneBrickType: string
-	stoneSlabType: string
-	stoneSlabType2: string
-	stoneSlabType3: string
-	stoneSlabType4: string
-	stoneType: string
-	strippedBit: string
-	structureBlockType: string
-	structureVoidType: string
-	suspendedBit: string
-	tallGrassType: string
-	toggleBit: string
-	topSlotBit: string
-	torchFacingDirection: string
-	triggeredBit: string
-	turtleEggCount: string
-	twistingVinesAge: string
-	updateBit: string
-	upperBlockBit: string
-	upsideDownBit: string
-	vineDirectionBits: string
-	wallBlockType: string
-	wallConnectionTypeEast: string
-	wallConnectionTypeNorth: string
-	wallConnectionTypeSouth: string
-	wallConnectionTypeWest: string
-	wallPostBit: string
-	weepingVinesAge: string
-	weirdoDirection: string
-	woodType: string
+<li>age: string</li>
+<li>ageBit: string</li>
+<li>allowUnderwaterBit: string</li>
+<li>attachedBit: string</li>
+<li>attachment: string</li>
+<li>bambooLeafSize: string</li>
+<li>bambooStalkThickness: string</li>
+<li>bigDripleafHead: string</li>
+<li>bigDripleafTilt: string</li>
+<li>biteCounter: string</li>
+<li>blockLightLevel: string</li>
+<li>brewingStandSlotABit: string</li>
+<li>brewingStandSlotBBit: string</li>
+<li>brewingStandSlotCBit: string</li>
+<li>buttonPressedBit: string</li>
+<li>candles: string</li>
+<li>cauldronLiquid: string</li>
+<li>chemistryTableType: string</li>
+<li>chiselType: string</li>
+<li>clusterCount: string</li>
+<li>color: string</li>
+<li>colorBit: string</li>
+<li>composterFillLevel: string</li>
+<li>conditionalBit: string</li>
+<li>coralColor: string</li>
+<li>coralDirection: string</li>
+<li>coralFanDirection: string</li>
+<li>coralHangTypeBit: string</li>
+<li>coveredBit: string</li>
+<li>crackedState: string</li>
+<li>damage: string</li>
+<li>deadBit: string</li>
+<li>deprecated: string</li>
+<li>direction: string</li>
+<li>dirtType: string</li>
+<li>disarmedBit: string</li>
+<li>doorHingeBit: string</li>
+<li>doublePlantType: string</li>
+<li>dragDown: string</li>
+<li>dripstoneThickness: string</li>
+<li>endPortalEyeBit: string</li>
+<li>explodeBit: string</li>
+<li>extinguished: string</li>
+<li>facingDirection: string</li>
+<li>fillLevel: string</li>
+<li>flowerType: string</li>
+<li>groundSignDirection: string</li>
+<li>growingPlantAge: string</li>
+<li>growth: string</li>
+<li>hanging: string</li>
+<li>headPieceBit: string</li>
+<li>height: string</li>
+<li>honeyLevel: string</li>
+<li>hugeMushroomBits: string</li>
+<li>infiniburnBit: string</li>
+<li>inWallBit: string</li>
+<li>itemFrameMapBit: string</li>
+<li>kelpAge: string</li>
+<li>leverDirection: string</li>
+<li>liquidDepth: string</li>
+<li>lit: string</li>
+<li>moisturizedAmount: string</li>
+<li>monsterEggStoneType: string</li>
+<li>multiFaceDirectionBits: string</li>
+<li>newLeafType: string</li>
+<li>newLogType: string</li>
+<li>noDropBit: string</li>
+<li>occupiedBit: string</li>
+<li>oldLeafType: string</li>
+<li>oldLogType: string</li>
+<li>openBit: string</li>
+<li>outputLitBit: string</li>
+<li>outputSubtractBit: string</li>
+<li>persistentBit: string</li>
+<li>pillarAxis: string</li>
+<li>portalAxis: string</li>
+<li>poweredBit: string</li>
+<li>prismarineBlockType: string</li>
+<li>railDataBit: string</li>
+<li>railDirection: string</li>
+<li>redstoneSignal: string</li>
+<li>repeaterDelay: string</li>
+<li>respawnAnchorCharge: string</li>
+<li>rotation: string</li>
+<li>sandStoneType: string</li>
+<li>sandType: string</li>
+<li>saplingType: string</li>
+<li>seaGrassType: string</li>
+<li>spongeType: string</li>
+<li>stability: string</li>
+<li>stabilityCheck: string</li>
+<li>stoneBrickType: string</li>
+<li>stoneSlabType: string</li>
+<li>stoneSlabType2: string</li>
+<li>stoneSlabType3: string</li>
+<li>stoneSlabType4: string</li>
+<li>stoneType: string</li>
+<li>strippedBit: string</li>
+<li>structureBlockType: string</li>
+<li>structureVoidType: string</li>
+<li>suspendedBit: string</li>
+<li>tallGrassType: string</li>
+<li>toggleBit: string</li>
+<li>topSlotBit: string</li>
+<li>torchFacingDirection: string</li>
+<li>triggeredBit: string</li>
+<li>turtleEggCount: string</li>
+<li>twistingVinesAge: string</li>
+<li>updateBit: string</li>
+<li>upperBlockBit: string</li>
+<li>upsideDownBit: string</li>
+<li>vineDirectionBits: string</li>
+<li>wallBlockType: string</li>
+<li>wallConnectionTypeEast: string</li>
+<li>wallConnectionTypeNorth: string</li>
+<li>wallConnectionTypeSouth: string</li>
+<li>wallConnectionTypeWest: string</li>
+<li>wallPostBit: string</li>
+<li>weepingVinesAge: string</li>
+<li>weirdoDirection: string</li>
+<li>woodType: string</li>
 </ul>
 </details>
 
 <details>
 <summary>BlockType</summary>
 <ul> 
-	canBeWaterlogged(): boolean
-	createDefaultBlockPermutation(): BlockPermutation
-	getName(): string
+<li>canBeWaterlogged(): boolean</li>
+<li>createDefaultBlockPermutation(): BlockPermutation</li>
+<li>getName(): string</li>
 </ul>
 </details>
 
 <details>
 <summary>BlockTypes</summary>
 <ul> 
-	acaciaButton: BlockType
-	acaciaDoor: BlockType
-	acaciaFenceGate: BlockType
-	acaciaPressurePlate: BlockType
-	acaciaStairs: BlockType
-	acaciaStandingSign: BlockType
-	acaciaTrapdoor: BlockType
-	acaciaWallSign: BlockType
-	activatorRail: BlockType
-	air: BlockType
-	allow: BlockType
-	amethystBlock: BlockType
-	amethystCluster: BlockType
-	ancientDebris: BlockType
-	andesiteStairs: BlockType
-	anvil: BlockType
-	azalea: BlockType
-	azaleaLeaves: BlockType
-	azaleaLeavesFlowered: BlockType
-	bamboo: BlockType
-	bambooSapling: BlockType
-	barrel: BlockType
-	barrier: BlockType
-	basalt: BlockType
-	beacon: BlockType
-	bed: BlockType
-	bedrock: BlockType
-	beehive: BlockType
-	beeNest: BlockType
-	beetroot: BlockType
-	bell: BlockType
-	bigDripleaf: BlockType
-	birchButton: BlockType
-	birchDoor: BlockType
-	birchFenceGate: BlockType
-	birchPressurePlate: BlockType
-	birchStairs: BlockType
-	birchStandingSign: BlockType
-	birchTrapdoor: BlockType
-	birchWallSign: BlockType
-	blackCandle: BlockType
-	blackCandleCake: BlockType
-	blackGlazedTerracotta: BlockType
-	blackstone: BlockType
-	blackstoneDoubleSlab: BlockType
-	blackstoneSlab: BlockType
-	blackstoneStairs: BlockType
-	blackstoneWall: BlockType
-	blastFurnace: BlockType
-	blueCandle: BlockType
-	blueCandleCake: BlockType
-	blueGlazedTerracotta: BlockType
-	blueIce: BlockType
-	boneBlock: BlockType
-	bookshelf: BlockType
-	borderBlock: BlockType
-	brewingStand: BlockType
-	brickBlock: BlockType
-	brickStairs: BlockType
-	brownCandle: BlockType
-	brownCandleCake: BlockType
-	brownGlazedTerracotta: BlockType
-	brownMushroom: BlockType
-	brownMushroomBlock: BlockType
-	bubbleColumn: BlockType
-	buddingAmethyst: BlockType
-	cactus: BlockType
-	cake: BlockType
-	calcite: BlockType
-	camera: BlockType
-	campfire: BlockType
-	candle: BlockType
-	candleCake: BlockType
-	carpet: BlockType
-	carrots: BlockType
-	cartographyTable: BlockType
-	carvedPumpkin: BlockType
-	cauldron: BlockType
-	caveVines: BlockType
-	caveVinesBodyWithBerries: BlockType
-	caveVinesHeadWithBerries: BlockType
-	chain: BlockType
-	chainCommandBlock: BlockType
-	chemicalHeat: BlockType
-	chemistryTable: BlockType
-	chest: BlockType
-	chiseledDeepslate: BlockType
-	chiseledNetherBricks: BlockType
-	chiseledPolishedBlackstone: BlockType
-	chorusFlower: BlockType
-	chorusPlant: BlockType
-	clay: BlockType
-	coalBlock: BlockType
-	coalOre: BlockType
-	cobbledDeepslate: BlockType
-	cobbledDeepslateDoubleSlab: BlockType
-	cobbledDeepslateSlab: BlockType
-	cobbledDeepslateStairs: BlockType
-	cobbledDeepslateWall: BlockType
-	cobblestone: BlockType
-	cobblestoneWall: BlockType
-	cocoa: BlockType
-	coloredTorchBp: BlockType
-	coloredTorchRg: BlockType
-	commandBlock: BlockType
-	composter: BlockType
-	concrete: BlockType
-	concretepowder: BlockType
-	conduit: BlockType
-	copperBlock: BlockType
-	copperOre: BlockType
-	coral: BlockType
-	coralBlock: BlockType
-	coralFan: BlockType
-	coralFanDead: BlockType
-	coralFanHang: BlockType
-	coralFanHang2: BlockType
-	coralFanHang3: BlockType
-	crackedDeepslateBricks: BlockType
-	crackedDeepslateTiles: BlockType
-	crackedNetherBricks: BlockType
-	crackedPolishedBlackstoneBricks: BlockType
-	craftingTable: BlockType
-	crimsonButton: BlockType
-	crimsonDoor: BlockType
-	crimsonDoubleSlab: BlockType
-	crimsonFence: BlockType
-	crimsonFenceGate: BlockType
-	crimsonFungus: BlockType
-	crimsonHyphae: BlockType
-	crimsonNylium: BlockType
-	crimsonPlanks: BlockType
-	crimsonPressurePlate: BlockType
-	crimsonRoots: BlockType
-	crimsonSlab: BlockType
-	crimsonStairs: BlockType
-	crimsonStandingSign: BlockType
-	crimsonStem: BlockType
-	crimsonTrapdoor: BlockType
-	crimsonWallSign: BlockType
-	cryingObsidian: BlockType
-	cutCopper: BlockType
-	cutCopperSlab: BlockType
-	cutCopperStairs: BlockType
-	cyanCandle: BlockType
-	cyanCandleCake: BlockType
-	cyanGlazedTerracotta: BlockType
-	darkOakButton: BlockType
-	darkOakDoor: BlockType
-	darkOakFenceGate: BlockType
-	darkOakPressurePlate: BlockType
-	darkOakStairs: BlockType
-	darkoakStandingSign: BlockType
-	darkOakTrapdoor: BlockType
-	darkoakWallSign: BlockType
-	darkPrismarineStairs: BlockType
-	daylightDetector: BlockType
-	daylightDetectorInverted: BlockType
-	deadbush: BlockType
-	deepslate: BlockType
-	deepslateBrickDoubleSlab: BlockType
-	deepslateBricks: BlockType
-	deepslateBrickSlab: BlockType
-	deepslateBrickStairs: BlockType
-	deepslateBrickWall: BlockType
-	deepslateCoalOre: BlockType
-	deepslateCopperOre: BlockType
-	deepslateDiamondOre: BlockType
-	deepslateEmeraldOre: BlockType
-	deepslateGoldOre: BlockType
-	deepslateIronOre: BlockType
-	deepslateLapisOre: BlockType
-	deepslateRedstoneOre: BlockType
-	deepslateTileDoubleSlab: BlockType
-	deepslateTiles: BlockType
-	deepslateTileSlab: BlockType
-	deepslateTileStairs: BlockType
-	deepslateTileWall: BlockType
-	deny: BlockType
-	detectorRail: BlockType
-	diamondBlock: BlockType
-	diamondOre: BlockType
-	dioriteStairs: BlockType
-	dirt: BlockType
-	dirtWithRoots: BlockType
-	dispenser: BlockType
-	doubleCutCopperSlab: BlockType
-	doublePlant: BlockType
-	doubleStoneSlab: BlockType
-	doubleStoneSlab2: BlockType
-	doubleStoneSlab3: BlockType
-	doubleStoneSlab4: BlockType
-	doubleWoodenSlab: BlockType
-	dragonEgg: BlockType
-	driedKelpBlock: BlockType
-	dripstoneBlock: BlockType
-	dropper: BlockType
-	element0: BlockType
-	element1: BlockType
-	element10: BlockType
-	element100: BlockType
-	element101: BlockType
-	element102: BlockType
-	element103: BlockType
-	element104: BlockType
-	element105: BlockType
-	element106: BlockType
-	element107: BlockType
-	element108: BlockType
-	element109: BlockType
-	element11: BlockType
-	element110: BlockType
-	element111: BlockType
-	element112: BlockType
-	element113: BlockType
-	element114: BlockType
-	element115: BlockType
-	element116: BlockType
-	element117: BlockType
-	element118: BlockType
-	element12: BlockType
-	element13: BlockType
-	element14: BlockType
-	element15: BlockType
-	element16: BlockType
-	element17: BlockType
-	element18: BlockType
-	element19: BlockType
-	element2: BlockType
-	element20: BlockType
-	element21: BlockType
-	element22: BlockType
-	element23: BlockType
-	element24: BlockType
-	element25: BlockType
-	element26: BlockType
-	element27: BlockType
-	element28: BlockType
-	element29: BlockType
-	element3: BlockType
-	element30: BlockType
-	element31: BlockType
-	element32: BlockType
-	element33: BlockType
-	element34: BlockType
-	element35: BlockType
-	element36: BlockType
-	element37: BlockType
-	element38: BlockType
-	element39: BlockType
-	element4: BlockType
-	element40: BlockType
-	element41: BlockType
-	element42: BlockType
-	element43: BlockType
-	element44: BlockType
-	element45: BlockType
-	element46: BlockType
-	element47: BlockType
-	element48: BlockType
-	element49: BlockType
-	element5: BlockType
-	element50: BlockType
-	element51: BlockType
-	element52: BlockType
-	element53: BlockType
-	element54: BlockType
-	element55: BlockType
-	element56: BlockType
-	element57: BlockType
-	element58: BlockType
-	element59: BlockType
-	element6: BlockType
-	element60: BlockType
-	element61: BlockType
-	element62: BlockType
-	element63: BlockType
-	element64: BlockType
-	element65: BlockType
-	element66: BlockType
-	element67: BlockType
-	element68: BlockType
-	element69: BlockType
-	element7: BlockType
-	element70: BlockType
-	element71: BlockType
-	element72: BlockType
-	element73: BlockType
-	element74: BlockType
-	element75: BlockType
-	element76: BlockType
-	element77: BlockType
-	element78: BlockType
-	element79: BlockType
-	element8: BlockType
-	element80: BlockType
-	element81: BlockType
-	element82: BlockType
-	element83: BlockType
-	element84: BlockType
-	element85: BlockType
-	element86: BlockType
-	element87: BlockType
-	element88: BlockType
-	element89: BlockType
-	element9: BlockType
-	element90: BlockType
-	element91: BlockType
-	element92: BlockType
-	element93: BlockType
-	element94: BlockType
-	element95: BlockType
-	element96: BlockType
-	element97: BlockType
-	element98: BlockType
-	element99: BlockType
-	emeraldBlock: BlockType
-	emeraldOre: BlockType
-	enchantingTable: BlockType
-	endBricks: BlockType
-	endBrickStairs: BlockType
-	enderChest: BlockType
-	endGateway: BlockType
-	endPortal: BlockType
-	endPortalFrame: BlockType
-	endRod: BlockType
-	endStone: BlockType
-	exposedCopper: BlockType
-	exposedCutCopper: BlockType
-	exposedCutCopperSlab: BlockType
-	exposedCutCopperStairs: BlockType
-	exposedDoubleCutCopperSlab: BlockType
-	farmland: BlockType
-	fence: BlockType
-	fenceGate: BlockType
-	fire: BlockType
-	fletchingTable: BlockType
-	floweringAzalea: BlockType
-	flowerPot: BlockType
-	flowingLava: BlockType
-	flowingWater: BlockType
-	frame: BlockType
-	frostedIce: BlockType
-	furnace: BlockType
-	gildedBlackstone: BlockType
-	glass: BlockType
-	glassPane: BlockType
-	glowFrame: BlockType
-	glowingobsidian: BlockType
-	glowLichen: BlockType
-	glowstone: BlockType
-	goldBlock: BlockType
-	goldenRail: BlockType
-	goldOre: BlockType
-	graniteStairs: BlockType
-	grass: BlockType
-	grassPath: BlockType
-	gravel: BlockType
-	grayCandle: BlockType
-	grayCandleCake: BlockType
-	grayGlazedTerracotta: BlockType
-	greenCandle: BlockType
-	greenCandleCake: BlockType
-	greenGlazedTerracotta: BlockType
-	grindstone: BlockType
-	hangingRoots: BlockType
-	hardenedClay: BlockType
-	hardGlass: BlockType
-	hardGlassPane: BlockType
-	hardStainedGlass: BlockType
-	hardStainedGlassPane: BlockType
-	hayBlock: BlockType
-	heavyWeightedPressurePlate: BlockType
-	honeyBlock: BlockType
-	honeycombBlock: BlockType
-	hopper: BlockType
-	ice: BlockType
-	infestedDeepslate: BlockType
-	infoUpdate: BlockType
-	infoUpdate2: BlockType
-	invisiblebedrock: BlockType
-	ironBars: BlockType
-	ironBlock: BlockType
-	ironDoor: BlockType
-	ironOre: BlockType
-	ironTrapdoor: BlockType
-	jigsaw: BlockType
-	jukebox: BlockType
-	jungleButton: BlockType
-	jungleDoor: BlockType
-	jungleFenceGate: BlockType
-	junglePressurePlate: BlockType
-	jungleStairs: BlockType
-	jungleStandingSign: BlockType
-	jungleTrapdoor: BlockType
-	jungleWallSign: BlockType
-	kelp: BlockType
-	ladder: BlockType
-	lantern: BlockType
-	lapisBlock: BlockType
-	lapisOre: BlockType
-	largeAmethystBud: BlockType
-	lava: BlockType
-	lavaCauldron: BlockType
-	leaves: BlockType
-	leaves2: BlockType
-	lectern: BlockType
-	lever: BlockType
-	lightBlock: BlockType
-	lightBlueCandle: BlockType
-	lightBlueCandleCake: BlockType
-	lightBlueGlazedTerracotta: BlockType
-	lightGrayCandle: BlockType
-	lightGrayCandleCake: BlockType
-	lightningRod: BlockType
-	lightWeightedPressurePlate: BlockType
-	limeCandle: BlockType
-	limeCandleCake: BlockType
-	limeGlazedTerracotta: BlockType
-	litBlastFurnace: BlockType
-	litDeepslateRedstoneOre: BlockType
-	litFurnace: BlockType
-	litPumpkin: BlockType
-	litRedstoneLamp: BlockType
-	litRedstoneOre: BlockType
-	litSmoker: BlockType
-	lodestone: BlockType
-	log: BlockType
-	log2: BlockType
-	loom: BlockType
-	magentaCandle: BlockType
-	magentaCandleCake: BlockType
-	magentaGlazedTerracotta: BlockType
-	magma: BlockType
-	mediumAmethystBud: BlockType
-	melonBlock: BlockType
-	melonStem: BlockType
-	mobSpawner: BlockType
-	monsterEgg: BlockType
-	mossBlock: BlockType
-	mossCarpet: BlockType
-	mossyCobblestone: BlockType
-	mossyCobblestoneStairs: BlockType
-	mossyStoneBrickStairs: BlockType
-	movingblock: BlockType
-	mycelium: BlockType
-	netherBrick: BlockType
-	netherBrickFence: BlockType
-	netherBrickStairs: BlockType
-	netherGoldOre: BlockType
-	netheriteBlock: BlockType
-	netherrack: BlockType
-	netherreactor: BlockType
-	netherSprouts: BlockType
-	netherWart: BlockType
-	netherWartBlock: BlockType
-	normalStoneStairs: BlockType
-	noteblock: BlockType
-	oakStairs: BlockType
-	observer: BlockType
-	obsidian: BlockType
-	orangeCandle: BlockType
-	orangeCandleCake: BlockType
-	orangeGlazedTerracotta: BlockType
-	oxidizedCopper: BlockType
-	oxidizedCutCopper: BlockType
-	oxidizedCutCopperSlab: BlockType
-	oxidizedCutCopperStairs: BlockType
-	oxidizedDoubleCutCopperSlab: BlockType
-	packedIce: BlockType
-	pinkCandle: BlockType
-	pinkCandleCake: BlockType
-	pinkGlazedTerracotta: BlockType
-	piston: BlockType
-	pistonarmcollision: BlockType
-	planks: BlockType
-	podzol: BlockType
-	pointedDripstone: BlockType
-	polishedAndesiteStairs: BlockType
-	polishedBasalt: BlockType
-	polishedBlackstone: BlockType
-	polishedBlackstoneBrickDoubleSlab: BlockType
-	polishedBlackstoneBricks: BlockType
-	polishedBlackstoneBrickSlab: BlockType
-	polishedBlackstoneBrickStairs: BlockType
-	polishedBlackstoneBrickWall: BlockType
-	polishedBlackstoneButton: BlockType
-	polishedBlackstoneDoubleSlab: BlockType
-	polishedBlackstonePressurePlate: BlockType
-	polishedBlackstoneSlab: BlockType
-	polishedBlackstoneStairs: BlockType
-	polishedBlackstoneWall: BlockType
-	polishedDeepslate: BlockType
-	polishedDeepslateDoubleSlab: BlockType
-	polishedDeepslateSlab: BlockType
-	polishedDeepslateStairs: BlockType
-	polishedDeepslateWall: BlockType
-	polishedDioriteStairs: BlockType
-	polishedGraniteStairs: BlockType
-	portal: BlockType
-	potatoes: BlockType
-	powderSnow: BlockType
-	poweredComparator: BlockType
-	poweredRepeater: BlockType
-	prismarine: BlockType
-	prismarineBricksStairs: BlockType
-	prismarineStairs: BlockType
-	pumpkin: BlockType
-	pumpkinStem: BlockType
-	purpleCandle: BlockType
-	purpleCandleCake: BlockType
-	purpleGlazedTerracotta: BlockType
-	purpurBlock: BlockType
-	purpurStairs: BlockType
-	quartzBlock: BlockType
-	quartzBricks: BlockType
-	quartzOre: BlockType
-	quartzStairs: BlockType
-	rail: BlockType
-	rawCopperBlock: BlockType
-	rawGoldBlock: BlockType
-	rawIronBlock: BlockType
-	redCandle: BlockType
-	redCandleCake: BlockType
-	redFlower: BlockType
-	redGlazedTerracotta: BlockType
-	redMushroom: BlockType
-	redMushroomBlock: BlockType
-	redNetherBrick: BlockType
-	redNetherBrickStairs: BlockType
-	redSandstone: BlockType
-	redSandstoneStairs: BlockType
-	redstoneBlock: BlockType
-	redstoneLamp: BlockType
-	redstoneOre: BlockType
-	redstoneTorch: BlockType
-	redstoneWire: BlockType
-	reeds: BlockType
-	repeatingCommandBlock: BlockType
-	reserved6: BlockType
-	respawnAnchor: BlockType
-	sand: BlockType
-	sandstone: BlockType
-	sandstoneStairs: BlockType
-	sapling: BlockType
-	scaffolding: BlockType
-	sculkSensor: BlockType
-	seagrass: BlockType
-	sealantern: BlockType
-	seaPickle: BlockType
-	shroomlight: BlockType
-	shulkerBox: BlockType
-	silverGlazedTerracotta: BlockType
-	skull: BlockType
-	slime: BlockType
-	smallAmethystBud: BlockType
-	smallDripleafBlock: BlockType
-	smithingTable: BlockType
-	smoker: BlockType
-	smoothBasalt: BlockType
-	smoothQuartzStairs: BlockType
-	smoothRedSandstoneStairs: BlockType
-	smoothSandstoneStairs: BlockType
-	smoothStone: BlockType
-	snow: BlockType
-	snowLayer: BlockType
-	soulCampfire: BlockType
-	soulFire: BlockType
-	soulLantern: BlockType
-	soulSand: BlockType
-	soulSoil: BlockType
-	soulTorch: BlockType
-	sponge: BlockType
-	sporeBlossom: BlockType
-	spruceButton: BlockType
-	spruceDoor: BlockType
-	spruceFenceGate: BlockType
-	sprucePressurePlate: BlockType
-	spruceStairs: BlockType
-	spruceStandingSign: BlockType
-	spruceTrapdoor: BlockType
-	spruceWallSign: BlockType
-	stainedGlass: BlockType
-	stainedGlassPane: BlockType
-	stainedHardenedClay: BlockType
-	standingBanner: BlockType
-	standingSign: BlockType
-	stickyPiston: BlockType
-	stickypistonarmcollision: BlockType
-	stone: BlockType
-	stonebrick: BlockType
-	stoneBrickStairs: BlockType
-	stoneButton: BlockType
-	stonecutter: BlockType
-	stonecutterBlock: BlockType
-	stonePressurePlate: BlockType
-	stoneSlab: BlockType
-	stoneSlab2: BlockType
-	stoneSlab3: BlockType
-	stoneSlab4: BlockType
-	stoneStairs: BlockType
-	strippedAcaciaLog: BlockType
-	strippedBirchLog: BlockType
-	strippedCrimsonHyphae: BlockType
-	strippedCrimsonStem: BlockType
-	strippedDarkOakLog: BlockType
-	strippedJungleLog: BlockType
-	strippedOakLog: BlockType
-	strippedSpruceLog: BlockType
-	strippedWarpedHyphae: BlockType
-	strippedWarpedStem: BlockType
-	structureBlock: BlockType
-	structureVoid: BlockType
-	sweetBerryBush: BlockType
-	tallgrass: BlockType
-	target: BlockType
-	tintedGlass: BlockType
-	tnt: BlockType
-	torch: BlockType
-	trapdoor: BlockType
-	trappedChest: BlockType
-	tripwire: BlockType
-	tripwireHook: BlockType
-	tuff: BlockType
-	turtleEgg: BlockType
-	twistingVines: BlockType
-	underwaterTorch: BlockType
-	undyedShulkerBox: BlockType
-	unknown: BlockType
-	unlitRedstoneTorch: BlockType
-	unpoweredComparator: BlockType
-	unpoweredRepeater: BlockType
-	vine: BlockType
-	wallBanner: BlockType
-	wallSign: BlockType
-	warpedButton: BlockType
-	warpedDoor: BlockType
-	warpedDoubleSlab: BlockType
-	warpedFence: BlockType
-	warpedFenceGate: BlockType
-	warpedFungus: BlockType
-	warpedHyphae: BlockType
-	warpedNylium: BlockType
-	warpedPlanks: BlockType
-	warpedPressurePlate: BlockType
-	warpedRoots: BlockType
-	warpedSlab: BlockType
-	warpedStairs: BlockType
-	warpedStandingSign: BlockType
-	warpedStem: BlockType
-	warpedTrapdoor: BlockType
-	warpedWallSign: BlockType
-	warpedWartBlock: BlockType
-	water: BlockType
-	waterlily: BlockType
-	waxedCopper: BlockType
-	waxedCutCopper: BlockType
-	waxedCutCopperSlab: BlockType
-	waxedCutCopperStairs: BlockType
-	waxedDoubleCutCopperSlab: BlockType
-	waxedExposedCopper: BlockType
-	waxedExposedCutCopper: BlockType
-	waxedExposedCutCopperSlab: BlockType
-	waxedExposedCutCopperStairs: BlockType
-	waxedExposedDoubleCutCopperSlab: BlockType
-	waxedOxidizedCopper: BlockType
-	waxedOxidizedCutCopper: BlockType
-	waxedOxidizedCutCopperSlab: BlockType
-	waxedOxidizedCutCopperStairs: BlockType
-	waxedOxidizedDoubleCutCopperSlab: BlockType
-	waxedWeatheredCopper: BlockType
-	waxedWeatheredCutCopper: BlockType
-	waxedWeatheredCutCopperSlab: BlockType
-	waxedWeatheredCutCopperStairs: BlockType
-	waxedWeatheredDoubleCutCopperSlab: BlockType
-	weatheredCopper: BlockType
-	weatheredCutCopper: BlockType
-	weatheredCutCopperSlab: BlockType
-	weatheredCutCopperStairs: BlockType
-	weatheredDoubleCutCopperSlab: BlockType
-	web: BlockType
-	weepingVines: BlockType
-	wheat: BlockType
-	whiteCandle: BlockType
-	whiteCandleCake: BlockType
-	whiteGlazedTerracotta: BlockType
-	witherRose: BlockType
-	wood: BlockType
-	woodenButton: BlockType
-	woodenDoor: BlockType
-	woodenPressurePlate: BlockType
-	woodenSlab: BlockType
-	wool: BlockType
-	yellowCandle: BlockType
-	yellowCandleCake: BlockType
-	yellowFlower: BlockType
-	yellowGlazedTerracotta: BlockType
-	get(typeName: string): BlockType
-	getAllBlockTypes(): Array<BlockType>
+<li>acaciaButton: BlockType</li>
+<li>acaciaDoor: BlockType</li>
+<li>acaciaFenceGate: BlockType</li>
+<li>acaciaPressurePlate: BlockType</li>
+<li>acaciaStairs: BlockType</li>
+<li>acaciaStandingSign: BlockType</li>
+<li>acaciaTrapdoor: BlockType</li>
+<li>acaciaWallSign: BlockType</li>
+<li>activatorRail: BlockType</li>
+<li>air: BlockType</li>
+<li>allow: BlockType</li>
+<li>amethystBlock: BlockType</li>
+<li>amethystCluster: BlockType</li>
+<li>ancientDebris: BlockType</li>
+<li>andesiteStairs: BlockType</li>
+<li>anvil: BlockType</li>
+<li>azalea: BlockType</li>
+<li>azaleaLeaves: BlockType</li>
+<li>azaleaLeavesFlowered: BlockType</li>
+<li>bamboo: BlockType</li>
+<li>bambooSapling: BlockType</li>
+<li>barrel: BlockType</li>
+<li>barrier: BlockType</li>
+<li>basalt: BlockType</li>
+<li>beacon: BlockType</li>
+<li>bed: BlockType</li>
+<li>bedrock: BlockType</li>
+<li>beehive: BlockType</li>
+<li>beeNest: BlockType</li>
+<li>beetroot: BlockType</li>
+<li>bell: BlockType</li>
+<li>bigDripleaf: BlockType</li>
+<li>birchButton: BlockType</li>
+<li>birchDoor: BlockType</li>
+<li>birchFenceGate: BlockType</li>
+<li>birchPressurePlate: BlockType</li>
+<li>birchStairs: BlockType</li>
+<li>birchStandingSign: BlockType</li>
+<li>birchTrapdoor: BlockType</li>
+<li>birchWallSign: BlockType</li>
+<li>blackCandle: BlockType</li>
+<li>blackCandleCake: BlockType</li>
+<li>blackGlazedTerracotta: BlockType</li>
+<li>blackstone: BlockType</li>
+<li>blackstoneDoubleSlab: BlockType</li>
+<li>blackstoneSlab: BlockType</li>
+<li>blackstoneStairs: BlockType</li>
+<li>blackstoneWall: BlockType</li>
+<li>blastFurnace: BlockType</li>
+<li>blueCandle: BlockType</li>
+<li>blueCandleCake: BlockType</li>
+<li>blueGlazedTerracotta: BlockType</li>
+<li>blueIce: BlockType</li>
+<li>boneBlock: BlockType</li>
+<li>bookshelf: BlockType</li>
+<li>borderBlock: BlockType</li>
+<li>brewingStand: BlockType</li>
+<li>brickBlock: BlockType</li>
+<li>brickStairs: BlockType</li>
+<li>brownCandle: BlockType</li>
+<li>brownCandleCake: BlockType</li>
+<li>brownGlazedTerracotta: BlockType</li>
+<li>brownMushroom: BlockType</li>
+<li>brownMushroomBlock: BlockType</li>
+<li>bubbleColumn: BlockType</li>
+<li>buddingAmethyst: BlockType</li>
+<li>cactus: BlockType</li>
+<li>cake: BlockType</li>
+<li>calcite: BlockType</li>
+<li>camera: BlockType</li>
+<li>campfire: BlockType</li>
+<li>candle: BlockType</li>
+<li>candleCake: BlockType</li>
+<li>carpet: BlockType</li>
+<li>carrots: BlockType</li>
+<li>cartographyTable: BlockType</li>
+<li>carvedPumpkin: BlockType</li>
+<li>cauldron: BlockType</li>
+<li>caveVines: BlockType</li>
+<li>caveVinesBodyWithBerries: BlockType</li>
+<li>caveVinesHeadWithBerries: BlockType</li>
+<li>chain: BlockType</li>
+<li>chainCommandBlock: BlockType</li>
+<li>chemicalHeat: BlockType</li>
+<li>chemistryTable: BlockType</li>
+<li>chest: BlockType</li>
+<li>chiseledDeepslate: BlockType</li>
+<li>chiseledNetherBricks: BlockType</li>
+<li>chiseledPolishedBlackstone: BlockType</li>
+<li>chorusFlower: BlockType</li>
+<li>chorusPlant: BlockType</li>
+<li>clay: BlockType</li>
+<li>coalBlock: BlockType</li>
+<li>coalOre: BlockType</li>
+<li>cobbledDeepslate: BlockType</li>
+<li>cobbledDeepslateDoubleSlab: BlockType</li>
+<li>cobbledDeepslateSlab: BlockType</li>
+<li>cobbledDeepslateStairs: BlockType</li>
+<li>cobbledDeepslateWall: BlockType</li>
+<li>cobblestone: BlockType</li>
+<li>cobblestoneWall: BlockType</li>
+<li>cocoa: BlockType</li>
+<li>coloredTorchBp: BlockType</li>
+<li>coloredTorchRg: BlockType</li>
+<li>commandBlock: BlockType</li>
+<li>composter: BlockType</li>
+<li>concrete: BlockType</li>
+<li>concretepowder: BlockType</li>
+<li>conduit: BlockType</li>
+<li>copperBlock: BlockType</li>
+<li>copperOre: BlockType</li>
+<li>coral: BlockType</li>
+<li>coralBlock: BlockType</li>
+<li>coralFan: BlockType</li>
+<li>coralFanDead: BlockType</li>
+<li>coralFanHang: BlockType</li>
+<li>coralFanHang2: BlockType</li>
+<li>coralFanHang3: BlockType</li>
+<li>crackedDeepslateBricks: BlockType</li>
+<li>crackedDeepslateTiles: BlockType</li>
+<li>crackedNetherBricks: BlockType</li>
+<li>crackedPolishedBlackstoneBricks: BlockType</li>
+<li>craftingTable: BlockType</li>
+<li>crimsonButton: BlockType</li>
+<li>crimsonDoor: BlockType</li>
+<li>crimsonDoubleSlab: BlockType</li>
+<li>crimsonFence: BlockType</li>
+<li>crimsonFenceGate: BlockType</li>
+<li>crimsonFungus: BlockType</li>
+<li>crimsonHyphae: BlockType</li>
+<li>crimsonNylium: BlockType</li>
+<li>crimsonPlanks: BlockType</li>
+<li>crimsonPressurePlate: BlockType</li>
+<li>crimsonRoots: BlockType</li>
+<li>crimsonSlab: BlockType</li>
+<li>crimsonStairs: BlockType</li>
+<li>crimsonStandingSign: BlockType</li>
+<li>crimsonStem: BlockType</li>
+<li>crimsonTrapdoor: BlockType</li>
+<li>crimsonWallSign: BlockType</li>
+<li>cryingObsidian: BlockType</li>
+<li>cutCopper: BlockType</li>
+<li>cutCopperSlab: BlockType</li>
+<li>cutCopperStairs: BlockType</li>
+<li>cyanCandle: BlockType</li>
+<li>cyanCandleCake: BlockType</li>
+<li>cyanGlazedTerracotta: BlockType</li>
+<li>darkOakButton: BlockType</li>
+<li>darkOakDoor: BlockType</li>
+<li>darkOakFenceGate: BlockType</li>
+<li>darkOakPressurePlate: BlockType</li>
+<li>darkOakStairs: BlockType</li>
+<li>darkoakStandingSign: BlockType</li>
+<li>darkOakTrapdoor: BlockType</li>
+<li>darkoakWallSign: BlockType</li>
+<li>darkPrismarineStairs: BlockType</li>
+<li>daylightDetector: BlockType</li>
+<li>daylightDetectorInverted: BlockType</li>
+<li>deadbush: BlockType</li>
+<li>deepslate: BlockType</li>
+<li>deepslateBrickDoubleSlab: BlockType</li>
+<li>deepslateBricks: BlockType</li>
+<li>deepslateBrickSlab: BlockType</li>
+<li>deepslateBrickStairs: BlockType</li>
+<li>deepslateBrickWall: BlockType</li>
+<li>deepslateCoalOre: BlockType</li>
+<li>deepslateCopperOre: BlockType</li>
+<li>deepslateDiamondOre: BlockType</li>
+<li>deepslateEmeraldOre: BlockType</li>
+<li>deepslateGoldOre: BlockType</li>
+<li>deepslateIronOre: BlockType</li>
+<li>deepslateLapisOre: BlockType</li>
+<li>deepslateRedstoneOre: BlockType</li>
+<li>deepslateTileDoubleSlab: BlockType</li>
+<li>deepslateTiles: BlockType</li>
+<li>deepslateTileSlab: BlockType</li>
+<li>deepslateTileStairs: BlockType</li>
+<li>deepslateTileWall: BlockType</li>
+<li>deny: BlockType</li>
+<li>detectorRail: BlockType</li>
+<li>diamondBlock: BlockType</li>
+<li>diamondOre: BlockType</li>
+<li>dioriteStairs: BlockType</li>
+<li>dirt: BlockType</li>
+<li>dirtWithRoots: BlockType</li>
+<li>dispenser: BlockType</li>
+<li>doubleCutCopperSlab: BlockType</li>
+<li>doublePlant: BlockType</li>
+<li>doubleStoneSlab: BlockType</li>
+<li>doubleStoneSlab2: BlockType</li>
+<li>doubleStoneSlab3: BlockType</li>
+<li>doubleStoneSlab4: BlockType</li>
+<li>doubleWoodenSlab: BlockType</li>
+<li>dragonEgg: BlockType</li>
+<li>driedKelpBlock: BlockType</li>
+<li>dripstoneBlock: BlockType</li>
+<li>dropper: BlockType</li>
+<li>element0: BlockType</li>
+<li>element1: BlockType</li>
+<li>element10: BlockType</li>
+<li>element100: BlockType</li>
+<li>element101: BlockType</li>
+<li>element102: BlockType</li>
+<li>element103: BlockType</li>
+<li>element104: BlockType</li>
+<li>element105: BlockType</li>
+<li>element106: BlockType</li>
+<li>element107: BlockType</li>
+<li>element108: BlockType</li>
+<li>element109: BlockType</li>
+<li>element11: BlockType</li>
+<li>element110: BlockType</li>
+<li>element111: BlockType</li>
+<li>element112: BlockType</li>
+<li>element113: BlockType</li>
+<li>element114: BlockType</li>
+<li>element115: BlockType</li>
+<li>element116: BlockType</li>
+<li>element117: BlockType</li>
+<li>element118: BlockType</li>
+<li>element12: BlockType</li>
+<li>element13: BlockType</li>
+<li>element14: BlockType</li>
+<li>element15: BlockType</li>
+<li>element16: BlockType</li>
+<li>element17: BlockType</li>
+<li>element18: BlockType</li>
+<li>element19: BlockType</li>
+<li>element2: BlockType</li>
+<li>element20: BlockType</li>
+<li>element21: BlockType</li>
+<li>element22: BlockType</li>
+<li>element23: BlockType</li>
+<li>element24: BlockType</li>
+<li>element25: BlockType</li>
+<li>element26: BlockType</li>
+<li>element27: BlockType</li>
+<li>element28: BlockType</li>
+<li>element29: BlockType</li>
+<li>element3: BlockType</li>
+<li>element30: BlockType</li>
+<li>element31: BlockType</li>
+<li>element32: BlockType</li>
+<li>element33: BlockType</li>
+<li>element34: BlockType</li>
+<li>element35: BlockType</li>
+<li>element36: BlockType</li>
+<li>element37: BlockType</li>
+<li>element38: BlockType</li>
+<li>element39: BlockType</li>
+<li>element4: BlockType</li>
+<li>element40: BlockType</li>
+<li>element41: BlockType</li>
+<li>element42: BlockType</li>
+<li>element43: BlockType</li>
+<li>element44: BlockType</li>
+<li>element45: BlockType</li>
+<li>element46: BlockType</li>
+<li>element47: BlockType</li>
+<li>element48: BlockType</li>
+<li>element49: BlockType</li>
+<li>element5: BlockType</li>
+<li>element50: BlockType</li>
+<li>element51: BlockType</li>
+<li>element52: BlockType</li>
+<li>element53: BlockType</li>
+<li>element54: BlockType</li>
+<li>element55: BlockType</li>
+<li>element56: BlockType</li>
+<li>element57: BlockType</li>
+<li>element58: BlockType</li>
+<li>element59: BlockType</li>
+<li>element6: BlockType</li>
+<li>element60: BlockType</li>
+<li>element61: BlockType</li>
+<li>element62: BlockType</li>
+<li>element63: BlockType</li>
+<li>element64: BlockType</li>
+<li>element65: BlockType</li>
+<li>element66: BlockType</li>
+<li>element67: BlockType</li>
+<li>element68: BlockType</li>
+<li>element69: BlockType</li>
+<li>element7: BlockType</li>
+<li>element70: BlockType</li>
+<li>element71: BlockType</li>
+<li>element72: BlockType</li>
+<li>element73: BlockType</li>
+<li>element74: BlockType</li>
+<li>element75: BlockType</li>
+<li>element76: BlockType</li>
+<li>element77: BlockType</li>
+<li>element78: BlockType</li>
+<li>element79: BlockType</li>
+<li>element8: BlockType</li>
+<li>element80: BlockType</li>
+<li>element81: BlockType</li>
+<li>element82: BlockType</li>
+<li>element83: BlockType</li>
+<li>element84: BlockType</li>
+<li>element85: BlockType</li>
+<li>element86: BlockType</li>
+<li>element87: BlockType</li>
+<li>element88: BlockType</li>
+<li>element89: BlockType</li>
+<li>element9: BlockType</li>
+<li>element90: BlockType</li>
+<li>element91: BlockType</li>
+<li>element92: BlockType</li>
+<li>element93: BlockType</li>
+<li>element94: BlockType</li>
+<li>element95: BlockType</li>
+<li>element96: BlockType</li>
+<li>element97: BlockType</li>
+<li>element98: BlockType</li>
+<li>element99: BlockType</li>
+<li>emeraldBlock: BlockType</li>
+<li>emeraldOre: BlockType</li>
+<li>enchantingTable: BlockType</li>
+<li>endBricks: BlockType</li>
+<li>endBrickStairs: BlockType</li>
+<li>enderChest: BlockType</li>
+<li>endGateway: BlockType</li>
+<li>endPortal: BlockType</li>
+<li>endPortalFrame: BlockType</li>
+<li>endRod: BlockType</li>
+<li>endStone: BlockType</li>
+<li>exposedCopper: BlockType</li>
+<li>exposedCutCopper: BlockType</li>
+<li>exposedCutCopperSlab: BlockType</li>
+<li>exposedCutCopperStairs: BlockType</li>
+<li>exposedDoubleCutCopperSlab: BlockType</li>
+<li>farmland: BlockType</li>
+<li>fence: BlockType</li>
+<li>fenceGate: BlockType</li>
+<li>fire: BlockType</li>
+<li>fletchingTable: BlockType</li>
+<li>floweringAzalea: BlockType</li>
+<li>flowerPot: BlockType</li>
+<li>flowingLava: BlockType</li>
+<li>flowingWater: BlockType</li>
+<li>frame: BlockType</li>
+<li>frostedIce: BlockType</li>
+<li>furnace: BlockType</li>
+<li>gildedBlackstone: BlockType</li>
+<li>glass: BlockType</li>
+<li>glassPane: BlockType</li>
+<li>glowFrame: BlockType</li>
+<li>glowingobsidian: BlockType</li>
+<li>glowLichen: BlockType</li>
+<li>glowstone: BlockType</li>
+<li>goldBlock: BlockType</li>
+<li>goldenRail: BlockType</li>
+<li>goldOre: BlockType</li>
+<li>graniteStairs: BlockType</li>
+<li>grass: BlockType</li>
+<li>grassPath: BlockType</li>
+<li>gravel: BlockType</li>
+<li>grayCandle: BlockType</li>
+<li>grayCandleCake: BlockType</li>
+<li>grayGlazedTerracotta: BlockType</li>
+<li>greenCandle: BlockType</li>
+<li>greenCandleCake: BlockType</li>
+<li>greenGlazedTerracotta: BlockType</li>
+<li>grindstone: BlockType</li>
+<li>hangingRoots: BlockType</li>
+<li>hardenedClay: BlockType</li>
+<li>hardGlass: BlockType</li>
+<li>hardGlassPane: BlockType</li>
+<li>hardStainedGlass: BlockType</li>
+<li>hardStainedGlassPane: BlockType</li>
+<li>hayBlock: BlockType</li>
+<li>heavyWeightedPressurePlate: BlockType</li>
+<li>honeyBlock: BlockType</li>
+<li>honeycombBlock: BlockType</li>
+<li>hopper: BlockType</li>
+<li>ice: BlockType</li>
+<li>infestedDeepslate: BlockType</li>
+<li>infoUpdate: BlockType</li>
+<li>infoUpdate2: BlockType</li>
+<li>invisiblebedrock: BlockType</li>
+<li>ironBars: BlockType</li>
+<li>ironBlock: BlockType</li>
+<li>ironDoor: BlockType</li>
+<li>ironOre: BlockType</li>
+<li>ironTrapdoor: BlockType</li>
+<li>jigsaw: BlockType</li>
+<li>jukebox: BlockType</li>
+<li>jungleButton: BlockType</li>
+<li>jungleDoor: BlockType</li>
+<li>jungleFenceGate: BlockType</li>
+<li>junglePressurePlate: BlockType</li>
+<li>jungleStairs: BlockType</li>
+<li>jungleStandingSign: BlockType</li>
+<li>jungleTrapdoor: BlockType</li>
+<li>jungleWallSign: BlockType</li>
+<li>kelp: BlockType</li>
+<li>ladder: BlockType</li>
+<li>lantern: BlockType</li>
+<li>lapisBlock: BlockType</li>
+<li>lapisOre: BlockType</li>
+<li>largeAmethystBud: BlockType</li>
+<li>lava: BlockType</li>
+<li>lavaCauldron: BlockType</li>
+<li>leaves: BlockType</li>
+<li>leaves2: BlockType</li>
+<li>lectern: BlockType</li>
+<li>lever: BlockType</li>
+<li>lightBlock: BlockType</li>
+<li>lightBlueCandle: BlockType</li>
+<li>lightBlueCandleCake: BlockType</li>
+<li>lightBlueGlazedTerracotta: BlockType</li>
+<li>lightGrayCandle: BlockType</li>
+<li>lightGrayCandleCake: BlockType</li>
+<li>lightningRod: BlockType</li>
+<li>lightWeightedPressurePlate: BlockType</li>
+<li>limeCandle: BlockType</li>
+<li>limeCandleCake: BlockType</li>
+<li>limeGlazedTerracotta: BlockType</li>
+<li>litBlastFurnace: BlockType</li>
+<li>litDeepslateRedstoneOre: BlockType</li>
+<li>litFurnace: BlockType</li>
+<li>litPumpkin: BlockType</li>
+<li>litRedstoneLamp: BlockType</li>
+<li>litRedstoneOre: BlockType</li>
+<li>litSmoker: BlockType</li>
+<li>lodestone: BlockType</li>
+<li>log: BlockType</li>
+<li>log2: BlockType</li>
+<li>loom: BlockType</li>
+<li>magentaCandle: BlockType</li>
+<li>magentaCandleCake: BlockType</li>
+<li>magentaGlazedTerracotta: BlockType</li>
+<li>magma: BlockType</li>
+<li>mediumAmethystBud: BlockType</li>
+<li>melonBlock: BlockType</li>
+<li>melonStem: BlockType</li>
+<li>mobSpawner: BlockType</li>
+<li>monsterEgg: BlockType</li>
+<li>mossBlock: BlockType</li>
+<li>mossCarpet: BlockType</li>
+<li>mossyCobblestone: BlockType</li>
+<li>mossyCobblestoneStairs: BlockType</li>
+<li>mossyStoneBrickStairs: BlockType</li>
+<li>movingblock: BlockType</li>
+<li>mycelium: BlockType</li>
+<li>netherBrick: BlockType</li>
+<li>netherBrickFence: BlockType</li>
+<li>netherBrickStairs: BlockType</li>
+<li>netherGoldOre: BlockType</li>
+<li>netheriteBlock: BlockType</li>
+<li>netherrack: BlockType</li>
+<li>netherreactor: BlockType</li>
+<li>netherSprouts: BlockType</li>
+<li>netherWart: BlockType</li>
+<li>netherWartBlock: BlockType</li>
+<li>normalStoneStairs: BlockType</li>
+<li>noteblock: BlockType</li>
+<li>oakStairs: BlockType</li>
+<li>observer: BlockType</li>
+<li>obsidian: BlockType</li>
+<li>orangeCandle: BlockType</li>
+<li>orangeCandleCake: BlockType</li>
+<li>orangeGlazedTerracotta: BlockType</li>
+<li>oxidizedCopper: BlockType</li>
+<li>oxidizedCutCopper: BlockType</li>
+<li>oxidizedCutCopperSlab: BlockType</li>
+<li>oxidizedCutCopperStairs: BlockType</li>
+<li>oxidizedDoubleCutCopperSlab: BlockType</li>
+<li>packedIce: BlockType</li>
+<li>pinkCandle: BlockType</li>
+<li>pinkCandleCake: BlockType</li>
+<li>pinkGlazedTerracotta: BlockType</li>
+<li>piston: BlockType</li>
+<li>pistonarmcollision: BlockType</li>
+<li>planks: BlockType</li>
+<li>podzol: BlockType</li>
+<li>pointedDripstone: BlockType</li>
+<li>polishedAndesiteStairs: BlockType</li>
+<li>polishedBasalt: BlockType</li>
+<li>polishedBlackstone: BlockType</li>
+<li>polishedBlackstoneBrickDoubleSlab: BlockType</li>
+<li>polishedBlackstoneBricks: BlockType</li>
+<li>polishedBlackstoneBrickSlab: BlockType</li>
+<li>polishedBlackstoneBrickStairs: BlockType</li>
+<li>polishedBlackstoneBrickWall: BlockType</li>
+<li>polishedBlackstoneButton: BlockType</li>
+<li>polishedBlackstoneDoubleSlab: BlockType</li>
+<li>polishedBlackstonePressurePlate: BlockType</li>
+<li>polishedBlackstoneSlab: BlockType</li>
+<li>polishedBlackstoneStairs: BlockType</li>
+<li>polishedBlackstoneWall: BlockType</li>
+<li>polishedDeepslate: BlockType</li>
+<li>polishedDeepslateDoubleSlab: BlockType</li>
+<li>polishedDeepslateSlab: BlockType</li>
+<li>polishedDeepslateStairs: BlockType</li>
+<li>polishedDeepslateWall: BlockType</li>
+<li>polishedDioriteStairs: BlockType</li>
+<li>polishedGraniteStairs: BlockType</li>
+<li>portal: BlockType</li>
+<li>potatoes: BlockType</li>
+<li>powderSnow: BlockType</li>
+<li>poweredComparator: BlockType</li>
+<li>poweredRepeater: BlockType</li>
+<li>prismarine: BlockType</li>
+<li>prismarineBricksStairs: BlockType</li>
+<li>prismarineStairs: BlockType</li>
+<li>pumpkin: BlockType</li>
+<li>pumpkinStem: BlockType</li>
+<li>purpleCandle: BlockType</li>
+<li>purpleCandleCake: BlockType</li>
+<li>purpleGlazedTerracotta: BlockType</li>
+<li>purpurBlock: BlockType</li>
+<li>purpurStairs: BlockType</li>
+<li>quartzBlock: BlockType</li>
+<li>quartzBricks: BlockType</li>
+<li>quartzOre: BlockType</li>
+<li>quartzStairs: BlockType</li>
+<li>rail: BlockType</li>
+<li>rawCopperBlock: BlockType</li>
+<li>rawGoldBlock: BlockType</li>
+<li>rawIronBlock: BlockType</li>
+<li>redCandle: BlockType</li>
+<li>redCandleCake: BlockType</li>
+<li>redFlower: BlockType</li>
+<li>redGlazedTerracotta: BlockType</li>
+<li>redMushroom: BlockType</li>
+<li>redMushroomBlock: BlockType</li>
+<li>redNetherBrick: BlockType</li>
+<li>redNetherBrickStairs: BlockType</li>
+<li>redSandstone: BlockType</li>
+<li>redSandstoneStairs: BlockType</li>
+<li>redstoneBlock: BlockType</li>
+<li>redstoneLamp: BlockType</li>
+<li>redstoneOre: BlockType</li>
+<li>redstoneTorch: BlockType</li>
+<li>redstoneWire: BlockType</li>
+<li>reeds: BlockType</li>
+<li>repeatingCommandBlock: BlockType</li>
+<li>reserved6: BlockType</li>
+<li>respawnAnchor: BlockType</li>
+<li>sand: BlockType</li>
+<li>sandstone: BlockType</li>
+<li>sandstoneStairs: BlockType</li>
+<li>sapling: BlockType</li>
+<li>scaffolding: BlockType</li>
+<li>sculkSensor: BlockType</li>
+<li>seagrass: BlockType</li>
+<li>sealantern: BlockType</li>
+<li>seaPickle: BlockType</li>
+<li>shroomlight: BlockType</li>
+<li>shulkerBox: BlockType</li>
+<li>silverGlazedTerracotta: BlockType</li>
+<li>skull: BlockType</li>
+<li>slime: BlockType</li>
+<li>smallAmethystBud: BlockType</li>
+<li>smallDripleafBlock: BlockType</li>
+<li>smithingTable: BlockType</li>
+<li>smoker: BlockType</li>
+<li>smoothBasalt: BlockType</li>
+<li>smoothQuartzStairs: BlockType</li>
+<li>smoothRedSandstoneStairs: BlockType</li>
+<li>smoothSandstoneStairs: BlockType</li>
+<li>smoothStone: BlockType</li>
+<li>snow: BlockType</li>
+<li>snowLayer: BlockType</li>
+<li>soulCampfire: BlockType</li>
+<li>soulFire: BlockType</li>
+<li>soulLantern: BlockType</li>
+<li>soulSand: BlockType</li>
+<li>soulSoil: BlockType</li>
+<li>soulTorch: BlockType</li>
+<li>sponge: BlockType</li>
+<li>sporeBlossom: BlockType</li>
+<li>spruceButton: BlockType</li>
+<li>spruceDoor: BlockType</li>
+<li>spruceFenceGate: BlockType</li>
+<li>sprucePressurePlate: BlockType</li>
+<li>spruceStairs: BlockType</li>
+<li>spruceStandingSign: BlockType</li>
+<li>spruceTrapdoor: BlockType</li>
+<li>spruceWallSign: BlockType</li>
+<li>stainedGlass: BlockType</li>
+<li>stainedGlassPane: BlockType</li>
+<li>stainedHardenedClay: BlockType</li>
+<li>standingBanner: BlockType</li>
+<li>standingSign: BlockType</li>
+<li>stickyPiston: BlockType</li>
+<li>stickypistonarmcollision: BlockType</li>
+<li>stone: BlockType</li>
+<li>stonebrick: BlockType</li>
+<li>stoneBrickStairs: BlockType</li>
+<li>stoneButton: BlockType</li>
+<li>stonecutter: BlockType</li>
+<li>stonecutterBlock: BlockType</li>
+<li>stonePressurePlate: BlockType</li>
+<li>stoneSlab: BlockType</li>
+<li>stoneSlab2: BlockType</li>
+<li>stoneSlab3: BlockType</li>
+<li>stoneSlab4: BlockType</li>
+<li>stoneStairs: BlockType</li>
+<li>strippedAcaciaLog: BlockType</li>
+<li>strippedBirchLog: BlockType</li>
+<li>strippedCrimsonHyphae: BlockType</li>
+<li>strippedCrimsonStem: BlockType</li>
+<li>strippedDarkOakLog: BlockType</li>
+<li>strippedJungleLog: BlockType</li>
+<li>strippedOakLog: BlockType</li>
+<li>strippedSpruceLog: BlockType</li>
+<li>strippedWarpedHyphae: BlockType</li>
+<li>strippedWarpedStem: BlockType</li>
+<li>structureBlock: BlockType</li>
+<li>structureVoid: BlockType</li>
+<li>sweetBerryBush: BlockType</li>
+<li>tallgrass: BlockType</li>
+<li>target: BlockType</li>
+<li>tintedGlass: BlockType</li>
+<li>tnt: BlockType</li>
+<li>torch: BlockType</li>
+<li>trapdoor: BlockType</li>
+<li>trappedChest: BlockType</li>
+<li>tripwire: BlockType</li>
+<li>tripwireHook: BlockType</li>
+<li>tuff: BlockType</li>
+<li>turtleEgg: BlockType</li>
+<li>twistingVines: BlockType</li>
+<li>underwaterTorch: BlockType</li>
+<li>undyedShulkerBox: BlockType</li>
+<li>unknown: BlockType</li>
+<li>unlitRedstoneTorch: BlockType</li>
+<li>unpoweredComparator: BlockType</li>
+<li>unpoweredRepeater: BlockType</li>
+<li>vine: BlockType</li>
+<li>wallBanner: BlockType</li>
+<li>wallSign: BlockType</li>
+<li>warpedButton: BlockType</li>
+<li>warpedDoor: BlockType</li>
+<li>warpedDoubleSlab: BlockType</li>
+<li>warpedFence: BlockType</li>
+<li>warpedFenceGate: BlockType</li>
+<li>warpedFungus: BlockType</li>
+<li>warpedHyphae: BlockType</li>
+<li>warpedNylium: BlockType</li>
+<li>warpedPlanks: BlockType</li>
+<li>warpedPressurePlate: BlockType</li>
+<li>warpedRoots: BlockType</li>
+<li>warpedSlab: BlockType</li>
+<li>warpedStairs: BlockType</li>
+<li>warpedStandingSign: BlockType</li>
+<li>warpedStem: BlockType</li>
+<li>warpedTrapdoor: BlockType</li>
+<li>warpedWallSign: BlockType</li>
+<li>warpedWartBlock: BlockType</li>
+<li>water: BlockType</li>
+<li>waterlily: BlockType</li>
+<li>waxedCopper: BlockType</li>
+<li>waxedCutCopper: BlockType</li>
+<li>waxedCutCopperSlab: BlockType</li>
+<li>waxedCutCopperStairs: BlockType</li>
+<li>waxedDoubleCutCopperSlab: BlockType</li>
+<li>waxedExposedCopper: BlockType</li>
+<li>waxedExposedCutCopper: BlockType</li>
+<li>waxedExposedCutCopperSlab: BlockType</li>
+<li>waxedExposedCutCopperStairs: BlockType</li>
+<li>waxedExposedDoubleCutCopperSlab: BlockType</li>
+<li>waxedOxidizedCopper: BlockType</li>
+<li>waxedOxidizedCutCopper: BlockType</li>
+<li>waxedOxidizedCutCopperSlab: BlockType</li>
+<li>waxedOxidizedCutCopperStairs: BlockType</li>
+<li>waxedOxidizedDoubleCutCopperSlab: BlockType</li>
+<li>waxedWeatheredCopper: BlockType</li>
+<li>waxedWeatheredCutCopper: BlockType</li>
+<li>waxedWeatheredCutCopperSlab: BlockType</li>
+<li>waxedWeatheredCutCopperStairs: BlockType</li>
+<li>waxedWeatheredDoubleCutCopperSlab: BlockType</li>
+<li>weatheredCopper: BlockType</li>
+<li>weatheredCutCopper: BlockType</li>
+<li>weatheredCutCopperSlab: BlockType</li>
+<li>weatheredCutCopperStairs: BlockType</li>
+<li>weatheredDoubleCutCopperSlab: BlockType</li>
+<li>web: BlockType</li>
+<li>weepingVines: BlockType</li>
+<li>wheat: BlockType</li>
+<li>whiteCandle: BlockType</li>
+<li>whiteCandleCake: BlockType</li>
+<li>whiteGlazedTerracotta: BlockType</li>
+<li>witherRose: BlockType</li>
+<li>wood: BlockType</li>
+<li>woodenButton: BlockType</li>
+<li>woodenDoor: BlockType</li>
+<li>woodenPressurePlate: BlockType</li>
+<li>woodenSlab: BlockType</li>
+<li>wool: BlockType</li>
+<li>yellowCandle: BlockType</li>
+<li>yellowCandleCake: BlockType</li>
+<li>yellowFlower: BlockType</li>
+<li>yellowGlazedTerracotta: BlockType</li>
+<li>get(typeName: string): BlockType</li>
+<li>getAllBlockTypes(): Array<BlockType></li>
 </ul>
 </details>
 
 <details>
 <summary>BoolBlockProperty</summary>
 <ul> 
-	name: string
-	validValues: Array<boolean>
-	value: boolean
+<li>name: string</li>
+<li>validValues: Array<boolean></li>
+<li>value: boolean</li>
 </ul>
 </details>
 
 <details>
 <summary>Breathable</summary>
 <ul> 
-	breatheBlocks: Array<BlockPermutation>
-	breathesAir: boolean
-	breathesLava: boolean
-	breathesSolids: boolean
-	breathesWater: boolean
-	generatesBubbles: boolean
-	id: string
-	inhaleTime: number
-	nonBreatheBlocks: Array<BlockPermutation>
-	suffocateTime: number
-	totalSupply: number
-	setAirSupply(value: number): void
+<li>breatheBlocks: Array<BlockPermutation></li>
+<li>breathesAir: boolean</li>
+<li>breathesLava: boolean</li>
+<li>breathesSolids: boolean</li>
+<li>breathesWater: boolean</li>
+<li>generatesBubbles: boolean</li>
+<li>id: string</li>
+<li>inhaleTime: number</li>
+<li>nonBreatheBlocks: Array<BlockPermutation></li>
+<li>suffocateTime: number</li>
+<li>totalSupply: number</li>
+<li>setAirSupply(value: number): void</li>
 </ul>
 </details>
 
 <details>
 <summary>ChangeWeatherEventSignal</summary>
 <ul> 
-	subscribe(callback: (arg: WeatherChangedEvent) => void): (arg: WeatherChangedEvent) => void
-	unsubscribe(callback: (arg: WeatherChangedEvent) => void): void
+<li>subscribe(callback: (arg: WeatherChangedEvent) => void): (arg: WeatherChangedEvent) => void</li>
+<li>unsubscribe(callback: (arg: WeatherChangedEvent) => void): void</li>
 </ul>
 </details>
 
 <details>
 <summary>ChatEvent</summary>
 <ul> 
-	message: string
-	sender: Player
-	sendToTargets: boolean
-	targets: Array<Player>
+<li>message: string</li>
+<li>sender: Player</li>
+<li>sendToTargets: boolean</li>
+<li>targets: Array<Player></li>
 </ul>
 </details>
 
 <details>
 <summary>ChatEventSignal</summary>
 <ul> 
-	subscribe(callback: (arg: ChatEvent) => void): (arg: ChatEvent) => void
-	unsubscribe(callback: (arg: ChatEvent) => void): void
+<li>subscribe(callback: (arg: ChatEvent) => void): (arg: ChatEvent) => void</li>
+<li>unsubscribe(callback: (arg: ChatEvent) => void): void</li>
 </ul>
 </details>
 
 <details>
 <summary>Color</summary>
 <ul> 
-	id: string
-	value: number
+<li>id: string</li>
+<li>value: number</li>
 </ul>
 </details>
 
 <details>
 <summary>Commands</summary>
 <ul> 
-	run(commandString: string): any
+<li>run(commandString: string): any</li>
 </ul>
 </details>
 
 <details>
 <summary>Container</summary>
 <ul> 
-	emptySlotsCount: number
-	size: number
-	addItem(itemStack: ItemStack): void
-	getItem(slot: number): ItemStack
-	setItem(slot: number, itemStack: ItemStack): void
-	swapItems(slot: number, otherSlot: number, otherContainer: Container): boolean
-	transferItem(fromSlot: number, toSlot: number, toContainer: Container): boolean
+<li>emptySlotsCount: number</li>
+<li>size: number</li>
+<li>addItem(itemStack: ItemStack): void</li>
+<li>getItem(slot: number): ItemStack</li>
+<li>setItem(slot: number, itemStack: ItemStack): void</li>
+<li>swapItems(slot: number, otherSlot: number, otherContainer: Container): boolean</li>
+<li>transferItem(fromSlot: number, toSlot: number, toContainer: Container): boolean</li>
 </ul>
 </details>
 
 <details>
 <summary>Dimension</summary>
 <ul> 
-	createExplosion(location: Location, radius: number, explosionOptions: ExplosionOptions): void
-	getBlock(location: BlockLocation): Block
-	getEntitiesAtBlockLocation(location: BlockLocation): Array<Entity>
-	isEmpty(location: BlockLocation): boolean
-	spawnEntity(identifier: string, location: BlockLocation): Entity
+<li>createExplosion(location: Location, radius: number, explosionOptions: ExplosionOptions): void</li>
+<li>getBlock(location: BlockLocation): Block</li>
+<li>getEntitiesAtBlockLocation(location: BlockLocation): Array<Entity></li>
+<li>isEmpty(location: BlockLocation): boolean</li>
+<li>spawnEntity(identifier: string, location: BlockLocation): Entity</li>
 </ul>
 </details>
 
 <details>
 <summary>Direction</summary>
 <ul> 
-	down: number
-	east: number
-	north: number
-	south: number
-	up: number
-	west: number
+<li>down: number</li>
+<li>east: number</li>
+<li>north: number</li>
+<li>south: number</li>
+<li>up: number</li>
+<li>west: number</li>
 </ul>
 </details>
 
 <details>
 <summary>Effect</summary>
 <ul> 
-	amplifier: number
-	displayName: string
-	duration: number
+<li>amplifier: number</li>
+<li>displayName: string</li>
+<li>duration: number</li>
 </ul>
 </details>
 
 <details>
 <summary>Effects</summary>
 <ul> 
-	absorption: EffectType
-	badOmen: EffectType
-	blindness: EffectType
-	conduitPower: EffectType
-	empty: EffectType
-	fatalPoison: EffectType
-	fireResistance: EffectType
-	haste: EffectType
-	healthBoost: EffectType
-	hunger: EffectType
-	instantDamage: EffectType
-	instantHealth: EffectType
-	invisibility: EffectType
-	jumpBoost: EffectType
-	levitation: EffectType
-	miningFatigue: EffectType
-	nausea: EffectType
-	nightVision: EffectType
-	poison: EffectType
-	regeneration: EffectType
-	resistance: EffectType
-	saturation: EffectType
-	slowFalling: EffectType
-	slowness: EffectType
-	speed: EffectType
-	strength: EffectType
-	villageHero: EffectType
-	waterBreathing: EffectType
-	weakness: EffectType
-	wither: EffectType
+<li>absorption: EffectType</li>
+<li>badOmen: EffectType</li>
+<li>blindness: EffectType</li>
+<li>conduitPower: EffectType</li>
+<li>empty: EffectType</li>
+<li>fatalPoison: EffectType</li>
+<li>fireResistance: EffectType</li>
+<li>haste: EffectType</li>
+<li>healthBoost: EffectType</li>
+<li>hunger: EffectType</li>
+<li>instantDamage: EffectType</li>
+<li>instantHealth: EffectType</li>
+<li>invisibility: EffectType</li>
+<li>jumpBoost: EffectType</li>
+<li>levitation: EffectType</li>
+<li>miningFatigue: EffectType</li>
+<li>nausea: EffectType</li>
+<li>nightVision: EffectType</li>
+<li>poison: EffectType</li>
+<li>regeneration: EffectType</li>
+<li>resistance: EffectType</li>
+<li>saturation: EffectType</li>
+<li>slowFalling: EffectType</li>
+<li>slowness: EffectType</li>
+<li>speed: EffectType</li>
+<li>strength: EffectType</li>
+<li>villageHero: EffectType</li>
+<li>waterBreathing: EffectType</li>
+<li>weakness: EffectType</li>
+<li>wither: EffectType</li>
 </ul>
 </details>
 
 <details>
 <summary>EffectType</summary>
 <ul> 
-	getName(): string
+<li>getName(): string</li>
 </ul>
 </details>
 
 <details>
 <summary>EmptySignal</summary>
 <ul> 
-	subscribe(callback: () => void): () => void
-	unsubscribe(callback: () => void): void
+<li>subscribe(callback: () => void): () => void</li>
+<li>unsubscribe(callback: () => void): void</li>
 </ul>
 </details>
 
 <details>
 <summary>Entity</summary>
 <ul> 
-	id: string
-	isSneaking: boolean
-	location: Location
-	nameTag: string
-	velocity: Location
-	addEffect(effectType: EffectType, duration: number, amplifier: number): void
-	getComponent(componentId: string): any
-	getComponents(): Array<any>
-	getEffect(effectType: EffectType): Effect
-	hasComponent(componentId: string): boolean
-	kill(): void
-	triggerEvent(eventName: string): void
+<li>id: string</li>
+<li>isSneaking: boolean</li>
+<li>location: Location</li>
+<li>nameTag: string</li>
+<li>velocity: Location</li>
+<li>addEffect(effectType: EffectType, duration: number, amplifier: number): void</li>
+<li>getComponent(componentId: string): any</li>
+<li>getComponents(): Array<any></li>
+<li>getEffect(effectType: EffectType): Effect</li>
+<li>hasComponent(componentId: string): boolean</li>
+<li>kill(): void</li>
+<li>triggerEvent(eventName: string): void</li>
 </ul>
 </details>
 
 <details>
 <summary>EntityDefinitionFeedItem</summary>
 <ul> 
-	growth: number
-	item: string
+<li>growth: number</li>
+<li>item: string</li>
 </ul>
 </details>
 
 <details>
 <summary>EntityEvent</summary>
 <ul> 
-	entity: Entity
+<li>entity: Entity</li>
 </ul>
 </details>
 
 <details>
 <summary>EntityEventSignal</summary>
 <ul> 
-	subscribe(callback: (arg: EntityEvent) => void): (arg: EntityEvent) => void
-	unsubscribe(callback: (arg: EntityEvent) => void): void
+<li>subscribe(callback: (arg: EntityEvent) => void): (arg: EntityEvent) => void</li>
+<li>unsubscribe(callback: (arg: EntityEvent) => void): void</li>
 </ul>
 </details>
 
 <details>
 <summary>Events</summary>
 <ul> 
-	activatePiston: ActivatePistonEventSignal
-	addEffect: AddEffectEventSignal
-	beforeActivatePiston: BeforeActivatePistonEventSignal
-	beforeChat: BeforeChatEventSignal
-	beforeExplosion: BeforeExplosionEventSignal
-	changeWeather: ChangeWeatherEventSignal
-	chat: ChatEventSignal
-	createEntity: EntityEventSignal
-	explodeBlock: ExplodeBlockSignal
-	explosion: ExplosionEventSignal
-	tick: EmptySignal
+<li>activatePiston: ActivatePistonEventSignal</li>
+<li>addEffect: AddEffectEventSignal</li>
+<li>beforeActivatePiston: BeforeActivatePistonEventSignal</li>
+<li>beforeChat: BeforeChatEventSignal</li>
+<li>beforeExplosion: BeforeExplosionEventSignal</li>
+<li>changeWeather: ChangeWeatherEventSignal</li>
+<li>chat: ChatEventSignal</li>
+<li>createEntity: EntityEventSignal</li>
+<li>explodeBlock: ExplodeBlockSignal</li>
+<li>explosion: ExplosionEventSignal</li>
+<li>tick: EmptySignal</li>
 </ul>
 </details>
 
 <details>
 <summary>ExplodeBlockEvent</summary>
 <ul> 
-	destroyedBlock: Block
-	source: Entity
+<li>destroyedBlock: Block</li>
+<li>source: Entity</li>
 </ul>
 </details>
 
 <details>
 <summary>ExplodeBlockSignal</summary>
 <ul> 
-	subscribe(callback: (arg: ExplodeBlockEvent) => void): (arg: ExplodeBlockEvent) => void
-	unsubscribe(callback: (arg: ExplodeBlockEvent) => void): void
+<li>subscribe(callback: (arg: ExplodeBlockEvent) => void): (arg: ExplodeBlockEvent) => void</li>
+<li>unsubscribe(callback: (arg: ExplodeBlockEvent) => void): void</li>
 </ul>
 </details>
 
 <details>
 <summary>ExplosionEvent</summary>
 <ul> 
-	dimension: Dimension
-	impactedBlocks: Array<BlockLocation>
-	source: Entity
+<li>dimension: Dimension</li>
+<li>impactedBlocks: Array<BlockLocation></li>
+<li>source: Entity</li>
 </ul>
 </details>
 
 <details>
 <summary>ExplosionEventSignal</summary>
 <ul> 
-	subscribe(callback: (arg: ExplosionEvent) => void): (arg: ExplosionEvent) => void
-	unsubscribe(callback: (arg: ExplosionEvent) => void): void
+<li>subscribe(callback: (arg: ExplosionEvent) => void): (arg: ExplosionEvent) => void</li>
+<li>unsubscribe(callback: (arg: ExplosionEvent) => void): void</li>
 </ul>
 </details>
 
 <details>
 <summary>ExplosionOptions</summary>
 <ul> 
-	allowUnderwater: boolean
-	breaksBlocks: boolean
-	causesFire: boolean
-	source: Entity
+<li>allowUnderwater: boolean</li>
+<li>breaksBlocks: boolean</li>
+<li>causesFire: boolean</li>
+<li>source: Entity</li>
 	constructor()
 </ul>
 </details>
@@ -1303,19 +1303,19 @@
 <details>
 <summary>FeedItem</summary>
 <ul> 
-	effects: Array<FeedItemEffect>
-	healAmount: number
-	item: string
+<li>effects: Array<FeedItemEffect></li>
+<li>healAmount: number</li>
+<li>item: string</li>
 </ul>
 </details>
 
 <details>
 <summary>FeedItemEffect</summary>
 <ul> 
-	amplifier: number
-	chance: number
-	duration: number
-	name: string
+<li>amplifier: number</li>
+<li>chance: number</li>
+<li>duration: number</li>
+<li>name: string</li>
 </ul>
 </details>
 
@@ -1328,2599 +1328,2599 @@
 <details>
 <summary>FlyingSpeed</summary>
 <ul> 
-	id: string
-	value: number
+<li>id: string</li>
+<li>value: number</li>
 </ul>
 </details>
 
 <details>
 <summary>Healable</summary>
 <ul> 
-	filters: FilterGroup
-	forceUse: boolean
-	id: string
-	items: Array<FeedItem>
+<li>filters: FilterGroup</li>
+<li>forceUse: boolean</li>
+<li>id: string</li>
+<li>items: Array<FeedItem></li>
 </ul>
 </details>
 
 <details>
 <summary>Health</summary>
 <ul> 
-	current: number
-	id: string
-	value: number
-	resetToDefaultValue(): void
-	resetToMaxValue(): void
-	resetToMinValue(): void
-	setCurrent(): void
+<li>current: number</li>
+<li>id: string</li>
+<li>value: number</li>
+<li>resetToDefaultValue(): void</li>
+<li>resetToMaxValue(): void</li>
+<li>resetToMinValue(): void</li>
+<li>setCurrent(): void</li>
 </ul>
 </details>
 
 <details>
 <summary>IntBlockProperty</summary>
 <ul> 
-	name: string
-	validValues: Array<number>
-	value: number
+<li>name: string</li>
+<li>validValues: Array<number></li>
+<li>value: number</li>
 </ul>
 </details>
 
 <details>
 <summary>Inventory</summary>
 <ul> 
-	additionalSlotsPerStrength: number
-	canBeSiphonedFrom: boolean
-	container: InventoryComponentContainer
-	containerType: string
-	inventorySize: number
-	private: boolean
-	restrictToOwner: boolean
+<li>additionalSlotsPerStrength: number</li>
+<li>canBeSiphonedFrom: boolean</li>
+<li>container: InventoryComponentContainer</li>
+<li>containerType: string</li>
+<li>inventorySize: number</li>
+<li>private: boolean</li>
+<li>restrictToOwner: boolean</li>
 </ul>
 </details>
 
 <details>
 <summary>InventoryComponentContainer</summary>
 <ul> 
-	emptySlotsCount: number
-	size: number
-	addItem(itemStack: ItemStack): void
-	getItem(slot: number): ItemStack
-	setItem(slot: number, itemStack: ItemStack): void
-	swapItems(slot: number, otherSlot: number, otherContainer: Container): boolean
-	transferItem(fromSlot: number, toSlot: number, toContainer: Container): boolean
+<li>emptySlotsCount: number</li>
+<li>size: number</li>
+<li>addItem(itemStack: ItemStack): void</li>
+<li>getItem(slot: number): ItemStack</li>
+<li>setItem(slot: number, itemStack: ItemStack): void</li>
+<li>swapItems(slot: number, otherSlot: number, otherContainer: Container): boolean</li>
+<li>transferItem(fromSlot: number, toSlot: number, toContainer: Container): boolean</li>
 </ul>
 </details>
 
 <details>
 <summary>Items</summary>
 <ul> 
-	acaciaBoat: ItemType
-	acaciaButton: ItemType
-	acaciaDoor: ItemType
-	acaciaFenceGate: ItemType
-	acaciaPressurePlate: ItemType
-	acaciaSign: ItemType
-	acaciaStairs: ItemType
-	acaciaStandingSign: ItemType
-	acaciaTrapdoor: ItemType
-	acaciaWallSign: ItemType
-	activatorRail: ItemType
-	agentSpawnEgg: ItemType
-	air: ItemType
-	allow: ItemType
-	amethystBlock: ItemType
-	amethystCluster: ItemType
-	amethystShard: ItemType
-	ancientDebris: ItemType
-	andesiteStairs: ItemType
-	anvil: ItemType
-	apple: ItemType
-	armorStand: ItemType
-	arrow: ItemType
-	axolotlBucket: ItemType
-	axolotlSpawnEgg: ItemType
-	azalea: ItemType
-	azaleaLeaves: ItemType
-	azaleaLeavesFlowered: ItemType
-	bakedPotato: ItemType
-	balloon: ItemType
-	bamboo: ItemType
-	bambooSapling: ItemType
-	banner: ItemType
-	bannerPattern: ItemType
-	barrel: ItemType
-	barrier: ItemType
-	basalt: ItemType
-	batSpawnEgg: ItemType
-	beacon: ItemType
-	bed: ItemType
-	bedrock: ItemType
-	beef: ItemType
-	beehive: ItemType
-	beeNest: ItemType
-	beeSpawnEgg: ItemType
-	beetroot: ItemType
-	beetrootSeeds: ItemType
-	beetrootSoup: ItemType
-	bell: ItemType
-	bigDripleaf: ItemType
-	birchBoat: ItemType
-	birchButton: ItemType
-	birchDoor: ItemType
-	birchFenceGate: ItemType
-	birchPressurePlate: ItemType
-	birchSign: ItemType
-	birchStairs: ItemType
-	birchStandingSign: ItemType
-	birchTrapdoor: ItemType
-	birchWallSign: ItemType
-	blackCandle: ItemType
-	blackCandleCake: ItemType
-	blackDye: ItemType
-	blackGlazedTerracotta: ItemType
-	blackstone: ItemType
-	blackstoneDoubleSlab: ItemType
-	blackstoneSlab: ItemType
-	blackstoneStairs: ItemType
-	blackstoneWall: ItemType
-	blastFurnace: ItemType
-	blazePowder: ItemType
-	blazeRod: ItemType
-	blazeSpawnEgg: ItemType
-	bleach: ItemType
-	blueCandle: ItemType
-	blueCandleCake: ItemType
-	blueDye: ItemType
-	blueGlazedTerracotta: ItemType
-	blueIce: ItemType
-	boat: ItemType
-	bone: ItemType
-	boneBlock: ItemType
-	boneMeal: ItemType
-	book: ItemType
-	bookshelf: ItemType
-	borderBlock: ItemType
-	bordureIndentedBannerPattern: ItemType
-	bow: ItemType
-	bowl: ItemType
-	bread: ItemType
-	brewingStand: ItemType
-	brewingstandblock: ItemType
-	brick: ItemType
-	brickBlock: ItemType
-	brickStairs: ItemType
-	brownCandle: ItemType
-	brownCandleCake: ItemType
-	brownDye: ItemType
-	brownGlazedTerracotta: ItemType
-	brownMushroom: ItemType
-	brownMushroomBlock: ItemType
-	bubbleColumn: ItemType
-	bucket: ItemType
-	buddingAmethyst: ItemType
-	cactus: ItemType
-	cake: ItemType
-	calcite: ItemType
-	camera: ItemType
-	campfire: ItemType
-	candle: ItemType
-	candleCake: ItemType
-	carpet: ItemType
-	carrot: ItemType
-	carrotOnAStick: ItemType
-	carrots: ItemType
-	cartographyTable: ItemType
-	carvedPumpkin: ItemType
-	catSpawnEgg: ItemType
-	cauldron: ItemType
-	caveSpiderSpawnEgg: ItemType
-	caveVines: ItemType
-	caveVinesBodyWithBerries: ItemType
-	caveVinesHeadWithBerries: ItemType
-	chain: ItemType
-	chainCommandBlock: ItemType
-	chainmailBoots: ItemType
-	chainmailChestplate: ItemType
-	chainmailHelmet: ItemType
-	chainmailLeggings: ItemType
-	charcoal: ItemType
-	chemicalHeat: ItemType
-	chemistryTable: ItemType
-	chest: ItemType
-	chestMinecart: ItemType
-	chicken: ItemType
-	chickenSpawnEgg: ItemType
-	chiseledDeepslate: ItemType
-	chiseledNetherBricks: ItemType
-	chiseledPolishedBlackstone: ItemType
-	chorusFlower: ItemType
-	chorusFruit: ItemType
-	chorusPlant: ItemType
-	clay: ItemType
-	clayBall: ItemType
-	clock: ItemType
-	coal: ItemType
-	coalBlock: ItemType
-	coalOre: ItemType
-	cobbledDeepslate: ItemType
-	cobbledDeepslateDoubleSlab: ItemType
-	cobbledDeepslateSlab: ItemType
-	cobbledDeepslateStairs: ItemType
-	cobbledDeepslateWall: ItemType
-	cobblestone: ItemType
-	cobblestoneWall: ItemType
-	cocoa: ItemType
-	cocoaBeans: ItemType
-	cod: ItemType
-	codBucket: ItemType
-	codSpawnEgg: ItemType
-	coloredTorchBp: ItemType
-	coloredTorchRg: ItemType
-	commandBlock: ItemType
-	commandBlockMinecart: ItemType
-	comparator: ItemType
-	compass: ItemType
-	composter: ItemType
-	compound: ItemType
-	concrete: ItemType
-	concretePowder: ItemType
-	conduit: ItemType
-	cookedBeef: ItemType
-	cookedChicken: ItemType
-	cookedCod: ItemType
-	cookedMutton: ItemType
-	cookedPorkchop: ItemType
-	cookedRabbit: ItemType
-	cookedSalmon: ItemType
-	cookie: ItemType
-	copperBlock: ItemType
-	copperIngot: ItemType
-	copperOre: ItemType
-	coral: ItemType
-	coralBlock: ItemType
-	coralFan: ItemType
-	coralFanDead: ItemType
-	coralFanHang: ItemType
-	coralFanHang2: ItemType
-	coralFanHang3: ItemType
-	cowSpawnEgg: ItemType
-	crackedDeepslateBricks: ItemType
-	crackedDeepslateTiles: ItemType
-	crackedNetherBricks: ItemType
-	crackedPolishedBlackstoneBricks: ItemType
-	craftingTable: ItemType
-	creeperBannerPattern: ItemType
-	creeperSpawnEgg: ItemType
-	crimsonButton: ItemType
-	crimsonDoor: ItemType
-	crimsonDoubleSlab: ItemType
-	crimsonFence: ItemType
-	crimsonFenceGate: ItemType
-	crimsonFungus: ItemType
-	crimsonHyphae: ItemType
-	crimsonNylium: ItemType
-	crimsonPlanks: ItemType
-	crimsonPressurePlate: ItemType
-	crimsonRoots: ItemType
-	crimsonSign: ItemType
-	crimsonSlab: ItemType
-	crimsonStairs: ItemType
-	crimsonStandingSign: ItemType
-	crimsonStem: ItemType
-	crimsonTrapdoor: ItemType
-	crimsonWallSign: ItemType
-	crossbow: ItemType
-	cryingObsidian: ItemType
-	cutCopper: ItemType
-	cutCopperSlab: ItemType
-	cutCopperStairs: ItemType
-	cyanCandle: ItemType
-	cyanCandleCake: ItemType
-	cyanDye: ItemType
-	cyanGlazedTerracotta: ItemType
-	darkOakBoat: ItemType
-	darkOakButton: ItemType
-	darkOakDoor: ItemType
-	darkOakFenceGate: ItemType
-	darkOakPressurePlate: ItemType
-	darkOakSign: ItemType
-	darkOakStairs: ItemType
-	darkoakStandingSign: ItemType
-	darkOakTrapdoor: ItemType
-	darkoakWallSign: ItemType
-	darkPrismarineStairs: ItemType
-	daylightDetector: ItemType
-	daylightDetectorInverted: ItemType
-	deadbush: ItemType
-	debugStick: ItemType
-	deepslate: ItemType
-	deepslateBrickDoubleSlab: ItemType
-	deepslateBricks: ItemType
-	deepslateBrickSlab: ItemType
-	deepslateBrickStairs: ItemType
-	deepslateBrickWall: ItemType
-	deepslateCoalOre: ItemType
-	deepslateCopperOre: ItemType
-	deepslateDiamondOre: ItemType
-	deepslateEmeraldOre: ItemType
-	deepslateGoldOre: ItemType
-	deepslateIronOre: ItemType
-	deepslateLapisOre: ItemType
-	deepslateRedstoneOre: ItemType
-	deepslateTileDoubleSlab: ItemType
-	deepslateTiles: ItemType
-	deepslateTileSlab: ItemType
-	deepslateTileStairs: ItemType
-	deepslateTileWall: ItemType
-	deny: ItemType
-	detectorRail: ItemType
-	diamond: ItemType
-	diamondAxe: ItemType
-	diamondBlock: ItemType
-	diamondBoots: ItemType
-	diamondChestplate: ItemType
-	diamondHelmet: ItemType
-	diamondHoe: ItemType
-	diamondHorseArmor: ItemType
-	diamondLeggings: ItemType
-	diamondOre: ItemType
-	diamondPickaxe: ItemType
-	diamondShovel: ItemType
-	diamondSword: ItemType
-	dioriteStairs: ItemType
-	dirt: ItemType
-	dirtWithRoots: ItemType
-	dispenser: ItemType
-	dolphinSpawnEgg: ItemType
-	donkeySpawnEgg: ItemType
-	doubleCutCopperSlab: ItemType
-	doublePlant: ItemType
-	doubleStoneSlab: ItemType
-	doubleStoneSlab2: ItemType
-	doubleStoneSlab3: ItemType
-	doubleStoneSlab4: ItemType
-	doubleWoodenSlab: ItemType
-	dragonBreath: ItemType
-	dragonEgg: ItemType
-	driedKelp: ItemType
-	driedKelpBlock: ItemType
-	dripstoneBlock: ItemType
-	dropper: ItemType
-	drownedSpawnEgg: ItemType
-	dye: ItemType
-	egg: ItemType
-	elderGuardianSpawnEgg: ItemType
-	element0: ItemType
-	element1: ItemType
-	element10: ItemType
-	element100: ItemType
-	element101: ItemType
-	element102: ItemType
-	element103: ItemType
-	element104: ItemType
-	element105: ItemType
-	element106: ItemType
-	element107: ItemType
-	element108: ItemType
-	element109: ItemType
-	element11: ItemType
-	element110: ItemType
-	element111: ItemType
-	element112: ItemType
-	element113: ItemType
-	element114: ItemType
-	element115: ItemType
-	element116: ItemType
-	element117: ItemType
-	element118: ItemType
-	element12: ItemType
-	element13: ItemType
-	element14: ItemType
-	element15: ItemType
-	element16: ItemType
-	element17: ItemType
-	element18: ItemType
-	element19: ItemType
-	element2: ItemType
-	element20: ItemType
-	element21: ItemType
-	element22: ItemType
-	element23: ItemType
-	element24: ItemType
-	element25: ItemType
-	element26: ItemType
-	element27: ItemType
-	element28: ItemType
-	element29: ItemType
-	element3: ItemType
-	element30: ItemType
-	element31: ItemType
-	element32: ItemType
-	element33: ItemType
-	element34: ItemType
-	element35: ItemType
-	element36: ItemType
-	element37: ItemType
-	element38: ItemType
-	element39: ItemType
-	element4: ItemType
-	element40: ItemType
-	element41: ItemType
-	element42: ItemType
-	element43: ItemType
-	element44: ItemType
-	element45: ItemType
-	element46: ItemType
-	element47: ItemType
-	element48: ItemType
-	element49: ItemType
-	element5: ItemType
-	element50: ItemType
-	element51: ItemType
-	element52: ItemType
-	element53: ItemType
-	element54: ItemType
-	element55: ItemType
-	element56: ItemType
-	element57: ItemType
-	element58: ItemType
-	element59: ItemType
-	element6: ItemType
-	element60: ItemType
-	element61: ItemType
-	element62: ItemType
-	element63: ItemType
-	element64: ItemType
-	element65: ItemType
-	element66: ItemType
-	element67: ItemType
-	element68: ItemType
-	element69: ItemType
-	element7: ItemType
-	element70: ItemType
-	element71: ItemType
-	element72: ItemType
-	element73: ItemType
-	element74: ItemType
-	element75: ItemType
-	element76: ItemType
-	element77: ItemType
-	element78: ItemType
-	element79: ItemType
-	element8: ItemType
-	element80: ItemType
-	element81: ItemType
-	element82: ItemType
-	element83: ItemType
-	element84: ItemType
-	element85: ItemType
-	element86: ItemType
-	element87: ItemType
-	element88: ItemType
-	element89: ItemType
-	element9: ItemType
-	element90: ItemType
-	element91: ItemType
-	element92: ItemType
-	element93: ItemType
-	element94: ItemType
-	element95: ItemType
-	element96: ItemType
-	element97: ItemType
-	element98: ItemType
-	element99: ItemType
-	elytra: ItemType
-	emerald: ItemType
-	emeraldBlock: ItemType
-	emeraldOre: ItemType
-	emptyMap: ItemType
-	enchantedBook: ItemType
-	enchantedGoldenApple: ItemType
-	enchantingTable: ItemType
-	endBricks: ItemType
-	endBrickStairs: ItemType
-	endCrystal: ItemType
-	enderChest: ItemType
-	enderEye: ItemType
-	endermanSpawnEgg: ItemType
-	endermiteSpawnEgg: ItemType
-	enderPearl: ItemType
-	endGateway: ItemType
-	endPortal: ItemType
-	endPortalFrame: ItemType
-	endRod: ItemType
-	endStone: ItemType
-	evokerSpawnEgg: ItemType
-	experienceBottle: ItemType
-	exposedCopper: ItemType
-	exposedCutCopper: ItemType
-	exposedCutCopperSlab: ItemType
-	exposedCutCopperStairs: ItemType
-	exposedDoubleCutCopperSlab: ItemType
-	farmland: ItemType
-	feather: ItemType
-	fence: ItemType
-	fenceGate: ItemType
-	fermentedSpiderEye: ItemType
-	fieldMasonedBannerPattern: ItemType
-	filledMap: ItemType
-	fire: ItemType
-	fireCharge: ItemType
-	fireworkRocket: ItemType
-	fireworkStar: ItemType
-	fishingRod: ItemType
-	fletchingTable: ItemType
-	flint: ItemType
-	flintAndSteel: ItemType
-	flowerBannerPattern: ItemType
-	floweringAzalea: ItemType
-	flowerPot: ItemType
-	flowingLava: ItemType
-	flowingWater: ItemType
-	foxSpawnEgg: ItemType
-	frame: ItemType
-	frostedIce: ItemType
-	furnace: ItemType
-	ghastSpawnEgg: ItemType
-	ghastTear: ItemType
-	gildedBlackstone: ItemType
-	glass: ItemType
-	glassBottle: ItemType
-	glassPane: ItemType
-	glisteringMelonSlice: ItemType
-	glowBerries: ItemType
-	glowFrame: ItemType
-	glowingobsidian: ItemType
-	glowInkSac: ItemType
-	glowLichen: ItemType
-	glowSquidSpawnEgg: ItemType
-	glowStick: ItemType
-	glowstone: ItemType
-	glowstoneDust: ItemType
-	goatHorn: ItemType
-	goatSpawnEgg: ItemType
-	goldBlock: ItemType
-	goldenApple: ItemType
-	goldenAxe: ItemType
-	goldenBoots: ItemType
-	goldenCarrot: ItemType
-	goldenChestplate: ItemType
-	goldenHelmet: ItemType
-	goldenHoe: ItemType
-	goldenHorseArmor: ItemType
-	goldenLeggings: ItemType
-	goldenPickaxe: ItemType
-	goldenRail: ItemType
-	goldenShovel: ItemType
-	goldenSword: ItemType
-	goldIngot: ItemType
-	goldNugget: ItemType
-	goldOre: ItemType
-	graniteStairs: ItemType
-	grass: ItemType
-	grassPath: ItemType
-	gravel: ItemType
-	grayCandle: ItemType
-	grayCandleCake: ItemType
-	grayDye: ItemType
-	grayGlazedTerracotta: ItemType
-	greenCandle: ItemType
-	greenCandleCake: ItemType
-	greenDye: ItemType
-	greenGlazedTerracotta: ItemType
-	grindstone: ItemType
-	guardianSpawnEgg: ItemType
-	gunpowder: ItemType
-	hangingRoots: ItemType
-	hardenedClay: ItemType
-	hardGlass: ItemType
-	hardGlassPane: ItemType
-	hardStainedGlass: ItemType
-	hardStainedGlassPane: ItemType
-	hayBlock: ItemType
-	heartOfTheSea: ItemType
-	heavyWeightedPressurePlate: ItemType
-	hoglinSpawnEgg: ItemType
-	honeyBlock: ItemType
-	honeyBottle: ItemType
-	honeycomb: ItemType
-	honeycombBlock: ItemType
-	hopper: ItemType
-	hopperMinecart: ItemType
-	horseSpawnEgg: ItemType
-	huskSpawnEgg: ItemType
-	ice: ItemType
-	iceBomb: ItemType
-	infestedDeepslate: ItemType
-	infoUpdate: ItemType
-	infoUpdate2: ItemType
-	inkSac: ItemType
-	invisiblebedrock: ItemType
-	ironAxe: ItemType
-	ironBars: ItemType
-	ironBlock: ItemType
-	ironBoots: ItemType
-	ironChestplate: ItemType
-	ironDoor: ItemType
-	ironHelmet: ItemType
-	ironHoe: ItemType
-	ironHorseArmor: ItemType
-	ironIngot: ItemType
-	ironLeggings: ItemType
-	ironNugget: ItemType
-	ironOre: ItemType
-	ironPickaxe: ItemType
-	ironShovel: ItemType
-	ironSword: ItemType
-	ironTrapdoor: ItemType
-	item.acaciaDoor: ItemType
-	item.bed: ItemType
-	item.beetroot: ItemType
-	item.birchDoor: ItemType
-	item.cake: ItemType
-	item.camera: ItemType
-	item.campfire: ItemType
-	item.cauldron: ItemType
-	item.chain: ItemType
-	item.crimsonDoor: ItemType
-	item.darkOakDoor: ItemType
-	item.flowerPot: ItemType
-	item.frame: ItemType
-	item.glowFrame: ItemType
-	item.hopper: ItemType
-	item.ironDoor: ItemType
-	item.jungleDoor: ItemType
-	item.kelp: ItemType
-	item.netherSprouts: ItemType
-	item.netherWart: ItemType
-	item.reeds: ItemType
-	item.skull: ItemType
-	item.soulCampfire: ItemType
-	item.spruceDoor: ItemType
-	item.warpedDoor: ItemType
-	item.wheat: ItemType
-	item.woodenDoor: ItemType
-	jigsaw: ItemType
-	jukebox: ItemType
-	jungleBoat: ItemType
-	jungleButton: ItemType
-	jungleDoor: ItemType
-	jungleFenceGate: ItemType
-	junglePressurePlate: ItemType
-	jungleSign: ItemType
-	jungleStairs: ItemType
-	jungleStandingSign: ItemType
-	jungleTrapdoor: ItemType
-	jungleWallSign: ItemType
-	kelp: ItemType
-	ladder: ItemType
-	lantern: ItemType
-	lapisBlock: ItemType
-	lapisLazuli: ItemType
-	lapisOre: ItemType
-	largeAmethystBud: ItemType
-	lava: ItemType
-	lavaBucket: ItemType
-	lavaCauldron: ItemType
-	lead: ItemType
-	leather: ItemType
-	leatherBoots: ItemType
-	leatherChestplate: ItemType
-	leatherHelmet: ItemType
-	leatherHorseArmor: ItemType
-	leatherLeggings: ItemType
-	leaves: ItemType
-	leaves2: ItemType
-	lectern: ItemType
-	lever: ItemType
-	lightBlock: ItemType
-	lightBlueCandle: ItemType
-	lightBlueCandleCake: ItemType
-	lightBlueDye: ItemType
-	lightBlueGlazedTerracotta: ItemType
-	lightGrayCandle: ItemType
-	lightGrayCandleCake: ItemType
-	lightGrayDye: ItemType
-	lightningRod: ItemType
-	lightWeightedPressurePlate: ItemType
-	limeCandle: ItemType
-	limeCandleCake: ItemType
-	limeDye: ItemType
-	limeGlazedTerracotta: ItemType
-	lingeringPotion: ItemType
-	litBlastFurnace: ItemType
-	litDeepslateRedstoneOre: ItemType
-	litFurnace: ItemType
-	litPumpkin: ItemType
-	litRedstoneLamp: ItemType
-	litRedstoneOre: ItemType
-	litSmoker: ItemType
-	llamaSpawnEgg: ItemType
-	lodestone: ItemType
-	lodestoneCompass: ItemType
-	log: ItemType
-	log2: ItemType
-	loom: ItemType
-	magentaCandle: ItemType
-	magentaCandleCake: ItemType
-	magentaDye: ItemType
-	magentaGlazedTerracotta: ItemType
-	magma: ItemType
-	magmaCream: ItemType
-	magmaCubeSpawnEgg: ItemType
-	medicine: ItemType
-	mediumAmethystBud: ItemType
-	melonBlock: ItemType
-	melonSeeds: ItemType
-	melonSlice: ItemType
-	melonStem: ItemType
-	milkBucket: ItemType
-	minecart: ItemType
-	minecraft:acacia_boat: ItemType
-	minecraft:acacia_button: ItemType
-	minecraft:acacia_door: ItemType
-	minecraft:acacia_fence_gate: ItemType
-	minecraft:acacia_pressure_plate: ItemType
-	minecraft:acacia_sign: ItemType
-	minecraft:acacia_stairs: ItemType
-	minecraft:acacia_standing_sign: ItemType
-	minecraft:acacia_trapdoor: ItemType
-	minecraft:acacia_wall_sign: ItemType
-	minecraft:activator_rail: ItemType
-	minecraft:agent_spawn_egg: ItemType
-	minecraft:air: ItemType
-	minecraft:allow: ItemType
-	minecraft:amethyst_block: ItemType
-	minecraft:amethyst_cluster: ItemType
-	minecraft:amethyst_shard: ItemType
-	minecraft:ancient_debris: ItemType
-	minecraft:andesite_stairs: ItemType
-	minecraft:anvil: ItemType
-	minecraft:apple: ItemType
-	minecraft:armor_stand: ItemType
-	minecraft:arrow: ItemType
-	minecraft:axolotl_bucket: ItemType
-	minecraft:axolotl_spawn_egg: ItemType
-	minecraft:azalea: ItemType
-	minecraft:azalea_leaves: ItemType
-	minecraft:azalea_leaves_flowered: ItemType
-	minecraft:baked_potato: ItemType
-	minecraft:balloon: ItemType
-	minecraft:bamboo: ItemType
-	minecraft:bamboo_sapling: ItemType
-	minecraft:banner: ItemType
-	minecraft:banner_pattern: ItemType
-	minecraft:barrel: ItemType
-	minecraft:barrier: ItemType
-	minecraft:basalt: ItemType
-	minecraft:bat_spawn_egg: ItemType
-	minecraft:beacon: ItemType
-	minecraft:bed: ItemType
-	minecraft:bedrock: ItemType
-	minecraft:bee_nest: ItemType
-	minecraft:bee_spawn_egg: ItemType
-	minecraft:beef: ItemType
-	minecraft:beehive: ItemType
-	minecraft:beetroot: ItemType
-	minecraft:beetroot_seeds: ItemType
-	minecraft:beetroot_soup: ItemType
-	minecraft:bell: ItemType
-	minecraft:big_dripleaf: ItemType
-	minecraft:birch_boat: ItemType
-	minecraft:birch_button: ItemType
-	minecraft:birch_door: ItemType
-	minecraft:birch_fence_gate: ItemType
-	minecraft:birch_pressure_plate: ItemType
-	minecraft:birch_sign: ItemType
-	minecraft:birch_stairs: ItemType
-	minecraft:birch_standing_sign: ItemType
-	minecraft:birch_trapdoor: ItemType
-	minecraft:birch_wall_sign: ItemType
-	minecraft:black_candle: ItemType
-	minecraft:black_candle_cake: ItemType
-	minecraft:black_dye: ItemType
-	minecraft:black_glazed_terracotta: ItemType
-	minecraft:blackstone: ItemType
-	minecraft:blackstone_double_slab: ItemType
-	minecraft:blackstone_slab: ItemType
-	minecraft:blackstone_stairs: ItemType
-	minecraft:blackstone_wall: ItemType
-	minecraft:blast_furnace: ItemType
-	minecraft:blaze_powder: ItemType
-	minecraft:blaze_rod: ItemType
-	minecraft:blaze_spawn_egg: ItemType
-	minecraft:bleach: ItemType
-	minecraft:blue_candle: ItemType
-	minecraft:blue_candle_cake: ItemType
-	minecraft:blue_dye: ItemType
-	minecraft:blue_glazed_terracotta: ItemType
-	minecraft:blue_ice: ItemType
-	minecraft:boat: ItemType
-	minecraft:bone: ItemType
-	minecraft:bone_block: ItemType
-	minecraft:bone_meal: ItemType
-	minecraft:book: ItemType
-	minecraft:bookshelf: ItemType
-	minecraft:border_block: ItemType
-	minecraft:bordure_indented_banner_pattern: ItemType
-	minecraft:bow: ItemType
-	minecraft:bowl: ItemType
-	minecraft:bread: ItemType
-	minecraft:brewing_stand: ItemType
-	minecraft:brewingstandblock: ItemType
-	minecraft:brick: ItemType
-	minecraft:brick_block: ItemType
-	minecraft:brick_stairs: ItemType
-	minecraft:brown_candle: ItemType
-	minecraft:brown_candle_cake: ItemType
-	minecraft:brown_dye: ItemType
-	minecraft:brown_glazed_terracotta: ItemType
-	minecraft:brown_mushroom: ItemType
-	minecraft:brown_mushroom_block: ItemType
-	minecraft:bubble_column: ItemType
-	minecraft:bucket: ItemType
-	minecraft:budding_amethyst: ItemType
-	minecraft:cactus: ItemType
-	minecraft:cake: ItemType
-	minecraft:calcite: ItemType
-	minecraft:camera: ItemType
-	minecraft:campfire: ItemType
-	minecraft:candle: ItemType
-	minecraft:candle_cake: ItemType
-	minecraft:carpet: ItemType
-	minecraft:carrot: ItemType
-	minecraft:carrot_on_a_stick: ItemType
-	minecraft:carrots: ItemType
-	minecraft:cartography_table: ItemType
-	minecraft:carved_pumpkin: ItemType
-	minecraft:cat_spawn_egg: ItemType
-	minecraft:cauldron: ItemType
-	minecraft:cave_spider_spawn_egg: ItemType
-	minecraft:cave_vines: ItemType
-	minecraft:cave_vines_body_with_berries: ItemType
-	minecraft:cave_vines_head_with_berries: ItemType
-	minecraft:chain: ItemType
-	minecraft:chain_command_block: ItemType
-	minecraft:chainmail_boots: ItemType
-	minecraft:chainmail_chestplate: ItemType
-	minecraft:chainmail_helmet: ItemType
-	minecraft:chainmail_leggings: ItemType
-	minecraft:charcoal: ItemType
-	minecraft:chemical_heat: ItemType
-	minecraft:chemistry_table: ItemType
-	minecraft:chest: ItemType
-	minecraft:chest_minecart: ItemType
-	minecraft:chicken: ItemType
-	minecraft:chicken_spawn_egg: ItemType
-	minecraft:chiseled_deepslate: ItemType
-	minecraft:chiseled_nether_bricks: ItemType
-	minecraft:chiseled_polished_blackstone: ItemType
-	minecraft:chorus_flower: ItemType
-	minecraft:chorus_fruit: ItemType
-	minecraft:chorus_plant: ItemType
-	minecraft:clay: ItemType
-	minecraft:clay_ball: ItemType
-	minecraft:clock: ItemType
-	minecraft:coal: ItemType
-	minecraft:coal_block: ItemType
-	minecraft:coal_ore: ItemType
-	minecraft:cobbled_deepslate: ItemType
-	minecraft:cobbled_deepslate_double_slab: ItemType
-	minecraft:cobbled_deepslate_slab: ItemType
-	minecraft:cobbled_deepslate_stairs: ItemType
-	minecraft:cobbled_deepslate_wall: ItemType
-	minecraft:cobblestone: ItemType
-	minecraft:cobblestone_wall: ItemType
-	minecraft:cocoa: ItemType
-	minecraft:cocoa_beans: ItemType
-	minecraft:cod: ItemType
-	minecraft:cod_bucket: ItemType
-	minecraft:cod_spawn_egg: ItemType
-	minecraft:colored_torch_bp: ItemType
-	minecraft:colored_torch_rg: ItemType
-	minecraft:command_block: ItemType
-	minecraft:command_block_minecart: ItemType
-	minecraft:comparator: ItemType
-	minecraft:compass: ItemType
-	minecraft:composter: ItemType
-	minecraft:compound: ItemType
-	minecraft:concrete: ItemType
-	minecraft:concrete_powder: ItemType
-	minecraft:conduit: ItemType
-	minecraft:cooked_beef: ItemType
-	minecraft:cooked_chicken: ItemType
-	minecraft:cooked_cod: ItemType
-	minecraft:cooked_mutton: ItemType
-	minecraft:cooked_porkchop: ItemType
-	minecraft:cooked_rabbit: ItemType
-	minecraft:cooked_salmon: ItemType
-	minecraft:cookie: ItemType
-	minecraft:copper_block: ItemType
-	minecraft:copper_ingot: ItemType
-	minecraft:copper_ore: ItemType
-	minecraft:coral: ItemType
-	minecraft:coral_block: ItemType
-	minecraft:coral_fan: ItemType
-	minecraft:coral_fan_dead: ItemType
-	minecraft:coral_fan_hang: ItemType
-	minecraft:coral_fan_hang2: ItemType
-	minecraft:coral_fan_hang3: ItemType
-	minecraft:cow_spawn_egg: ItemType
-	minecraft:cracked_deepslate_bricks: ItemType
-	minecraft:cracked_deepslate_tiles: ItemType
-	minecraft:cracked_nether_bricks: ItemType
-	minecraft:cracked_polished_blackstone_bricks: ItemType
-	minecraft:crafting_table: ItemType
-	minecraft:creeper_banner_pattern: ItemType
-	minecraft:creeper_spawn_egg: ItemType
-	minecraft:crimson_button: ItemType
-	minecraft:crimson_door: ItemType
-	minecraft:crimson_double_slab: ItemType
-	minecraft:crimson_fence: ItemType
-	minecraft:crimson_fence_gate: ItemType
-	minecraft:crimson_fungus: ItemType
-	minecraft:crimson_hyphae: ItemType
-	minecraft:crimson_nylium: ItemType
-	minecraft:crimson_planks: ItemType
-	minecraft:crimson_pressure_plate: ItemType
-	minecraft:crimson_roots: ItemType
-	minecraft:crimson_sign: ItemType
-	minecraft:crimson_slab: ItemType
-	minecraft:crimson_stairs: ItemType
-	minecraft:crimson_standing_sign: ItemType
-	minecraft:crimson_stem: ItemType
-	minecraft:crimson_trapdoor: ItemType
-	minecraft:crimson_wall_sign: ItemType
-	minecraft:crossbow: ItemType
-	minecraft:crying_obsidian: ItemType
-	minecraft:cut_copper: ItemType
-	minecraft:cut_copper_slab: ItemType
-	minecraft:cut_copper_stairs: ItemType
-	minecraft:cyan_candle: ItemType
-	minecraft:cyan_candle_cake: ItemType
-	minecraft:cyan_dye: ItemType
-	minecraft:cyan_glazed_terracotta: ItemType
-	minecraft:dark_oak_boat: ItemType
-	minecraft:dark_oak_button: ItemType
-	minecraft:dark_oak_door: ItemType
-	minecraft:dark_oak_fence_gate: ItemType
-	minecraft:dark_oak_pressure_plate: ItemType
-	minecraft:dark_oak_sign: ItemType
-	minecraft:dark_oak_stairs: ItemType
-	minecraft:dark_oak_trapdoor: ItemType
-	minecraft:dark_prismarine_stairs: ItemType
-	minecraft:darkoak_standing_sign: ItemType
-	minecraft:darkoak_wall_sign: ItemType
-	minecraft:daylight_detector: ItemType
-	minecraft:daylight_detector_inverted: ItemType
-	minecraft:deadbush: ItemType
-	minecraft:debug_stick: ItemType
-	minecraft:deepslate: ItemType
-	minecraft:deepslate_brick_double_slab: ItemType
-	minecraft:deepslate_brick_slab: ItemType
-	minecraft:deepslate_brick_stairs: ItemType
-	minecraft:deepslate_brick_wall: ItemType
-	minecraft:deepslate_bricks: ItemType
-	minecraft:deepslate_coal_ore: ItemType
-	minecraft:deepslate_copper_ore: ItemType
-	minecraft:deepslate_diamond_ore: ItemType
-	minecraft:deepslate_emerald_ore: ItemType
-	minecraft:deepslate_gold_ore: ItemType
-	minecraft:deepslate_iron_ore: ItemType
-	minecraft:deepslate_lapis_ore: ItemType
-	minecraft:deepslate_redstone_ore: ItemType
-	minecraft:deepslate_tile_double_slab: ItemType
-	minecraft:deepslate_tile_slab: ItemType
-	minecraft:deepslate_tile_stairs: ItemType
-	minecraft:deepslate_tile_wall: ItemType
-	minecraft:deepslate_tiles: ItemType
-	minecraft:deny: ItemType
-	minecraft:detector_rail: ItemType
-	minecraft:diamond: ItemType
-	minecraft:diamond_axe: ItemType
-	minecraft:diamond_block: ItemType
-	minecraft:diamond_boots: ItemType
-	minecraft:diamond_chestplate: ItemType
-	minecraft:diamond_helmet: ItemType
-	minecraft:diamond_hoe: ItemType
-	minecraft:diamond_horse_armor: ItemType
-	minecraft:diamond_leggings: ItemType
-	minecraft:diamond_ore: ItemType
-	minecraft:diamond_pickaxe: ItemType
-	minecraft:diamond_shovel: ItemType
-	minecraft:diamond_sword: ItemType
-	minecraft:diorite_stairs: ItemType
-	minecraft:dirt: ItemType
-	minecraft:dirt_with_roots: ItemType
-	minecraft:dispenser: ItemType
-	minecraft:dolphin_spawn_egg: ItemType
-	minecraft:donkey_spawn_egg: ItemType
-	minecraft:double_cut_copper_slab: ItemType
-	minecraft:double_plant: ItemType
-	minecraft:double_stone_slab: ItemType
-	minecraft:double_stone_slab2: ItemType
-	minecraft:double_stone_slab3: ItemType
-	minecraft:double_stone_slab4: ItemType
-	minecraft:double_wooden_slab: ItemType
-	minecraft:dragon_breath: ItemType
-	minecraft:dragon_egg: ItemType
-	minecraft:dried_kelp: ItemType
-	minecraft:dried_kelp_block: ItemType
-	minecraft:dripstone_block: ItemType
-	minecraft:dropper: ItemType
-	minecraft:drowned_spawn_egg: ItemType
-	minecraft:dye: ItemType
-	minecraft:egg: ItemType
-	minecraft:elder_guardian_spawn_egg: ItemType
-	minecraft:element_0: ItemType
-	minecraft:element_1: ItemType
-	minecraft:element_10: ItemType
-	minecraft:element_100: ItemType
-	minecraft:element_101: ItemType
-	minecraft:element_102: ItemType
-	minecraft:element_103: ItemType
-	minecraft:element_104: ItemType
-	minecraft:element_105: ItemType
-	minecraft:element_106: ItemType
-	minecraft:element_107: ItemType
-	minecraft:element_108: ItemType
-	minecraft:element_109: ItemType
-	minecraft:element_11: ItemType
-	minecraft:element_110: ItemType
-	minecraft:element_111: ItemType
-	minecraft:element_112: ItemType
-	minecraft:element_113: ItemType
-	minecraft:element_114: ItemType
-	minecraft:element_115: ItemType
-	minecraft:element_116: ItemType
-	minecraft:element_117: ItemType
-	minecraft:element_118: ItemType
-	minecraft:element_12: ItemType
-	minecraft:element_13: ItemType
-	minecraft:element_14: ItemType
-	minecraft:element_15: ItemType
-	minecraft:element_16: ItemType
-	minecraft:element_17: ItemType
-	minecraft:element_18: ItemType
-	minecraft:element_19: ItemType
-	minecraft:element_2: ItemType
-	minecraft:element_20: ItemType
-	minecraft:element_21: ItemType
-	minecraft:element_22: ItemType
-	minecraft:element_23: ItemType
-	minecraft:element_24: ItemType
-	minecraft:element_25: ItemType
-	minecraft:element_26: ItemType
-	minecraft:element_27: ItemType
-	minecraft:element_28: ItemType
-	minecraft:element_29: ItemType
-	minecraft:element_3: ItemType
-	minecraft:element_30: ItemType
-	minecraft:element_31: ItemType
-	minecraft:element_32: ItemType
-	minecraft:element_33: ItemType
-	minecraft:element_34: ItemType
-	minecraft:element_35: ItemType
-	minecraft:element_36: ItemType
-	minecraft:element_37: ItemType
-	minecraft:element_38: ItemType
-	minecraft:element_39: ItemType
-	minecraft:element_4: ItemType
-	minecraft:element_40: ItemType
-	minecraft:element_41: ItemType
-	minecraft:element_42: ItemType
-	minecraft:element_43: ItemType
-	minecraft:element_44: ItemType
-	minecraft:element_45: ItemType
-	minecraft:element_46: ItemType
-	minecraft:element_47: ItemType
-	minecraft:element_48: ItemType
-	minecraft:element_49: ItemType
-	minecraft:element_5: ItemType
-	minecraft:element_50: ItemType
-	minecraft:element_51: ItemType
-	minecraft:element_52: ItemType
-	minecraft:element_53: ItemType
-	minecraft:element_54: ItemType
-	minecraft:element_55: ItemType
-	minecraft:element_56: ItemType
-	minecraft:element_57: ItemType
-	minecraft:element_58: ItemType
-	minecraft:element_59: ItemType
-	minecraft:element_6: ItemType
-	minecraft:element_60: ItemType
-	minecraft:element_61: ItemType
-	minecraft:element_62: ItemType
-	minecraft:element_63: ItemType
-	minecraft:element_64: ItemType
-	minecraft:element_65: ItemType
-	minecraft:element_66: ItemType
-	minecraft:element_67: ItemType
-	minecraft:element_68: ItemType
-	minecraft:element_69: ItemType
-	minecraft:element_7: ItemType
-	minecraft:element_70: ItemType
-	minecraft:element_71: ItemType
-	minecraft:element_72: ItemType
-	minecraft:element_73: ItemType
-	minecraft:element_74: ItemType
-	minecraft:element_75: ItemType
-	minecraft:element_76: ItemType
-	minecraft:element_77: ItemType
-	minecraft:element_78: ItemType
-	minecraft:element_79: ItemType
-	minecraft:element_8: ItemType
-	minecraft:element_80: ItemType
-	minecraft:element_81: ItemType
-	minecraft:element_82: ItemType
-	minecraft:element_83: ItemType
-	minecraft:element_84: ItemType
-	minecraft:element_85: ItemType
-	minecraft:element_86: ItemType
-	minecraft:element_87: ItemType
-	minecraft:element_88: ItemType
-	minecraft:element_89: ItemType
-	minecraft:element_9: ItemType
-	minecraft:element_90: ItemType
-	minecraft:element_91: ItemType
-	minecraft:element_92: ItemType
-	minecraft:element_93: ItemType
-	minecraft:element_94: ItemType
-	minecraft:element_95: ItemType
-	minecraft:element_96: ItemType
-	minecraft:element_97: ItemType
-	minecraft:element_98: ItemType
-	minecraft:element_99: ItemType
-	minecraft:elytra: ItemType
-	minecraft:emerald: ItemType
-	minecraft:emerald_block: ItemType
-	minecraft:emerald_ore: ItemType
-	minecraft:empty_map: ItemType
-	minecraft:enchanted_book: ItemType
-	minecraft:enchanted_golden_apple: ItemType
-	minecraft:enchanting_table: ItemType
-	minecraft:end_brick_stairs: ItemType
-	minecraft:end_bricks: ItemType
-	minecraft:end_crystal: ItemType
-	minecraft:end_gateway: ItemType
-	minecraft:end_portal: ItemType
-	minecraft:end_portal_frame: ItemType
-	minecraft:end_rod: ItemType
-	minecraft:end_stone: ItemType
-	minecraft:ender_chest: ItemType
-	minecraft:ender_eye: ItemType
-	minecraft:ender_pearl: ItemType
-	minecraft:enderman_spawn_egg: ItemType
-	minecraft:endermite_spawn_egg: ItemType
-	minecraft:evoker_spawn_egg: ItemType
-	minecraft:experience_bottle: ItemType
-	minecraft:exposed_copper: ItemType
-	minecraft:exposed_cut_copper: ItemType
-	minecraft:exposed_cut_copper_slab: ItemType
-	minecraft:exposed_cut_copper_stairs: ItemType
-	minecraft:exposed_double_cut_copper_slab: ItemType
-	minecraft:farmland: ItemType
-	minecraft:feather: ItemType
-	minecraft:fence: ItemType
-	minecraft:fence_gate: ItemType
-	minecraft:fermented_spider_eye: ItemType
-	minecraft:field_masoned_banner_pattern: ItemType
-	minecraft:filled_map: ItemType
-	minecraft:fire: ItemType
-	minecraft:fire_charge: ItemType
-	minecraft:firework_rocket: ItemType
-	minecraft:firework_star: ItemType
-	minecraft:fishing_rod: ItemType
-	minecraft:fletching_table: ItemType
-	minecraft:flint: ItemType
-	minecraft:flint_and_steel: ItemType
-	minecraft:flower_banner_pattern: ItemType
-	minecraft:flower_pot: ItemType
-	minecraft:flowering_azalea: ItemType
-	minecraft:flowing_lava: ItemType
-	minecraft:flowing_water: ItemType
-	minecraft:fox_spawn_egg: ItemType
-	minecraft:frame: ItemType
-	minecraft:frosted_ice: ItemType
-	minecraft:furnace: ItemType
-	minecraft:ghast_spawn_egg: ItemType
-	minecraft:ghast_tear: ItemType
-	minecraft:gilded_blackstone: ItemType
-	minecraft:glass: ItemType
-	minecraft:glass_bottle: ItemType
-	minecraft:glass_pane: ItemType
-	minecraft:glistering_melon_slice: ItemType
-	minecraft:glow_berries: ItemType
-	minecraft:glow_frame: ItemType
-	minecraft:glow_ink_sac: ItemType
-	minecraft:glow_lichen: ItemType
-	minecraft:glow_squid_spawn_egg: ItemType
-	minecraft:glow_stick: ItemType
-	minecraft:glowingobsidian: ItemType
-	minecraft:glowstone: ItemType
-	minecraft:glowstone_dust: ItemType
-	minecraft:goat_horn: ItemType
-	minecraft:goat_spawn_egg: ItemType
-	minecraft:gold_block: ItemType
-	minecraft:gold_ingot: ItemType
-	minecraft:gold_nugget: ItemType
-	minecraft:gold_ore: ItemType
-	minecraft:golden_apple: ItemType
-	minecraft:golden_axe: ItemType
-	minecraft:golden_boots: ItemType
-	minecraft:golden_carrot: ItemType
-	minecraft:golden_chestplate: ItemType
-	minecraft:golden_helmet: ItemType
-	minecraft:golden_hoe: ItemType
-	minecraft:golden_horse_armor: ItemType
-	minecraft:golden_leggings: ItemType
-	minecraft:golden_pickaxe: ItemType
-	minecraft:golden_rail: ItemType
-	minecraft:golden_shovel: ItemType
-	minecraft:golden_sword: ItemType
-	minecraft:granite_stairs: ItemType
-	minecraft:grass: ItemType
-	minecraft:grass_path: ItemType
-	minecraft:gravel: ItemType
-	minecraft:gray_candle: ItemType
-	minecraft:gray_candle_cake: ItemType
-	minecraft:gray_dye: ItemType
-	minecraft:gray_glazed_terracotta: ItemType
-	minecraft:green_candle: ItemType
-	minecraft:green_candle_cake: ItemType
-	minecraft:green_dye: ItemType
-	minecraft:green_glazed_terracotta: ItemType
-	minecraft:grindstone: ItemType
-	minecraft:guardian_spawn_egg: ItemType
-	minecraft:gunpowder: ItemType
-	minecraft:hanging_roots: ItemType
-	minecraft:hard_glass: ItemType
-	minecraft:hard_glass_pane: ItemType
-	minecraft:hard_stained_glass: ItemType
-	minecraft:hard_stained_glass_pane: ItemType
-	minecraft:hardened_clay: ItemType
-	minecraft:hay_block: ItemType
-	minecraft:heart_of_the_sea: ItemType
-	minecraft:heavy_weighted_pressure_plate: ItemType
-	minecraft:hoglin_spawn_egg: ItemType
-	minecraft:honey_block: ItemType
-	minecraft:honey_bottle: ItemType
-	minecraft:honeycomb: ItemType
-	minecraft:honeycomb_block: ItemType
-	minecraft:hopper: ItemType
-	minecraft:hopper_minecart: ItemType
-	minecraft:horse_spawn_egg: ItemType
-	minecraft:husk_spawn_egg: ItemType
-	minecraft:ice: ItemType
-	minecraft:ice_bomb: ItemType
-	minecraft:infested_deepslate: ItemType
-	minecraft:info_update: ItemType
-	minecraft:info_update2: ItemType
-	minecraft:ink_sac: ItemType
-	minecraft:invisiblebedrock: ItemType
-	minecraft:iron_axe: ItemType
-	minecraft:iron_bars: ItemType
-	minecraft:iron_block: ItemType
-	minecraft:iron_boots: ItemType
-	minecraft:iron_chestplate: ItemType
-	minecraft:iron_door: ItemType
-	minecraft:iron_helmet: ItemType
-	minecraft:iron_hoe: ItemType
-	minecraft:iron_horse_armor: ItemType
-	minecraft:iron_ingot: ItemType
-	minecraft:iron_leggings: ItemType
-	minecraft:iron_nugget: ItemType
-	minecraft:iron_ore: ItemType
-	minecraft:iron_pickaxe: ItemType
-	minecraft:iron_shovel: ItemType
-	minecraft:iron_sword: ItemType
-	minecraft:iron_trapdoor: ItemType
-	minecraft:item.acacia_door: ItemType
-	minecraft:item.bed: ItemType
-	minecraft:item.beetroot: ItemType
-	minecraft:item.birch_door: ItemType
-	minecraft:item.cake: ItemType
-	minecraft:item.camera: ItemType
-	minecraft:item.campfire: ItemType
-	minecraft:item.cauldron: ItemType
-	minecraft:item.chain: ItemType
-	minecraft:item.crimson_door: ItemType
-	minecraft:item.dark_oak_door: ItemType
-	minecraft:item.flower_pot: ItemType
-	minecraft:item.frame: ItemType
-	minecraft:item.glow_frame: ItemType
-	minecraft:item.hopper: ItemType
-	minecraft:item.iron_door: ItemType
-	minecraft:item.jungle_door: ItemType
-	minecraft:item.kelp: ItemType
-	minecraft:item.nether_sprouts: ItemType
-	minecraft:item.nether_wart: ItemType
-	minecraft:item.reeds: ItemType
-	minecraft:item.skull: ItemType
-	minecraft:item.soul_campfire: ItemType
-	minecraft:item.spruce_door: ItemType
-	minecraft:item.warped_door: ItemType
-	minecraft:item.wheat: ItemType
-	minecraft:item.wooden_door: ItemType
-	minecraft:jigsaw: ItemType
-	minecraft:jukebox: ItemType
-	minecraft:jungle_boat: ItemType
-	minecraft:jungle_button: ItemType
-	minecraft:jungle_door: ItemType
-	minecraft:jungle_fence_gate: ItemType
-	minecraft:jungle_pressure_plate: ItemType
-	minecraft:jungle_sign: ItemType
-	minecraft:jungle_stairs: ItemType
-	minecraft:jungle_standing_sign: ItemType
-	minecraft:jungle_trapdoor: ItemType
-	minecraft:jungle_wall_sign: ItemType
-	minecraft:kelp: ItemType
-	minecraft:ladder: ItemType
-	minecraft:lantern: ItemType
-	minecraft:lapis_block: ItemType
-	minecraft:lapis_lazuli: ItemType
-	minecraft:lapis_ore: ItemType
-	minecraft:large_amethyst_bud: ItemType
-	minecraft:lava: ItemType
-	minecraft:lava_bucket: ItemType
-	minecraft:lava_cauldron: ItemType
-	minecraft:lead: ItemType
-	minecraft:leather: ItemType
-	minecraft:leather_boots: ItemType
-	minecraft:leather_chestplate: ItemType
-	minecraft:leather_helmet: ItemType
-	minecraft:leather_horse_armor: ItemType
-	minecraft:leather_leggings: ItemType
-	minecraft:leaves: ItemType
-	minecraft:leaves2: ItemType
-	minecraft:lectern: ItemType
-	minecraft:lever: ItemType
-	minecraft:light_block: ItemType
-	minecraft:light_blue_candle: ItemType
-	minecraft:light_blue_candle_cake: ItemType
-	minecraft:light_blue_dye: ItemType
-	minecraft:light_blue_glazed_terracotta: ItemType
-	minecraft:light_gray_candle: ItemType
-	minecraft:light_gray_candle_cake: ItemType
-	minecraft:light_gray_dye: ItemType
-	minecraft:light_weighted_pressure_plate: ItemType
-	minecraft:lightning_rod: ItemType
-	minecraft:lime_candle: ItemType
-	minecraft:lime_candle_cake: ItemType
-	minecraft:lime_dye: ItemType
-	minecraft:lime_glazed_terracotta: ItemType
-	minecraft:lingering_potion: ItemType
-	minecraft:lit_blast_furnace: ItemType
-	minecraft:lit_deepslate_redstone_ore: ItemType
-	minecraft:lit_furnace: ItemType
-	minecraft:lit_pumpkin: ItemType
-	minecraft:lit_redstone_lamp: ItemType
-	minecraft:lit_redstone_ore: ItemType
-	minecraft:lit_smoker: ItemType
-	minecraft:llama_spawn_egg: ItemType
-	minecraft:lodestone: ItemType
-	minecraft:lodestone_compass: ItemType
-	minecraft:log: ItemType
-	minecraft:log2: ItemType
-	minecraft:loom: ItemType
-	minecraft:magenta_candle: ItemType
-	minecraft:magenta_candle_cake: ItemType
-	minecraft:magenta_dye: ItemType
-	minecraft:magenta_glazed_terracotta: ItemType
-	minecraft:magma: ItemType
-	minecraft:magma_cream: ItemType
-	minecraft:magma_cube_spawn_egg: ItemType
-	minecraft:medicine: ItemType
-	minecraft:medium_amethyst_bud: ItemType
-	minecraft:melon_block: ItemType
-	minecraft:melon_seeds: ItemType
-	minecraft:melon_slice: ItemType
-	minecraft:melon_stem: ItemType
-	minecraft:milk_bucket: ItemType
-	minecraft:minecart: ItemType
-	minecraft:mob_spawner: ItemType
-	minecraft:mojang_banner_pattern: ItemType
-	minecraft:monster_egg: ItemType
-	minecraft:mooshroom_spawn_egg: ItemType
-	minecraft:moss_block: ItemType
-	minecraft:moss_carpet: ItemType
-	minecraft:mossy_cobblestone: ItemType
-	minecraft:mossy_cobblestone_stairs: ItemType
-	minecraft:mossy_stone_brick_stairs: ItemType
-	minecraft:movingblock: ItemType
-	minecraft:mule_spawn_egg: ItemType
-	minecraft:mushroom_stew: ItemType
-	minecraft:music_disc_11: ItemType
-	minecraft:music_disc_13: ItemType
-	minecraft:music_disc_blocks: ItemType
-	minecraft:music_disc_cat: ItemType
-	minecraft:music_disc_chirp: ItemType
-	minecraft:music_disc_far: ItemType
-	minecraft:music_disc_mall: ItemType
-	minecraft:music_disc_mellohi: ItemType
-	minecraft:music_disc_pigstep: ItemType
-	minecraft:music_disc_stal: ItemType
-	minecraft:music_disc_strad: ItemType
-	minecraft:music_disc_wait: ItemType
-	minecraft:music_disc_ward: ItemType
-	minecraft:mutton: ItemType
-	minecraft:mycelium: ItemType
-	minecraft:name_tag: ItemType
-	minecraft:nautilus_shell: ItemType
-	minecraft:nether_brick: ItemType
-	minecraft:nether_brick_fence: ItemType
-	minecraft:nether_brick_stairs: ItemType
-	minecraft:nether_gold_ore: ItemType
-	minecraft:nether_sprouts: ItemType
-	minecraft:nether_star: ItemType
-	minecraft:nether_wart: ItemType
-	minecraft:nether_wart_block: ItemType
-	minecraft:netherbrick: ItemType
-	minecraft:netherite_axe: ItemType
-	minecraft:netherite_block: ItemType
-	minecraft:netherite_boots: ItemType
-	minecraft:netherite_chestplate: ItemType
-	minecraft:netherite_helmet: ItemType
-	minecraft:netherite_hoe: ItemType
-	minecraft:netherite_ingot: ItemType
-	minecraft:netherite_leggings: ItemType
-	minecraft:netherite_pickaxe: ItemType
-	minecraft:netherite_scrap: ItemType
-	minecraft:netherite_shovel: ItemType
-	minecraft:netherite_sword: ItemType
-	minecraft:netherrack: ItemType
-	minecraft:netherreactor: ItemType
-	minecraft:normal_stone_stairs: ItemType
-	minecraft:noteblock: ItemType
-	minecraft:npc_spawn_egg: ItemType
-	minecraft:oak_boat: ItemType
-	minecraft:oak_sign: ItemType
-	minecraft:oak_stairs: ItemType
-	minecraft:observer: ItemType
-	minecraft:obsidian: ItemType
-	minecraft:ocelot_spawn_egg: ItemType
-	minecraft:orange_candle: ItemType
-	minecraft:orange_candle_cake: ItemType
-	minecraft:orange_dye: ItemType
-	minecraft:orange_glazed_terracotta: ItemType
-	minecraft:oxidized_copper: ItemType
-	minecraft:oxidized_cut_copper: ItemType
-	minecraft:oxidized_cut_copper_slab: ItemType
-	minecraft:oxidized_cut_copper_stairs: ItemType
-	minecraft:oxidized_double_cut_copper_slab: ItemType
-	minecraft:packed_ice: ItemType
-	minecraft:painting: ItemType
-	minecraft:panda_spawn_egg: ItemType
-	minecraft:paper: ItemType
-	minecraft:parrot_spawn_egg: ItemType
-	minecraft:phantom_membrane: ItemType
-	minecraft:phantom_spawn_egg: ItemType
-	minecraft:pig_spawn_egg: ItemType
-	minecraft:piglin_banner_pattern: ItemType
-	minecraft:piglin_brute_spawn_egg: ItemType
-	minecraft:piglin_spawn_egg: ItemType
-	minecraft:pillager_spawn_egg: ItemType
-	minecraft:pink_candle: ItemType
-	minecraft:pink_candle_cake: ItemType
-	minecraft:pink_dye: ItemType
-	minecraft:pink_glazed_terracotta: ItemType
-	minecraft:piston: ItemType
-	minecraft:pistonarmcollision: ItemType
-	minecraft:planks: ItemType
-	minecraft:podzol: ItemType
-	minecraft:pointed_dripstone: ItemType
-	minecraft:poisonous_potato: ItemType
-	minecraft:polar_bear_spawn_egg: ItemType
-	minecraft:polished_andesite_stairs: ItemType
-	minecraft:polished_basalt: ItemType
-	minecraft:polished_blackstone: ItemType
-	minecraft:polished_blackstone_brick_double_slab: ItemType
-	minecraft:polished_blackstone_brick_slab: ItemType
-	minecraft:polished_blackstone_brick_stairs: ItemType
-	minecraft:polished_blackstone_brick_wall: ItemType
-	minecraft:polished_blackstone_bricks: ItemType
-	minecraft:polished_blackstone_button: ItemType
-	minecraft:polished_blackstone_double_slab: ItemType
-	minecraft:polished_blackstone_pressure_plate: ItemType
-	minecraft:polished_blackstone_slab: ItemType
-	minecraft:polished_blackstone_stairs: ItemType
-	minecraft:polished_blackstone_wall: ItemType
-	minecraft:polished_deepslate: ItemType
-	minecraft:polished_deepslate_double_slab: ItemType
-	minecraft:polished_deepslate_slab: ItemType
-	minecraft:polished_deepslate_stairs: ItemType
-	minecraft:polished_deepslate_wall: ItemType
-	minecraft:polished_diorite_stairs: ItemType
-	minecraft:polished_granite_stairs: ItemType
-	minecraft:popped_chorus_fruit: ItemType
-	minecraft:porkchop: ItemType
-	minecraft:portal: ItemType
-	minecraft:potato: ItemType
-	minecraft:potatoes: ItemType
-	minecraft:potion: ItemType
-	minecraft:powder_snow: ItemType
-	minecraft:powder_snow_bucket: ItemType
-	minecraft:powered_comparator: ItemType
-	minecraft:powered_repeater: ItemType
-	minecraft:prismarine: ItemType
-	minecraft:prismarine_bricks_stairs: ItemType
-	minecraft:prismarine_crystals: ItemType
-	minecraft:prismarine_shard: ItemType
-	minecraft:prismarine_stairs: ItemType
-	minecraft:pufferfish: ItemType
-	minecraft:pufferfish_bucket: ItemType
-	minecraft:pufferfish_spawn_egg: ItemType
-	minecraft:pumpkin: ItemType
-	minecraft:pumpkin_pie: ItemType
-	minecraft:pumpkin_seeds: ItemType
-	minecraft:pumpkin_stem: ItemType
-	minecraft:purple_candle: ItemType
-	minecraft:purple_candle_cake: ItemType
-	minecraft:purple_dye: ItemType
-	minecraft:purple_glazed_terracotta: ItemType
-	minecraft:purpur_block: ItemType
-	minecraft:purpur_stairs: ItemType
-	minecraft:quartz: ItemType
-	minecraft:quartz_block: ItemType
-	minecraft:quartz_bricks: ItemType
-	minecraft:quartz_ore: ItemType
-	minecraft:quartz_stairs: ItemType
-	minecraft:rabbit: ItemType
-	minecraft:rabbit_foot: ItemType
-	minecraft:rabbit_hide: ItemType
-	minecraft:rabbit_spawn_egg: ItemType
-	minecraft:rabbit_stew: ItemType
-	minecraft:rail: ItemType
-	minecraft:rapid_fertilizer: ItemType
-	minecraft:ravager_spawn_egg: ItemType
-	minecraft:raw_copper: ItemType
-	minecraft:raw_copper_block: ItemType
-	minecraft:raw_gold: ItemType
-	minecraft:raw_gold_block: ItemType
-	minecraft:raw_iron: ItemType
-	minecraft:raw_iron_block: ItemType
-	minecraft:real_double_stone_slab: ItemType
-	minecraft:real_double_stone_slab2: ItemType
-	minecraft:real_double_stone_slab3: ItemType
-	minecraft:real_double_stone_slab4: ItemType
-	minecraft:red_candle: ItemType
-	minecraft:red_candle_cake: ItemType
-	minecraft:red_dye: ItemType
-	minecraft:red_flower: ItemType
-	minecraft:red_glazed_terracotta: ItemType
-	minecraft:red_mushroom: ItemType
-	minecraft:red_mushroom_block: ItemType
-	minecraft:red_nether_brick: ItemType
-	minecraft:red_nether_brick_stairs: ItemType
-	minecraft:red_sandstone: ItemType
-	minecraft:red_sandstone_stairs: ItemType
-	minecraft:redstone: ItemType
-	minecraft:redstone_block: ItemType
-	minecraft:redstone_lamp: ItemType
-	minecraft:redstone_ore: ItemType
-	minecraft:redstone_torch: ItemType
-	minecraft:redstone_wire: ItemType
-	minecraft:repeater: ItemType
-	minecraft:repeating_command_block: ItemType
-	minecraft:reserved6: ItemType
-	minecraft:respawn_anchor: ItemType
-	minecraft:rotten_flesh: ItemType
-	minecraft:saddle: ItemType
-	minecraft:salmon: ItemType
-	minecraft:salmon_bucket: ItemType
-	minecraft:salmon_spawn_egg: ItemType
-	minecraft:sand: ItemType
-	minecraft:sandstone: ItemType
-	minecraft:sandstone_stairs: ItemType
-	minecraft:sapling: ItemType
-	minecraft:scaffolding: ItemType
-	minecraft:sculk_sensor: ItemType
-	minecraft:scute: ItemType
-	minecraft:sea_pickle: ItemType
-	minecraft:seagrass: ItemType
-	minecraft:sealantern: ItemType
-	minecraft:shears: ItemType
-	minecraft:sheep_spawn_egg: ItemType
-	minecraft:shield: ItemType
-	minecraft:shroomlight: ItemType
-	minecraft:shulker_box: ItemType
-	minecraft:shulker_shell: ItemType
-	minecraft:shulker_spawn_egg: ItemType
-	minecraft:silver_glazed_terracotta: ItemType
-	minecraft:silverfish_spawn_egg: ItemType
-	minecraft:skeleton_horse_spawn_egg: ItemType
-	minecraft:skeleton_spawn_egg: ItemType
-	minecraft:skull: ItemType
-	minecraft:skull_banner_pattern: ItemType
-	minecraft:slime: ItemType
-	minecraft:slime_ball: ItemType
-	minecraft:slime_spawn_egg: ItemType
-	minecraft:small_amethyst_bud: ItemType
-	minecraft:small_dripleaf_block: ItemType
-	minecraft:smithing_table: ItemType
-	minecraft:smoker: ItemType
-	minecraft:smooth_basalt: ItemType
-	minecraft:smooth_quartz_stairs: ItemType
-	minecraft:smooth_red_sandstone_stairs: ItemType
-	minecraft:smooth_sandstone_stairs: ItemType
-	minecraft:smooth_stone: ItemType
-	minecraft:snow: ItemType
-	minecraft:snow_layer: ItemType
-	minecraft:snowball: ItemType
-	minecraft:soul_campfire: ItemType
-	minecraft:soul_fire: ItemType
-	minecraft:soul_lantern: ItemType
-	minecraft:soul_sand: ItemType
-	minecraft:soul_soil: ItemType
-	minecraft:soul_torch: ItemType
-	minecraft:sparkler: ItemType
-	minecraft:spawn_egg: ItemType
-	minecraft:spider_eye: ItemType
-	minecraft:spider_spawn_egg: ItemType
-	minecraft:splash_potion: ItemType
-	minecraft:sponge: ItemType
-	minecraft:spore_blossom: ItemType
-	minecraft:spruce_boat: ItemType
-	minecraft:spruce_button: ItemType
-	minecraft:spruce_door: ItemType
-	minecraft:spruce_fence_gate: ItemType
-	minecraft:spruce_pressure_plate: ItemType
-	minecraft:spruce_sign: ItemType
-	minecraft:spruce_stairs: ItemType
-	minecraft:spruce_standing_sign: ItemType
-	minecraft:spruce_trapdoor: ItemType
-	minecraft:spruce_wall_sign: ItemType
-	minecraft:spyglass: ItemType
-	minecraft:squid_spawn_egg: ItemType
-	minecraft:stained_glass: ItemType
-	minecraft:stained_glass_pane: ItemType
-	minecraft:stained_hardened_clay: ItemType
-	minecraft:standing_banner: ItemType
-	minecraft:standing_sign: ItemType
-	minecraft:stick: ItemType
-	minecraft:sticky_piston: ItemType
-	minecraft:stickypistonarmcollision: ItemType
-	minecraft:stone: ItemType
-	minecraft:stone_axe: ItemType
-	minecraft:stone_brick_stairs: ItemType
-	minecraft:stone_button: ItemType
-	minecraft:stone_hoe: ItemType
-	minecraft:stone_pickaxe: ItemType
-	minecraft:stone_pressure_plate: ItemType
-	minecraft:stone_shovel: ItemType
-	minecraft:stone_stairs: ItemType
-	minecraft:stone_sword: ItemType
-	minecraft:stonebrick: ItemType
-	minecraft:stonecutter: ItemType
-	minecraft:stonecutter_block: ItemType
-	minecraft:stray_spawn_egg: ItemType
-	minecraft:strider_spawn_egg: ItemType
-	minecraft:string: ItemType
-	minecraft:stripped_acacia_log: ItemType
-	minecraft:stripped_birch_log: ItemType
-	minecraft:stripped_crimson_hyphae: ItemType
-	minecraft:stripped_crimson_stem: ItemType
-	minecraft:stripped_dark_oak_log: ItemType
-	minecraft:stripped_jungle_log: ItemType
-	minecraft:stripped_oak_log: ItemType
-	minecraft:stripped_spruce_log: ItemType
-	minecraft:stripped_warped_hyphae: ItemType
-	minecraft:stripped_warped_stem: ItemType
-	minecraft:structure_block: ItemType
-	minecraft:structure_void: ItemType
-	minecraft:sugar: ItemType
-	minecraft:sugar_cane: ItemType
-	minecraft:suspicious_stew: ItemType
-	minecraft:sweet_berries: ItemType
-	minecraft:sweet_berry_bush: ItemType
-	minecraft:tallgrass: ItemType
-	minecraft:target: ItemType
-	minecraft:tinted_glass: ItemType
-	minecraft:tnt: ItemType
-	minecraft:tnt_minecart: ItemType
-	minecraft:torch: ItemType
-	minecraft:totem_of_undying: ItemType
-	minecraft:trapdoor: ItemType
-	minecraft:trapped_chest: ItemType
-	minecraft:trident: ItemType
-	minecraft:tripwire: ItemType
-	minecraft:tripwire_hook: ItemType
-	minecraft:tropical_fish: ItemType
-	minecraft:tropical_fish_bucket: ItemType
-	minecraft:tropical_fish_spawn_egg: ItemType
-	minecraft:tuff: ItemType
-	minecraft:turtle_egg: ItemType
-	minecraft:turtle_helmet: ItemType
-	minecraft:turtle_spawn_egg: ItemType
-	minecraft:twisting_vines: ItemType
-	minecraft:underwater_torch: ItemType
-	minecraft:undyed_shulker_box: ItemType
-	minecraft:unknown: ItemType
-	minecraft:unlit_redstone_torch: ItemType
-	minecraft:unpowered_comparator: ItemType
-	minecraft:unpowered_repeater: ItemType
-	minecraft:vex_spawn_egg: ItemType
-	minecraft:villager_spawn_egg: ItemType
-	minecraft:vindicator_spawn_egg: ItemType
-	minecraft:vine: ItemType
-	minecraft:wall_banner: ItemType
-	minecraft:wall_sign: ItemType
-	minecraft:wandering_trader_spawn_egg: ItemType
-	minecraft:warped_button: ItemType
-	minecraft:warped_door: ItemType
-	minecraft:warped_double_slab: ItemType
-	minecraft:warped_fence: ItemType
-	minecraft:warped_fence_gate: ItemType
-	minecraft:warped_fungus: ItemType
-	minecraft:warped_fungus_on_a_stick: ItemType
-	minecraft:warped_hyphae: ItemType
-	minecraft:warped_nylium: ItemType
-	minecraft:warped_planks: ItemType
-	minecraft:warped_pressure_plate: ItemType
-	minecraft:warped_roots: ItemType
-	minecraft:warped_sign: ItemType
-	minecraft:warped_slab: ItemType
-	minecraft:warped_stairs: ItemType
-	minecraft:warped_standing_sign: ItemType
-	minecraft:warped_stem: ItemType
-	minecraft:warped_trapdoor: ItemType
-	minecraft:warped_wall_sign: ItemType
-	minecraft:warped_wart_block: ItemType
-	minecraft:water: ItemType
-	minecraft:water_bucket: ItemType
-	minecraft:waterlily: ItemType
-	minecraft:waxed_copper: ItemType
-	minecraft:waxed_cut_copper: ItemType
-	minecraft:waxed_cut_copper_slab: ItemType
-	minecraft:waxed_cut_copper_stairs: ItemType
-	minecraft:waxed_double_cut_copper_slab: ItemType
-	minecraft:waxed_exposed_copper: ItemType
-	minecraft:waxed_exposed_cut_copper: ItemType
-	minecraft:waxed_exposed_cut_copper_slab: ItemType
-	minecraft:waxed_exposed_cut_copper_stairs: ItemType
-	minecraft:waxed_exposed_double_cut_copper_slab: ItemType
-	minecraft:waxed_oxidized_copper: ItemType
-	minecraft:waxed_oxidized_cut_copper: ItemType
-	minecraft:waxed_oxidized_cut_copper_slab: ItemType
-	minecraft:waxed_oxidized_cut_copper_stairs: ItemType
-	minecraft:waxed_oxidized_double_cut_copper_slab: ItemType
-	minecraft:waxed_weathered_copper: ItemType
-	minecraft:waxed_weathered_cut_copper: ItemType
-	minecraft:waxed_weathered_cut_copper_slab: ItemType
-	minecraft:waxed_weathered_cut_copper_stairs: ItemType
-	minecraft:waxed_weathered_double_cut_copper_slab: ItemType
-	minecraft:weathered_copper: ItemType
-	minecraft:weathered_cut_copper: ItemType
-	minecraft:weathered_cut_copper_slab: ItemType
-	minecraft:weathered_cut_copper_stairs: ItemType
-	minecraft:weathered_double_cut_copper_slab: ItemType
-	minecraft:web: ItemType
-	minecraft:weeping_vines: ItemType
-	minecraft:wheat: ItemType
-	minecraft:wheat_seeds: ItemType
-	minecraft:white_candle: ItemType
-	minecraft:white_candle_cake: ItemType
-	minecraft:white_dye: ItemType
-	minecraft:white_glazed_terracotta: ItemType
-	minecraft:witch_spawn_egg: ItemType
-	minecraft:wither_rose: ItemType
-	minecraft:wither_skeleton_spawn_egg: ItemType
-	minecraft:wolf_spawn_egg: ItemType
-	minecraft:wood: ItemType
-	minecraft:wooden_axe: ItemType
-	minecraft:wooden_button: ItemType
-	minecraft:wooden_door: ItemType
-	minecraft:wooden_hoe: ItemType
-	minecraft:wooden_pickaxe: ItemType
-	minecraft:wooden_pressure_plate: ItemType
-	minecraft:wooden_shovel: ItemType
-	minecraft:wooden_slab: ItemType
-	minecraft:wooden_sword: ItemType
-	minecraft:wool: ItemType
-	minecraft:writable_book: ItemType
-	minecraft:written_book: ItemType
-	minecraft:yellow_candle: ItemType
-	minecraft:yellow_candle_cake: ItemType
-	minecraft:yellow_dye: ItemType
-	minecraft:yellow_flower: ItemType
-	minecraft:yellow_glazed_terracotta: ItemType
-	minecraft:zoglin_spawn_egg: ItemType
-	minecraft:zombie_horse_spawn_egg: ItemType
-	minecraft:zombie_pigman_spawn_egg: ItemType
-	minecraft:zombie_spawn_egg: ItemType
-	minecraft:zombie_villager_spawn_egg: ItemType
-	mobSpawner: ItemType
-	mojangBannerPattern: ItemType
-	monsterEgg: ItemType
-	mooshroomSpawnEgg: ItemType
-	mossBlock: ItemType
-	mossCarpet: ItemType
-	mossyCobblestone: ItemType
-	mossyCobblestoneStairs: ItemType
-	mossyStoneBrickStairs: ItemType
-	movingblock: ItemType
-	muleSpawnEgg: ItemType
-	mushroomStew: ItemType
-	musicDisc11: ItemType
-	musicDisc13: ItemType
-	musicDiscBlocks: ItemType
-	musicDiscCat: ItemType
-	musicDiscChirp: ItemType
-	musicDiscFar: ItemType
-	musicDiscMall: ItemType
-	musicDiscMellohi: ItemType
-	musicDiscPigstep: ItemType
-	musicDiscStal: ItemType
-	musicDiscStrad: ItemType
-	musicDiscWait: ItemType
-	musicDiscWard: ItemType
-	mutton: ItemType
-	mycelium: ItemType
-	nameTag: ItemType
-	nautilusShell: ItemType
-	netherbrick: ItemType
-	netherBrick: ItemType
-	netherBrickFence: ItemType
-	netherBrickStairs: ItemType
-	netherGoldOre: ItemType
-	netheriteAxe: ItemType
-	netheriteBlock: ItemType
-	netheriteBoots: ItemType
-	netheriteChestplate: ItemType
-	netheriteHelmet: ItemType
-	netheriteHoe: ItemType
-	netheriteIngot: ItemType
-	netheriteLeggings: ItemType
-	netheritePickaxe: ItemType
-	netheriteScrap: ItemType
-	netheriteShovel: ItemType
-	netheriteSword: ItemType
-	netherrack: ItemType
-	netherreactor: ItemType
-	netherSprouts: ItemType
-	netherStar: ItemType
-	netherWart: ItemType
-	netherWartBlock: ItemType
-	normalStoneStairs: ItemType
-	noteblock: ItemType
-	npcSpawnEgg: ItemType
-	oakBoat: ItemType
-	oakSign: ItemType
-	oakStairs: ItemType
-	observer: ItemType
-	obsidian: ItemType
-	ocelotSpawnEgg: ItemType
-	orangeCandle: ItemType
-	orangeCandleCake: ItemType
-	orangeDye: ItemType
-	orangeGlazedTerracotta: ItemType
-	oxidizedCopper: ItemType
-	oxidizedCutCopper: ItemType
-	oxidizedCutCopperSlab: ItemType
-	oxidizedCutCopperStairs: ItemType
-	oxidizedDoubleCutCopperSlab: ItemType
-	packedIce: ItemType
-	painting: ItemType
-	pandaSpawnEgg: ItemType
-	paper: ItemType
-	parrotSpawnEgg: ItemType
-	phantomMembrane: ItemType
-	phantomSpawnEgg: ItemType
-	piglinBannerPattern: ItemType
-	piglinBruteSpawnEgg: ItemType
-	piglinSpawnEgg: ItemType
-	pigSpawnEgg: ItemType
-	pillagerSpawnEgg: ItemType
-	pinkCandle: ItemType
-	pinkCandleCake: ItemType
-	pinkDye: ItemType
-	pinkGlazedTerracotta: ItemType
-	piston: ItemType
-	pistonarmcollision: ItemType
-	planks: ItemType
-	podzol: ItemType
-	pointedDripstone: ItemType
-	poisonousPotato: ItemType
-	polarBearSpawnEgg: ItemType
-	polishedAndesiteStairs: ItemType
-	polishedBasalt: ItemType
-	polishedBlackstone: ItemType
-	polishedBlackstoneBrickDoubleSlab: ItemType
-	polishedBlackstoneBricks: ItemType
-	polishedBlackstoneBrickSlab: ItemType
-	polishedBlackstoneBrickStairs: ItemType
-	polishedBlackstoneBrickWall: ItemType
-	polishedBlackstoneButton: ItemType
-	polishedBlackstoneDoubleSlab: ItemType
-	polishedBlackstonePressurePlate: ItemType
-	polishedBlackstoneSlab: ItemType
-	polishedBlackstoneStairs: ItemType
-	polishedBlackstoneWall: ItemType
-	polishedDeepslate: ItemType
-	polishedDeepslateDoubleSlab: ItemType
-	polishedDeepslateSlab: ItemType
-	polishedDeepslateStairs: ItemType
-	polishedDeepslateWall: ItemType
-	polishedDioriteStairs: ItemType
-	polishedGraniteStairs: ItemType
-	poppedChorusFruit: ItemType
-	porkchop: ItemType
-	portal: ItemType
-	potato: ItemType
-	potatoes: ItemType
-	potion: ItemType
-	powderSnow: ItemType
-	powderSnowBucket: ItemType
-	poweredComparator: ItemType
-	poweredRepeater: ItemType
-	prismarine: ItemType
-	prismarineBricksStairs: ItemType
-	prismarineCrystals: ItemType
-	prismarineShard: ItemType
-	prismarineStairs: ItemType
-	pufferfish: ItemType
-	pufferfishBucket: ItemType
-	pufferfishSpawnEgg: ItemType
-	pumpkin: ItemType
-	pumpkinPie: ItemType
-	pumpkinSeeds: ItemType
-	pumpkinStem: ItemType
-	purpleCandle: ItemType
-	purpleCandleCake: ItemType
-	purpleDye: ItemType
-	purpleGlazedTerracotta: ItemType
-	purpurBlock: ItemType
-	purpurStairs: ItemType
-	quartz: ItemType
-	quartzBlock: ItemType
-	quartzBricks: ItemType
-	quartzOre: ItemType
-	quartzStairs: ItemType
-	rabbit: ItemType
-	rabbitFoot: ItemType
-	rabbitHide: ItemType
-	rabbitSpawnEgg: ItemType
-	rabbitStew: ItemType
-	rail: ItemType
-	rapidFertilizer: ItemType
-	ravagerSpawnEgg: ItemType
-	rawCopper: ItemType
-	rawCopperBlock: ItemType
-	rawGold: ItemType
-	rawGoldBlock: ItemType
-	rawIron: ItemType
-	rawIronBlock: ItemType
-	realDoubleStoneSlab: ItemType
-	realDoubleStoneSlab2: ItemType
-	realDoubleStoneSlab3: ItemType
-	realDoubleStoneSlab4: ItemType
-	redCandle: ItemType
-	redCandleCake: ItemType
-	redDye: ItemType
-	redFlower: ItemType
-	redGlazedTerracotta: ItemType
-	redMushroom: ItemType
-	redMushroomBlock: ItemType
-	redNetherBrick: ItemType
-	redNetherBrickStairs: ItemType
-	redSandstone: ItemType
-	redSandstoneStairs: ItemType
-	redstone: ItemType
-	redstoneBlock: ItemType
-	redstoneLamp: ItemType
-	redstoneOre: ItemType
-	redstoneTorch: ItemType
-	redstoneWire: ItemType
-	repeater: ItemType
-	repeatingCommandBlock: ItemType
-	reserved6: ItemType
-	respawnAnchor: ItemType
-	rottenFlesh: ItemType
-	saddle: ItemType
-	salmon: ItemType
-	salmonBucket: ItemType
-	salmonSpawnEgg: ItemType
-	sand: ItemType
-	sandstone: ItemType
-	sandstoneStairs: ItemType
-	sapling: ItemType
-	scaffolding: ItemType
-	sculkSensor: ItemType
-	scute: ItemType
-	seagrass: ItemType
-	sealantern: ItemType
-	seaPickle: ItemType
-	shears: ItemType
-	sheepSpawnEgg: ItemType
-	shield: ItemType
-	shroomlight: ItemType
-	shulkerBox: ItemType
-	shulkerShell: ItemType
-	shulkerSpawnEgg: ItemType
-	silverfishSpawnEgg: ItemType
-	silverGlazedTerracotta: ItemType
-	skeletonHorseSpawnEgg: ItemType
-	skeletonSpawnEgg: ItemType
-	skull: ItemType
-	skullBannerPattern: ItemType
-	slime: ItemType
-	slimeBall: ItemType
-	slimeSpawnEgg: ItemType
-	smallAmethystBud: ItemType
-	smallDripleafBlock: ItemType
-	smithingTable: ItemType
-	smoker: ItemType
-	smoothBasalt: ItemType
-	smoothQuartzStairs: ItemType
-	smoothRedSandstoneStairs: ItemType
-	smoothSandstoneStairs: ItemType
-	smoothStone: ItemType
-	snow: ItemType
-	snowball: ItemType
-	snowLayer: ItemType
-	soulCampfire: ItemType
-	soulFire: ItemType
-	soulLantern: ItemType
-	soulSand: ItemType
-	soulSoil: ItemType
-	soulTorch: ItemType
-	sparkler: ItemType
-	spawnEgg: ItemType
-	spiderEye: ItemType
-	spiderSpawnEgg: ItemType
-	splashPotion: ItemType
-	sponge: ItemType
-	sporeBlossom: ItemType
-	spruceBoat: ItemType
-	spruceButton: ItemType
-	spruceDoor: ItemType
-	spruceFenceGate: ItemType
-	sprucePressurePlate: ItemType
-	spruceSign: ItemType
-	spruceStairs: ItemType
-	spruceStandingSign: ItemType
-	spruceTrapdoor: ItemType
-	spruceWallSign: ItemType
-	spyglass: ItemType
-	squidSpawnEgg: ItemType
-	stainedGlass: ItemType
-	stainedGlassPane: ItemType
-	stainedHardenedClay: ItemType
-	standingBanner: ItemType
-	standingSign: ItemType
-	stick: ItemType
-	stickyPiston: ItemType
-	stickypistonarmcollision: ItemType
-	stone: ItemType
-	stoneAxe: ItemType
-	stonebrick: ItemType
-	stoneBrickStairs: ItemType
-	stoneButton: ItemType
-	stonecutter: ItemType
-	stonecutterBlock: ItemType
-	stoneHoe: ItemType
-	stonePickaxe: ItemType
-	stonePressurePlate: ItemType
-	stoneShovel: ItemType
-	stoneStairs: ItemType
-	stoneSword: ItemType
-	straySpawnEgg: ItemType
-	striderSpawnEgg: ItemType
-	string: ItemType
-	strippedAcaciaLog: ItemType
-	strippedBirchLog: ItemType
-	strippedCrimsonHyphae: ItemType
-	strippedCrimsonStem: ItemType
-	strippedDarkOakLog: ItemType
-	strippedJungleLog: ItemType
-	strippedOakLog: ItemType
-	strippedSpruceLog: ItemType
-	strippedWarpedHyphae: ItemType
-	strippedWarpedStem: ItemType
-	structureBlock: ItemType
-	structureVoid: ItemType
-	sugar: ItemType
-	sugarCane: ItemType
-	suspiciousStew: ItemType
-	sweetBerries: ItemType
-	sweetBerryBush: ItemType
-	tallgrass: ItemType
-	target: ItemType
-	tintedGlass: ItemType
-	tnt: ItemType
-	tntMinecart: ItemType
-	torch: ItemType
-	totemOfUndying: ItemType
-	trapdoor: ItemType
-	trappedChest: ItemType
-	trident: ItemType
-	tripwire: ItemType
-	tripwireHook: ItemType
-	tropicalFish: ItemType
-	tropicalFishBucket: ItemType
-	tropicalFishSpawnEgg: ItemType
-	tuff: ItemType
-	turtleEgg: ItemType
-	turtleHelmet: ItemType
-	turtleSpawnEgg: ItemType
-	twistingVines: ItemType
-	underwaterTorch: ItemType
-	undyedShulkerBox: ItemType
-	unknown: ItemType
-	unlitRedstoneTorch: ItemType
-	unpoweredComparator: ItemType
-	unpoweredRepeater: ItemType
-	vexSpawnEgg: ItemType
-	villagerSpawnEgg: ItemType
-	vindicatorSpawnEgg: ItemType
-	vine: ItemType
-	wallBanner: ItemType
-	wallSign: ItemType
-	wanderingTraderSpawnEgg: ItemType
-	warpedButton: ItemType
-	warpedDoor: ItemType
-	warpedDoubleSlab: ItemType
-	warpedFence: ItemType
-	warpedFenceGate: ItemType
-	warpedFungus: ItemType
-	warpedFungusOnAStick: ItemType
-	warpedHyphae: ItemType
-	warpedNylium: ItemType
-	warpedPlanks: ItemType
-	warpedPressurePlate: ItemType
-	warpedRoots: ItemType
-	warpedSign: ItemType
-	warpedSlab: ItemType
-	warpedStairs: ItemType
-	warpedStandingSign: ItemType
-	warpedStem: ItemType
-	warpedTrapdoor: ItemType
-	warpedWallSign: ItemType
-	warpedWartBlock: ItemType
-	water: ItemType
-	waterBucket: ItemType
-	waterlily: ItemType
-	waxedCopper: ItemType
-	waxedCutCopper: ItemType
-	waxedCutCopperSlab: ItemType
-	waxedCutCopperStairs: ItemType
-	waxedDoubleCutCopperSlab: ItemType
-	waxedExposedCopper: ItemType
-	waxedExposedCutCopper: ItemType
-	waxedExposedCutCopperSlab: ItemType
-	waxedExposedCutCopperStairs: ItemType
-	waxedExposedDoubleCutCopperSlab: ItemType
-	waxedOxidizedCopper: ItemType
-	waxedOxidizedCutCopper: ItemType
-	waxedOxidizedCutCopperSlab: ItemType
-	waxedOxidizedCutCopperStairs: ItemType
-	waxedOxidizedDoubleCutCopperSlab: ItemType
-	waxedWeatheredCopper: ItemType
-	waxedWeatheredCutCopper: ItemType
-	waxedWeatheredCutCopperSlab: ItemType
-	waxedWeatheredCutCopperStairs: ItemType
-	waxedWeatheredDoubleCutCopperSlab: ItemType
-	weatheredCopper: ItemType
-	weatheredCutCopper: ItemType
-	weatheredCutCopperSlab: ItemType
-	weatheredCutCopperStairs: ItemType
-	weatheredDoubleCutCopperSlab: ItemType
-	web: ItemType
-	weepingVines: ItemType
-	wheat: ItemType
-	wheatSeeds: ItemType
-	whiteCandle: ItemType
-	whiteCandleCake: ItemType
-	whiteDye: ItemType
-	whiteGlazedTerracotta: ItemType
-	witchSpawnEgg: ItemType
-	witherRose: ItemType
-	witherSkeletonSpawnEgg: ItemType
-	wolfSpawnEgg: ItemType
-	wood: ItemType
-	woodenAxe: ItemType
-	woodenButton: ItemType
-	woodenDoor: ItemType
-	woodenHoe: ItemType
-	woodenPickaxe: ItemType
-	woodenPressurePlate: ItemType
-	woodenShovel: ItemType
-	woodenSlab: ItemType
-	woodenSword: ItemType
-	wool: ItemType
-	writableBook: ItemType
-	writtenBook: ItemType
-	yellowCandle: ItemType
-	yellowCandleCake: ItemType
-	yellowDye: ItemType
-	yellowFlower: ItemType
-	yellowGlazedTerracotta: ItemType
-	zoglinSpawnEgg: ItemType
-	zombieHorseSpawnEgg: ItemType
-	zombiePigmanSpawnEgg: ItemType
-	zombieSpawnEgg: ItemType
-	zombieVillagerSpawnEgg: ItemType
+<li>acaciaBoat: ItemType</li>
+<li>acaciaButton: ItemType</li>
+<li>acaciaDoor: ItemType</li>
+<li>acaciaFenceGate: ItemType</li>
+<li>acaciaPressurePlate: ItemType</li>
+<li>acaciaSign: ItemType</li>
+<li>acaciaStairs: ItemType</li>
+<li>acaciaStandingSign: ItemType</li>
+<li>acaciaTrapdoor: ItemType</li>
+<li>acaciaWallSign: ItemType</li>
+<li>activatorRail: ItemType</li>
+<li>agentSpawnEgg: ItemType</li>
+<li>air: ItemType</li>
+<li>allow: ItemType</li>
+<li>amethystBlock: ItemType</li>
+<li>amethystCluster: ItemType</li>
+<li>amethystShard: ItemType</li>
+<li>ancientDebris: ItemType</li>
+<li>andesiteStairs: ItemType</li>
+<li>anvil: ItemType</li>
+<li>apple: ItemType</li>
+<li>armorStand: ItemType</li>
+<li>arrow: ItemType</li>
+<li>axolotlBucket: ItemType</li>
+<li>axolotlSpawnEgg: ItemType</li>
+<li>azalea: ItemType</li>
+<li>azaleaLeaves: ItemType</li>
+<li>azaleaLeavesFlowered: ItemType</li>
+<li>bakedPotato: ItemType</li>
+<li>balloon: ItemType</li>
+<li>bamboo: ItemType</li>
+<li>bambooSapling: ItemType</li>
+<li>banner: ItemType</li>
+<li>bannerPattern: ItemType</li>
+<li>barrel: ItemType</li>
+<li>barrier: ItemType</li>
+<li>basalt: ItemType</li>
+<li>batSpawnEgg: ItemType</li>
+<li>beacon: ItemType</li>
+<li>bed: ItemType</li>
+<li>bedrock: ItemType</li>
+<li>beef: ItemType</li>
+<li>beehive: ItemType</li>
+<li>beeNest: ItemType</li>
+<li>beeSpawnEgg: ItemType</li>
+<li>beetroot: ItemType</li>
+<li>beetrootSeeds: ItemType</li>
+<li>beetrootSoup: ItemType</li>
+<li>bell: ItemType</li>
+<li>bigDripleaf: ItemType</li>
+<li>birchBoat: ItemType</li>
+<li>birchButton: ItemType</li>
+<li>birchDoor: ItemType</li>
+<li>birchFenceGate: ItemType</li>
+<li>birchPressurePlate: ItemType</li>
+<li>birchSign: ItemType</li>
+<li>birchStairs: ItemType</li>
+<li>birchStandingSign: ItemType</li>
+<li>birchTrapdoor: ItemType</li>
+<li>birchWallSign: ItemType</li>
+<li>blackCandle: ItemType</li>
+<li>blackCandleCake: ItemType</li>
+<li>blackDye: ItemType</li>
+<li>blackGlazedTerracotta: ItemType</li>
+<li>blackstone: ItemType</li>
+<li>blackstoneDoubleSlab: ItemType</li>
+<li>blackstoneSlab: ItemType</li>
+<li>blackstoneStairs: ItemType</li>
+<li>blackstoneWall: ItemType</li>
+<li>blastFurnace: ItemType</li>
+<li>blazePowder: ItemType</li>
+<li>blazeRod: ItemType</li>
+<li>blazeSpawnEgg: ItemType</li>
+<li>bleach: ItemType</li>
+<li>blueCandle: ItemType</li>
+<li>blueCandleCake: ItemType</li>
+<li>blueDye: ItemType</li>
+<li>blueGlazedTerracotta: ItemType</li>
+<li>blueIce: ItemType</li>
+<li>boat: ItemType</li>
+<li>bone: ItemType</li>
+<li>boneBlock: ItemType</li>
+<li>boneMeal: ItemType</li>
+<li>book: ItemType</li>
+<li>bookshelf: ItemType</li>
+<li>borderBlock: ItemType</li>
+<li>bordureIndentedBannerPattern: ItemType</li>
+<li>bow: ItemType</li>
+<li>bowl: ItemType</li>
+<li>bread: ItemType</li>
+<li>brewingStand: ItemType</li>
+<li>brewingstandblock: ItemType</li>
+<li>brick: ItemType</li>
+<li>brickBlock: ItemType</li>
+<li>brickStairs: ItemType</li>
+<li>brownCandle: ItemType</li>
+<li>brownCandleCake: ItemType</li>
+<li>brownDye: ItemType</li>
+<li>brownGlazedTerracotta: ItemType</li>
+<li>brownMushroom: ItemType</li>
+<li>brownMushroomBlock: ItemType</li>
+<li>bubbleColumn: ItemType</li>
+<li>bucket: ItemType</li>
+<li>buddingAmethyst: ItemType</li>
+<li>cactus: ItemType</li>
+<li>cake: ItemType</li>
+<li>calcite: ItemType</li>
+<li>camera: ItemType</li>
+<li>campfire: ItemType</li>
+<li>candle: ItemType</li>
+<li>candleCake: ItemType</li>
+<li>carpet: ItemType</li>
+<li>carrot: ItemType</li>
+<li>carrotOnAStick: ItemType</li>
+<li>carrots: ItemType</li>
+<li>cartographyTable: ItemType</li>
+<li>carvedPumpkin: ItemType</li>
+<li>catSpawnEgg: ItemType</li>
+<li>cauldron: ItemType</li>
+<li>caveSpiderSpawnEgg: ItemType</li>
+<li>caveVines: ItemType</li>
+<li>caveVinesBodyWithBerries: ItemType</li>
+<li>caveVinesHeadWithBerries: ItemType</li>
+<li>chain: ItemType</li>
+<li>chainCommandBlock: ItemType</li>
+<li>chainmailBoots: ItemType</li>
+<li>chainmailChestplate: ItemType</li>
+<li>chainmailHelmet: ItemType</li>
+<li>chainmailLeggings: ItemType</li>
+<li>charcoal: ItemType</li>
+<li>chemicalHeat: ItemType</li>
+<li>chemistryTable: ItemType</li>
+<li>chest: ItemType</li>
+<li>chestMinecart: ItemType</li>
+<li>chicken: ItemType</li>
+<li>chickenSpawnEgg: ItemType</li>
+<li>chiseledDeepslate: ItemType</li>
+<li>chiseledNetherBricks: ItemType</li>
+<li>chiseledPolishedBlackstone: ItemType</li>
+<li>chorusFlower: ItemType</li>
+<li>chorusFruit: ItemType</li>
+<li>chorusPlant: ItemType</li>
+<li>clay: ItemType</li>
+<li>clayBall: ItemType</li>
+<li>clock: ItemType</li>
+<li>coal: ItemType</li>
+<li>coalBlock: ItemType</li>
+<li>coalOre: ItemType</li>
+<li>cobbledDeepslate: ItemType</li>
+<li>cobbledDeepslateDoubleSlab: ItemType</li>
+<li>cobbledDeepslateSlab: ItemType</li>
+<li>cobbledDeepslateStairs: ItemType</li>
+<li>cobbledDeepslateWall: ItemType</li>
+<li>cobblestone: ItemType</li>
+<li>cobblestoneWall: ItemType</li>
+<li>cocoa: ItemType</li>
+<li>cocoaBeans: ItemType</li>
+<li>cod: ItemType</li>
+<li>codBucket: ItemType</li>
+<li>codSpawnEgg: ItemType</li>
+<li>coloredTorchBp: ItemType</li>
+<li>coloredTorchRg: ItemType</li>
+<li>commandBlock: ItemType</li>
+<li>commandBlockMinecart: ItemType</li>
+<li>comparator: ItemType</li>
+<li>compass: ItemType</li>
+<li>composter: ItemType</li>
+<li>compound: ItemType</li>
+<li>concrete: ItemType</li>
+<li>concretePowder: ItemType</li>
+<li>conduit: ItemType</li>
+<li>cookedBeef: ItemType</li>
+<li>cookedChicken: ItemType</li>
+<li>cookedCod: ItemType</li>
+<li>cookedMutton: ItemType</li>
+<li>cookedPorkchop: ItemType</li>
+<li>cookedRabbit: ItemType</li>
+<li>cookedSalmon: ItemType</li>
+<li>cookie: ItemType</li>
+<li>copperBlock: ItemType</li>
+<li>copperIngot: ItemType</li>
+<li>copperOre: ItemType</li>
+<li>coral: ItemType</li>
+<li>coralBlock: ItemType</li>
+<li>coralFan: ItemType</li>
+<li>coralFanDead: ItemType</li>
+<li>coralFanHang: ItemType</li>
+<li>coralFanHang2: ItemType</li>
+<li>coralFanHang3: ItemType</li>
+<li>cowSpawnEgg: ItemType</li>
+<li>crackedDeepslateBricks: ItemType</li>
+<li>crackedDeepslateTiles: ItemType</li>
+<li>crackedNetherBricks: ItemType</li>
+<li>crackedPolishedBlackstoneBricks: ItemType</li>
+<li>craftingTable: ItemType</li>
+<li>creeperBannerPattern: ItemType</li>
+<li>creeperSpawnEgg: ItemType</li>
+<li>crimsonButton: ItemType</li>
+<li>crimsonDoor: ItemType</li>
+<li>crimsonDoubleSlab: ItemType</li>
+<li>crimsonFence: ItemType</li>
+<li>crimsonFenceGate: ItemType</li>
+<li>crimsonFungus: ItemType</li>
+<li>crimsonHyphae: ItemType</li>
+<li>crimsonNylium: ItemType</li>
+<li>crimsonPlanks: ItemType</li>
+<li>crimsonPressurePlate: ItemType</li>
+<li>crimsonRoots: ItemType</li>
+<li>crimsonSign: ItemType</li>
+<li>crimsonSlab: ItemType</li>
+<li>crimsonStairs: ItemType</li>
+<li>crimsonStandingSign: ItemType</li>
+<li>crimsonStem: ItemType</li>
+<li>crimsonTrapdoor: ItemType</li>
+<li>crimsonWallSign: ItemType</li>
+<li>crossbow: ItemType</li>
+<li>cryingObsidian: ItemType</li>
+<li>cutCopper: ItemType</li>
+<li>cutCopperSlab: ItemType</li>
+<li>cutCopperStairs: ItemType</li>
+<li>cyanCandle: ItemType</li>
+<li>cyanCandleCake: ItemType</li>
+<li>cyanDye: ItemType</li>
+<li>cyanGlazedTerracotta: ItemType</li>
+<li>darkOakBoat: ItemType</li>
+<li>darkOakButton: ItemType</li>
+<li>darkOakDoor: ItemType</li>
+<li>darkOakFenceGate: ItemType</li>
+<li>darkOakPressurePlate: ItemType</li>
+<li>darkOakSign: ItemType</li>
+<li>darkOakStairs: ItemType</li>
+<li>darkoakStandingSign: ItemType</li>
+<li>darkOakTrapdoor: ItemType</li>
+<li>darkoakWallSign: ItemType</li>
+<li>darkPrismarineStairs: ItemType</li>
+<li>daylightDetector: ItemType</li>
+<li>daylightDetectorInverted: ItemType</li>
+<li>deadbush: ItemType</li>
+<li>debugStick: ItemType</li>
+<li>deepslate: ItemType</li>
+<li>deepslateBrickDoubleSlab: ItemType</li>
+<li>deepslateBricks: ItemType</li>
+<li>deepslateBrickSlab: ItemType</li>
+<li>deepslateBrickStairs: ItemType</li>
+<li>deepslateBrickWall: ItemType</li>
+<li>deepslateCoalOre: ItemType</li>
+<li>deepslateCopperOre: ItemType</li>
+<li>deepslateDiamondOre: ItemType</li>
+<li>deepslateEmeraldOre: ItemType</li>
+<li>deepslateGoldOre: ItemType</li>
+<li>deepslateIronOre: ItemType</li>
+<li>deepslateLapisOre: ItemType</li>
+<li>deepslateRedstoneOre: ItemType</li>
+<li>deepslateTileDoubleSlab: ItemType</li>
+<li>deepslateTiles: ItemType</li>
+<li>deepslateTileSlab: ItemType</li>
+<li>deepslateTileStairs: ItemType</li>
+<li>deepslateTileWall: ItemType</li>
+<li>deny: ItemType</li>
+<li>detectorRail: ItemType</li>
+<li>diamond: ItemType</li>
+<li>diamondAxe: ItemType</li>
+<li>diamondBlock: ItemType</li>
+<li>diamondBoots: ItemType</li>
+<li>diamondChestplate: ItemType</li>
+<li>diamondHelmet: ItemType</li>
+<li>diamondHoe: ItemType</li>
+<li>diamondHorseArmor: ItemType</li>
+<li>diamondLeggings: ItemType</li>
+<li>diamondOre: ItemType</li>
+<li>diamondPickaxe: ItemType</li>
+<li>diamondShovel: ItemType</li>
+<li>diamondSword: ItemType</li>
+<li>dioriteStairs: ItemType</li>
+<li>dirt: ItemType</li>
+<li>dirtWithRoots: ItemType</li>
+<li>dispenser: ItemType</li>
+<li>dolphinSpawnEgg: ItemType</li>
+<li>donkeySpawnEgg: ItemType</li>
+<li>doubleCutCopperSlab: ItemType</li>
+<li>doublePlant: ItemType</li>
+<li>doubleStoneSlab: ItemType</li>
+<li>doubleStoneSlab2: ItemType</li>
+<li>doubleStoneSlab3: ItemType</li>
+<li>doubleStoneSlab4: ItemType</li>
+<li>doubleWoodenSlab: ItemType</li>
+<li>dragonBreath: ItemType</li>
+<li>dragonEgg: ItemType</li>
+<li>driedKelp: ItemType</li>
+<li>driedKelpBlock: ItemType</li>
+<li>dripstoneBlock: ItemType</li>
+<li>dropper: ItemType</li>
+<li>drownedSpawnEgg: ItemType</li>
+<li>dye: ItemType</li>
+<li>egg: ItemType</li>
+<li>elderGuardianSpawnEgg: ItemType</li>
+<li>element0: ItemType</li>
+<li>element1: ItemType</li>
+<li>element10: ItemType</li>
+<li>element100: ItemType</li>
+<li>element101: ItemType</li>
+<li>element102: ItemType</li>
+<li>element103: ItemType</li>
+<li>element104: ItemType</li>
+<li>element105: ItemType</li>
+<li>element106: ItemType</li>
+<li>element107: ItemType</li>
+<li>element108: ItemType</li>
+<li>element109: ItemType</li>
+<li>element11: ItemType</li>
+<li>element110: ItemType</li>
+<li>element111: ItemType</li>
+<li>element112: ItemType</li>
+<li>element113: ItemType</li>
+<li>element114: ItemType</li>
+<li>element115: ItemType</li>
+<li>element116: ItemType</li>
+<li>element117: ItemType</li>
+<li>element118: ItemType</li>
+<li>element12: ItemType</li>
+<li>element13: ItemType</li>
+<li>element14: ItemType</li>
+<li>element15: ItemType</li>
+<li>element16: ItemType</li>
+<li>element17: ItemType</li>
+<li>element18: ItemType</li>
+<li>element19: ItemType</li>
+<li>element2: ItemType</li>
+<li>element20: ItemType</li>
+<li>element21: ItemType</li>
+<li>element22: ItemType</li>
+<li>element23: ItemType</li>
+<li>element24: ItemType</li>
+<li>element25: ItemType</li>
+<li>element26: ItemType</li>
+<li>element27: ItemType</li>
+<li>element28: ItemType</li>
+<li>element29: ItemType</li>
+<li>element3: ItemType</li>
+<li>element30: ItemType</li>
+<li>element31: ItemType</li>
+<li>element32: ItemType</li>
+<li>element33: ItemType</li>
+<li>element34: ItemType</li>
+<li>element35: ItemType</li>
+<li>element36: ItemType</li>
+<li>element37: ItemType</li>
+<li>element38: ItemType</li>
+<li>element39: ItemType</li>
+<li>element4: ItemType</li>
+<li>element40: ItemType</li>
+<li>element41: ItemType</li>
+<li>element42: ItemType</li>
+<li>element43: ItemType</li>
+<li>element44: ItemType</li>
+<li>element45: ItemType</li>
+<li>element46: ItemType</li>
+<li>element47: ItemType</li>
+<li>element48: ItemType</li>
+<li>element49: ItemType</li>
+<li>element5: ItemType</li>
+<li>element50: ItemType</li>
+<li>element51: ItemType</li>
+<li>element52: ItemType</li>
+<li>element53: ItemType</li>
+<li>element54: ItemType</li>
+<li>element55: ItemType</li>
+<li>element56: ItemType</li>
+<li>element57: ItemType</li>
+<li>element58: ItemType</li>
+<li>element59: ItemType</li>
+<li>element6: ItemType</li>
+<li>element60: ItemType</li>
+<li>element61: ItemType</li>
+<li>element62: ItemType</li>
+<li>element63: ItemType</li>
+<li>element64: ItemType</li>
+<li>element65: ItemType</li>
+<li>element66: ItemType</li>
+<li>element67: ItemType</li>
+<li>element68: ItemType</li>
+<li>element69: ItemType</li>
+<li>element7: ItemType</li>
+<li>element70: ItemType</li>
+<li>element71: ItemType</li>
+<li>element72: ItemType</li>
+<li>element73: ItemType</li>
+<li>element74: ItemType</li>
+<li>element75: ItemType</li>
+<li>element76: ItemType</li>
+<li>element77: ItemType</li>
+<li>element78: ItemType</li>
+<li>element79: ItemType</li>
+<li>element8: ItemType</li>
+<li>element80: ItemType</li>
+<li>element81: ItemType</li>
+<li>element82: ItemType</li>
+<li>element83: ItemType</li>
+<li>element84: ItemType</li>
+<li>element85: ItemType</li>
+<li>element86: ItemType</li>
+<li>element87: ItemType</li>
+<li>element88: ItemType</li>
+<li>element89: ItemType</li>
+<li>element9: ItemType</li>
+<li>element90: ItemType</li>
+<li>element91: ItemType</li>
+<li>element92: ItemType</li>
+<li>element93: ItemType</li>
+<li>element94: ItemType</li>
+<li>element95: ItemType</li>
+<li>element96: ItemType</li>
+<li>element97: ItemType</li>
+<li>element98: ItemType</li>
+<li>element99: ItemType</li>
+<li>elytra: ItemType</li>
+<li>emerald: ItemType</li>
+<li>emeraldBlock: ItemType</li>
+<li>emeraldOre: ItemType</li>
+<li>emptyMap: ItemType</li>
+<li>enchantedBook: ItemType</li>
+<li>enchantedGoldenApple: ItemType</li>
+<li>enchantingTable: ItemType</li>
+<li>endBricks: ItemType</li>
+<li>endBrickStairs: ItemType</li>
+<li>endCrystal: ItemType</li>
+<li>enderChest: ItemType</li>
+<li>enderEye: ItemType</li>
+<li>endermanSpawnEgg: ItemType</li>
+<li>endermiteSpawnEgg: ItemType</li>
+<li>enderPearl: ItemType</li>
+<li>endGateway: ItemType</li>
+<li>endPortal: ItemType</li>
+<li>endPortalFrame: ItemType</li>
+<li>endRod: ItemType</li>
+<li>endStone: ItemType</li>
+<li>evokerSpawnEgg: ItemType</li>
+<li>experienceBottle: ItemType</li>
+<li>exposedCopper: ItemType</li>
+<li>exposedCutCopper: ItemType</li>
+<li>exposedCutCopperSlab: ItemType</li>
+<li>exposedCutCopperStairs: ItemType</li>
+<li>exposedDoubleCutCopperSlab: ItemType</li>
+<li>farmland: ItemType</li>
+<li>feather: ItemType</li>
+<li>fence: ItemType</li>
+<li>fenceGate: ItemType</li>
+<li>fermentedSpiderEye: ItemType</li>
+<li>fieldMasonedBannerPattern: ItemType</li>
+<li>filledMap: ItemType</li>
+<li>fire: ItemType</li>
+<li>fireCharge: ItemType</li>
+<li>fireworkRocket: ItemType</li>
+<li>fireworkStar: ItemType</li>
+<li>fishingRod: ItemType</li>
+<li>fletchingTable: ItemType</li>
+<li>flint: ItemType</li>
+<li>flintAndSteel: ItemType</li>
+<li>flowerBannerPattern: ItemType</li>
+<li>floweringAzalea: ItemType</li>
+<li>flowerPot: ItemType</li>
+<li>flowingLava: ItemType</li>
+<li>flowingWater: ItemType</li>
+<li>foxSpawnEgg: ItemType</li>
+<li>frame: ItemType</li>
+<li>frostedIce: ItemType</li>
+<li>furnace: ItemType</li>
+<li>ghastSpawnEgg: ItemType</li>
+<li>ghastTear: ItemType</li>
+<li>gildedBlackstone: ItemType</li>
+<li>glass: ItemType</li>
+<li>glassBottle: ItemType</li>
+<li>glassPane: ItemType</li>
+<li>glisteringMelonSlice: ItemType</li>
+<li>glowBerries: ItemType</li>
+<li>glowFrame: ItemType</li>
+<li>glowingobsidian: ItemType</li>
+<li>glowInkSac: ItemType</li>
+<li>glowLichen: ItemType</li>
+<li>glowSquidSpawnEgg: ItemType</li>
+<li>glowStick: ItemType</li>
+<li>glowstone: ItemType</li>
+<li>glowstoneDust: ItemType</li>
+<li>goatHorn: ItemType</li>
+<li>goatSpawnEgg: ItemType</li>
+<li>goldBlock: ItemType</li>
+<li>goldenApple: ItemType</li>
+<li>goldenAxe: ItemType</li>
+<li>goldenBoots: ItemType</li>
+<li>goldenCarrot: ItemType</li>
+<li>goldenChestplate: ItemType</li>
+<li>goldenHelmet: ItemType</li>
+<li>goldenHoe: ItemType</li>
+<li>goldenHorseArmor: ItemType</li>
+<li>goldenLeggings: ItemType</li>
+<li>goldenPickaxe: ItemType</li>
+<li>goldenRail: ItemType</li>
+<li>goldenShovel: ItemType</li>
+<li>goldenSword: ItemType</li>
+<li>goldIngot: ItemType</li>
+<li>goldNugget: ItemType</li>
+<li>goldOre: ItemType</li>
+<li>graniteStairs: ItemType</li>
+<li>grass: ItemType</li>
+<li>grassPath: ItemType</li>
+<li>gravel: ItemType</li>
+<li>grayCandle: ItemType</li>
+<li>grayCandleCake: ItemType</li>
+<li>grayDye: ItemType</li>
+<li>grayGlazedTerracotta: ItemType</li>
+<li>greenCandle: ItemType</li>
+<li>greenCandleCake: ItemType</li>
+<li>greenDye: ItemType</li>
+<li>greenGlazedTerracotta: ItemType</li>
+<li>grindstone: ItemType</li>
+<li>guardianSpawnEgg: ItemType</li>
+<li>gunpowder: ItemType</li>
+<li>hangingRoots: ItemType</li>
+<li>hardenedClay: ItemType</li>
+<li>hardGlass: ItemType</li>
+<li>hardGlassPane: ItemType</li>
+<li>hardStainedGlass: ItemType</li>
+<li>hardStainedGlassPane: ItemType</li>
+<li>hayBlock: ItemType</li>
+<li>heartOfTheSea: ItemType</li>
+<li>heavyWeightedPressurePlate: ItemType</li>
+<li>hoglinSpawnEgg: ItemType</li>
+<li>honeyBlock: ItemType</li>
+<li>honeyBottle: ItemType</li>
+<li>honeycomb: ItemType</li>
+<li>honeycombBlock: ItemType</li>
+<li>hopper: ItemType</li>
+<li>hopperMinecart: ItemType</li>
+<li>horseSpawnEgg: ItemType</li>
+<li>huskSpawnEgg: ItemType</li>
+<li>ice: ItemType</li>
+<li>iceBomb: ItemType</li>
+<li>infestedDeepslate: ItemType</li>
+<li>infoUpdate: ItemType</li>
+<li>infoUpdate2: ItemType</li>
+<li>inkSac: ItemType</li>
+<li>invisiblebedrock: ItemType</li>
+<li>ironAxe: ItemType</li>
+<li>ironBars: ItemType</li>
+<li>ironBlock: ItemType</li>
+<li>ironBoots: ItemType</li>
+<li>ironChestplate: ItemType</li>
+<li>ironDoor: ItemType</li>
+<li>ironHelmet: ItemType</li>
+<li>ironHoe: ItemType</li>
+<li>ironHorseArmor: ItemType</li>
+<li>ironIngot: ItemType</li>
+<li>ironLeggings: ItemType</li>
+<li>ironNugget: ItemType</li>
+<li>ironOre: ItemType</li>
+<li>ironPickaxe: ItemType</li>
+<li>ironShovel: ItemType</li>
+<li>ironSword: ItemType</li>
+<li>ironTrapdoor: ItemType</li>
+<li>item.acaciaDoor: ItemType</li>
+<li>item.bed: ItemType</li>
+<li>item.beetroot: ItemType</li>
+<li>item.birchDoor: ItemType</li>
+<li>item.cake: ItemType</li>
+<li>item.camera: ItemType</li>
+<li>item.campfire: ItemType</li>
+<li>item.cauldron: ItemType</li>
+<li>item.chain: ItemType</li>
+<li>item.crimsonDoor: ItemType</li>
+<li>item.darkOakDoor: ItemType</li>
+<li>item.flowerPot: ItemType</li>
+<li>item.frame: ItemType</li>
+<li>item.glowFrame: ItemType</li>
+<li>item.hopper: ItemType</li>
+<li>item.ironDoor: ItemType</li>
+<li>item.jungleDoor: ItemType</li>
+<li>item.kelp: ItemType</li>
+<li>item.netherSprouts: ItemType</li>
+<li>item.netherWart: ItemType</li>
+<li>item.reeds: ItemType</li>
+<li>item.skull: ItemType</li>
+<li>item.soulCampfire: ItemType</li>
+<li>item.spruceDoor: ItemType</li>
+<li>item.warpedDoor: ItemType</li>
+<li>item.wheat: ItemType</li>
+<li>item.woodenDoor: ItemType</li>
+<li>jigsaw: ItemType</li>
+<li>jukebox: ItemType</li>
+<li>jungleBoat: ItemType</li>
+<li>jungleButton: ItemType</li>
+<li>jungleDoor: ItemType</li>
+<li>jungleFenceGate: ItemType</li>
+<li>junglePressurePlate: ItemType</li>
+<li>jungleSign: ItemType</li>
+<li>jungleStairs: ItemType</li>
+<li>jungleStandingSign: ItemType</li>
+<li>jungleTrapdoor: ItemType</li>
+<li>jungleWallSign: ItemType</li>
+<li>kelp: ItemType</li>
+<li>ladder: ItemType</li>
+<li>lantern: ItemType</li>
+<li>lapisBlock: ItemType</li>
+<li>lapisLazuli: ItemType</li>
+<li>lapisOre: ItemType</li>
+<li>largeAmethystBud: ItemType</li>
+<li>lava: ItemType</li>
+<li>lavaBucket: ItemType</li>
+<li>lavaCauldron: ItemType</li>
+<li>lead: ItemType</li>
+<li>leather: ItemType</li>
+<li>leatherBoots: ItemType</li>
+<li>leatherChestplate: ItemType</li>
+<li>leatherHelmet: ItemType</li>
+<li>leatherHorseArmor: ItemType</li>
+<li>leatherLeggings: ItemType</li>
+<li>leaves: ItemType</li>
+<li>leaves2: ItemType</li>
+<li>lectern: ItemType</li>
+<li>lever: ItemType</li>
+<li>lightBlock: ItemType</li>
+<li>lightBlueCandle: ItemType</li>
+<li>lightBlueCandleCake: ItemType</li>
+<li>lightBlueDye: ItemType</li>
+<li>lightBlueGlazedTerracotta: ItemType</li>
+<li>lightGrayCandle: ItemType</li>
+<li>lightGrayCandleCake: ItemType</li>
+<li>lightGrayDye: ItemType</li>
+<li>lightningRod: ItemType</li>
+<li>lightWeightedPressurePlate: ItemType</li>
+<li>limeCandle: ItemType</li>
+<li>limeCandleCake: ItemType</li>
+<li>limeDye: ItemType</li>
+<li>limeGlazedTerracotta: ItemType</li>
+<li>lingeringPotion: ItemType</li>
+<li>litBlastFurnace: ItemType</li>
+<li>litDeepslateRedstoneOre: ItemType</li>
+<li>litFurnace: ItemType</li>
+<li>litPumpkin: ItemType</li>
+<li>litRedstoneLamp: ItemType</li>
+<li>litRedstoneOre: ItemType</li>
+<li>litSmoker: ItemType</li>
+<li>llamaSpawnEgg: ItemType</li>
+<li>lodestone: ItemType</li>
+<li>lodestoneCompass: ItemType</li>
+<li>log: ItemType</li>
+<li>log2: ItemType</li>
+<li>loom: ItemType</li>
+<li>magentaCandle: ItemType</li>
+<li>magentaCandleCake: ItemType</li>
+<li>magentaDye: ItemType</li>
+<li>magentaGlazedTerracotta: ItemType</li>
+<li>magma: ItemType</li>
+<li>magmaCream: ItemType</li>
+<li>magmaCubeSpawnEgg: ItemType</li>
+<li>medicine: ItemType</li>
+<li>mediumAmethystBud: ItemType</li>
+<li>melonBlock: ItemType</li>
+<li>melonSeeds: ItemType</li>
+<li>melonSlice: ItemType</li>
+<li>melonStem: ItemType</li>
+<li>milkBucket: ItemType</li>
+<li>minecart: ItemType</li>
+<li>minecraft:acacia_boat: ItemType</li>
+<li>minecraft:acacia_button: ItemType</li>
+<li>minecraft:acacia_door: ItemType</li>
+<li>minecraft:acacia_fence_gate: ItemType</li>
+<li>minecraft:acacia_pressure_plate: ItemType</li>
+<li>minecraft:acacia_sign: ItemType</li>
+<li>minecraft:acacia_stairs: ItemType</li>
+<li>minecraft:acacia_standing_sign: ItemType</li>
+<li>minecraft:acacia_trapdoor: ItemType</li>
+<li>minecraft:acacia_wall_sign: ItemType</li>
+<li>minecraft:activator_rail: ItemType</li>
+<li>minecraft:agent_spawn_egg: ItemType</li>
+<li>minecraft:air: ItemType</li>
+<li>minecraft:allow: ItemType</li>
+<li>minecraft:amethyst_block: ItemType</li>
+<li>minecraft:amethyst_cluster: ItemType</li>
+<li>minecraft:amethyst_shard: ItemType</li>
+<li>minecraft:ancient_debris: ItemType</li>
+<li>minecraft:andesite_stairs: ItemType</li>
+<li>minecraft:anvil: ItemType</li>
+<li>minecraft:apple: ItemType</li>
+<li>minecraft:armor_stand: ItemType</li>
+<li>minecraft:arrow: ItemType</li>
+<li>minecraft:axolotl_bucket: ItemType</li>
+<li>minecraft:axolotl_spawn_egg: ItemType</li>
+<li>minecraft:azalea: ItemType</li>
+<li>minecraft:azalea_leaves: ItemType</li>
+<li>minecraft:azalea_leaves_flowered: ItemType</li>
+<li>minecraft:baked_potato: ItemType</li>
+<li>minecraft:balloon: ItemType</li>
+<li>minecraft:bamboo: ItemType</li>
+<li>minecraft:bamboo_sapling: ItemType</li>
+<li>minecraft:banner: ItemType</li>
+<li>minecraft:banner_pattern: ItemType</li>
+<li>minecraft:barrel: ItemType</li>
+<li>minecraft:barrier: ItemType</li>
+<li>minecraft:basalt: ItemType</li>
+<li>minecraft:bat_spawn_egg: ItemType</li>
+<li>minecraft:beacon: ItemType</li>
+<li>minecraft:bed: ItemType</li>
+<li>minecraft:bedrock: ItemType</li>
+<li>minecraft:bee_nest: ItemType</li>
+<li>minecraft:bee_spawn_egg: ItemType</li>
+<li>minecraft:beef: ItemType</li>
+<li>minecraft:beehive: ItemType</li>
+<li>minecraft:beetroot: ItemType</li>
+<li>minecraft:beetroot_seeds: ItemType</li>
+<li>minecraft:beetroot_soup: ItemType</li>
+<li>minecraft:bell: ItemType</li>
+<li>minecraft:big_dripleaf: ItemType</li>
+<li>minecraft:birch_boat: ItemType</li>
+<li>minecraft:birch_button: ItemType</li>
+<li>minecraft:birch_door: ItemType</li>
+<li>minecraft:birch_fence_gate: ItemType</li>
+<li>minecraft:birch_pressure_plate: ItemType</li>
+<li>minecraft:birch_sign: ItemType</li>
+<li>minecraft:birch_stairs: ItemType</li>
+<li>minecraft:birch_standing_sign: ItemType</li>
+<li>minecraft:birch_trapdoor: ItemType</li>
+<li>minecraft:birch_wall_sign: ItemType</li>
+<li>minecraft:black_candle: ItemType</li>
+<li>minecraft:black_candle_cake: ItemType</li>
+<li>minecraft:black_dye: ItemType</li>
+<li>minecraft:black_glazed_terracotta: ItemType</li>
+<li>minecraft:blackstone: ItemType</li>
+<li>minecraft:blackstone_double_slab: ItemType</li>
+<li>minecraft:blackstone_slab: ItemType</li>
+<li>minecraft:blackstone_stairs: ItemType</li>
+<li>minecraft:blackstone_wall: ItemType</li>
+<li>minecraft:blast_furnace: ItemType</li>
+<li>minecraft:blaze_powder: ItemType</li>
+<li>minecraft:blaze_rod: ItemType</li>
+<li>minecraft:blaze_spawn_egg: ItemType</li>
+<li>minecraft:bleach: ItemType</li>
+<li>minecraft:blue_candle: ItemType</li>
+<li>minecraft:blue_candle_cake: ItemType</li>
+<li>minecraft:blue_dye: ItemType</li>
+<li>minecraft:blue_glazed_terracotta: ItemType</li>
+<li>minecraft:blue_ice: ItemType</li>
+<li>minecraft:boat: ItemType</li>
+<li>minecraft:bone: ItemType</li>
+<li>minecraft:bone_block: ItemType</li>
+<li>minecraft:bone_meal: ItemType</li>
+<li>minecraft:book: ItemType</li>
+<li>minecraft:bookshelf: ItemType</li>
+<li>minecraft:border_block: ItemType</li>
+<li>minecraft:bordure_indented_banner_pattern: ItemType</li>
+<li>minecraft:bow: ItemType</li>
+<li>minecraft:bowl: ItemType</li>
+<li>minecraft:bread: ItemType</li>
+<li>minecraft:brewing_stand: ItemType</li>
+<li>minecraft:brewingstandblock: ItemType</li>
+<li>minecraft:brick: ItemType</li>
+<li>minecraft:brick_block: ItemType</li>
+<li>minecraft:brick_stairs: ItemType</li>
+<li>minecraft:brown_candle: ItemType</li>
+<li>minecraft:brown_candle_cake: ItemType</li>
+<li>minecraft:brown_dye: ItemType</li>
+<li>minecraft:brown_glazed_terracotta: ItemType</li>
+<li>minecraft:brown_mushroom: ItemType</li>
+<li>minecraft:brown_mushroom_block: ItemType</li>
+<li>minecraft:bubble_column: ItemType</li>
+<li>minecraft:bucket: ItemType</li>
+<li>minecraft:budding_amethyst: ItemType</li>
+<li>minecraft:cactus: ItemType</li>
+<li>minecraft:cake: ItemType</li>
+<li>minecraft:calcite: ItemType</li>
+<li>minecraft:camera: ItemType</li>
+<li>minecraft:campfire: ItemType</li>
+<li>minecraft:candle: ItemType</li>
+<li>minecraft:candle_cake: ItemType</li>
+<li>minecraft:carpet: ItemType</li>
+<li>minecraft:carrot: ItemType</li>
+<li>minecraft:carrot_on_a_stick: ItemType</li>
+<li>minecraft:carrots: ItemType</li>
+<li>minecraft:cartography_table: ItemType</li>
+<li>minecraft:carved_pumpkin: ItemType</li>
+<li>minecraft:cat_spawn_egg: ItemType</li>
+<li>minecraft:cauldron: ItemType</li>
+<li>minecraft:cave_spider_spawn_egg: ItemType</li>
+<li>minecraft:cave_vines: ItemType</li>
+<li>minecraft:cave_vines_body_with_berries: ItemType</li>
+<li>minecraft:cave_vines_head_with_berries: ItemType</li>
+<li>minecraft:chain: ItemType</li>
+<li>minecraft:chain_command_block: ItemType</li>
+<li>minecraft:chainmail_boots: ItemType</li>
+<li>minecraft:chainmail_chestplate: ItemType</li>
+<li>minecraft:chainmail_helmet: ItemType</li>
+<li>minecraft:chainmail_leggings: ItemType</li>
+<li>minecraft:charcoal: ItemType</li>
+<li>minecraft:chemical_heat: ItemType</li>
+<li>minecraft:chemistry_table: ItemType</li>
+<li>minecraft:chest: ItemType</li>
+<li>minecraft:chest_minecart: ItemType</li>
+<li>minecraft:chicken: ItemType</li>
+<li>minecraft:chicken_spawn_egg: ItemType</li>
+<li>minecraft:chiseled_deepslate: ItemType</li>
+<li>minecraft:chiseled_nether_bricks: ItemType</li>
+<li>minecraft:chiseled_polished_blackstone: ItemType</li>
+<li>minecraft:chorus_flower: ItemType</li>
+<li>minecraft:chorus_fruit: ItemType</li>
+<li>minecraft:chorus_plant: ItemType</li>
+<li>minecraft:clay: ItemType</li>
+<li>minecraft:clay_ball: ItemType</li>
+<li>minecraft:clock: ItemType</li>
+<li>minecraft:coal: ItemType</li>
+<li>minecraft:coal_block: ItemType</li>
+<li>minecraft:coal_ore: ItemType</li>
+<li>minecraft:cobbled_deepslate: ItemType</li>
+<li>minecraft:cobbled_deepslate_double_slab: ItemType</li>
+<li>minecraft:cobbled_deepslate_slab: ItemType</li>
+<li>minecraft:cobbled_deepslate_stairs: ItemType</li>
+<li>minecraft:cobbled_deepslate_wall: ItemType</li>
+<li>minecraft:cobblestone: ItemType</li>
+<li>minecraft:cobblestone_wall: ItemType</li>
+<li>minecraft:cocoa: ItemType</li>
+<li>minecraft:cocoa_beans: ItemType</li>
+<li>minecraft:cod: ItemType</li>
+<li>minecraft:cod_bucket: ItemType</li>
+<li>minecraft:cod_spawn_egg: ItemType</li>
+<li>minecraft:colored_torch_bp: ItemType</li>
+<li>minecraft:colored_torch_rg: ItemType</li>
+<li>minecraft:command_block: ItemType</li>
+<li>minecraft:command_block_minecart: ItemType</li>
+<li>minecraft:comparator: ItemType</li>
+<li>minecraft:compass: ItemType</li>
+<li>minecraft:composter: ItemType</li>
+<li>minecraft:compound: ItemType</li>
+<li>minecraft:concrete: ItemType</li>
+<li>minecraft:concrete_powder: ItemType</li>
+<li>minecraft:conduit: ItemType</li>
+<li>minecraft:cooked_beef: ItemType</li>
+<li>minecraft:cooked_chicken: ItemType</li>
+<li>minecraft:cooked_cod: ItemType</li>
+<li>minecraft:cooked_mutton: ItemType</li>
+<li>minecraft:cooked_porkchop: ItemType</li>
+<li>minecraft:cooked_rabbit: ItemType</li>
+<li>minecraft:cooked_salmon: ItemType</li>
+<li>minecraft:cookie: ItemType</li>
+<li>minecraft:copper_block: ItemType</li>
+<li>minecraft:copper_ingot: ItemType</li>
+<li>minecraft:copper_ore: ItemType</li>
+<li>minecraft:coral: ItemType</li>
+<li>minecraft:coral_block: ItemType</li>
+<li>minecraft:coral_fan: ItemType</li>
+<li>minecraft:coral_fan_dead: ItemType</li>
+<li>minecraft:coral_fan_hang: ItemType</li>
+<li>minecraft:coral_fan_hang2: ItemType</li>
+<li>minecraft:coral_fan_hang3: ItemType</li>
+<li>minecraft:cow_spawn_egg: ItemType</li>
+<li>minecraft:cracked_deepslate_bricks: ItemType</li>
+<li>minecraft:cracked_deepslate_tiles: ItemType</li>
+<li>minecraft:cracked_nether_bricks: ItemType</li>
+<li>minecraft:cracked_polished_blackstone_bricks: ItemType</li>
+<li>minecraft:crafting_table: ItemType</li>
+<li>minecraft:creeper_banner_pattern: ItemType</li>
+<li>minecraft:creeper_spawn_egg: ItemType</li>
+<li>minecraft:crimson_button: ItemType</li>
+<li>minecraft:crimson_door: ItemType</li>
+<li>minecraft:crimson_double_slab: ItemType</li>
+<li>minecraft:crimson_fence: ItemType</li>
+<li>minecraft:crimson_fence_gate: ItemType</li>
+<li>minecraft:crimson_fungus: ItemType</li>
+<li>minecraft:crimson_hyphae: ItemType</li>
+<li>minecraft:crimson_nylium: ItemType</li>
+<li>minecraft:crimson_planks: ItemType</li>
+<li>minecraft:crimson_pressure_plate: ItemType</li>
+<li>minecraft:crimson_roots: ItemType</li>
+<li>minecraft:crimson_sign: ItemType</li>
+<li>minecraft:crimson_slab: ItemType</li>
+<li>minecraft:crimson_stairs: ItemType</li>
+<li>minecraft:crimson_standing_sign: ItemType</li>
+<li>minecraft:crimson_stem: ItemType</li>
+<li>minecraft:crimson_trapdoor: ItemType</li>
+<li>minecraft:crimson_wall_sign: ItemType</li>
+<li>minecraft:crossbow: ItemType</li>
+<li>minecraft:crying_obsidian: ItemType</li>
+<li>minecraft:cut_copper: ItemType</li>
+<li>minecraft:cut_copper_slab: ItemType</li>
+<li>minecraft:cut_copper_stairs: ItemType</li>
+<li>minecraft:cyan_candle: ItemType</li>
+<li>minecraft:cyan_candle_cake: ItemType</li>
+<li>minecraft:cyan_dye: ItemType</li>
+<li>minecraft:cyan_glazed_terracotta: ItemType</li>
+<li>minecraft:dark_oak_boat: ItemType</li>
+<li>minecraft:dark_oak_button: ItemType</li>
+<li>minecraft:dark_oak_door: ItemType</li>
+<li>minecraft:dark_oak_fence_gate: ItemType</li>
+<li>minecraft:dark_oak_pressure_plate: ItemType</li>
+<li>minecraft:dark_oak_sign: ItemType</li>
+<li>minecraft:dark_oak_stairs: ItemType</li>
+<li>minecraft:dark_oak_trapdoor: ItemType</li>
+<li>minecraft:dark_prismarine_stairs: ItemType</li>
+<li>minecraft:darkoak_standing_sign: ItemType</li>
+<li>minecraft:darkoak_wall_sign: ItemType</li>
+<li>minecraft:daylight_detector: ItemType</li>
+<li>minecraft:daylight_detector_inverted: ItemType</li>
+<li>minecraft:deadbush: ItemType</li>
+<li>minecraft:debug_stick: ItemType</li>
+<li>minecraft:deepslate: ItemType</li>
+<li>minecraft:deepslate_brick_double_slab: ItemType</li>
+<li>minecraft:deepslate_brick_slab: ItemType</li>
+<li>minecraft:deepslate_brick_stairs: ItemType</li>
+<li>minecraft:deepslate_brick_wall: ItemType</li>
+<li>minecraft:deepslate_bricks: ItemType</li>
+<li>minecraft:deepslate_coal_ore: ItemType</li>
+<li>minecraft:deepslate_copper_ore: ItemType</li>
+<li>minecraft:deepslate_diamond_ore: ItemType</li>
+<li>minecraft:deepslate_emerald_ore: ItemType</li>
+<li>minecraft:deepslate_gold_ore: ItemType</li>
+<li>minecraft:deepslate_iron_ore: ItemType</li>
+<li>minecraft:deepslate_lapis_ore: ItemType</li>
+<li>minecraft:deepslate_redstone_ore: ItemType</li>
+<li>minecraft:deepslate_tile_double_slab: ItemType</li>
+<li>minecraft:deepslate_tile_slab: ItemType</li>
+<li>minecraft:deepslate_tile_stairs: ItemType</li>
+<li>minecraft:deepslate_tile_wall: ItemType</li>
+<li>minecraft:deepslate_tiles: ItemType</li>
+<li>minecraft:deny: ItemType</li>
+<li>minecraft:detector_rail: ItemType</li>
+<li>minecraft:diamond: ItemType</li>
+<li>minecraft:diamond_axe: ItemType</li>
+<li>minecraft:diamond_block: ItemType</li>
+<li>minecraft:diamond_boots: ItemType</li>
+<li>minecraft:diamond_chestplate: ItemType</li>
+<li>minecraft:diamond_helmet: ItemType</li>
+<li>minecraft:diamond_hoe: ItemType</li>
+<li>minecraft:diamond_horse_armor: ItemType</li>
+<li>minecraft:diamond_leggings: ItemType</li>
+<li>minecraft:diamond_ore: ItemType</li>
+<li>minecraft:diamond_pickaxe: ItemType</li>
+<li>minecraft:diamond_shovel: ItemType</li>
+<li>minecraft:diamond_sword: ItemType</li>
+<li>minecraft:diorite_stairs: ItemType</li>
+<li>minecraft:dirt: ItemType</li>
+<li>minecraft:dirt_with_roots: ItemType</li>
+<li>minecraft:dispenser: ItemType</li>
+<li>minecraft:dolphin_spawn_egg: ItemType</li>
+<li>minecraft:donkey_spawn_egg: ItemType</li>
+<li>minecraft:double_cut_copper_slab: ItemType</li>
+<li>minecraft:double_plant: ItemType</li>
+<li>minecraft:double_stone_slab: ItemType</li>
+<li>minecraft:double_stone_slab2: ItemType</li>
+<li>minecraft:double_stone_slab3: ItemType</li>
+<li>minecraft:double_stone_slab4: ItemType</li>
+<li>minecraft:double_wooden_slab: ItemType</li>
+<li>minecraft:dragon_breath: ItemType</li>
+<li>minecraft:dragon_egg: ItemType</li>
+<li>minecraft:dried_kelp: ItemType</li>
+<li>minecraft:dried_kelp_block: ItemType</li>
+<li>minecraft:dripstone_block: ItemType</li>
+<li>minecraft:dropper: ItemType</li>
+<li>minecraft:drowned_spawn_egg: ItemType</li>
+<li>minecraft:dye: ItemType</li>
+<li>minecraft:egg: ItemType</li>
+<li>minecraft:elder_guardian_spawn_egg: ItemType</li>
+<li>minecraft:element_0: ItemType</li>
+<li>minecraft:element_1: ItemType</li>
+<li>minecraft:element_10: ItemType</li>
+<li>minecraft:element_100: ItemType</li>
+<li>minecraft:element_101: ItemType</li>
+<li>minecraft:element_102: ItemType</li>
+<li>minecraft:element_103: ItemType</li>
+<li>minecraft:element_104: ItemType</li>
+<li>minecraft:element_105: ItemType</li>
+<li>minecraft:element_106: ItemType</li>
+<li>minecraft:element_107: ItemType</li>
+<li>minecraft:element_108: ItemType</li>
+<li>minecraft:element_109: ItemType</li>
+<li>minecraft:element_11: ItemType</li>
+<li>minecraft:element_110: ItemType</li>
+<li>minecraft:element_111: ItemType</li>
+<li>minecraft:element_112: ItemType</li>
+<li>minecraft:element_113: ItemType</li>
+<li>minecraft:element_114: ItemType</li>
+<li>minecraft:element_115: ItemType</li>
+<li>minecraft:element_116: ItemType</li>
+<li>minecraft:element_117: ItemType</li>
+<li>minecraft:element_118: ItemType</li>
+<li>minecraft:element_12: ItemType</li>
+<li>minecraft:element_13: ItemType</li>
+<li>minecraft:element_14: ItemType</li>
+<li>minecraft:element_15: ItemType</li>
+<li>minecraft:element_16: ItemType</li>
+<li>minecraft:element_17: ItemType</li>
+<li>minecraft:element_18: ItemType</li>
+<li>minecraft:element_19: ItemType</li>
+<li>minecraft:element_2: ItemType</li>
+<li>minecraft:element_20: ItemType</li>
+<li>minecraft:element_21: ItemType</li>
+<li>minecraft:element_22: ItemType</li>
+<li>minecraft:element_23: ItemType</li>
+<li>minecraft:element_24: ItemType</li>
+<li>minecraft:element_25: ItemType</li>
+<li>minecraft:element_26: ItemType</li>
+<li>minecraft:element_27: ItemType</li>
+<li>minecraft:element_28: ItemType</li>
+<li>minecraft:element_29: ItemType</li>
+<li>minecraft:element_3: ItemType</li>
+<li>minecraft:element_30: ItemType</li>
+<li>minecraft:element_31: ItemType</li>
+<li>minecraft:element_32: ItemType</li>
+<li>minecraft:element_33: ItemType</li>
+<li>minecraft:element_34: ItemType</li>
+<li>minecraft:element_35: ItemType</li>
+<li>minecraft:element_36: ItemType</li>
+<li>minecraft:element_37: ItemType</li>
+<li>minecraft:element_38: ItemType</li>
+<li>minecraft:element_39: ItemType</li>
+<li>minecraft:element_4: ItemType</li>
+<li>minecraft:element_40: ItemType</li>
+<li>minecraft:element_41: ItemType</li>
+<li>minecraft:element_42: ItemType</li>
+<li>minecraft:element_43: ItemType</li>
+<li>minecraft:element_44: ItemType</li>
+<li>minecraft:element_45: ItemType</li>
+<li>minecraft:element_46: ItemType</li>
+<li>minecraft:element_47: ItemType</li>
+<li>minecraft:element_48: ItemType</li>
+<li>minecraft:element_49: ItemType</li>
+<li>minecraft:element_5: ItemType</li>
+<li>minecraft:element_50: ItemType</li>
+<li>minecraft:element_51: ItemType</li>
+<li>minecraft:element_52: ItemType</li>
+<li>minecraft:element_53: ItemType</li>
+<li>minecraft:element_54: ItemType</li>
+<li>minecraft:element_55: ItemType</li>
+<li>minecraft:element_56: ItemType</li>
+<li>minecraft:element_57: ItemType</li>
+<li>minecraft:element_58: ItemType</li>
+<li>minecraft:element_59: ItemType</li>
+<li>minecraft:element_6: ItemType</li>
+<li>minecraft:element_60: ItemType</li>
+<li>minecraft:element_61: ItemType</li>
+<li>minecraft:element_62: ItemType</li>
+<li>minecraft:element_63: ItemType</li>
+<li>minecraft:element_64: ItemType</li>
+<li>minecraft:element_65: ItemType</li>
+<li>minecraft:element_66: ItemType</li>
+<li>minecraft:element_67: ItemType</li>
+<li>minecraft:element_68: ItemType</li>
+<li>minecraft:element_69: ItemType</li>
+<li>minecraft:element_7: ItemType</li>
+<li>minecraft:element_70: ItemType</li>
+<li>minecraft:element_71: ItemType</li>
+<li>minecraft:element_72: ItemType</li>
+<li>minecraft:element_73: ItemType</li>
+<li>minecraft:element_74: ItemType</li>
+<li>minecraft:element_75: ItemType</li>
+<li>minecraft:element_76: ItemType</li>
+<li>minecraft:element_77: ItemType</li>
+<li>minecraft:element_78: ItemType</li>
+<li>minecraft:element_79: ItemType</li>
+<li>minecraft:element_8: ItemType</li>
+<li>minecraft:element_80: ItemType</li>
+<li>minecraft:element_81: ItemType</li>
+<li>minecraft:element_82: ItemType</li>
+<li>minecraft:element_83: ItemType</li>
+<li>minecraft:element_84: ItemType</li>
+<li>minecraft:element_85: ItemType</li>
+<li>minecraft:element_86: ItemType</li>
+<li>minecraft:element_87: ItemType</li>
+<li>minecraft:element_88: ItemType</li>
+<li>minecraft:element_89: ItemType</li>
+<li>minecraft:element_9: ItemType</li>
+<li>minecraft:element_90: ItemType</li>
+<li>minecraft:element_91: ItemType</li>
+<li>minecraft:element_92: ItemType</li>
+<li>minecraft:element_93: ItemType</li>
+<li>minecraft:element_94: ItemType</li>
+<li>minecraft:element_95: ItemType</li>
+<li>minecraft:element_96: ItemType</li>
+<li>minecraft:element_97: ItemType</li>
+<li>minecraft:element_98: ItemType</li>
+<li>minecraft:element_99: ItemType</li>
+<li>minecraft:elytra: ItemType</li>
+<li>minecraft:emerald: ItemType</li>
+<li>minecraft:emerald_block: ItemType</li>
+<li>minecraft:emerald_ore: ItemType</li>
+<li>minecraft:empty_map: ItemType</li>
+<li>minecraft:enchanted_book: ItemType</li>
+<li>minecraft:enchanted_golden_apple: ItemType</li>
+<li>minecraft:enchanting_table: ItemType</li>
+<li>minecraft:end_brick_stairs: ItemType</li>
+<li>minecraft:end_bricks: ItemType</li>
+<li>minecraft:end_crystal: ItemType</li>
+<li>minecraft:end_gateway: ItemType</li>
+<li>minecraft:end_portal: ItemType</li>
+<li>minecraft:end_portal_frame: ItemType</li>
+<li>minecraft:end_rod: ItemType</li>
+<li>minecraft:end_stone: ItemType</li>
+<li>minecraft:ender_chest: ItemType</li>
+<li>minecraft:ender_eye: ItemType</li>
+<li>minecraft:ender_pearl: ItemType</li>
+<li>minecraft:enderman_spawn_egg: ItemType</li>
+<li>minecraft:endermite_spawn_egg: ItemType</li>
+<li>minecraft:evoker_spawn_egg: ItemType</li>
+<li>minecraft:experience_bottle: ItemType</li>
+<li>minecraft:exposed_copper: ItemType</li>
+<li>minecraft:exposed_cut_copper: ItemType</li>
+<li>minecraft:exposed_cut_copper_slab: ItemType</li>
+<li>minecraft:exposed_cut_copper_stairs: ItemType</li>
+<li>minecraft:exposed_double_cut_copper_slab: ItemType</li>
+<li>minecraft:farmland: ItemType</li>
+<li>minecraft:feather: ItemType</li>
+<li>minecraft:fence: ItemType</li>
+<li>minecraft:fence_gate: ItemType</li>
+<li>minecraft:fermented_spider_eye: ItemType</li>
+<li>minecraft:field_masoned_banner_pattern: ItemType</li>
+<li>minecraft:filled_map: ItemType</li>
+<li>minecraft:fire: ItemType</li>
+<li>minecraft:fire_charge: ItemType</li>
+<li>minecraft:firework_rocket: ItemType</li>
+<li>minecraft:firework_star: ItemType</li>
+<li>minecraft:fishing_rod: ItemType</li>
+<li>minecraft:fletching_table: ItemType</li>
+<li>minecraft:flint: ItemType</li>
+<li>minecraft:flint_and_steel: ItemType</li>
+<li>minecraft:flower_banner_pattern: ItemType</li>
+<li>minecraft:flower_pot: ItemType</li>
+<li>minecraft:flowering_azalea: ItemType</li>
+<li>minecraft:flowing_lava: ItemType</li>
+<li>minecraft:flowing_water: ItemType</li>
+<li>minecraft:fox_spawn_egg: ItemType</li>
+<li>minecraft:frame: ItemType</li>
+<li>minecraft:frosted_ice: ItemType</li>
+<li>minecraft:furnace: ItemType</li>
+<li>minecraft:ghast_spawn_egg: ItemType</li>
+<li>minecraft:ghast_tear: ItemType</li>
+<li>minecraft:gilded_blackstone: ItemType</li>
+<li>minecraft:glass: ItemType</li>
+<li>minecraft:glass_bottle: ItemType</li>
+<li>minecraft:glass_pane: ItemType</li>
+<li>minecraft:glistering_melon_slice: ItemType</li>
+<li>minecraft:glow_berries: ItemType</li>
+<li>minecraft:glow_frame: ItemType</li>
+<li>minecraft:glow_ink_sac: ItemType</li>
+<li>minecraft:glow_lichen: ItemType</li>
+<li>minecraft:glow_squid_spawn_egg: ItemType</li>
+<li>minecraft:glow_stick: ItemType</li>
+<li>minecraft:glowingobsidian: ItemType</li>
+<li>minecraft:glowstone: ItemType</li>
+<li>minecraft:glowstone_dust: ItemType</li>
+<li>minecraft:goat_horn: ItemType</li>
+<li>minecraft:goat_spawn_egg: ItemType</li>
+<li>minecraft:gold_block: ItemType</li>
+<li>minecraft:gold_ingot: ItemType</li>
+<li>minecraft:gold_nugget: ItemType</li>
+<li>minecraft:gold_ore: ItemType</li>
+<li>minecraft:golden_apple: ItemType</li>
+<li>minecraft:golden_axe: ItemType</li>
+<li>minecraft:golden_boots: ItemType</li>
+<li>minecraft:golden_carrot: ItemType</li>
+<li>minecraft:golden_chestplate: ItemType</li>
+<li>minecraft:golden_helmet: ItemType</li>
+<li>minecraft:golden_hoe: ItemType</li>
+<li>minecraft:golden_horse_armor: ItemType</li>
+<li>minecraft:golden_leggings: ItemType</li>
+<li>minecraft:golden_pickaxe: ItemType</li>
+<li>minecraft:golden_rail: ItemType</li>
+<li>minecraft:golden_shovel: ItemType</li>
+<li>minecraft:golden_sword: ItemType</li>
+<li>minecraft:granite_stairs: ItemType</li>
+<li>minecraft:grass: ItemType</li>
+<li>minecraft:grass_path: ItemType</li>
+<li>minecraft:gravel: ItemType</li>
+<li>minecraft:gray_candle: ItemType</li>
+<li>minecraft:gray_candle_cake: ItemType</li>
+<li>minecraft:gray_dye: ItemType</li>
+<li>minecraft:gray_glazed_terracotta: ItemType</li>
+<li>minecraft:green_candle: ItemType</li>
+<li>minecraft:green_candle_cake: ItemType</li>
+<li>minecraft:green_dye: ItemType</li>
+<li>minecraft:green_glazed_terracotta: ItemType</li>
+<li>minecraft:grindstone: ItemType</li>
+<li>minecraft:guardian_spawn_egg: ItemType</li>
+<li>minecraft:gunpowder: ItemType</li>
+<li>minecraft:hanging_roots: ItemType</li>
+<li>minecraft:hard_glass: ItemType</li>
+<li>minecraft:hard_glass_pane: ItemType</li>
+<li>minecraft:hard_stained_glass: ItemType</li>
+<li>minecraft:hard_stained_glass_pane: ItemType</li>
+<li>minecraft:hardened_clay: ItemType</li>
+<li>minecraft:hay_block: ItemType</li>
+<li>minecraft:heart_of_the_sea: ItemType</li>
+<li>minecraft:heavy_weighted_pressure_plate: ItemType</li>
+<li>minecraft:hoglin_spawn_egg: ItemType</li>
+<li>minecraft:honey_block: ItemType</li>
+<li>minecraft:honey_bottle: ItemType</li>
+<li>minecraft:honeycomb: ItemType</li>
+<li>minecraft:honeycomb_block: ItemType</li>
+<li>minecraft:hopper: ItemType</li>
+<li>minecraft:hopper_minecart: ItemType</li>
+<li>minecraft:horse_spawn_egg: ItemType</li>
+<li>minecraft:husk_spawn_egg: ItemType</li>
+<li>minecraft:ice: ItemType</li>
+<li>minecraft:ice_bomb: ItemType</li>
+<li>minecraft:infested_deepslate: ItemType</li>
+<li>minecraft:info_update: ItemType</li>
+<li>minecraft:info_update2: ItemType</li>
+<li>minecraft:ink_sac: ItemType</li>
+<li>minecraft:invisiblebedrock: ItemType</li>
+<li>minecraft:iron_axe: ItemType</li>
+<li>minecraft:iron_bars: ItemType</li>
+<li>minecraft:iron_block: ItemType</li>
+<li>minecraft:iron_boots: ItemType</li>
+<li>minecraft:iron_chestplate: ItemType</li>
+<li>minecraft:iron_door: ItemType</li>
+<li>minecraft:iron_helmet: ItemType</li>
+<li>minecraft:iron_hoe: ItemType</li>
+<li>minecraft:iron_horse_armor: ItemType</li>
+<li>minecraft:iron_ingot: ItemType</li>
+<li>minecraft:iron_leggings: ItemType</li>
+<li>minecraft:iron_nugget: ItemType</li>
+<li>minecraft:iron_ore: ItemType</li>
+<li>minecraft:iron_pickaxe: ItemType</li>
+<li>minecraft:iron_shovel: ItemType</li>
+<li>minecraft:iron_sword: ItemType</li>
+<li>minecraft:iron_trapdoor: ItemType</li>
+<li>minecraft:item.acacia_door: ItemType</li>
+<li>minecraft:item.bed: ItemType</li>
+<li>minecraft:item.beetroot: ItemType</li>
+<li>minecraft:item.birch_door: ItemType</li>
+<li>minecraft:item.cake: ItemType</li>
+<li>minecraft:item.camera: ItemType</li>
+<li>minecraft:item.campfire: ItemType</li>
+<li>minecraft:item.cauldron: ItemType</li>
+<li>minecraft:item.chain: ItemType</li>
+<li>minecraft:item.crimson_door: ItemType</li>
+<li>minecraft:item.dark_oak_door: ItemType</li>
+<li>minecraft:item.flower_pot: ItemType</li>
+<li>minecraft:item.frame: ItemType</li>
+<li>minecraft:item.glow_frame: ItemType</li>
+<li>minecraft:item.hopper: ItemType</li>
+<li>minecraft:item.iron_door: ItemType</li>
+<li>minecraft:item.jungle_door: ItemType</li>
+<li>minecraft:item.kelp: ItemType</li>
+<li>minecraft:item.nether_sprouts: ItemType</li>
+<li>minecraft:item.nether_wart: ItemType</li>
+<li>minecraft:item.reeds: ItemType</li>
+<li>minecraft:item.skull: ItemType</li>
+<li>minecraft:item.soul_campfire: ItemType</li>
+<li>minecraft:item.spruce_door: ItemType</li>
+<li>minecraft:item.warped_door: ItemType</li>
+<li>minecraft:item.wheat: ItemType</li>
+<li>minecraft:item.wooden_door: ItemType</li>
+<li>minecraft:jigsaw: ItemType</li>
+<li>minecraft:jukebox: ItemType</li>
+<li>minecraft:jungle_boat: ItemType</li>
+<li>minecraft:jungle_button: ItemType</li>
+<li>minecraft:jungle_door: ItemType</li>
+<li>minecraft:jungle_fence_gate: ItemType</li>
+<li>minecraft:jungle_pressure_plate: ItemType</li>
+<li>minecraft:jungle_sign: ItemType</li>
+<li>minecraft:jungle_stairs: ItemType</li>
+<li>minecraft:jungle_standing_sign: ItemType</li>
+<li>minecraft:jungle_trapdoor: ItemType</li>
+<li>minecraft:jungle_wall_sign: ItemType</li>
+<li>minecraft:kelp: ItemType</li>
+<li>minecraft:ladder: ItemType</li>
+<li>minecraft:lantern: ItemType</li>
+<li>minecraft:lapis_block: ItemType</li>
+<li>minecraft:lapis_lazuli: ItemType</li>
+<li>minecraft:lapis_ore: ItemType</li>
+<li>minecraft:large_amethyst_bud: ItemType</li>
+<li>minecraft:lava: ItemType</li>
+<li>minecraft:lava_bucket: ItemType</li>
+<li>minecraft:lava_cauldron: ItemType</li>
+<li>minecraft:lead: ItemType</li>
+<li>minecraft:leather: ItemType</li>
+<li>minecraft:leather_boots: ItemType</li>
+<li>minecraft:leather_chestplate: ItemType</li>
+<li>minecraft:leather_helmet: ItemType</li>
+<li>minecraft:leather_horse_armor: ItemType</li>
+<li>minecraft:leather_leggings: ItemType</li>
+<li>minecraft:leaves: ItemType</li>
+<li>minecraft:leaves2: ItemType</li>
+<li>minecraft:lectern: ItemType</li>
+<li>minecraft:lever: ItemType</li>
+<li>minecraft:light_block: ItemType</li>
+<li>minecraft:light_blue_candle: ItemType</li>
+<li>minecraft:light_blue_candle_cake: ItemType</li>
+<li>minecraft:light_blue_dye: ItemType</li>
+<li>minecraft:light_blue_glazed_terracotta: ItemType</li>
+<li>minecraft:light_gray_candle: ItemType</li>
+<li>minecraft:light_gray_candle_cake: ItemType</li>
+<li>minecraft:light_gray_dye: ItemType</li>
+<li>minecraft:light_weighted_pressure_plate: ItemType</li>
+<li>minecraft:lightning_rod: ItemType</li>
+<li>minecraft:lime_candle: ItemType</li>
+<li>minecraft:lime_candle_cake: ItemType</li>
+<li>minecraft:lime_dye: ItemType</li>
+<li>minecraft:lime_glazed_terracotta: ItemType</li>
+<li>minecraft:lingering_potion: ItemType</li>
+<li>minecraft:lit_blast_furnace: ItemType</li>
+<li>minecraft:lit_deepslate_redstone_ore: ItemType</li>
+<li>minecraft:lit_furnace: ItemType</li>
+<li>minecraft:lit_pumpkin: ItemType</li>
+<li>minecraft:lit_redstone_lamp: ItemType</li>
+<li>minecraft:lit_redstone_ore: ItemType</li>
+<li>minecraft:lit_smoker: ItemType</li>
+<li>minecraft:llama_spawn_egg: ItemType</li>
+<li>minecraft:lodestone: ItemType</li>
+<li>minecraft:lodestone_compass: ItemType</li>
+<li>minecraft:log: ItemType</li>
+<li>minecraft:log2: ItemType</li>
+<li>minecraft:loom: ItemType</li>
+<li>minecraft:magenta_candle: ItemType</li>
+<li>minecraft:magenta_candle_cake: ItemType</li>
+<li>minecraft:magenta_dye: ItemType</li>
+<li>minecraft:magenta_glazed_terracotta: ItemType</li>
+<li>minecraft:magma: ItemType</li>
+<li>minecraft:magma_cream: ItemType</li>
+<li>minecraft:magma_cube_spawn_egg: ItemType</li>
+<li>minecraft:medicine: ItemType</li>
+<li>minecraft:medium_amethyst_bud: ItemType</li>
+<li>minecraft:melon_block: ItemType</li>
+<li>minecraft:melon_seeds: ItemType</li>
+<li>minecraft:melon_slice: ItemType</li>
+<li>minecraft:melon_stem: ItemType</li>
+<li>minecraft:milk_bucket: ItemType</li>
+<li>minecraft:minecart: ItemType</li>
+<li>minecraft:mob_spawner: ItemType</li>
+<li>minecraft:mojang_banner_pattern: ItemType</li>
+<li>minecraft:monster_egg: ItemType</li>
+<li>minecraft:mooshroom_spawn_egg: ItemType</li>
+<li>minecraft:moss_block: ItemType</li>
+<li>minecraft:moss_carpet: ItemType</li>
+<li>minecraft:mossy_cobblestone: ItemType</li>
+<li>minecraft:mossy_cobblestone_stairs: ItemType</li>
+<li>minecraft:mossy_stone_brick_stairs: ItemType</li>
+<li>minecraft:movingblock: ItemType</li>
+<li>minecraft:mule_spawn_egg: ItemType</li>
+<li>minecraft:mushroom_stew: ItemType</li>
+<li>minecraft:music_disc_11: ItemType</li>
+<li>minecraft:music_disc_13: ItemType</li>
+<li>minecraft:music_disc_blocks: ItemType</li>
+<li>minecraft:music_disc_cat: ItemType</li>
+<li>minecraft:music_disc_chirp: ItemType</li>
+<li>minecraft:music_disc_far: ItemType</li>
+<li>minecraft:music_disc_mall: ItemType</li>
+<li>minecraft:music_disc_mellohi: ItemType</li>
+<li>minecraft:music_disc_pigstep: ItemType</li>
+<li>minecraft:music_disc_stal: ItemType</li>
+<li>minecraft:music_disc_strad: ItemType</li>
+<li>minecraft:music_disc_wait: ItemType</li>
+<li>minecraft:music_disc_ward: ItemType</li>
+<li>minecraft:mutton: ItemType</li>
+<li>minecraft:mycelium: ItemType</li>
+<li>minecraft:name_tag: ItemType</li>
+<li>minecraft:nautilus_shell: ItemType</li>
+<li>minecraft:nether_brick: ItemType</li>
+<li>minecraft:nether_brick_fence: ItemType</li>
+<li>minecraft:nether_brick_stairs: ItemType</li>
+<li>minecraft:nether_gold_ore: ItemType</li>
+<li>minecraft:nether_sprouts: ItemType</li>
+<li>minecraft:nether_star: ItemType</li>
+<li>minecraft:nether_wart: ItemType</li>
+<li>minecraft:nether_wart_block: ItemType</li>
+<li>minecraft:netherbrick: ItemType</li>
+<li>minecraft:netherite_axe: ItemType</li>
+<li>minecraft:netherite_block: ItemType</li>
+<li>minecraft:netherite_boots: ItemType</li>
+<li>minecraft:netherite_chestplate: ItemType</li>
+<li>minecraft:netherite_helmet: ItemType</li>
+<li>minecraft:netherite_hoe: ItemType</li>
+<li>minecraft:netherite_ingot: ItemType</li>
+<li>minecraft:netherite_leggings: ItemType</li>
+<li>minecraft:netherite_pickaxe: ItemType</li>
+<li>minecraft:netherite_scrap: ItemType</li>
+<li>minecraft:netherite_shovel: ItemType</li>
+<li>minecraft:netherite_sword: ItemType</li>
+<li>minecraft:netherrack: ItemType</li>
+<li>minecraft:netherreactor: ItemType</li>
+<li>minecraft:normal_stone_stairs: ItemType</li>
+<li>minecraft:noteblock: ItemType</li>
+<li>minecraft:npc_spawn_egg: ItemType</li>
+<li>minecraft:oak_boat: ItemType</li>
+<li>minecraft:oak_sign: ItemType</li>
+<li>minecraft:oak_stairs: ItemType</li>
+<li>minecraft:observer: ItemType</li>
+<li>minecraft:obsidian: ItemType</li>
+<li>minecraft:ocelot_spawn_egg: ItemType</li>
+<li>minecraft:orange_candle: ItemType</li>
+<li>minecraft:orange_candle_cake: ItemType</li>
+<li>minecraft:orange_dye: ItemType</li>
+<li>minecraft:orange_glazed_terracotta: ItemType</li>
+<li>minecraft:oxidized_copper: ItemType</li>
+<li>minecraft:oxidized_cut_copper: ItemType</li>
+<li>minecraft:oxidized_cut_copper_slab: ItemType</li>
+<li>minecraft:oxidized_cut_copper_stairs: ItemType</li>
+<li>minecraft:oxidized_double_cut_copper_slab: ItemType</li>
+<li>minecraft:packed_ice: ItemType</li>
+<li>minecraft:painting: ItemType</li>
+<li>minecraft:panda_spawn_egg: ItemType</li>
+<li>minecraft:paper: ItemType</li>
+<li>minecraft:parrot_spawn_egg: ItemType</li>
+<li>minecraft:phantom_membrane: ItemType</li>
+<li>minecraft:phantom_spawn_egg: ItemType</li>
+<li>minecraft:pig_spawn_egg: ItemType</li>
+<li>minecraft:piglin_banner_pattern: ItemType</li>
+<li>minecraft:piglin_brute_spawn_egg: ItemType</li>
+<li>minecraft:piglin_spawn_egg: ItemType</li>
+<li>minecraft:pillager_spawn_egg: ItemType</li>
+<li>minecraft:pink_candle: ItemType</li>
+<li>minecraft:pink_candle_cake: ItemType</li>
+<li>minecraft:pink_dye: ItemType</li>
+<li>minecraft:pink_glazed_terracotta: ItemType</li>
+<li>minecraft:piston: ItemType</li>
+<li>minecraft:pistonarmcollision: ItemType</li>
+<li>minecraft:planks: ItemType</li>
+<li>minecraft:podzol: ItemType</li>
+<li>minecraft:pointed_dripstone: ItemType</li>
+<li>minecraft:poisonous_potato: ItemType</li>
+<li>minecraft:polar_bear_spawn_egg: ItemType</li>
+<li>minecraft:polished_andesite_stairs: ItemType</li>
+<li>minecraft:polished_basalt: ItemType</li>
+<li>minecraft:polished_blackstone: ItemType</li>
+<li>minecraft:polished_blackstone_brick_double_slab: ItemType</li>
+<li>minecraft:polished_blackstone_brick_slab: ItemType</li>
+<li>minecraft:polished_blackstone_brick_stairs: ItemType</li>
+<li>minecraft:polished_blackstone_brick_wall: ItemType</li>
+<li>minecraft:polished_blackstone_bricks: ItemType</li>
+<li>minecraft:polished_blackstone_button: ItemType</li>
+<li>minecraft:polished_blackstone_double_slab: ItemType</li>
+<li>minecraft:polished_blackstone_pressure_plate: ItemType</li>
+<li>minecraft:polished_blackstone_slab: ItemType</li>
+<li>minecraft:polished_blackstone_stairs: ItemType</li>
+<li>minecraft:polished_blackstone_wall: ItemType</li>
+<li>minecraft:polished_deepslate: ItemType</li>
+<li>minecraft:polished_deepslate_double_slab: ItemType</li>
+<li>minecraft:polished_deepslate_slab: ItemType</li>
+<li>minecraft:polished_deepslate_stairs: ItemType</li>
+<li>minecraft:polished_deepslate_wall: ItemType</li>
+<li>minecraft:polished_diorite_stairs: ItemType</li>
+<li>minecraft:polished_granite_stairs: ItemType</li>
+<li>minecraft:popped_chorus_fruit: ItemType</li>
+<li>minecraft:porkchop: ItemType</li>
+<li>minecraft:portal: ItemType</li>
+<li>minecraft:potato: ItemType</li>
+<li>minecraft:potatoes: ItemType</li>
+<li>minecraft:potion: ItemType</li>
+<li>minecraft:powder_snow: ItemType</li>
+<li>minecraft:powder_snow_bucket: ItemType</li>
+<li>minecraft:powered_comparator: ItemType</li>
+<li>minecraft:powered_repeater: ItemType</li>
+<li>minecraft:prismarine: ItemType</li>
+<li>minecraft:prismarine_bricks_stairs: ItemType</li>
+<li>minecraft:prismarine_crystals: ItemType</li>
+<li>minecraft:prismarine_shard: ItemType</li>
+<li>minecraft:prismarine_stairs: ItemType</li>
+<li>minecraft:pufferfish: ItemType</li>
+<li>minecraft:pufferfish_bucket: ItemType</li>
+<li>minecraft:pufferfish_spawn_egg: ItemType</li>
+<li>minecraft:pumpkin: ItemType</li>
+<li>minecraft:pumpkin_pie: ItemType</li>
+<li>minecraft:pumpkin_seeds: ItemType</li>
+<li>minecraft:pumpkin_stem: ItemType</li>
+<li>minecraft:purple_candle: ItemType</li>
+<li>minecraft:purple_candle_cake: ItemType</li>
+<li>minecraft:purple_dye: ItemType</li>
+<li>minecraft:purple_glazed_terracotta: ItemType</li>
+<li>minecraft:purpur_block: ItemType</li>
+<li>minecraft:purpur_stairs: ItemType</li>
+<li>minecraft:quartz: ItemType</li>
+<li>minecraft:quartz_block: ItemType</li>
+<li>minecraft:quartz_bricks: ItemType</li>
+<li>minecraft:quartz_ore: ItemType</li>
+<li>minecraft:quartz_stairs: ItemType</li>
+<li>minecraft:rabbit: ItemType</li>
+<li>minecraft:rabbit_foot: ItemType</li>
+<li>minecraft:rabbit_hide: ItemType</li>
+<li>minecraft:rabbit_spawn_egg: ItemType</li>
+<li>minecraft:rabbit_stew: ItemType</li>
+<li>minecraft:rail: ItemType</li>
+<li>minecraft:rapid_fertilizer: ItemType</li>
+<li>minecraft:ravager_spawn_egg: ItemType</li>
+<li>minecraft:raw_copper: ItemType</li>
+<li>minecraft:raw_copper_block: ItemType</li>
+<li>minecraft:raw_gold: ItemType</li>
+<li>minecraft:raw_gold_block: ItemType</li>
+<li>minecraft:raw_iron: ItemType</li>
+<li>minecraft:raw_iron_block: ItemType</li>
+<li>minecraft:real_double_stone_slab: ItemType</li>
+<li>minecraft:real_double_stone_slab2: ItemType</li>
+<li>minecraft:real_double_stone_slab3: ItemType</li>
+<li>minecraft:real_double_stone_slab4: ItemType</li>
+<li>minecraft:red_candle: ItemType</li>
+<li>minecraft:red_candle_cake: ItemType</li>
+<li>minecraft:red_dye: ItemType</li>
+<li>minecraft:red_flower: ItemType</li>
+<li>minecraft:red_glazed_terracotta: ItemType</li>
+<li>minecraft:red_mushroom: ItemType</li>
+<li>minecraft:red_mushroom_block: ItemType</li>
+<li>minecraft:red_nether_brick: ItemType</li>
+<li>minecraft:red_nether_brick_stairs: ItemType</li>
+<li>minecraft:red_sandstone: ItemType</li>
+<li>minecraft:red_sandstone_stairs: ItemType</li>
+<li>minecraft:redstone: ItemType</li>
+<li>minecraft:redstone_block: ItemType</li>
+<li>minecraft:redstone_lamp: ItemType</li>
+<li>minecraft:redstone_ore: ItemType</li>
+<li>minecraft:redstone_torch: ItemType</li>
+<li>minecraft:redstone_wire: ItemType</li>
+<li>minecraft:repeater: ItemType</li>
+<li>minecraft:repeating_command_block: ItemType</li>
+<li>minecraft:reserved6: ItemType</li>
+<li>minecraft:respawn_anchor: ItemType</li>
+<li>minecraft:rotten_flesh: ItemType</li>
+<li>minecraft:saddle: ItemType</li>
+<li>minecraft:salmon: ItemType</li>
+<li>minecraft:salmon_bucket: ItemType</li>
+<li>minecraft:salmon_spawn_egg: ItemType</li>
+<li>minecraft:sand: ItemType</li>
+<li>minecraft:sandstone: ItemType</li>
+<li>minecraft:sandstone_stairs: ItemType</li>
+<li>minecraft:sapling: ItemType</li>
+<li>minecraft:scaffolding: ItemType</li>
+<li>minecraft:sculk_sensor: ItemType</li>
+<li>minecraft:scute: ItemType</li>
+<li>minecraft:sea_pickle: ItemType</li>
+<li>minecraft:seagrass: ItemType</li>
+<li>minecraft:sealantern: ItemType</li>
+<li>minecraft:shears: ItemType</li>
+<li>minecraft:sheep_spawn_egg: ItemType</li>
+<li>minecraft:shield: ItemType</li>
+<li>minecraft:shroomlight: ItemType</li>
+<li>minecraft:shulker_box: ItemType</li>
+<li>minecraft:shulker_shell: ItemType</li>
+<li>minecraft:shulker_spawn_egg: ItemType</li>
+<li>minecraft:silver_glazed_terracotta: ItemType</li>
+<li>minecraft:silverfish_spawn_egg: ItemType</li>
+<li>minecraft:skeleton_horse_spawn_egg: ItemType</li>
+<li>minecraft:skeleton_spawn_egg: ItemType</li>
+<li>minecraft:skull: ItemType</li>
+<li>minecraft:skull_banner_pattern: ItemType</li>
+<li>minecraft:slime: ItemType</li>
+<li>minecraft:slime_ball: ItemType</li>
+<li>minecraft:slime_spawn_egg: ItemType</li>
+<li>minecraft:small_amethyst_bud: ItemType</li>
+<li>minecraft:small_dripleaf_block: ItemType</li>
+<li>minecraft:smithing_table: ItemType</li>
+<li>minecraft:smoker: ItemType</li>
+<li>minecraft:smooth_basalt: ItemType</li>
+<li>minecraft:smooth_quartz_stairs: ItemType</li>
+<li>minecraft:smooth_red_sandstone_stairs: ItemType</li>
+<li>minecraft:smooth_sandstone_stairs: ItemType</li>
+<li>minecraft:smooth_stone: ItemType</li>
+<li>minecraft:snow: ItemType</li>
+<li>minecraft:snow_layer: ItemType</li>
+<li>minecraft:snowball: ItemType</li>
+<li>minecraft:soul_campfire: ItemType</li>
+<li>minecraft:soul_fire: ItemType</li>
+<li>minecraft:soul_lantern: ItemType</li>
+<li>minecraft:soul_sand: ItemType</li>
+<li>minecraft:soul_soil: ItemType</li>
+<li>minecraft:soul_torch: ItemType</li>
+<li>minecraft:sparkler: ItemType</li>
+<li>minecraft:spawn_egg: ItemType</li>
+<li>minecraft:spider_eye: ItemType</li>
+<li>minecraft:spider_spawn_egg: ItemType</li>
+<li>minecraft:splash_potion: ItemType</li>
+<li>minecraft:sponge: ItemType</li>
+<li>minecraft:spore_blossom: ItemType</li>
+<li>minecraft:spruce_boat: ItemType</li>
+<li>minecraft:spruce_button: ItemType</li>
+<li>minecraft:spruce_door: ItemType</li>
+<li>minecraft:spruce_fence_gate: ItemType</li>
+<li>minecraft:spruce_pressure_plate: ItemType</li>
+<li>minecraft:spruce_sign: ItemType</li>
+<li>minecraft:spruce_stairs: ItemType</li>
+<li>minecraft:spruce_standing_sign: ItemType</li>
+<li>minecraft:spruce_trapdoor: ItemType</li>
+<li>minecraft:spruce_wall_sign: ItemType</li>
+<li>minecraft:spyglass: ItemType</li>
+<li>minecraft:squid_spawn_egg: ItemType</li>
+<li>minecraft:stained_glass: ItemType</li>
+<li>minecraft:stained_glass_pane: ItemType</li>
+<li>minecraft:stained_hardened_clay: ItemType</li>
+<li>minecraft:standing_banner: ItemType</li>
+<li>minecraft:standing_sign: ItemType</li>
+<li>minecraft:stick: ItemType</li>
+<li>minecraft:sticky_piston: ItemType</li>
+<li>minecraft:stickypistonarmcollision: ItemType</li>
+<li>minecraft:stone: ItemType</li>
+<li>minecraft:stone_axe: ItemType</li>
+<li>minecraft:stone_brick_stairs: ItemType</li>
+<li>minecraft:stone_button: ItemType</li>
+<li>minecraft:stone_hoe: ItemType</li>
+<li>minecraft:stone_pickaxe: ItemType</li>
+<li>minecraft:stone_pressure_plate: ItemType</li>
+<li>minecraft:stone_shovel: ItemType</li>
+<li>minecraft:stone_stairs: ItemType</li>
+<li>minecraft:stone_sword: ItemType</li>
+<li>minecraft:stonebrick: ItemType</li>
+<li>minecraft:stonecutter: ItemType</li>
+<li>minecraft:stonecutter_block: ItemType</li>
+<li>minecraft:stray_spawn_egg: ItemType</li>
+<li>minecraft:strider_spawn_egg: ItemType</li>
+<li>minecraft:string: ItemType</li>
+<li>minecraft:stripped_acacia_log: ItemType</li>
+<li>minecraft:stripped_birch_log: ItemType</li>
+<li>minecraft:stripped_crimson_hyphae: ItemType</li>
+<li>minecraft:stripped_crimson_stem: ItemType</li>
+<li>minecraft:stripped_dark_oak_log: ItemType</li>
+<li>minecraft:stripped_jungle_log: ItemType</li>
+<li>minecraft:stripped_oak_log: ItemType</li>
+<li>minecraft:stripped_spruce_log: ItemType</li>
+<li>minecraft:stripped_warped_hyphae: ItemType</li>
+<li>minecraft:stripped_warped_stem: ItemType</li>
+<li>minecraft:structure_block: ItemType</li>
+<li>minecraft:structure_void: ItemType</li>
+<li>minecraft:sugar: ItemType</li>
+<li>minecraft:sugar_cane: ItemType</li>
+<li>minecraft:suspicious_stew: ItemType</li>
+<li>minecraft:sweet_berries: ItemType</li>
+<li>minecraft:sweet_berry_bush: ItemType</li>
+<li>minecraft:tallgrass: ItemType</li>
+<li>minecraft:target: ItemType</li>
+<li>minecraft:tinted_glass: ItemType</li>
+<li>minecraft:tnt: ItemType</li>
+<li>minecraft:tnt_minecart: ItemType</li>
+<li>minecraft:torch: ItemType</li>
+<li>minecraft:totem_of_undying: ItemType</li>
+<li>minecraft:trapdoor: ItemType</li>
+<li>minecraft:trapped_chest: ItemType</li>
+<li>minecraft:trident: ItemType</li>
+<li>minecraft:tripwire: ItemType</li>
+<li>minecraft:tripwire_hook: ItemType</li>
+<li>minecraft:tropical_fish: ItemType</li>
+<li>minecraft:tropical_fish_bucket: ItemType</li>
+<li>minecraft:tropical_fish_spawn_egg: ItemType</li>
+<li>minecraft:tuff: ItemType</li>
+<li>minecraft:turtle_egg: ItemType</li>
+<li>minecraft:turtle_helmet: ItemType</li>
+<li>minecraft:turtle_spawn_egg: ItemType</li>
+<li>minecraft:twisting_vines: ItemType</li>
+<li>minecraft:underwater_torch: ItemType</li>
+<li>minecraft:undyed_shulker_box: ItemType</li>
+<li>minecraft:unknown: ItemType</li>
+<li>minecraft:unlit_redstone_torch: ItemType</li>
+<li>minecraft:unpowered_comparator: ItemType</li>
+<li>minecraft:unpowered_repeater: ItemType</li>
+<li>minecraft:vex_spawn_egg: ItemType</li>
+<li>minecraft:villager_spawn_egg: ItemType</li>
+<li>minecraft:vindicator_spawn_egg: ItemType</li>
+<li>minecraft:vine: ItemType</li>
+<li>minecraft:wall_banner: ItemType</li>
+<li>minecraft:wall_sign: ItemType</li>
+<li>minecraft:wandering_trader_spawn_egg: ItemType</li>
+<li>minecraft:warped_button: ItemType</li>
+<li>minecraft:warped_door: ItemType</li>
+<li>minecraft:warped_double_slab: ItemType</li>
+<li>minecraft:warped_fence: ItemType</li>
+<li>minecraft:warped_fence_gate: ItemType</li>
+<li>minecraft:warped_fungus: ItemType</li>
+<li>minecraft:warped_fungus_on_a_stick: ItemType</li>
+<li>minecraft:warped_hyphae: ItemType</li>
+<li>minecraft:warped_nylium: ItemType</li>
+<li>minecraft:warped_planks: ItemType</li>
+<li>minecraft:warped_pressure_plate: ItemType</li>
+<li>minecraft:warped_roots: ItemType</li>
+<li>minecraft:warped_sign: ItemType</li>
+<li>minecraft:warped_slab: ItemType</li>
+<li>minecraft:warped_stairs: ItemType</li>
+<li>minecraft:warped_standing_sign: ItemType</li>
+<li>minecraft:warped_stem: ItemType</li>
+<li>minecraft:warped_trapdoor: ItemType</li>
+<li>minecraft:warped_wall_sign: ItemType</li>
+<li>minecraft:warped_wart_block: ItemType</li>
+<li>minecraft:water: ItemType</li>
+<li>minecraft:water_bucket: ItemType</li>
+<li>minecraft:waterlily: ItemType</li>
+<li>minecraft:waxed_copper: ItemType</li>
+<li>minecraft:waxed_cut_copper: ItemType</li>
+<li>minecraft:waxed_cut_copper_slab: ItemType</li>
+<li>minecraft:waxed_cut_copper_stairs: ItemType</li>
+<li>minecraft:waxed_double_cut_copper_slab: ItemType</li>
+<li>minecraft:waxed_exposed_copper: ItemType</li>
+<li>minecraft:waxed_exposed_cut_copper: ItemType</li>
+<li>minecraft:waxed_exposed_cut_copper_slab: ItemType</li>
+<li>minecraft:waxed_exposed_cut_copper_stairs: ItemType</li>
+<li>minecraft:waxed_exposed_double_cut_copper_slab: ItemType</li>
+<li>minecraft:waxed_oxidized_copper: ItemType</li>
+<li>minecraft:waxed_oxidized_cut_copper: ItemType</li>
+<li>minecraft:waxed_oxidized_cut_copper_slab: ItemType</li>
+<li>minecraft:waxed_oxidized_cut_copper_stairs: ItemType</li>
+<li>minecraft:waxed_oxidized_double_cut_copper_slab: ItemType</li>
+<li>minecraft:waxed_weathered_copper: ItemType</li>
+<li>minecraft:waxed_weathered_cut_copper: ItemType</li>
+<li>minecraft:waxed_weathered_cut_copper_slab: ItemType</li>
+<li>minecraft:waxed_weathered_cut_copper_stairs: ItemType</li>
+<li>minecraft:waxed_weathered_double_cut_copper_slab: ItemType</li>
+<li>minecraft:weathered_copper: ItemType</li>
+<li>minecraft:weathered_cut_copper: ItemType</li>
+<li>minecraft:weathered_cut_copper_slab: ItemType</li>
+<li>minecraft:weathered_cut_copper_stairs: ItemType</li>
+<li>minecraft:weathered_double_cut_copper_slab: ItemType</li>
+<li>minecraft:web: ItemType</li>
+<li>minecraft:weeping_vines: ItemType</li>
+<li>minecraft:wheat: ItemType</li>
+<li>minecraft:wheat_seeds: ItemType</li>
+<li>minecraft:white_candle: ItemType</li>
+<li>minecraft:white_candle_cake: ItemType</li>
+<li>minecraft:white_dye: ItemType</li>
+<li>minecraft:white_glazed_terracotta: ItemType</li>
+<li>minecraft:witch_spawn_egg: ItemType</li>
+<li>minecraft:wither_rose: ItemType</li>
+<li>minecraft:wither_skeleton_spawn_egg: ItemType</li>
+<li>minecraft:wolf_spawn_egg: ItemType</li>
+<li>minecraft:wood: ItemType</li>
+<li>minecraft:wooden_axe: ItemType</li>
+<li>minecraft:wooden_button: ItemType</li>
+<li>minecraft:wooden_door: ItemType</li>
+<li>minecraft:wooden_hoe: ItemType</li>
+<li>minecraft:wooden_pickaxe: ItemType</li>
+<li>minecraft:wooden_pressure_plate: ItemType</li>
+<li>minecraft:wooden_shovel: ItemType</li>
+<li>minecraft:wooden_slab: ItemType</li>
+<li>minecraft:wooden_sword: ItemType</li>
+<li>minecraft:wool: ItemType</li>
+<li>minecraft:writable_book: ItemType</li>
+<li>minecraft:written_book: ItemType</li>
+<li>minecraft:yellow_candle: ItemType</li>
+<li>minecraft:yellow_candle_cake: ItemType</li>
+<li>minecraft:yellow_dye: ItemType</li>
+<li>minecraft:yellow_flower: ItemType</li>
+<li>minecraft:yellow_glazed_terracotta: ItemType</li>
+<li>minecraft:zoglin_spawn_egg: ItemType</li>
+<li>minecraft:zombie_horse_spawn_egg: ItemType</li>
+<li>minecraft:zombie_pigman_spawn_egg: ItemType</li>
+<li>minecraft:zombie_spawn_egg: ItemType</li>
+<li>minecraft:zombie_villager_spawn_egg: ItemType</li>
+<li>mobSpawner: ItemType</li>
+<li>mojangBannerPattern: ItemType</li>
+<li>monsterEgg: ItemType</li>
+<li>mooshroomSpawnEgg: ItemType</li>
+<li>mossBlock: ItemType</li>
+<li>mossCarpet: ItemType</li>
+<li>mossyCobblestone: ItemType</li>
+<li>mossyCobblestoneStairs: ItemType</li>
+<li>mossyStoneBrickStairs: ItemType</li>
+<li>movingblock: ItemType</li>
+<li>muleSpawnEgg: ItemType</li>
+<li>mushroomStew: ItemType</li>
+<li>musicDisc11: ItemType</li>
+<li>musicDisc13: ItemType</li>
+<li>musicDiscBlocks: ItemType</li>
+<li>musicDiscCat: ItemType</li>
+<li>musicDiscChirp: ItemType</li>
+<li>musicDiscFar: ItemType</li>
+<li>musicDiscMall: ItemType</li>
+<li>musicDiscMellohi: ItemType</li>
+<li>musicDiscPigstep: ItemType</li>
+<li>musicDiscStal: ItemType</li>
+<li>musicDiscStrad: ItemType</li>
+<li>musicDiscWait: ItemType</li>
+<li>musicDiscWard: ItemType</li>
+<li>mutton: ItemType</li>
+<li>mycelium: ItemType</li>
+<li>nameTag: ItemType</li>
+<li>nautilusShell: ItemType</li>
+<li>netherbrick: ItemType</li>
+<li>netherBrick: ItemType</li>
+<li>netherBrickFence: ItemType</li>
+<li>netherBrickStairs: ItemType</li>
+<li>netherGoldOre: ItemType</li>
+<li>netheriteAxe: ItemType</li>
+<li>netheriteBlock: ItemType</li>
+<li>netheriteBoots: ItemType</li>
+<li>netheriteChestplate: ItemType</li>
+<li>netheriteHelmet: ItemType</li>
+<li>netheriteHoe: ItemType</li>
+<li>netheriteIngot: ItemType</li>
+<li>netheriteLeggings: ItemType</li>
+<li>netheritePickaxe: ItemType</li>
+<li>netheriteScrap: ItemType</li>
+<li>netheriteShovel: ItemType</li>
+<li>netheriteSword: ItemType</li>
+<li>netherrack: ItemType</li>
+<li>netherreactor: ItemType</li>
+<li>netherSprouts: ItemType</li>
+<li>netherStar: ItemType</li>
+<li>netherWart: ItemType</li>
+<li>netherWartBlock: ItemType</li>
+<li>normalStoneStairs: ItemType</li>
+<li>noteblock: ItemType</li>
+<li>npcSpawnEgg: ItemType</li>
+<li>oakBoat: ItemType</li>
+<li>oakSign: ItemType</li>
+<li>oakStairs: ItemType</li>
+<li>observer: ItemType</li>
+<li>obsidian: ItemType</li>
+<li>ocelotSpawnEgg: ItemType</li>
+<li>orangeCandle: ItemType</li>
+<li>orangeCandleCake: ItemType</li>
+<li>orangeDye: ItemType</li>
+<li>orangeGlazedTerracotta: ItemType</li>
+<li>oxidizedCopper: ItemType</li>
+<li>oxidizedCutCopper: ItemType</li>
+<li>oxidizedCutCopperSlab: ItemType</li>
+<li>oxidizedCutCopperStairs: ItemType</li>
+<li>oxidizedDoubleCutCopperSlab: ItemType</li>
+<li>packedIce: ItemType</li>
+<li>painting: ItemType</li>
+<li>pandaSpawnEgg: ItemType</li>
+<li>paper: ItemType</li>
+<li>parrotSpawnEgg: ItemType</li>
+<li>phantomMembrane: ItemType</li>
+<li>phantomSpawnEgg: ItemType</li>
+<li>piglinBannerPattern: ItemType</li>
+<li>piglinBruteSpawnEgg: ItemType</li>
+<li>piglinSpawnEgg: ItemType</li>
+<li>pigSpawnEgg: ItemType</li>
+<li>pillagerSpawnEgg: ItemType</li>
+<li>pinkCandle: ItemType</li>
+<li>pinkCandleCake: ItemType</li>
+<li>pinkDye: ItemType</li>
+<li>pinkGlazedTerracotta: ItemType</li>
+<li>piston: ItemType</li>
+<li>pistonarmcollision: ItemType</li>
+<li>planks: ItemType</li>
+<li>podzol: ItemType</li>
+<li>pointedDripstone: ItemType</li>
+<li>poisonousPotato: ItemType</li>
+<li>polarBearSpawnEgg: ItemType</li>
+<li>polishedAndesiteStairs: ItemType</li>
+<li>polishedBasalt: ItemType</li>
+<li>polishedBlackstone: ItemType</li>
+<li>polishedBlackstoneBrickDoubleSlab: ItemType</li>
+<li>polishedBlackstoneBricks: ItemType</li>
+<li>polishedBlackstoneBrickSlab: ItemType</li>
+<li>polishedBlackstoneBrickStairs: ItemType</li>
+<li>polishedBlackstoneBrickWall: ItemType</li>
+<li>polishedBlackstoneButton: ItemType</li>
+<li>polishedBlackstoneDoubleSlab: ItemType</li>
+<li>polishedBlackstonePressurePlate: ItemType</li>
+<li>polishedBlackstoneSlab: ItemType</li>
+<li>polishedBlackstoneStairs: ItemType</li>
+<li>polishedBlackstoneWall: ItemType</li>
+<li>polishedDeepslate: ItemType</li>
+<li>polishedDeepslateDoubleSlab: ItemType</li>
+<li>polishedDeepslateSlab: ItemType</li>
+<li>polishedDeepslateStairs: ItemType</li>
+<li>polishedDeepslateWall: ItemType</li>
+<li>polishedDioriteStairs: ItemType</li>
+<li>polishedGraniteStairs: ItemType</li>
+<li>poppedChorusFruit: ItemType</li>
+<li>porkchop: ItemType</li>
+<li>portal: ItemType</li>
+<li>potato: ItemType</li>
+<li>potatoes: ItemType</li>
+<li>potion: ItemType</li>
+<li>powderSnow: ItemType</li>
+<li>powderSnowBucket: ItemType</li>
+<li>poweredComparator: ItemType</li>
+<li>poweredRepeater: ItemType</li>
+<li>prismarine: ItemType</li>
+<li>prismarineBricksStairs: ItemType</li>
+<li>prismarineCrystals: ItemType</li>
+<li>prismarineShard: ItemType</li>
+<li>prismarineStairs: ItemType</li>
+<li>pufferfish: ItemType</li>
+<li>pufferfishBucket: ItemType</li>
+<li>pufferfishSpawnEgg: ItemType</li>
+<li>pumpkin: ItemType</li>
+<li>pumpkinPie: ItemType</li>
+<li>pumpkinSeeds: ItemType</li>
+<li>pumpkinStem: ItemType</li>
+<li>purpleCandle: ItemType</li>
+<li>purpleCandleCake: ItemType</li>
+<li>purpleDye: ItemType</li>
+<li>purpleGlazedTerracotta: ItemType</li>
+<li>purpurBlock: ItemType</li>
+<li>purpurStairs: ItemType</li>
+<li>quartz: ItemType</li>
+<li>quartzBlock: ItemType</li>
+<li>quartzBricks: ItemType</li>
+<li>quartzOre: ItemType</li>
+<li>quartzStairs: ItemType</li>
+<li>rabbit: ItemType</li>
+<li>rabbitFoot: ItemType</li>
+<li>rabbitHide: ItemType</li>
+<li>rabbitSpawnEgg: ItemType</li>
+<li>rabbitStew: ItemType</li>
+<li>rail: ItemType</li>
+<li>rapidFertilizer: ItemType</li>
+<li>ravagerSpawnEgg: ItemType</li>
+<li>rawCopper: ItemType</li>
+<li>rawCopperBlock: ItemType</li>
+<li>rawGold: ItemType</li>
+<li>rawGoldBlock: ItemType</li>
+<li>rawIron: ItemType</li>
+<li>rawIronBlock: ItemType</li>
+<li>realDoubleStoneSlab: ItemType</li>
+<li>realDoubleStoneSlab2: ItemType</li>
+<li>realDoubleStoneSlab3: ItemType</li>
+<li>realDoubleStoneSlab4: ItemType</li>
+<li>redCandle: ItemType</li>
+<li>redCandleCake: ItemType</li>
+<li>redDye: ItemType</li>
+<li>redFlower: ItemType</li>
+<li>redGlazedTerracotta: ItemType</li>
+<li>redMushroom: ItemType</li>
+<li>redMushroomBlock: ItemType</li>
+<li>redNetherBrick: ItemType</li>
+<li>redNetherBrickStairs: ItemType</li>
+<li>redSandstone: ItemType</li>
+<li>redSandstoneStairs: ItemType</li>
+<li>redstone: ItemType</li>
+<li>redstoneBlock: ItemType</li>
+<li>redstoneLamp: ItemType</li>
+<li>redstoneOre: ItemType</li>
+<li>redstoneTorch: ItemType</li>
+<li>redstoneWire: ItemType</li>
+<li>repeater: ItemType</li>
+<li>repeatingCommandBlock: ItemType</li>
+<li>reserved6: ItemType</li>
+<li>respawnAnchor: ItemType</li>
+<li>rottenFlesh: ItemType</li>
+<li>saddle: ItemType</li>
+<li>salmon: ItemType</li>
+<li>salmonBucket: ItemType</li>
+<li>salmonSpawnEgg: ItemType</li>
+<li>sand: ItemType</li>
+<li>sandstone: ItemType</li>
+<li>sandstoneStairs: ItemType</li>
+<li>sapling: ItemType</li>
+<li>scaffolding: ItemType</li>
+<li>sculkSensor: ItemType</li>
+<li>scute: ItemType</li>
+<li>seagrass: ItemType</li>
+<li>sealantern: ItemType</li>
+<li>seaPickle: ItemType</li>
+<li>shears: ItemType</li>
+<li>sheepSpawnEgg: ItemType</li>
+<li>shield: ItemType</li>
+<li>shroomlight: ItemType</li>
+<li>shulkerBox: ItemType</li>
+<li>shulkerShell: ItemType</li>
+<li>shulkerSpawnEgg: ItemType</li>
+<li>silverfishSpawnEgg: ItemType</li>
+<li>silverGlazedTerracotta: ItemType</li>
+<li>skeletonHorseSpawnEgg: ItemType</li>
+<li>skeletonSpawnEgg: ItemType</li>
+<li>skull: ItemType</li>
+<li>skullBannerPattern: ItemType</li>
+<li>slime: ItemType</li>
+<li>slimeBall: ItemType</li>
+<li>slimeSpawnEgg: ItemType</li>
+<li>smallAmethystBud: ItemType</li>
+<li>smallDripleafBlock: ItemType</li>
+<li>smithingTable: ItemType</li>
+<li>smoker: ItemType</li>
+<li>smoothBasalt: ItemType</li>
+<li>smoothQuartzStairs: ItemType</li>
+<li>smoothRedSandstoneStairs: ItemType</li>
+<li>smoothSandstoneStairs: ItemType</li>
+<li>smoothStone: ItemType</li>
+<li>snow: ItemType</li>
+<li>snowball: ItemType</li>
+<li>snowLayer: ItemType</li>
+<li>soulCampfire: ItemType</li>
+<li>soulFire: ItemType</li>
+<li>soulLantern: ItemType</li>
+<li>soulSand: ItemType</li>
+<li>soulSoil: ItemType</li>
+<li>soulTorch: ItemType</li>
+<li>sparkler: ItemType</li>
+<li>spawnEgg: ItemType</li>
+<li>spiderEye: ItemType</li>
+<li>spiderSpawnEgg: ItemType</li>
+<li>splashPotion: ItemType</li>
+<li>sponge: ItemType</li>
+<li>sporeBlossom: ItemType</li>
+<li>spruceBoat: ItemType</li>
+<li>spruceButton: ItemType</li>
+<li>spruceDoor: ItemType</li>
+<li>spruceFenceGate: ItemType</li>
+<li>sprucePressurePlate: ItemType</li>
+<li>spruceSign: ItemType</li>
+<li>spruceStairs: ItemType</li>
+<li>spruceStandingSign: ItemType</li>
+<li>spruceTrapdoor: ItemType</li>
+<li>spruceWallSign: ItemType</li>
+<li>spyglass: ItemType</li>
+<li>squidSpawnEgg: ItemType</li>
+<li>stainedGlass: ItemType</li>
+<li>stainedGlassPane: ItemType</li>
+<li>stainedHardenedClay: ItemType</li>
+<li>standingBanner: ItemType</li>
+<li>standingSign: ItemType</li>
+<li>stick: ItemType</li>
+<li>stickyPiston: ItemType</li>
+<li>stickypistonarmcollision: ItemType</li>
+<li>stone: ItemType</li>
+<li>stoneAxe: ItemType</li>
+<li>stonebrick: ItemType</li>
+<li>stoneBrickStairs: ItemType</li>
+<li>stoneButton: ItemType</li>
+<li>stonecutter: ItemType</li>
+<li>stonecutterBlock: ItemType</li>
+<li>stoneHoe: ItemType</li>
+<li>stonePickaxe: ItemType</li>
+<li>stonePressurePlate: ItemType</li>
+<li>stoneShovel: ItemType</li>
+<li>stoneStairs: ItemType</li>
+<li>stoneSword: ItemType</li>
+<li>straySpawnEgg: ItemType</li>
+<li>striderSpawnEgg: ItemType</li>
+<li>string: ItemType</li>
+<li>strippedAcaciaLog: ItemType</li>
+<li>strippedBirchLog: ItemType</li>
+<li>strippedCrimsonHyphae: ItemType</li>
+<li>strippedCrimsonStem: ItemType</li>
+<li>strippedDarkOakLog: ItemType</li>
+<li>strippedJungleLog: ItemType</li>
+<li>strippedOakLog: ItemType</li>
+<li>strippedSpruceLog: ItemType</li>
+<li>strippedWarpedHyphae: ItemType</li>
+<li>strippedWarpedStem: ItemType</li>
+<li>structureBlock: ItemType</li>
+<li>structureVoid: ItemType</li>
+<li>sugar: ItemType</li>
+<li>sugarCane: ItemType</li>
+<li>suspiciousStew: ItemType</li>
+<li>sweetBerries: ItemType</li>
+<li>sweetBerryBush: ItemType</li>
+<li>tallgrass: ItemType</li>
+<li>target: ItemType</li>
+<li>tintedGlass: ItemType</li>
+<li>tnt: ItemType</li>
+<li>tntMinecart: ItemType</li>
+<li>torch: ItemType</li>
+<li>totemOfUndying: ItemType</li>
+<li>trapdoor: ItemType</li>
+<li>trappedChest: ItemType</li>
+<li>trident: ItemType</li>
+<li>tripwire: ItemType</li>
+<li>tripwireHook: ItemType</li>
+<li>tropicalFish: ItemType</li>
+<li>tropicalFishBucket: ItemType</li>
+<li>tropicalFishSpawnEgg: ItemType</li>
+<li>tuff: ItemType</li>
+<li>turtleEgg: ItemType</li>
+<li>turtleHelmet: ItemType</li>
+<li>turtleSpawnEgg: ItemType</li>
+<li>twistingVines: ItemType</li>
+<li>underwaterTorch: ItemType</li>
+<li>undyedShulkerBox: ItemType</li>
+<li>unknown: ItemType</li>
+<li>unlitRedstoneTorch: ItemType</li>
+<li>unpoweredComparator: ItemType</li>
+<li>unpoweredRepeater: ItemType</li>
+<li>vexSpawnEgg: ItemType</li>
+<li>villagerSpawnEgg: ItemType</li>
+<li>vindicatorSpawnEgg: ItemType</li>
+<li>vine: ItemType</li>
+<li>wallBanner: ItemType</li>
+<li>wallSign: ItemType</li>
+<li>wanderingTraderSpawnEgg: ItemType</li>
+<li>warpedButton: ItemType</li>
+<li>warpedDoor: ItemType</li>
+<li>warpedDoubleSlab: ItemType</li>
+<li>warpedFence: ItemType</li>
+<li>warpedFenceGate: ItemType</li>
+<li>warpedFungus: ItemType</li>
+<li>warpedFungusOnAStick: ItemType</li>
+<li>warpedHyphae: ItemType</li>
+<li>warpedNylium: ItemType</li>
+<li>warpedPlanks: ItemType</li>
+<li>warpedPressurePlate: ItemType</li>
+<li>warpedRoots: ItemType</li>
+<li>warpedSign: ItemType</li>
+<li>warpedSlab: ItemType</li>
+<li>warpedStairs: ItemType</li>
+<li>warpedStandingSign: ItemType</li>
+<li>warpedStem: ItemType</li>
+<li>warpedTrapdoor: ItemType</li>
+<li>warpedWallSign: ItemType</li>
+<li>warpedWartBlock: ItemType</li>
+<li>water: ItemType</li>
+<li>waterBucket: ItemType</li>
+<li>waterlily: ItemType</li>
+<li>waxedCopper: ItemType</li>
+<li>waxedCutCopper: ItemType</li>
+<li>waxedCutCopperSlab: ItemType</li>
+<li>waxedCutCopperStairs: ItemType</li>
+<li>waxedDoubleCutCopperSlab: ItemType</li>
+<li>waxedExposedCopper: ItemType</li>
+<li>waxedExposedCutCopper: ItemType</li>
+<li>waxedExposedCutCopperSlab: ItemType</li>
+<li>waxedExposedCutCopperStairs: ItemType</li>
+<li>waxedExposedDoubleCutCopperSlab: ItemType</li>
+<li>waxedOxidizedCopper: ItemType</li>
+<li>waxedOxidizedCutCopper: ItemType</li>
+<li>waxedOxidizedCutCopperSlab: ItemType</li>
+<li>waxedOxidizedCutCopperStairs: ItemType</li>
+<li>waxedOxidizedDoubleCutCopperSlab: ItemType</li>
+<li>waxedWeatheredCopper: ItemType</li>
+<li>waxedWeatheredCutCopper: ItemType</li>
+<li>waxedWeatheredCutCopperSlab: ItemType</li>
+<li>waxedWeatheredCutCopperStairs: ItemType</li>
+<li>waxedWeatheredDoubleCutCopperSlab: ItemType</li>
+<li>weatheredCopper: ItemType</li>
+<li>weatheredCutCopper: ItemType</li>
+<li>weatheredCutCopperSlab: ItemType</li>
+<li>weatheredCutCopperStairs: ItemType</li>
+<li>weatheredDoubleCutCopperSlab: ItemType</li>
+<li>web: ItemType</li>
+<li>weepingVines: ItemType</li>
+<li>wheat: ItemType</li>
+<li>wheatSeeds: ItemType</li>
+<li>whiteCandle: ItemType</li>
+<li>whiteCandleCake: ItemType</li>
+<li>whiteDye: ItemType</li>
+<li>whiteGlazedTerracotta: ItemType</li>
+<li>witchSpawnEgg: ItemType</li>
+<li>witherRose: ItemType</li>
+<li>witherSkeletonSpawnEgg: ItemType</li>
+<li>wolfSpawnEgg: ItemType</li>
+<li>wood: ItemType</li>
+<li>woodenAxe: ItemType</li>
+<li>woodenButton: ItemType</li>
+<li>woodenDoor: ItemType</li>
+<li>woodenHoe: ItemType</li>
+<li>woodenPickaxe: ItemType</li>
+<li>woodenPressurePlate: ItemType</li>
+<li>woodenShovel: ItemType</li>
+<li>woodenSlab: ItemType</li>
+<li>woodenSword: ItemType</li>
+<li>wool: ItemType</li>
+<li>writableBook: ItemType</li>
+<li>writtenBook: ItemType</li>
+<li>yellowCandle: ItemType</li>
+<li>yellowCandleCake: ItemType</li>
+<li>yellowDye: ItemType</li>
+<li>yellowFlower: ItemType</li>
+<li>yellowGlazedTerracotta: ItemType</li>
+<li>zoglinSpawnEgg: ItemType</li>
+<li>zombieHorseSpawnEgg: ItemType</li>
+<li>zombiePigmanSpawnEgg: ItemType</li>
+<li>zombieSpawnEgg: ItemType</li>
+<li>zombieVillagerSpawnEgg: ItemType</li>
 </ul>
 </details>
 
 <details>
 <summary>ItemStack</summary>
 <ul> 
-	amount: number
-	data: number
-	id: string
-	constructor(itemType: ItemType, amount: number, data: number)
+<li>amount: number</li>
+<li>data: number</li>
+<li>id: string</li>
+<li>constructor(itemType: ItemType, amount: number, data: number)</li>
 </ul>
 </details>
 
 <details>
 <summary>ItemType</summary>
 <ul> 
-	getName(): string
+<li>getName(): string</li>
 </ul>
 </details>
 
 <details>
 <summary>LavaMovement</summary>
 <ul> 
-	current: number
-	id: string
-	value: number
-	resetToDefaultValue(): void
-	resetToMaxValue(): void
-	resetToMinValue(): void
-	setCurrent(): void
+<li>current: number</li>
+<li>id: string</li>
+<li>value: number</li>
+<li>resetToDefaultValue(): void</li>
+<li>resetToMaxValue(): void</li>
+<li>resetToMinValue(): void</li>
+<li>setCurrent(): void</li>
 </ul>
 </details>
 
 <details>
 <summary>Leashable</summary>
 <ul> 
-	id: string
-	softDistance: number
-	leash(leashHolder: Entity): void
-	unleash(): void
+<li>id: string</li>
+<li>softDistance: number</li>
+<li>leash(leashHolder: Entity): void</li>
+<li>unleash(): void</li>
 </ul>
 </details>
 
 <details>
 <summary>Location</summary>
 <ul> 
-	x: number
-	y: number
-	z: number
-	constructor(x: number, y: number, z: number)
-	equals(other: Location): boolean
-	isNear(other: Location, epsilon: number): boolean
+<li>x: number</li>
+<li>y: number</li>
+<li>z: number</li>
+<li>constructor(x: number, y: number, z: number)</li>
+<li>equals(other: Location): boolean</li>
+<li>isNear(other: Location, epsilon: number): boolean</li>
 </ul>
 </details>
 
 <details>
 <summary>MountTaming</summary>
 <ul> 
-	id: string
-	setTamed(showParticles: boolean): void
+<li>id: string</li>
+<li>setTamed(showParticles: boolean): void</li>
 </ul>
 </details>
 
 <details>
 <summary>Movement</summary>
 <ul> 
-	current: number
-	id: string
-	value: number
-	resetToDefaultValue(): void
-	resetToMaxValue(): void
-	resetToMinValue(): void
-	setCurrent(): void
+<li>current: number</li>
+<li>id: string</li>
+<li>value: number</li>
+<li>resetToDefaultValue(): void</li>
+<li>resetToMaxValue(): void</li>
+<li>resetToMinValue(): void</li>
+<li>setCurrent(): void</li>
 </ul>
 </details>
 
 <details>
 <summary>MovementAmphibious</summary>
 <ul> 
-	id: string
-	maxTurn: number
+<li>id: string</li>
+<li>maxTurn: number</li>
 </ul>
 </details>
 
 <details>
 <summary>MovementBasic</summary>
 <ul> 
-	id: string
-	maxTurn: number
+<li>id: string</li>
+<li>maxTurn: number</li>
 </ul>
 </details>
 
 <details>
 <summary>MovementFly</summary>
 <ul> 
-	id: string
-	maxTurn: number
+<li>id: string</li>
+<li>maxTurn: number</li>
 </ul>
 </details>
 
 <details>
 <summary>MovementGeneric</summary>
 <ul> 
-	id: string
-	maxTurn: number
+<li>id: string</li>
+<li>maxTurn: number</li>
 </ul>
 </details>
 
 <details>
 <summary>MovementGlide</summary>
 <ul> 
-	id: string
-	maxTurn: number
-	speedWhenTurning: number
-	startSpeed: number
+<li>id: string</li>
+<li>maxTurn: number</li>
+<li>speedWhenTurning: number</li>
+<li>startSpeed: number</li>
 </ul>
 </details>
 
 <details>
 <summary>MovementHover</summary>
 <ul> 
-	id: string
-	maxTurn: number
+<li>id: string</li>
+<li>maxTurn: number</li>
 </ul>
 </details>
 
 <details>
 <summary>MovementJump</summary>
 <ul> 
-	id: string
-	maxTurn: number
+<li>id: string</li>
+<li>maxTurn: number</li>
 </ul>
 </details>
 
 <details>
 <summary>MovementSkip</summary>
 <ul> 
-	id: string
-	maxTurn: number
+<li>id: string</li>
+<li>maxTurn: number</li>
 </ul>
 </details>
 
 <details>
 <summary>MovementSway</summary>
 <ul> 
-	id: string
-	maxTurn: number
-	swayAmplitude: number
-	swayFrequency: number
+<li>id: string</li>
+<li>maxTurn: number</li>
+<li>swayAmplitude: number</li>
+<li>swayFrequency: number</li>
 </ul>
 </details>
 
 <details>
 <summary>NavigationClimb</summary>
 <ul> 
-	avoidDamageBlocks: boolean
-	avoidPortals: boolean
-	avoidSun: boolean
-	avoidWater: boolean
-	canBreach: boolean
-	canBreakDoors: boolean
-	canFloat: boolean
-	canJump: boolean
-	canOpenDoors: boolean
-	canOpenIronDoors: boolean
-	canPassDoors: boolean
-	canPathFromAir: boolean
-	canPathOverLava: boolean
-	canPathOverWater: boolean
-	canSink: boolean
-	canSwim: boolean
-	canWalk: boolean
-	canWalkInLava: boolean
-	id: string
-	isAmphibious: boolean
+<li>avoidDamageBlocks: boolean</li>
+<li>avoidPortals: boolean</li>
+<li>avoidSun: boolean</li>
+<li>avoidWater: boolean</li>
+<li>canBreach: boolean</li>
+<li>canBreakDoors: boolean</li>
+<li>canFloat: boolean</li>
+<li>canJump: boolean</li>
+<li>canOpenDoors: boolean</li>
+<li>canOpenIronDoors: boolean</li>
+<li>canPassDoors: boolean</li>
+<li>canPathFromAir: boolean</li>
+<li>canPathOverLava: boolean</li>
+<li>canPathOverWater: boolean</li>
+<li>canSink: boolean</li>
+<li>canSwim: boolean</li>
+<li>canWalk: boolean</li>
+<li>canWalkInLava: boolean</li>
+<li>id: string</li>
+<li>isAmphibious: boolean</li>
 </ul>
 </details>
 
 <details>
 <summary>NavigationFloat</summary>
 <ul> 
-	avoidDamageBlocks: boolean
-	avoidPortals: boolean
-	avoidSun: boolean
-	avoidWater: boolean
-	canBreach: boolean
-	canBreakDoors: boolean
-	canFloat: boolean
-	canJump: boolean
-	canOpenDoors: boolean
-	canOpenIronDoors: boolean
-	canPassDoors: boolean
-	canPathFromAir: boolean
-	canPathOverLava: boolean
-	canPathOverWater: boolean
-	canSink: boolean
-	canSwim: boolean
-	canWalk: boolean
-	canWalkInLava: boolean
-	id: string
-	isAmphibious: boolean
+<li>avoidDamageBlocks: boolean</li>
+<li>avoidPortals: boolean</li>
+<li>avoidSun: boolean</li>
+<li>avoidWater: boolean</li>
+<li>canBreach: boolean</li>
+<li>canBreakDoors: boolean</li>
+<li>canFloat: boolean</li>
+<li>canJump: boolean</li>
+<li>canOpenDoors: boolean</li>
+<li>canOpenIronDoors: boolean</li>
+<li>canPassDoors: boolean</li>
+<li>canPathFromAir: boolean</li>
+<li>canPathOverLava: boolean</li>
+<li>canPathOverWater: boolean</li>
+<li>canSink: boolean</li>
+<li>canSwim: boolean</li>
+<li>canWalk: boolean</li>
+<li>canWalkInLava: boolean</li>
+<li>id: string</li>
+<li>isAmphibious: boolean</li>
 </ul>
 </details>
 
 <details>
 <summary>NavigationFly</summary>
 <ul> 
-	avoidDamageBlocks: boolean
-	avoidPortals: boolean
-	avoidSun: boolean
-	avoidWater: boolean
-	canBreach: boolean
-	canBreakDoors: boolean
-	canFloat: boolean
-	canJump: boolean
-	canOpenDoors: boolean
-	canOpenIronDoors: boolean
-	canPassDoors: boolean
-	canPathFromAir: boolean
-	canPathOverLava: boolean
-	canPathOverWater: boolean
-	canSink: boolean
-	canSwim: boolean
-	canWalk: boolean
-	canWalkInLava: boolean
-	id: string
-	isAmphibious: boolean
+<li>avoidDamageBlocks: boolean</li>
+<li>avoidPortals: boolean</li>
+<li>avoidSun: boolean</li>
+<li>avoidWater: boolean</li>
+<li>canBreach: boolean</li>
+<li>canBreakDoors: boolean</li>
+<li>canFloat: boolean</li>
+<li>canJump: boolean</li>
+<li>canOpenDoors: boolean</li>
+<li>canOpenIronDoors: boolean</li>
+<li>canPassDoors: boolean</li>
+<li>canPathFromAir: boolean</li>
+<li>canPathOverLava: boolean</li>
+<li>canPathOverWater: boolean</li>
+<li>canSink: boolean</li>
+<li>canSwim: boolean</li>
+<li>canWalk: boolean</li>
+<li>canWalkInLava: boolean</li>
+<li>id: string</li>
+<li>isAmphibious: boolean</li>
 </ul>
 </details>
 
 <details>
 <summary>NavigationGeneric</summary>
 <ul> 
-	avoidDamageBlocks: boolean
-	avoidPortals: boolean
-	avoidSun: boolean
-	avoidWater: boolean
-	canBreach: boolean
-	canBreakDoors: boolean
-	canFloat: boolean
-	canJump: boolean
-	canOpenDoors: boolean
-	canOpenIronDoors: boolean
-	canPassDoors: boolean
-	canPathFromAir: boolean
-	canPathOverLava: boolean
-	canPathOverWater: boolean
-	canSink: boolean
-	canSwim: boolean
-	canWalk: boolean
-	canWalkInLava: boolean
-	id: string
-	isAmphibious: boolean
+<li>avoidDamageBlocks: boolean</li>
+<li>avoidPortals: boolean</li>
+<li>avoidSun: boolean</li>
+<li>avoidWater: boolean</li>
+<li>canBreach: boolean</li>
+<li>canBreakDoors: boolean</li>
+<li>canFloat: boolean</li>
+<li>canJump: boolean</li>
+<li>canOpenDoors: boolean</li>
+<li>canOpenIronDoors: boolean</li>
+<li>canPassDoors: boolean</li>
+<li>canPathFromAir: boolean</li>
+<li>canPathOverLava: boolean</li>
+<li>canPathOverWater: boolean</li>
+<li>canSink: boolean</li>
+<li>canSwim: boolean</li>
+<li>canWalk: boolean</li>
+<li>canWalkInLava: boolean</li>
+<li>id: string</li>
+<li>isAmphibious: boolean</li>
 </ul>
 </details>
 
 <details>
 <summary>NavigationHover</summary>
 <ul> 
-	avoidDamageBlocks: boolean
-	avoidPortals: boolean
-	avoidSun: boolean
-	avoidWater: boolean
-	canBreach: boolean
-	canBreakDoors: boolean
-	canFloat: boolean
-	canJump: boolean
-	canOpenDoors: boolean
-	canOpenIronDoors: boolean
-	canPassDoors: boolean
-	canPathFromAir: boolean
-	canPathOverLava: boolean
-	canPathOverWater: boolean
-	canSink: boolean
-	canSwim: boolean
-	canWalk: boolean
-	canWalkInLava: boolean
-	id: string
-	isAmphibious: boolean
+<li>avoidDamageBlocks: boolean</li>
+<li>avoidPortals: boolean</li>
+<li>avoidSun: boolean</li>
+<li>avoidWater: boolean</li>
+<li>canBreach: boolean</li>
+<li>canBreakDoors: boolean</li>
+<li>canFloat: boolean</li>
+<li>canJump: boolean</li>
+<li>canOpenDoors: boolean</li>
+<li>canOpenIronDoors: boolean</li>
+<li>canPassDoors: boolean</li>
+<li>canPathFromAir: boolean</li>
+<li>canPathOverLava: boolean</li>
+<li>canPathOverWater: boolean</li>
+<li>canSink: boolean</li>
+<li>canSwim: boolean</li>
+<li>canWalk: boolean</li>
+<li>canWalkInLava: boolean</li>
+<li>id: string</li>
+<li>isAmphibious: boolean</li>
 </ul>
 </details>
 
 <details>
 <summary>NavigationWalk</summary>
 <ul> 
-	avoidDamageBlocks: boolean
-	avoidPortals: boolean
-	avoidSun: boolean
-	avoidWater: boolean
-	canBreach: boolean
-	canBreakDoors: boolean
-	canFloat: boolean
-	canJump: boolean
-	canOpenDoors: boolean
-	canOpenIronDoors: boolean
-	canPassDoors: boolean
-	canPathFromAir: boolean
-	canPathOverLava: boolean
-	canPathOverWater: boolean
-	canSink: boolean
-	canSwim: boolean
-	canWalk: boolean
-	canWalkInLava: boolean
-	id: string
-	isAmphibious: boolean
+<li>avoidDamageBlocks: boolean</li>
+<li>avoidPortals: boolean</li>
+<li>avoidSun: boolean</li>
+<li>avoidWater: boolean</li>
+<li>canBreach: boolean</li>
+<li>canBreakDoors: boolean</li>
+<li>canFloat: boolean</li>
+<li>canJump: boolean</li>
+<li>canOpenDoors: boolean</li>
+<li>canOpenIronDoors: boolean</li>
+<li>canPassDoors: boolean</li>
+<li>canPathFromAir: boolean</li>
+<li>canPathOverLava: boolean</li>
+<li>canPathOverWater: boolean</li>
+<li>canSink: boolean</li>
+<li>canSwim: boolean</li>
+<li>canWalk: boolean</li>
+<li>canWalkInLava: boolean</li>
+<li>id: string</li>
+<li>isAmphibious: boolean</li>
 </ul>
 </details>
 
 <details>
 <summary>Player</summary>
 <ul> 
-	id: string
-	isSneaking: boolean
-	location: Location
-	name: string
-	nameTag: string
-	velocity: Location
-	addEffect(effectType: EffectType, duration: number, amplifier: number): void
-	getComponent(componentId: string): any
-	getComponents(): Array<any>
-	getEffect(effectType: EffectType): Effect
-	hasComponent(componentId: string): boolean
-	kill(): void
-	triggerEvent(eventName: string): void
+<li>id: string</li>
+<li>isSneaking: boolean</li>
+<li>location: Location</li>
+<li>name: string</li>
+<li>nameTag: string</li>
+<li>velocity: Location</li>
+<li>addEffect(effectType: EffectType, duration: number, amplifier: number): void</li>
+<li>getComponent(componentId: string): any</li>
+<li>getComponents(): Array<any></li>
+<li>getEffect(effectType: EffectType): Effect</li>
+<li>hasComponent(componentId: string): boolean</li>
+<li>kill(): void</li>
+<li>triggerEvent(eventName: string): void</li>
 </ul>
 </details>
 
 <details>
 <summary>Rideable</summary>
 <ul> 
-	controllingSeat: number
-	crouchingSkipInteract: boolean
-	familyTypes: Array<any>
-	id: string
-	interactText: string
-	pullInEntities: boolean
-	riderCanInteract: boolean
-	seatCount: number
-	seats: Array<Seat>
-	addRider(rider: Entity): boolean
-	ejectRider(rider: Entity): void
-	ejectRiders(): void
+<li>controllingSeat: number</li>
+<li>crouchingSkipInteract: boolean</li>
+<li>familyTypes: Array<any></li>
+<li>id: string</li>
+<li>interactText: string</li>
+<li>pullInEntities: boolean</li>
+<li>riderCanInteract: boolean</li>
+<li>seatCount: number</li>
+<li>seats: Array<Seat></li>
+<li>addRider(rider: Entity): boolean</li>
+<li>ejectRider(rider: Entity): void</li>
+<li>ejectRiders(): void</li>
 </ul>
 </details>
 
 <details>
 <summary>Seat</summary>
 <ul> 
-	lockRiderRotation: number
-	maxRiderCount: number
-	minRiderCount: number
-	position: Location
+<li>lockRiderRotation: number</li>
+<li>maxRiderCount: number</li>
+<li>minRiderCount: number</li>
+<li>position: Location</li>
 </ul>
 </details>
 
 <details>
 <summary>Strength</summary>
 <ul> 
-	id: string
-	max: number
-	value: number
+<li>id: string</li>
+<li>max: number</li>
+<li>value: number</li>
 </ul>
 </details>
 
 <details>
 <summary>StringBlockProperty</summary>
 <ul> 
-	name: string
-	validValues: Array<any>
-	value: string
+<li>name: string</li>
+<li>validValues: Array<any></li>
+<li>value: string</li>
 </ul>
 </details>
 
 <details>
 <summary>Tameable</summary>
 <ul> 
-	id: string
-	probability: number
-	tameEvent: Trigger
-	tameItems: Array<any>
-	tame(): boolean
+<li>id: string</li>
+<li>probability: number</li>
+<li>tameEvent: Trigger</li>
+<li>tameItems: Array<any></li>
+<li>tame(): boolean</li>
 </ul>
 </details>
 
@@ -3933,31 +3933,31 @@
 <details>
 <summary>UnderwaterMovement</summary>
 <ul> 
-	current: number
-	id: string
-	value: number
-	resetToDefaultValue(): void
-	resetToMaxValue(): void
-	resetToMinValue(): void
-	setCurrent(): void
+<li>current: number</li>
+<li>id: string</li>
+<li>value: number</li>
+<li>resetToDefaultValue(): void</li>
+<li>resetToMaxValue(): void</li>
+<li>resetToMinValue(): void</li>
+<li>setCurrent(): void</li>
 </ul>
 </details>
 
 <details>
 <summary>WeatherChangedEvent</summary>
 <ul> 
-	dimension: string
-	lightning: boolean
-	raining: boolean
+<li>dimension: string</li>
+<li>lightning: boolean</li>
+<li>raining: boolean</li>
 </ul>
 </details>
 
 <details>
 <summary>World</summary>
 <ul> 
-	events: Events
-	getDimension(dimensionName: ('overworld'|'nether'|'the end')): Dimension
-	getPlayers(): Array<Player>
+<li>events: Events</li>
+<li>getDimension(dimensionName: ('overworld'|'nether'|'the end')): Dimension</li>
+<li>getPlayers(): Array<Player></li>
 </ul>
 </details>
 

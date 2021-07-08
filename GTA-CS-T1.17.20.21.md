@@ -2,128 +2,128 @@
 <details>
 <summary>ActivatePistonEvent</summary>
 <ul> 
-<li><font color="#ff9800">isExpanding</font>: boolean</li>
-<li><font color="#ff9800">piston</font>: BlockPistonComponent</li>
+<li>isExpanding: boolean</li>
+<li>piston: BlockPistonComponent</li>
 </ul>
 </details>
 
 <details>
 <summary>ActivatePistonEventSignal</summary>
 <ul> 
-<li><font color="#ffc107">subscribe</font>(callback: (arg: ActivatePistonEvent) => void): (arg: ActivatePistonEvent) => void</li>
-<li><font color="#ffc107">unsubscribe</font>(callback: (arg: ActivatePistonEvent) => void): void</li>
+<li>subscribe(callback: (arg: ActivatePistonEvent) => void): (arg: ActivatePistonEvent) => void</li>
+<li>unsubscribe(callback: (arg: ActivatePistonEvent) => void): void</li>
 </ul>
 </details>
 
 <details>
 <summary>ActorAddEffectEvent</summary>
 <ul> 
-<li><font color="#ff9800">effect</font>: Effect</li>
-<li><font color="#ff9800">effectState</font>: number</li>
-<li><font color="#ff9800">entity</font>: Entity</li>
+<li>effect: Effect</li>
+<li>effectState: number</li>
+<li>entity: Entity</li>
 </ul>
 </details>
 
 <details>
 <summary>AddEffectEventSignal</summary>
 <ul> 
-<li><font color="#ffc107">subscribe</font>(callback: (arg: ActorAddEffectEvent) => void): (arg: ActorAddEffectEvent) => void</li>
-<li><font color="#ffc107">unsubscribe</font>(callback: (arg: ActorAddEffectEvent) => void): void</li>
+<li>subscribe(callback: (arg: ActorAddEffectEvent) => void): (arg: ActorAddEffectEvent) => void</li>
+<li>unsubscribe(callback: (arg: ActorAddEffectEvent) => void): void</li>
 </ul>
 </details>
 
 <details>
 <summary>AddRider</summary>
 <ul> 
-<li><font color="#ff9800">entityType</font>: string</li>
-<li><font color="#ff9800">id</font>: string</li>
-<li><font color="#ff9800">spawnEvent</font>: string</li>
+<li>entityType: string</li>
+<li>id: string</li>
+<li>spawnEvent: string</li>
 </ul>
 </details>
 
 <details>
 <summary>Ageable</summary>
 <ul> 
-<li><font color="#ff9800">dropItems</font>: Array<any></li>
-<li><font color="#ff9800">duration</font>: number</li>
-<li><font color="#ff9800">feedItems</font>: Array<EntityDefinitionFeedItem></li>
-<li><font color="#ff9800">growUp</font>: Trigger</li>
-<li><font color="#ff9800">id</font>: string</li>
+<li>dropItems: Array<any></li>
+<li>duration: number</li>
+<li>feedItems: Array<EntityDefinitionFeedItem></li>
+<li>growUp: Trigger</li>
+<li>id: string</li>
 </ul>
 </details>
 
 <details>
 <summary>BeforeActivatePistonEvent</summary>
 <ul> 
-<li><font color="#ff9800">cancel</font>: boolean</li>
-<li><font color="#ff9800">isExpanding</font>: boolean</li>
-<li><font color="#ff9800">piston</font>: BlockPistonComponent</li>
+<li>cancel: boolean</li>
+<li>isExpanding: boolean</li>
+<li>piston: BlockPistonComponent</li>
 </ul>
 </details>
 
 <details>
 <summary>BeforeActivatePistonEventSignal</summary>
 <ul> 
-<li><font color="#ffc107">subscribe</font>(callback: (arg: BeforeActivatePistonEvent) => void): (arg: BeforeActivatePistonEvent) => void</li>
-<li><font color="#ffc107">unsubscribe</font>(callback: (arg: BeforeActivatePistonEvent) => void): void</li>
+<li>subscribe(callback: (arg: BeforeActivatePistonEvent) => void): (arg: BeforeActivatePistonEvent) => void</li>
+<li>unsubscribe(callback: (arg: BeforeActivatePistonEvent) => void): void</li>
 </ul>
 </details>
 
 <details>
 <summary>BeforeChatEvent</summary>
 <ul> 
-<li><font color="#ff9800">cancel</font>: boolean</li>
-<li><font color="#ff9800">message</font>: string</li>
-<li><font color="#ff9800">sender</font>: Player</li>
-<li><font color="#ff9800">sendToTargets</font>: boolean</li>
-<li><font color="#ff9800">targets</font>: Array<Player></li>
+<li>cancel: boolean</li>
+<li>message: string</li>
+<li>sender: Player</li>
+<li>sendToTargets: boolean</li>
+<li>targets: Array<Player></li>
 </ul>
 </details>
 
 <details>
 <summary>BeforeChatEventSignal</summary>
 <ul> 
-<li><font color="#ffc107">subscribe</font>(callback: (arg: BeforeChatEvent) => void): (arg: BeforeChatEvent) => void</li>
-<li><font color="#ffc107">unsubscribe</font>(callback: (arg: BeforeChatEvent) => void): void</li>
+<li>subscribe(callback: (arg: BeforeChatEvent) => void): (arg: BeforeChatEvent) => void</li>
+<li>unsubscribe(callback: (arg: BeforeChatEvent) => void): void</li>
 </ul>
 </details>
 
 <details>
 <summary>BeforeExplosionEvent</summary>
 <ul> 
-<li><font color="#ff9800">cancel</font>: boolean</li>
-<li><font color="#ff9800">dimension</font>: Dimension</li>
-<li><font color="#ff9800">impactedBlocks</font>: Array<BlockLocation></li>
-<li><font color="#ff9800">source</font>: Entity</li>
+<li>cancel: boolean</li>
+<li>dimension: Dimension</li>
+<li>impactedBlocks: Array<BlockLocation></li>
+<li>source: Entity</li>
 </ul>
 </details>
 
 <details>
 <summary>BeforeExplosionEventSignal</summary>
 <ul> 
-<li><font color="#ffc107">subscribe</font>(callback: (arg: BeforeExplosionEvent) => void): (arg: BeforeExplosionEvent) => void</li>
-<li><font color="#ffc107">unsubscribe</font>(callback: (arg: BeforeExplosionEvent) => void): void</li>
+<li>subscribe(callback: (arg: BeforeExplosionEvent) => void): (arg: BeforeExplosionEvent) => void</li>
+<li>unsubscribe(callback: (arg: BeforeExplosionEvent) => void): void</li>
 </ul>
 </details>
 
 <details>
 <summary>Block</summary>
 <ul> 
-<li><font color="#ff9800">x</font>: number</li>
-<li><font color="#ff9800">y</font>: number</li>
-<li><font color="#ff9800">z</font>: number</li>
-<li><font color="#ffc107">canBeWaterlogged</font>(): boolean</li>
-<li><font color="#ffc107">getBlockData</font>(): BlockPermutation</li>
-<li><font color="#ffc107">getComponent</font>(): any</li>
-<li><font color="#ffc107">getDimension</font>(): Dimension</li>
-<li><font color="#ffc107">getLocation</font>(): BlockLocation</li>
-<li><font color="#ffc107">getTags</font>(): Array<any></li>
-<li><font color="#ffc107">hasTag</font>(): boolean</li>
-<li><font color="#ffc107">isEmpty</font>(): boolean</li>
-<li><font color="#ffc107">isWaterlogged</font>(): boolean</li>
-<li><font color="#ffc107">setPermutation</font>(permutation: BlockPermutation): void</li>
-<li><font color="#ffc107">setType</font>(): void</li>
-<li><font color="#ffc107">setWaterlogged</font>(setWaterlogged: boolean): void</li>
+<li>x: number</li>
+<li>y: number</li>
+<li>z: number</li>
+<li>canBeWaterlogged(): boolean</li>
+<li>getBlockData(): BlockPermutation</li>
+<li>getComponent(): any</li>
+<li>getDimension(): Dimension</li>
+<li>getLocation(): BlockLocation</li>
+<li>getTags(): Array<any></li>
+<li>hasTag(): boolean</li>
+<li>isEmpty(): boolean</li>
+<li>isWaterlogged(): boolean</li>
+<li>setPermutation(permutation: BlockPermutation): void</li>
+<li>setType(): void</li>
+<li>setWaterlogged(setWaterlogged: boolean): void</li>
 </ul>
 </details>
 
@@ -136,1166 +136,1166 @@
 <details>
 <summary>BlockInventoryComponent</summary>
 <ul> 
-<li><font color="#ff9800">container</font>: BlockInventoryComponentContainer</li>
-<li><font color="#ff9800">location</font>: BlockLocation</li>
+<li>container: BlockInventoryComponentContainer</li>
+<li>location: BlockLocation</li>
 </ul>
 </details>
 
 <details>
 <summary>BlockInventoryComponentContainer</summary>
 <ul> 
-<li><font color="#ff9800">emptySlotsCount</font>: number</li>
-<li><font color="#ff9800">size</font>: number</li>
-<li><font color="#ffc107">addItem</font>(itemStack: ItemStack): void</li>
-<li><font color="#ffc107">getItem</font>(slot: number): ItemStack</li>
-<li><font color="#ffc107">setItem</font>(slot: number, itemStack: ItemStack): void</li>
-<li><font color="#ffc107">swapItems</font>(slot: number, otherSlot: number, otherContainer: Container): boolean</li>
-<li><font color="#ffc107">transferItem</font>(fromSlot: number, toSlot: number, toContainer: Container): boolean</li>
+<li>emptySlotsCount: number</li>
+<li>size: number</li>
+<li>addItem(itemStack: ItemStack): void</li>
+<li>getItem(slot: number): ItemStack</li>
+<li>setItem(slot: number, itemStack: ItemStack): void</li>
+<li>swapItems(slot: number, otherSlot: number, otherContainer: Container): boolean</li>
+<li>transferItem(fromSlot: number, toSlot: number, toContainer: Container): boolean</li>
 </ul>
 </details>
 
 <details>
 <summary>BlockLocation</summary>
 <ul> 
-<li><font color="#ff9800">x</font>: number</li>
-<li><font color="#ff9800">y</font>: number</li>
-<li><font color="#ff9800">z</font>: number</li>
-<li><font color="#ffc107">above</font>(): BlockLocation</li>
-<li><font color="#ffc107">blocksBetween</font>(): Array<any></li>
-<li><font color="#ffc107">constructor</font>(x: number, y: number, z: number)</li>
-<li><font color="#ffc107">equals</font>(other: BlockLocation): boolean</li>
-<li><font color="#ffc107">offset</font>(x: number, y: number, z: number): BlockLocation</li>
+<li>x: number</li>
+<li>y: number</li>
+<li>z: number</li>
+<li>above(): BlockLocation</li>
+<li>blocksBetween(): Array<any></li>
+<li>constructor(x: number, y: number, z: number)</li>
+<li>equals(other: BlockLocation): boolean</li>
+<li>offset(x: number, y: number, z: number): BlockLocation</li>
 </ul>
 </details>
 
 <details>
 <summary>BlockPermutation</summary>
 <ul> 
-<li><font color="#ffc107">clone</font>(): BlockPermutation</li>
-<li><font color="#ffc107">getAllProperties</font>(): Array<any></li>
-<li><font color="#ffc107">getProperty</font>(propertyName: string): any</li>
-<li><font color="#ffc107">getTags</font>(): Array<any></li>
-<li><font color="#ffc107">getType</font>(): BlockType</li>
-<li><font color="#ffc107">hasTag</font>(tag: string): boolean</li>
+<li>clone(): BlockPermutation</li>
+<li>getAllProperties(): Array<any></li>
+<li>getProperty(propertyName: string): any</li>
+<li>getTags(): Array<any></li>
+<li>getType(): BlockType</li>
+<li>hasTag(tag: string): boolean</li>
 </ul>
 </details>
 
 <details>
 <summary>BlockPistonComponent</summary>
 <ul> 
-<li><font color="#ff9800">attachedBlocks</font>: Array<BlockLocation></li>
-<li><font color="#ff9800">isExpanded</font>: boolean</li>
-<li><font color="#ff9800">isExpanding</font>: boolean</li>
-<li><font color="#ff9800">isMoving</font>: boolean</li>
-<li><font color="#ff9800">isRetracted</font>: boolean</li>
-<li><font color="#ff9800">isRetracting</font>: boolean</li>
-<li><font color="#ff9800">location</font>: BlockLocation</li>
+<li>attachedBlocks: Array<BlockLocation></li>
+<li>isExpanded: boolean</li>
+<li>isExpanding: boolean</li>
+<li>isMoving: boolean</li>
+<li>isRetracted: boolean</li>
+<li>isRetracting: boolean</li>
+<li>location: BlockLocation</li>
 </ul>
 </details>
 
 <details>
 <summary>BlockProperties</summary>
 <ul> 
-<li><font color="#ff9800">age</font>: string</li>
-<li><font color="#ff9800">ageBit</font>: string</li>
-<li><font color="#ff9800">allowUnderwaterBit</font>: string</li>
-<li><font color="#ff9800">attachedBit</font>: string</li>
-<li><font color="#ff9800">attachment</font>: string</li>
-<li><font color="#ff9800">bambooLeafSize</font>: string</li>
-<li><font color="#ff9800">bambooStalkThickness</font>: string</li>
-<li><font color="#ff9800">bigDripleafHead</font>: string</li>
-<li><font color="#ff9800">bigDripleafTilt</font>: string</li>
-<li><font color="#ff9800">biteCounter</font>: string</li>
-<li><font color="#ff9800">blockLightLevel</font>: string</li>
-<li><font color="#ff9800">brewingStandSlotABit</font>: string</li>
-<li><font color="#ff9800">brewingStandSlotBBit</font>: string</li>
-<li><font color="#ff9800">brewingStandSlotCBit</font>: string</li>
-<li><font color="#ff9800">buttonPressedBit</font>: string</li>
-<li><font color="#ff9800">candles</font>: string</li>
-<li><font color="#ff9800">cauldronLiquid</font>: string</li>
-<li><font color="#ff9800">chemistryTableType</font>: string</li>
-<li><font color="#ff9800">chiselType</font>: string</li>
-<li><font color="#ff9800">clusterCount</font>: string</li>
-<li><font color="#ff9800">color</font>: string</li>
-<li><font color="#ff9800">colorBit</font>: string</li>
-<li><font color="#ff9800">composterFillLevel</font>: string</li>
-<li><font color="#ff9800">conditionalBit</font>: string</li>
-<li><font color="#ff9800">coralColor</font>: string</li>
-<li><font color="#ff9800">coralDirection</font>: string</li>
-<li><font color="#ff9800">coralFanDirection</font>: string</li>
-<li><font color="#ff9800">coralHangTypeBit</font>: string</li>
-<li><font color="#ff9800">coveredBit</font>: string</li>
-<li><font color="#ff9800">crackedState</font>: string</li>
-<li><font color="#ff9800">damage</font>: string</li>
-<li><font color="#ff9800">deadBit</font>: string</li>
-<li><font color="#ff9800">deprecated</font>: string</li>
-<li><font color="#ff9800">direction</font>: string</li>
-<li><font color="#ff9800">dirtType</font>: string</li>
-<li><font color="#ff9800">disarmedBit</font>: string</li>
-<li><font color="#ff9800">doorHingeBit</font>: string</li>
-<li><font color="#ff9800">doublePlantType</font>: string</li>
-<li><font color="#ff9800">dragDown</font>: string</li>
-<li><font color="#ff9800">dripstoneThickness</font>: string</li>
-<li><font color="#ff9800">endPortalEyeBit</font>: string</li>
-<li><font color="#ff9800">explodeBit</font>: string</li>
-<li><font color="#ff9800">extinguished</font>: string</li>
-<li><font color="#ff9800">facingDirection</font>: string</li>
-<li><font color="#ff9800">fillLevel</font>: string</li>
-<li><font color="#ff9800">flowerType</font>: string</li>
-<li><font color="#ff9800">groundSignDirection</font>: string</li>
-<li><font color="#ff9800">growingPlantAge</font>: string</li>
-<li><font color="#ff9800">growth</font>: string</li>
-<li><font color="#ff9800">hanging</font>: string</li>
-<li><font color="#ff9800">headPieceBit</font>: string</li>
-<li><font color="#ff9800">height</font>: string</li>
-<li><font color="#ff9800">honeyLevel</font>: string</li>
-<li><font color="#ff9800">hugeMushroomBits</font>: string</li>
-<li><font color="#ff9800">infiniburnBit</font>: string</li>
-<li><font color="#ff9800">inWallBit</font>: string</li>
-<li><font color="#ff9800">itemFrameMapBit</font>: string</li>
-<li><font color="#ff9800">kelpAge</font>: string</li>
-<li><font color="#ff9800">leverDirection</font>: string</li>
-<li><font color="#ff9800">liquidDepth</font>: string</li>
-<li><font color="#ff9800">lit</font>: string</li>
-<li><font color="#ff9800">moisturizedAmount</font>: string</li>
-<li><font color="#ff9800">monsterEggStoneType</font>: string</li>
-<li><font color="#ff9800">multiFaceDirectionBits</font>: string</li>
-<li><font color="#ff9800">newLeafType</font>: string</li>
-<li><font color="#ff9800">newLogType</font>: string</li>
-<li><font color="#ff9800">noDropBit</font>: string</li>
-<li><font color="#ff9800">occupiedBit</font>: string</li>
-<li><font color="#ff9800">oldLeafType</font>: string</li>
-<li><font color="#ff9800">oldLogType</font>: string</li>
-<li><font color="#ff9800">openBit</font>: string</li>
-<li><font color="#ff9800">outputLitBit</font>: string</li>
-<li><font color="#ff9800">outputSubtractBit</font>: string</li>
-<li><font color="#ff9800">persistentBit</font>: string</li>
-<li><font color="#ff9800">pillarAxis</font>: string</li>
-<li><font color="#ff9800">portalAxis</font>: string</li>
-<li><font color="#ff9800">poweredBit</font>: string</li>
-<li><font color="#ff9800">prismarineBlockType</font>: string</li>
-<li><font color="#ff9800">railDataBit</font>: string</li>
-<li><font color="#ff9800">railDirection</font>: string</li>
-<li><font color="#ff9800">redstoneSignal</font>: string</li>
-<li><font color="#ff9800">repeaterDelay</font>: string</li>
-<li><font color="#ff9800">respawnAnchorCharge</font>: string</li>
-<li><font color="#ff9800">rotation</font>: string</li>
-<li><font color="#ff9800">sandStoneType</font>: string</li>
-<li><font color="#ff9800">sandType</font>: string</li>
-<li><font color="#ff9800">saplingType</font>: string</li>
-<li><font color="#ff9800">seaGrassType</font>: string</li>
-<li><font color="#ff9800">spongeType</font>: string</li>
-<li><font color="#ff9800">stability</font>: string</li>
-<li><font color="#ff9800">stabilityCheck</font>: string</li>
-<li><font color="#ff9800">stoneBrickType</font>: string</li>
-<li><font color="#ff9800">stoneSlabType</font>: string</li>
-<li><font color="#ff9800">stoneSlabType2</font>: string</li>
-<li><font color="#ff9800">stoneSlabType3</font>: string</li>
-<li><font color="#ff9800">stoneSlabType4</font>: string</li>
-<li><font color="#ff9800">stoneType</font>: string</li>
-<li><font color="#ff9800">strippedBit</font>: string</li>
-<li><font color="#ff9800">structureBlockType</font>: string</li>
-<li><font color="#ff9800">structureVoidType</font>: string</li>
-<li><font color="#ff9800">suspendedBit</font>: string</li>
-<li><font color="#ff9800">tallGrassType</font>: string</li>
-<li><font color="#ff9800">toggleBit</font>: string</li>
-<li><font color="#ff9800">topSlotBit</font>: string</li>
-<li><font color="#ff9800">torchFacingDirection</font>: string</li>
-<li><font color="#ff9800">triggeredBit</font>: string</li>
-<li><font color="#ff9800">turtleEggCount</font>: string</li>
-<li><font color="#ff9800">twistingVinesAge</font>: string</li>
-<li><font color="#ff9800">updateBit</font>: string</li>
-<li><font color="#ff9800">upperBlockBit</font>: string</li>
-<li><font color="#ff9800">upsideDownBit</font>: string</li>
-<li><font color="#ff9800">vineDirectionBits</font>: string</li>
-<li><font color="#ff9800">wallBlockType</font>: string</li>
-<li><font color="#ff9800">wallConnectionTypeEast</font>: string</li>
-<li><font color="#ff9800">wallConnectionTypeNorth</font>: string</li>
-<li><font color="#ff9800">wallConnectionTypeSouth</font>: string</li>
-<li><font color="#ff9800">wallConnectionTypeWest</font>: string</li>
-<li><font color="#ff9800">wallPostBit</font>: string</li>
-<li><font color="#ff9800">weepingVinesAge</font>: string</li>
-<li><font color="#ff9800">weirdoDirection</font>: string</li>
-<li><font color="#ff9800">woodType</font>: string</li>
+<li>age: string</li>
+<li>ageBit: string</li>
+<li>allowUnderwaterBit: string</li>
+<li>attachedBit: string</li>
+<li>attachment: string</li>
+<li>bambooLeafSize: string</li>
+<li>bambooStalkThickness: string</li>
+<li>bigDripleafHead: string</li>
+<li>bigDripleafTilt: string</li>
+<li>biteCounter: string</li>
+<li>blockLightLevel: string</li>
+<li>brewingStandSlotABit: string</li>
+<li>brewingStandSlotBBit: string</li>
+<li>brewingStandSlotCBit: string</li>
+<li>buttonPressedBit: string</li>
+<li>candles: string</li>
+<li>cauldronLiquid: string</li>
+<li>chemistryTableType: string</li>
+<li>chiselType: string</li>
+<li>clusterCount: string</li>
+<li>color: string</li>
+<li>colorBit: string</li>
+<li>composterFillLevel: string</li>
+<li>conditionalBit: string</li>
+<li>coralColor: string</li>
+<li>coralDirection: string</li>
+<li>coralFanDirection: string</li>
+<li>coralHangTypeBit: string</li>
+<li>coveredBit: string</li>
+<li>crackedState: string</li>
+<li>damage: string</li>
+<li>deadBit: string</li>
+<li>deprecated: string</li>
+<li>direction: string</li>
+<li>dirtType: string</li>
+<li>disarmedBit: string</li>
+<li>doorHingeBit: string</li>
+<li>doublePlantType: string</li>
+<li>dragDown: string</li>
+<li>dripstoneThickness: string</li>
+<li>endPortalEyeBit: string</li>
+<li>explodeBit: string</li>
+<li>extinguished: string</li>
+<li>facingDirection: string</li>
+<li>fillLevel: string</li>
+<li>flowerType: string</li>
+<li>groundSignDirection: string</li>
+<li>growingPlantAge: string</li>
+<li>growth: string</li>
+<li>hanging: string</li>
+<li>headPieceBit: string</li>
+<li>height: string</li>
+<li>honeyLevel: string</li>
+<li>hugeMushroomBits: string</li>
+<li>infiniburnBit: string</li>
+<li>inWallBit: string</li>
+<li>itemFrameMapBit: string</li>
+<li>kelpAge: string</li>
+<li>leverDirection: string</li>
+<li>liquidDepth: string</li>
+<li>lit: string</li>
+<li>moisturizedAmount: string</li>
+<li>monsterEggStoneType: string</li>
+<li>multiFaceDirectionBits: string</li>
+<li>newLeafType: string</li>
+<li>newLogType: string</li>
+<li>noDropBit: string</li>
+<li>occupiedBit: string</li>
+<li>oldLeafType: string</li>
+<li>oldLogType: string</li>
+<li>openBit: string</li>
+<li>outputLitBit: string</li>
+<li>outputSubtractBit: string</li>
+<li>persistentBit: string</li>
+<li>pillarAxis: string</li>
+<li>portalAxis: string</li>
+<li>poweredBit: string</li>
+<li>prismarineBlockType: string</li>
+<li>railDataBit: string</li>
+<li>railDirection: string</li>
+<li>redstoneSignal: string</li>
+<li>repeaterDelay: string</li>
+<li>respawnAnchorCharge: string</li>
+<li>rotation: string</li>
+<li>sandStoneType: string</li>
+<li>sandType: string</li>
+<li>saplingType: string</li>
+<li>seaGrassType: string</li>
+<li>spongeType: string</li>
+<li>stability: string</li>
+<li>stabilityCheck: string</li>
+<li>stoneBrickType: string</li>
+<li>stoneSlabType: string</li>
+<li>stoneSlabType2: string</li>
+<li>stoneSlabType3: string</li>
+<li>stoneSlabType4: string</li>
+<li>stoneType: string</li>
+<li>strippedBit: string</li>
+<li>structureBlockType: string</li>
+<li>structureVoidType: string</li>
+<li>suspendedBit: string</li>
+<li>tallGrassType: string</li>
+<li>toggleBit: string</li>
+<li>topSlotBit: string</li>
+<li>torchFacingDirection: string</li>
+<li>triggeredBit: string</li>
+<li>turtleEggCount: string</li>
+<li>twistingVinesAge: string</li>
+<li>updateBit: string</li>
+<li>upperBlockBit: string</li>
+<li>upsideDownBit: string</li>
+<li>vineDirectionBits: string</li>
+<li>wallBlockType: string</li>
+<li>wallConnectionTypeEast: string</li>
+<li>wallConnectionTypeNorth: string</li>
+<li>wallConnectionTypeSouth: string</li>
+<li>wallConnectionTypeWest: string</li>
+<li>wallPostBit: string</li>
+<li>weepingVinesAge: string</li>
+<li>weirdoDirection: string</li>
+<li>woodType: string</li>
 </ul>
 </details>
 
 <details>
 <summary>BlockType</summary>
 <ul> 
-<li><font color="#ffc107">canBeWaterlogged</font>(): boolean</li>
-<li><font color="#ffc107">createDefaultBlockPermutation</font>(): BlockPermutation</li>
-<li><font color="#ffc107">getName</font>(): string</li>
+<li>canBeWaterlogged(): boolean</li>
+<li>createDefaultBlockPermutation(): BlockPermutation</li>
+<li>getName(): string</li>
 </ul>
 </details>
 
 <details>
 <summary>BlockTypes</summary>
 <ul> 
-<li><font color="#ff9800">acaciaButton</font>: BlockType</li>
-<li><font color="#ff9800">acaciaDoor</font>: BlockType</li>
-<li><font color="#ff9800">acaciaFenceGate</font>: BlockType</li>
-<li><font color="#ff9800">acaciaPressurePlate</font>: BlockType</li>
-<li><font color="#ff9800">acaciaStairs</font>: BlockType</li>
-<li><font color="#ff9800">acaciaStandingSign</font>: BlockType</li>
-<li><font color="#ff9800">acaciaTrapdoor</font>: BlockType</li>
-<li><font color="#ff9800">acaciaWallSign</font>: BlockType</li>
-<li><font color="#ff9800">activatorRail</font>: BlockType</li>
-<li><font color="#ff9800">air</font>: BlockType</li>
-<li><font color="#ff9800">allow</font>: BlockType</li>
-<li><font color="#ff9800">amethystBlock</font>: BlockType</li>
-<li><font color="#ff9800">amethystCluster</font>: BlockType</li>
-<li><font color="#ff9800">ancientDebris</font>: BlockType</li>
-<li><font color="#ff9800">andesiteStairs</font>: BlockType</li>
-<li><font color="#ff9800">anvil</font>: BlockType</li>
-<li><font color="#ff9800">azalea</font>: BlockType</li>
-<li><font color="#ff9800">azaleaLeaves</font>: BlockType</li>
-<li><font color="#ff9800">azaleaLeavesFlowered</font>: BlockType</li>
-<li><font color="#ff9800">bamboo</font>: BlockType</li>
-<li><font color="#ff9800">bambooSapling</font>: BlockType</li>
-<li><font color="#ff9800">barrel</font>: BlockType</li>
-<li><font color="#ff9800">barrier</font>: BlockType</li>
-<li><font color="#ff9800">basalt</font>: BlockType</li>
-<li><font color="#ff9800">beacon</font>: BlockType</li>
-<li><font color="#ff9800">bed</font>: BlockType</li>
-<li><font color="#ff9800">bedrock</font>: BlockType</li>
-<li><font color="#ff9800">beehive</font>: BlockType</li>
-<li><font color="#ff9800">beeNest</font>: BlockType</li>
-<li><font color="#ff9800">beetroot</font>: BlockType</li>
-<li><font color="#ff9800">bell</font>: BlockType</li>
-<li><font color="#ff9800">bigDripleaf</font>: BlockType</li>
-<li><font color="#ff9800">birchButton</font>: BlockType</li>
-<li><font color="#ff9800">birchDoor</font>: BlockType</li>
-<li><font color="#ff9800">birchFenceGate</font>: BlockType</li>
-<li><font color="#ff9800">birchPressurePlate</font>: BlockType</li>
-<li><font color="#ff9800">birchStairs</font>: BlockType</li>
-<li><font color="#ff9800">birchStandingSign</font>: BlockType</li>
-<li><font color="#ff9800">birchTrapdoor</font>: BlockType</li>
-<li><font color="#ff9800">birchWallSign</font>: BlockType</li>
-<li><font color="#ff9800">blackCandle</font>: BlockType</li>
-<li><font color="#ff9800">blackCandleCake</font>: BlockType</li>
-<li><font color="#ff9800">blackGlazedTerracotta</font>: BlockType</li>
-<li><font color="#ff9800">blackstone</font>: BlockType</li>
-<li><font color="#ff9800">blackstoneDoubleSlab</font>: BlockType</li>
-<li><font color="#ff9800">blackstoneSlab</font>: BlockType</li>
-<li><font color="#ff9800">blackstoneStairs</font>: BlockType</li>
-<li><font color="#ff9800">blackstoneWall</font>: BlockType</li>
-<li><font color="#ff9800">blastFurnace</font>: BlockType</li>
-<li><font color="#ff9800">blueCandle</font>: BlockType</li>
-<li><font color="#ff9800">blueCandleCake</font>: BlockType</li>
-<li><font color="#ff9800">blueGlazedTerracotta</font>: BlockType</li>
-<li><font color="#ff9800">blueIce</font>: BlockType</li>
-<li><font color="#ff9800">boneBlock</font>: BlockType</li>
-<li><font color="#ff9800">bookshelf</font>: BlockType</li>
-<li><font color="#ff9800">borderBlock</font>: BlockType</li>
-<li><font color="#ff9800">brewingStand</font>: BlockType</li>
-<li><font color="#ff9800">brickBlock</font>: BlockType</li>
-<li><font color="#ff9800">brickStairs</font>: BlockType</li>
-<li><font color="#ff9800">brownCandle</font>: BlockType</li>
-<li><font color="#ff9800">brownCandleCake</font>: BlockType</li>
-<li><font color="#ff9800">brownGlazedTerracotta</font>: BlockType</li>
-<li><font color="#ff9800">brownMushroom</font>: BlockType</li>
-<li><font color="#ff9800">brownMushroomBlock</font>: BlockType</li>
-<li><font color="#ff9800">bubbleColumn</font>: BlockType</li>
-<li><font color="#ff9800">buddingAmethyst</font>: BlockType</li>
-<li><font color="#ff9800">cactus</font>: BlockType</li>
-<li><font color="#ff9800">cake</font>: BlockType</li>
-<li><font color="#ff9800">calcite</font>: BlockType</li>
-<li><font color="#ff9800">camera</font>: BlockType</li>
-<li><font color="#ff9800">campfire</font>: BlockType</li>
-<li><font color="#ff9800">candle</font>: BlockType</li>
-<li><font color="#ff9800">candleCake</font>: BlockType</li>
-<li><font color="#ff9800">carpet</font>: BlockType</li>
-<li><font color="#ff9800">carrots</font>: BlockType</li>
-<li><font color="#ff9800">cartographyTable</font>: BlockType</li>
-<li><font color="#ff9800">carvedPumpkin</font>: BlockType</li>
-<li><font color="#ff9800">cauldron</font>: BlockType</li>
-<li><font color="#ff9800">caveVines</font>: BlockType</li>
-<li><font color="#ff9800">caveVinesBodyWithBerries</font>: BlockType</li>
-<li><font color="#ff9800">caveVinesHeadWithBerries</font>: BlockType</li>
-<li><font color="#ff9800">chain</font>: BlockType</li>
-<li><font color="#ff9800">chainCommandBlock</font>: BlockType</li>
-<li><font color="#ff9800">chemicalHeat</font>: BlockType</li>
-<li><font color="#ff9800">chemistryTable</font>: BlockType</li>
-<li><font color="#ff9800">chest</font>: BlockType</li>
-<li><font color="#ff9800">chiseledDeepslate</font>: BlockType</li>
-<li><font color="#ff9800">chiseledNetherBricks</font>: BlockType</li>
-<li><font color="#ff9800">chiseledPolishedBlackstone</font>: BlockType</li>
-<li><font color="#ff9800">chorusFlower</font>: BlockType</li>
-<li><font color="#ff9800">chorusPlant</font>: BlockType</li>
-<li><font color="#ff9800">clay</font>: BlockType</li>
-<li><font color="#ff9800">coalBlock</font>: BlockType</li>
-<li><font color="#ff9800">coalOre</font>: BlockType</li>
-<li><font color="#ff9800">cobbledDeepslate</font>: BlockType</li>
-<li><font color="#ff9800">cobbledDeepslateDoubleSlab</font>: BlockType</li>
-<li><font color="#ff9800">cobbledDeepslateSlab</font>: BlockType</li>
-<li><font color="#ff9800">cobbledDeepslateStairs</font>: BlockType</li>
-<li><font color="#ff9800">cobbledDeepslateWall</font>: BlockType</li>
-<li><font color="#ff9800">cobblestone</font>: BlockType</li>
-<li><font color="#ff9800">cobblestoneWall</font>: BlockType</li>
-<li><font color="#ff9800">cocoa</font>: BlockType</li>
-<li><font color="#ff9800">coloredTorchBp</font>: BlockType</li>
-<li><font color="#ff9800">coloredTorchRg</font>: BlockType</li>
-<li><font color="#ff9800">commandBlock</font>: BlockType</li>
-<li><font color="#ff9800">composter</font>: BlockType</li>
-<li><font color="#ff9800">concrete</font>: BlockType</li>
-<li><font color="#ff9800">concretepowder</font>: BlockType</li>
-<li><font color="#ff9800">conduit</font>: BlockType</li>
-<li><font color="#ff9800">copperBlock</font>: BlockType</li>
-<li><font color="#ff9800">copperOre</font>: BlockType</li>
-<li><font color="#ff9800">coral</font>: BlockType</li>
-<li><font color="#ff9800">coralBlock</font>: BlockType</li>
-<li><font color="#ff9800">coralFan</font>: BlockType</li>
-<li><font color="#ff9800">coralFanDead</font>: BlockType</li>
-<li><font color="#ff9800">coralFanHang</font>: BlockType</li>
-<li><font color="#ff9800">coralFanHang2</font>: BlockType</li>
-<li><font color="#ff9800">coralFanHang3</font>: BlockType</li>
-<li><font color="#ff9800">crackedDeepslateBricks</font>: BlockType</li>
-<li><font color="#ff9800">crackedDeepslateTiles</font>: BlockType</li>
-<li><font color="#ff9800">crackedNetherBricks</font>: BlockType</li>
-<li><font color="#ff9800">crackedPolishedBlackstoneBricks</font>: BlockType</li>
-<li><font color="#ff9800">craftingTable</font>: BlockType</li>
-<li><font color="#ff9800">crimsonButton</font>: BlockType</li>
-<li><font color="#ff9800">crimsonDoor</font>: BlockType</li>
-<li><font color="#ff9800">crimsonDoubleSlab</font>: BlockType</li>
-<li><font color="#ff9800">crimsonFence</font>: BlockType</li>
-<li><font color="#ff9800">crimsonFenceGate</font>: BlockType</li>
-<li><font color="#ff9800">crimsonFungus</font>: BlockType</li>
-<li><font color="#ff9800">crimsonHyphae</font>: BlockType</li>
-<li><font color="#ff9800">crimsonNylium</font>: BlockType</li>
-<li><font color="#ff9800">crimsonPlanks</font>: BlockType</li>
-<li><font color="#ff9800">crimsonPressurePlate</font>: BlockType</li>
-<li><font color="#ff9800">crimsonRoots</font>: BlockType</li>
-<li><font color="#ff9800">crimsonSlab</font>: BlockType</li>
-<li><font color="#ff9800">crimsonStairs</font>: BlockType</li>
-<li><font color="#ff9800">crimsonStandingSign</font>: BlockType</li>
-<li><font color="#ff9800">crimsonStem</font>: BlockType</li>
-<li><font color="#ff9800">crimsonTrapdoor</font>: BlockType</li>
-<li><font color="#ff9800">crimsonWallSign</font>: BlockType</li>
-<li><font color="#ff9800">cryingObsidian</font>: BlockType</li>
-<li><font color="#ff9800">cutCopper</font>: BlockType</li>
-<li><font color="#ff9800">cutCopperSlab</font>: BlockType</li>
-<li><font color="#ff9800">cutCopperStairs</font>: BlockType</li>
-<li><font color="#ff9800">cyanCandle</font>: BlockType</li>
-<li><font color="#ff9800">cyanCandleCake</font>: BlockType</li>
-<li><font color="#ff9800">cyanGlazedTerracotta</font>: BlockType</li>
-<li><font color="#ff9800">darkOakButton</font>: BlockType</li>
-<li><font color="#ff9800">darkOakDoor</font>: BlockType</li>
-<li><font color="#ff9800">darkOakFenceGate</font>: BlockType</li>
-<li><font color="#ff9800">darkOakPressurePlate</font>: BlockType</li>
-<li><font color="#ff9800">darkOakStairs</font>: BlockType</li>
-<li><font color="#ff9800">darkoakStandingSign</font>: BlockType</li>
-<li><font color="#ff9800">darkOakTrapdoor</font>: BlockType</li>
-<li><font color="#ff9800">darkoakWallSign</font>: BlockType</li>
-<li><font color="#ff9800">darkPrismarineStairs</font>: BlockType</li>
-<li><font color="#ff9800">daylightDetector</font>: BlockType</li>
-<li><font color="#ff9800">daylightDetectorInverted</font>: BlockType</li>
-<li><font color="#ff9800">deadbush</font>: BlockType</li>
-<li><font color="#ff9800">deepslate</font>: BlockType</li>
-<li><font color="#ff9800">deepslateBrickDoubleSlab</font>: BlockType</li>
-<li><font color="#ff9800">deepslateBricks</font>: BlockType</li>
-<li><font color="#ff9800">deepslateBrickSlab</font>: BlockType</li>
-<li><font color="#ff9800">deepslateBrickStairs</font>: BlockType</li>
-<li><font color="#ff9800">deepslateBrickWall</font>: BlockType</li>
-<li><font color="#ff9800">deepslateCoalOre</font>: BlockType</li>
-<li><font color="#ff9800">deepslateCopperOre</font>: BlockType</li>
-<li><font color="#ff9800">deepslateDiamondOre</font>: BlockType</li>
-<li><font color="#ff9800">deepslateEmeraldOre</font>: BlockType</li>
-<li><font color="#ff9800">deepslateGoldOre</font>: BlockType</li>
-<li><font color="#ff9800">deepslateIronOre</font>: BlockType</li>
-<li><font color="#ff9800">deepslateLapisOre</font>: BlockType</li>
-<li><font color="#ff9800">deepslateRedstoneOre</font>: BlockType</li>
-<li><font color="#ff9800">deepslateTileDoubleSlab</font>: BlockType</li>
-<li><font color="#ff9800">deepslateTiles</font>: BlockType</li>
-<li><font color="#ff9800">deepslateTileSlab</font>: BlockType</li>
-<li><font color="#ff9800">deepslateTileStairs</font>: BlockType</li>
-<li><font color="#ff9800">deepslateTileWall</font>: BlockType</li>
-<li><font color="#ff9800">deny</font>: BlockType</li>
-<li><font color="#ff9800">detectorRail</font>: BlockType</li>
-<li><font color="#ff9800">diamondBlock</font>: BlockType</li>
-<li><font color="#ff9800">diamondOre</font>: BlockType</li>
-<li><font color="#ff9800">dioriteStairs</font>: BlockType</li>
-<li><font color="#ff9800">dirt</font>: BlockType</li>
-<li><font color="#ff9800">dirtWithRoots</font>: BlockType</li>
-<li><font color="#ff9800">dispenser</font>: BlockType</li>
-<li><font color="#ff9800">doubleCutCopperSlab</font>: BlockType</li>
-<li><font color="#ff9800">doublePlant</font>: BlockType</li>
-<li><font color="#ff9800">doubleStoneSlab</font>: BlockType</li>
-<li><font color="#ff9800">doubleStoneSlab2</font>: BlockType</li>
-<li><font color="#ff9800">doubleStoneSlab3</font>: BlockType</li>
-<li><font color="#ff9800">doubleStoneSlab4</font>: BlockType</li>
-<li><font color="#ff9800">doubleWoodenSlab</font>: BlockType</li>
-<li><font color="#ff9800">dragonEgg</font>: BlockType</li>
-<li><font color="#ff9800">driedKelpBlock</font>: BlockType</li>
-<li><font color="#ff9800">dripstoneBlock</font>: BlockType</li>
-<li><font color="#ff9800">dropper</font>: BlockType</li>
-<li><font color="#ff9800">element0</font>: BlockType</li>
-<li><font color="#ff9800">element1</font>: BlockType</li>
-<li><font color="#ff9800">element10</font>: BlockType</li>
-<li><font color="#ff9800">element100</font>: BlockType</li>
-<li><font color="#ff9800">element101</font>: BlockType</li>
-<li><font color="#ff9800">element102</font>: BlockType</li>
-<li><font color="#ff9800">element103</font>: BlockType</li>
-<li><font color="#ff9800">element104</font>: BlockType</li>
-<li><font color="#ff9800">element105</font>: BlockType</li>
-<li><font color="#ff9800">element106</font>: BlockType</li>
-<li><font color="#ff9800">element107</font>: BlockType</li>
-<li><font color="#ff9800">element108</font>: BlockType</li>
-<li><font color="#ff9800">element109</font>: BlockType</li>
-<li><font color="#ff9800">element11</font>: BlockType</li>
-<li><font color="#ff9800">element110</font>: BlockType</li>
-<li><font color="#ff9800">element111</font>: BlockType</li>
-<li><font color="#ff9800">element112</font>: BlockType</li>
-<li><font color="#ff9800">element113</font>: BlockType</li>
-<li><font color="#ff9800">element114</font>: BlockType</li>
-<li><font color="#ff9800">element115</font>: BlockType</li>
-<li><font color="#ff9800">element116</font>: BlockType</li>
-<li><font color="#ff9800">element117</font>: BlockType</li>
-<li><font color="#ff9800">element118</font>: BlockType</li>
-<li><font color="#ff9800">element12</font>: BlockType</li>
-<li><font color="#ff9800">element13</font>: BlockType</li>
-<li><font color="#ff9800">element14</font>: BlockType</li>
-<li><font color="#ff9800">element15</font>: BlockType</li>
-<li><font color="#ff9800">element16</font>: BlockType</li>
-<li><font color="#ff9800">element17</font>: BlockType</li>
-<li><font color="#ff9800">element18</font>: BlockType</li>
-<li><font color="#ff9800">element19</font>: BlockType</li>
-<li><font color="#ff9800">element2</font>: BlockType</li>
-<li><font color="#ff9800">element20</font>: BlockType</li>
-<li><font color="#ff9800">element21</font>: BlockType</li>
-<li><font color="#ff9800">element22</font>: BlockType</li>
-<li><font color="#ff9800">element23</font>: BlockType</li>
-<li><font color="#ff9800">element24</font>: BlockType</li>
-<li><font color="#ff9800">element25</font>: BlockType</li>
-<li><font color="#ff9800">element26</font>: BlockType</li>
-<li><font color="#ff9800">element27</font>: BlockType</li>
-<li><font color="#ff9800">element28</font>: BlockType</li>
-<li><font color="#ff9800">element29</font>: BlockType</li>
-<li><font color="#ff9800">element3</font>: BlockType</li>
-<li><font color="#ff9800">element30</font>: BlockType</li>
-<li><font color="#ff9800">element31</font>: BlockType</li>
-<li><font color="#ff9800">element32</font>: BlockType</li>
-<li><font color="#ff9800">element33</font>: BlockType</li>
-<li><font color="#ff9800">element34</font>: BlockType</li>
-<li><font color="#ff9800">element35</font>: BlockType</li>
-<li><font color="#ff9800">element36</font>: BlockType</li>
-<li><font color="#ff9800">element37</font>: BlockType</li>
-<li><font color="#ff9800">element38</font>: BlockType</li>
-<li><font color="#ff9800">element39</font>: BlockType</li>
-<li><font color="#ff9800">element4</font>: BlockType</li>
-<li><font color="#ff9800">element40</font>: BlockType</li>
-<li><font color="#ff9800">element41</font>: BlockType</li>
-<li><font color="#ff9800">element42</font>: BlockType</li>
-<li><font color="#ff9800">element43</font>: BlockType</li>
-<li><font color="#ff9800">element44</font>: BlockType</li>
-<li><font color="#ff9800">element45</font>: BlockType</li>
-<li><font color="#ff9800">element46</font>: BlockType</li>
-<li><font color="#ff9800">element47</font>: BlockType</li>
-<li><font color="#ff9800">element48</font>: BlockType</li>
-<li><font color="#ff9800">element49</font>: BlockType</li>
-<li><font color="#ff9800">element5</font>: BlockType</li>
-<li><font color="#ff9800">element50</font>: BlockType</li>
-<li><font color="#ff9800">element51</font>: BlockType</li>
-<li><font color="#ff9800">element52</font>: BlockType</li>
-<li><font color="#ff9800">element53</font>: BlockType</li>
-<li><font color="#ff9800">element54</font>: BlockType</li>
-<li><font color="#ff9800">element55</font>: BlockType</li>
-<li><font color="#ff9800">element56</font>: BlockType</li>
-<li><font color="#ff9800">element57</font>: BlockType</li>
-<li><font color="#ff9800">element58</font>: BlockType</li>
-<li><font color="#ff9800">element59</font>: BlockType</li>
-<li><font color="#ff9800">element6</font>: BlockType</li>
-<li><font color="#ff9800">element60</font>: BlockType</li>
-<li><font color="#ff9800">element61</font>: BlockType</li>
-<li><font color="#ff9800">element62</font>: BlockType</li>
-<li><font color="#ff9800">element63</font>: BlockType</li>
-<li><font color="#ff9800">element64</font>: BlockType</li>
-<li><font color="#ff9800">element65</font>: BlockType</li>
-<li><font color="#ff9800">element66</font>: BlockType</li>
-<li><font color="#ff9800">element67</font>: BlockType</li>
-<li><font color="#ff9800">element68</font>: BlockType</li>
-<li><font color="#ff9800">element69</font>: BlockType</li>
-<li><font color="#ff9800">element7</font>: BlockType</li>
-<li><font color="#ff9800">element70</font>: BlockType</li>
-<li><font color="#ff9800">element71</font>: BlockType</li>
-<li><font color="#ff9800">element72</font>: BlockType</li>
-<li><font color="#ff9800">element73</font>: BlockType</li>
-<li><font color="#ff9800">element74</font>: BlockType</li>
-<li><font color="#ff9800">element75</font>: BlockType</li>
-<li><font color="#ff9800">element76</font>: BlockType</li>
-<li><font color="#ff9800">element77</font>: BlockType</li>
-<li><font color="#ff9800">element78</font>: BlockType</li>
-<li><font color="#ff9800">element79</font>: BlockType</li>
-<li><font color="#ff9800">element8</font>: BlockType</li>
-<li><font color="#ff9800">element80</font>: BlockType</li>
-<li><font color="#ff9800">element81</font>: BlockType</li>
-<li><font color="#ff9800">element82</font>: BlockType</li>
-<li><font color="#ff9800">element83</font>: BlockType</li>
-<li><font color="#ff9800">element84</font>: BlockType</li>
-<li><font color="#ff9800">element85</font>: BlockType</li>
-<li><font color="#ff9800">element86</font>: BlockType</li>
-<li><font color="#ff9800">element87</font>: BlockType</li>
-<li><font color="#ff9800">element88</font>: BlockType</li>
-<li><font color="#ff9800">element89</font>: BlockType</li>
-<li><font color="#ff9800">element9</font>: BlockType</li>
-<li><font color="#ff9800">element90</font>: BlockType</li>
-<li><font color="#ff9800">element91</font>: BlockType</li>
-<li><font color="#ff9800">element92</font>: BlockType</li>
-<li><font color="#ff9800">element93</font>: BlockType</li>
-<li><font color="#ff9800">element94</font>: BlockType</li>
-<li><font color="#ff9800">element95</font>: BlockType</li>
-<li><font color="#ff9800">element96</font>: BlockType</li>
-<li><font color="#ff9800">element97</font>: BlockType</li>
-<li><font color="#ff9800">element98</font>: BlockType</li>
-<li><font color="#ff9800">element99</font>: BlockType</li>
-<li><font color="#ff9800">emeraldBlock</font>: BlockType</li>
-<li><font color="#ff9800">emeraldOre</font>: BlockType</li>
-<li><font color="#ff9800">enchantingTable</font>: BlockType</li>
-<li><font color="#ff9800">endBricks</font>: BlockType</li>
-<li><font color="#ff9800">endBrickStairs</font>: BlockType</li>
-<li><font color="#ff9800">enderChest</font>: BlockType</li>
-<li><font color="#ff9800">endGateway</font>: BlockType</li>
-<li><font color="#ff9800">endPortal</font>: BlockType</li>
-<li><font color="#ff9800">endPortalFrame</font>: BlockType</li>
-<li><font color="#ff9800">endRod</font>: BlockType</li>
-<li><font color="#ff9800">endStone</font>: BlockType</li>
-<li><font color="#ff9800">exposedCopper</font>: BlockType</li>
-<li><font color="#ff9800">exposedCutCopper</font>: BlockType</li>
-<li><font color="#ff9800">exposedCutCopperSlab</font>: BlockType</li>
-<li><font color="#ff9800">exposedCutCopperStairs</font>: BlockType</li>
-<li><font color="#ff9800">exposedDoubleCutCopperSlab</font>: BlockType</li>
-<li><font color="#ff9800">farmland</font>: BlockType</li>
-<li><font color="#ff9800">fence</font>: BlockType</li>
-<li><font color="#ff9800">fenceGate</font>: BlockType</li>
-<li><font color="#ff9800">fire</font>: BlockType</li>
-<li><font color="#ff9800">fletchingTable</font>: BlockType</li>
-<li><font color="#ff9800">floweringAzalea</font>: BlockType</li>
-<li><font color="#ff9800">flowerPot</font>: BlockType</li>
-<li><font color="#ff9800">flowingLava</font>: BlockType</li>
-<li><font color="#ff9800">flowingWater</font>: BlockType</li>
-<li><font color="#ff9800">frame</font>: BlockType</li>
-<li><font color="#ff9800">frostedIce</font>: BlockType</li>
-<li><font color="#ff9800">furnace</font>: BlockType</li>
-<li><font color="#ff9800">gildedBlackstone</font>: BlockType</li>
-<li><font color="#ff9800">glass</font>: BlockType</li>
-<li><font color="#ff9800">glassPane</font>: BlockType</li>
-<li><font color="#ff9800">glowFrame</font>: BlockType</li>
-<li><font color="#ff9800">glowingobsidian</font>: BlockType</li>
-<li><font color="#ff9800">glowLichen</font>: BlockType</li>
-<li><font color="#ff9800">glowstone</font>: BlockType</li>
-<li><font color="#ff9800">goldBlock</font>: BlockType</li>
-<li><font color="#ff9800">goldenRail</font>: BlockType</li>
-<li><font color="#ff9800">goldOre</font>: BlockType</li>
-<li><font color="#ff9800">graniteStairs</font>: BlockType</li>
-<li><font color="#ff9800">grass</font>: BlockType</li>
-<li><font color="#ff9800">grassPath</font>: BlockType</li>
-<li><font color="#ff9800">gravel</font>: BlockType</li>
-<li><font color="#ff9800">grayCandle</font>: BlockType</li>
-<li><font color="#ff9800">grayCandleCake</font>: BlockType</li>
-<li><font color="#ff9800">grayGlazedTerracotta</font>: BlockType</li>
-<li><font color="#ff9800">greenCandle</font>: BlockType</li>
-<li><font color="#ff9800">greenCandleCake</font>: BlockType</li>
-<li><font color="#ff9800">greenGlazedTerracotta</font>: BlockType</li>
-<li><font color="#ff9800">grindstone</font>: BlockType</li>
-<li><font color="#ff9800">hangingRoots</font>: BlockType</li>
-<li><font color="#ff9800">hardenedClay</font>: BlockType</li>
-<li><font color="#ff9800">hardGlass</font>: BlockType</li>
-<li><font color="#ff9800">hardGlassPane</font>: BlockType</li>
-<li><font color="#ff9800">hardStainedGlass</font>: BlockType</li>
-<li><font color="#ff9800">hardStainedGlassPane</font>: BlockType</li>
-<li><font color="#ff9800">hayBlock</font>: BlockType</li>
-<li><font color="#ff9800">heavyWeightedPressurePlate</font>: BlockType</li>
-<li><font color="#ff9800">honeyBlock</font>: BlockType</li>
-<li><font color="#ff9800">honeycombBlock</font>: BlockType</li>
-<li><font color="#ff9800">hopper</font>: BlockType</li>
-<li><font color="#ff9800">ice</font>: BlockType</li>
-<li><font color="#ff9800">infestedDeepslate</font>: BlockType</li>
-<li><font color="#ff9800">infoUpdate</font>: BlockType</li>
-<li><font color="#ff9800">infoUpdate2</font>: BlockType</li>
-<li><font color="#ff9800">invisiblebedrock</font>: BlockType</li>
-<li><font color="#ff9800">ironBars</font>: BlockType</li>
-<li><font color="#ff9800">ironBlock</font>: BlockType</li>
-<li><font color="#ff9800">ironDoor</font>: BlockType</li>
-<li><font color="#ff9800">ironOre</font>: BlockType</li>
-<li><font color="#ff9800">ironTrapdoor</font>: BlockType</li>
-<li><font color="#ff9800">jigsaw</font>: BlockType</li>
-<li><font color="#ff9800">jukebox</font>: BlockType</li>
-<li><font color="#ff9800">jungleButton</font>: BlockType</li>
-<li><font color="#ff9800">jungleDoor</font>: BlockType</li>
-<li><font color="#ff9800">jungleFenceGate</font>: BlockType</li>
-<li><font color="#ff9800">junglePressurePlate</font>: BlockType</li>
-<li><font color="#ff9800">jungleStairs</font>: BlockType</li>
-<li><font color="#ff9800">jungleStandingSign</font>: BlockType</li>
-<li><font color="#ff9800">jungleTrapdoor</font>: BlockType</li>
-<li><font color="#ff9800">jungleWallSign</font>: BlockType</li>
-<li><font color="#ff9800">kelp</font>: BlockType</li>
-<li><font color="#ff9800">ladder</font>: BlockType</li>
-<li><font color="#ff9800">lantern</font>: BlockType</li>
-<li><font color="#ff9800">lapisBlock</font>: BlockType</li>
-<li><font color="#ff9800">lapisOre</font>: BlockType</li>
-<li><font color="#ff9800">largeAmethystBud</font>: BlockType</li>
-<li><font color="#ff9800">lava</font>: BlockType</li>
-<li><font color="#ff9800">lavaCauldron</font>: BlockType</li>
-<li><font color="#ff9800">leaves</font>: BlockType</li>
-<li><font color="#ff9800">leaves2</font>: BlockType</li>
-<li><font color="#ff9800">lectern</font>: BlockType</li>
-<li><font color="#ff9800">lever</font>: BlockType</li>
-<li><font color="#ff9800">lightBlock</font>: BlockType</li>
-<li><font color="#ff9800">lightBlueCandle</font>: BlockType</li>
-<li><font color="#ff9800">lightBlueCandleCake</font>: BlockType</li>
-<li><font color="#ff9800">lightBlueGlazedTerracotta</font>: BlockType</li>
-<li><font color="#ff9800">lightGrayCandle</font>: BlockType</li>
-<li><font color="#ff9800">lightGrayCandleCake</font>: BlockType</li>
-<li><font color="#ff9800">lightningRod</font>: BlockType</li>
-<li><font color="#ff9800">lightWeightedPressurePlate</font>: BlockType</li>
-<li><font color="#ff9800">limeCandle</font>: BlockType</li>
-<li><font color="#ff9800">limeCandleCake</font>: BlockType</li>
-<li><font color="#ff9800">limeGlazedTerracotta</font>: BlockType</li>
-<li><font color="#ff9800">litBlastFurnace</font>: BlockType</li>
-<li><font color="#ff9800">litDeepslateRedstoneOre</font>: BlockType</li>
-<li><font color="#ff9800">litFurnace</font>: BlockType</li>
-<li><font color="#ff9800">litPumpkin</font>: BlockType</li>
-<li><font color="#ff9800">litRedstoneLamp</font>: BlockType</li>
-<li><font color="#ff9800">litRedstoneOre</font>: BlockType</li>
-<li><font color="#ff9800">litSmoker</font>: BlockType</li>
-<li><font color="#ff9800">lodestone</font>: BlockType</li>
-<li><font color="#ff9800">log</font>: BlockType</li>
-<li><font color="#ff9800">log2</font>: BlockType</li>
-<li><font color="#ff9800">loom</font>: BlockType</li>
-<li><font color="#ff9800">magentaCandle</font>: BlockType</li>
-<li><font color="#ff9800">magentaCandleCake</font>: BlockType</li>
-<li><font color="#ff9800">magentaGlazedTerracotta</font>: BlockType</li>
-<li><font color="#ff9800">magma</font>: BlockType</li>
-<li><font color="#ff9800">mediumAmethystBud</font>: BlockType</li>
-<li><font color="#ff9800">melonBlock</font>: BlockType</li>
-<li><font color="#ff9800">melonStem</font>: BlockType</li>
-<li><font color="#ff9800">mobSpawner</font>: BlockType</li>
-<li><font color="#ff9800">monsterEgg</font>: BlockType</li>
-<li><font color="#ff9800">mossBlock</font>: BlockType</li>
-<li><font color="#ff9800">mossCarpet</font>: BlockType</li>
-<li><font color="#ff9800">mossyCobblestone</font>: BlockType</li>
-<li><font color="#ff9800">mossyCobblestoneStairs</font>: BlockType</li>
-<li><font color="#ff9800">mossyStoneBrickStairs</font>: BlockType</li>
-<li><font color="#ff9800">movingblock</font>: BlockType</li>
-<li><font color="#ff9800">mycelium</font>: BlockType</li>
-<li><font color="#ff9800">netherBrick</font>: BlockType</li>
-<li><font color="#ff9800">netherBrickFence</font>: BlockType</li>
-<li><font color="#ff9800">netherBrickStairs</font>: BlockType</li>
-<li><font color="#ff9800">netherGoldOre</font>: BlockType</li>
-<li><font color="#ff9800">netheriteBlock</font>: BlockType</li>
-<li><font color="#ff9800">netherrack</font>: BlockType</li>
-<li><font color="#ff9800">netherreactor</font>: BlockType</li>
-<li><font color="#ff9800">netherSprouts</font>: BlockType</li>
-<li><font color="#ff9800">netherWart</font>: BlockType</li>
-<li><font color="#ff9800">netherWartBlock</font>: BlockType</li>
-<li><font color="#ff9800">normalStoneStairs</font>: BlockType</li>
-<li><font color="#ff9800">noteblock</font>: BlockType</li>
-<li><font color="#ff9800">oakStairs</font>: BlockType</li>
-<li><font color="#ff9800">observer</font>: BlockType</li>
-<li><font color="#ff9800">obsidian</font>: BlockType</li>
-<li><font color="#ff9800">orangeCandle</font>: BlockType</li>
-<li><font color="#ff9800">orangeCandleCake</font>: BlockType</li>
-<li><font color="#ff9800">orangeGlazedTerracotta</font>: BlockType</li>
-<li><font color="#ff9800">oxidizedCopper</font>: BlockType</li>
-<li><font color="#ff9800">oxidizedCutCopper</font>: BlockType</li>
-<li><font color="#ff9800">oxidizedCutCopperSlab</font>: BlockType</li>
-<li><font color="#ff9800">oxidizedCutCopperStairs</font>: BlockType</li>
-<li><font color="#ff9800">oxidizedDoubleCutCopperSlab</font>: BlockType</li>
-<li><font color="#ff9800">packedIce</font>: BlockType</li>
-<li><font color="#ff9800">pinkCandle</font>: BlockType</li>
-<li><font color="#ff9800">pinkCandleCake</font>: BlockType</li>
-<li><font color="#ff9800">pinkGlazedTerracotta</font>: BlockType</li>
-<li><font color="#ff9800">piston</font>: BlockType</li>
-<li><font color="#ff9800">pistonarmcollision</font>: BlockType</li>
-<li><font color="#ff9800">planks</font>: BlockType</li>
-<li><font color="#ff9800">podzol</font>: BlockType</li>
-<li><font color="#ff9800">pointedDripstone</font>: BlockType</li>
-<li><font color="#ff9800">polishedAndesiteStairs</font>: BlockType</li>
-<li><font color="#ff9800">polishedBasalt</font>: BlockType</li>
-<li><font color="#ff9800">polishedBlackstone</font>: BlockType</li>
-<li><font color="#ff9800">polishedBlackstoneBrickDoubleSlab</font>: BlockType</li>
-<li><font color="#ff9800">polishedBlackstoneBricks</font>: BlockType</li>
-<li><font color="#ff9800">polishedBlackstoneBrickSlab</font>: BlockType</li>
-<li><font color="#ff9800">polishedBlackstoneBrickStairs</font>: BlockType</li>
-<li><font color="#ff9800">polishedBlackstoneBrickWall</font>: BlockType</li>
-<li><font color="#ff9800">polishedBlackstoneButton</font>: BlockType</li>
-<li><font color="#ff9800">polishedBlackstoneDoubleSlab</font>: BlockType</li>
-<li><font color="#ff9800">polishedBlackstonePressurePlate</font>: BlockType</li>
-<li><font color="#ff9800">polishedBlackstoneSlab</font>: BlockType</li>
-<li><font color="#ff9800">polishedBlackstoneStairs</font>: BlockType</li>
-<li><font color="#ff9800">polishedBlackstoneWall</font>: BlockType</li>
-<li><font color="#ff9800">polishedDeepslate</font>: BlockType</li>
-<li><font color="#ff9800">polishedDeepslateDoubleSlab</font>: BlockType</li>
-<li><font color="#ff9800">polishedDeepslateSlab</font>: BlockType</li>
-<li><font color="#ff9800">polishedDeepslateStairs</font>: BlockType</li>
-<li><font color="#ff9800">polishedDeepslateWall</font>: BlockType</li>
-<li><font color="#ff9800">polishedDioriteStairs</font>: BlockType</li>
-<li><font color="#ff9800">polishedGraniteStairs</font>: BlockType</li>
-<li><font color="#ff9800">portal</font>: BlockType</li>
-<li><font color="#ff9800">potatoes</font>: BlockType</li>
-<li><font color="#ff9800">powderSnow</font>: BlockType</li>
-<li><font color="#ff9800">poweredComparator</font>: BlockType</li>
-<li><font color="#ff9800">poweredRepeater</font>: BlockType</li>
-<li><font color="#ff9800">prismarine</font>: BlockType</li>
-<li><font color="#ff9800">prismarineBricksStairs</font>: BlockType</li>
-<li><font color="#ff9800">prismarineStairs</font>: BlockType</li>
-<li><font color="#ff9800">pumpkin</font>: BlockType</li>
-<li><font color="#ff9800">pumpkinStem</font>: BlockType</li>
-<li><font color="#ff9800">purpleCandle</font>: BlockType</li>
-<li><font color="#ff9800">purpleCandleCake</font>: BlockType</li>
-<li><font color="#ff9800">purpleGlazedTerracotta</font>: BlockType</li>
-<li><font color="#ff9800">purpurBlock</font>: BlockType</li>
-<li><font color="#ff9800">purpurStairs</font>: BlockType</li>
-<li><font color="#ff9800">quartzBlock</font>: BlockType</li>
-<li><font color="#ff9800">quartzBricks</font>: BlockType</li>
-<li><font color="#ff9800">quartzOre</font>: BlockType</li>
-<li><font color="#ff9800">quartzStairs</font>: BlockType</li>
-<li><font color="#ff9800">rail</font>: BlockType</li>
-<li><font color="#ff9800">rawCopperBlock</font>: BlockType</li>
-<li><font color="#ff9800">rawGoldBlock</font>: BlockType</li>
-<li><font color="#ff9800">rawIronBlock</font>: BlockType</li>
-<li><font color="#ff9800">redCandle</font>: BlockType</li>
-<li><font color="#ff9800">redCandleCake</font>: BlockType</li>
-<li><font color="#ff9800">redFlower</font>: BlockType</li>
-<li><font color="#ff9800">redGlazedTerracotta</font>: BlockType</li>
-<li><font color="#ff9800">redMushroom</font>: BlockType</li>
-<li><font color="#ff9800">redMushroomBlock</font>: BlockType</li>
-<li><font color="#ff9800">redNetherBrick</font>: BlockType</li>
-<li><font color="#ff9800">redNetherBrickStairs</font>: BlockType</li>
-<li><font color="#ff9800">redSandstone</font>: BlockType</li>
-<li><font color="#ff9800">redSandstoneStairs</font>: BlockType</li>
-<li><font color="#ff9800">redstoneBlock</font>: BlockType</li>
-<li><font color="#ff9800">redstoneLamp</font>: BlockType</li>
-<li><font color="#ff9800">redstoneOre</font>: BlockType</li>
-<li><font color="#ff9800">redstoneTorch</font>: BlockType</li>
-<li><font color="#ff9800">redstoneWire</font>: BlockType</li>
-<li><font color="#ff9800">reeds</font>: BlockType</li>
-<li><font color="#ff9800">repeatingCommandBlock</font>: BlockType</li>
-<li><font color="#ff9800">reserved6</font>: BlockType</li>
-<li><font color="#ff9800">respawnAnchor</font>: BlockType</li>
-<li><font color="#ff9800">sand</font>: BlockType</li>
-<li><font color="#ff9800">sandstone</font>: BlockType</li>
-<li><font color="#ff9800">sandstoneStairs</font>: BlockType</li>
-<li><font color="#ff9800">sapling</font>: BlockType</li>
-<li><font color="#ff9800">scaffolding</font>: BlockType</li>
-<li><font color="#ff9800">sculkSensor</font>: BlockType</li>
-<li><font color="#ff9800">seagrass</font>: BlockType</li>
-<li><font color="#ff9800">sealantern</font>: BlockType</li>
-<li><font color="#ff9800">seaPickle</font>: BlockType</li>
-<li><font color="#ff9800">shroomlight</font>: BlockType</li>
-<li><font color="#ff9800">shulkerBox</font>: BlockType</li>
-<li><font color="#ff9800">silverGlazedTerracotta</font>: BlockType</li>
-<li><font color="#ff9800">skull</font>: BlockType</li>
-<li><font color="#ff9800">slime</font>: BlockType</li>
-<li><font color="#ff9800">smallAmethystBud</font>: BlockType</li>
-<li><font color="#ff9800">smallDripleafBlock</font>: BlockType</li>
-<li><font color="#ff9800">smithingTable</font>: BlockType</li>
-<li><font color="#ff9800">smoker</font>: BlockType</li>
-<li><font color="#ff9800">smoothBasalt</font>: BlockType</li>
-<li><font color="#ff9800">smoothQuartzStairs</font>: BlockType</li>
-<li><font color="#ff9800">smoothRedSandstoneStairs</font>: BlockType</li>
-<li><font color="#ff9800">smoothSandstoneStairs</font>: BlockType</li>
-<li><font color="#ff9800">smoothStone</font>: BlockType</li>
-<li><font color="#ff9800">snow</font>: BlockType</li>
-<li><font color="#ff9800">snowLayer</font>: BlockType</li>
-<li><font color="#ff9800">soulCampfire</font>: BlockType</li>
-<li><font color="#ff9800">soulFire</font>: BlockType</li>
-<li><font color="#ff9800">soulLantern</font>: BlockType</li>
-<li><font color="#ff9800">soulSand</font>: BlockType</li>
-<li><font color="#ff9800">soulSoil</font>: BlockType</li>
-<li><font color="#ff9800">soulTorch</font>: BlockType</li>
-<li><font color="#ff9800">sponge</font>: BlockType</li>
-<li><font color="#ff9800">sporeBlossom</font>: BlockType</li>
-<li><font color="#ff9800">spruceButton</font>: BlockType</li>
-<li><font color="#ff9800">spruceDoor</font>: BlockType</li>
-<li><font color="#ff9800">spruceFenceGate</font>: BlockType</li>
-<li><font color="#ff9800">sprucePressurePlate</font>: BlockType</li>
-<li><font color="#ff9800">spruceStairs</font>: BlockType</li>
-<li><font color="#ff9800">spruceStandingSign</font>: BlockType</li>
-<li><font color="#ff9800">spruceTrapdoor</font>: BlockType</li>
-<li><font color="#ff9800">spruceWallSign</font>: BlockType</li>
-<li><font color="#ff9800">stainedGlass</font>: BlockType</li>
-<li><font color="#ff9800">stainedGlassPane</font>: BlockType</li>
-<li><font color="#ff9800">stainedHardenedClay</font>: BlockType</li>
-<li><font color="#ff9800">standingBanner</font>: BlockType</li>
-<li><font color="#ff9800">standingSign</font>: BlockType</li>
-<li><font color="#ff9800">stickyPiston</font>: BlockType</li>
-<li><font color="#ff9800">stickypistonarmcollision</font>: BlockType</li>
-<li><font color="#ff9800">stone</font>: BlockType</li>
-<li><font color="#ff9800">stonebrick</font>: BlockType</li>
-<li><font color="#ff9800">stoneBrickStairs</font>: BlockType</li>
-<li><font color="#ff9800">stoneButton</font>: BlockType</li>
-<li><font color="#ff9800">stonecutter</font>: BlockType</li>
-<li><font color="#ff9800">stonecutterBlock</font>: BlockType</li>
-<li><font color="#ff9800">stonePressurePlate</font>: BlockType</li>
-<li><font color="#ff9800">stoneSlab</font>: BlockType</li>
-<li><font color="#ff9800">stoneSlab2</font>: BlockType</li>
-<li><font color="#ff9800">stoneSlab3</font>: BlockType</li>
-<li><font color="#ff9800">stoneSlab4</font>: BlockType</li>
-<li><font color="#ff9800">stoneStairs</font>: BlockType</li>
-<li><font color="#ff9800">strippedAcaciaLog</font>: BlockType</li>
-<li><font color="#ff9800">strippedBirchLog</font>: BlockType</li>
-<li><font color="#ff9800">strippedCrimsonHyphae</font>: BlockType</li>
-<li><font color="#ff9800">strippedCrimsonStem</font>: BlockType</li>
-<li><font color="#ff9800">strippedDarkOakLog</font>: BlockType</li>
-<li><font color="#ff9800">strippedJungleLog</font>: BlockType</li>
-<li><font color="#ff9800">strippedOakLog</font>: BlockType</li>
-<li><font color="#ff9800">strippedSpruceLog</font>: BlockType</li>
-<li><font color="#ff9800">strippedWarpedHyphae</font>: BlockType</li>
-<li><font color="#ff9800">strippedWarpedStem</font>: BlockType</li>
-<li><font color="#ff9800">structureBlock</font>: BlockType</li>
-<li><font color="#ff9800">structureVoid</font>: BlockType</li>
-<li><font color="#ff9800">sweetBerryBush</font>: BlockType</li>
-<li><font color="#ff9800">tallgrass</font>: BlockType</li>
-<li><font color="#ff9800">target</font>: BlockType</li>
-<li><font color="#ff9800">tintedGlass</font>: BlockType</li>
-<li><font color="#ff9800">tnt</font>: BlockType</li>
-<li><font color="#ff9800">torch</font>: BlockType</li>
-<li><font color="#ff9800">trapdoor</font>: BlockType</li>
-<li><font color="#ff9800">trappedChest</font>: BlockType</li>
-<li><font color="#ff9800">tripwire</font>: BlockType</li>
-<li><font color="#ff9800">tripwireHook</font>: BlockType</li>
-<li><font color="#ff9800">tuff</font>: BlockType</li>
-<li><font color="#ff9800">turtleEgg</font>: BlockType</li>
-<li><font color="#ff9800">twistingVines</font>: BlockType</li>
-<li><font color="#ff9800">underwaterTorch</font>: BlockType</li>
-<li><font color="#ff9800">undyedShulkerBox</font>: BlockType</li>
-<li><font color="#ff9800">unknown</font>: BlockType</li>
-<li><font color="#ff9800">unlitRedstoneTorch</font>: BlockType</li>
-<li><font color="#ff9800">unpoweredComparator</font>: BlockType</li>
-<li><font color="#ff9800">unpoweredRepeater</font>: BlockType</li>
-<li><font color="#ff9800">vine</font>: BlockType</li>
-<li><font color="#ff9800">wallBanner</font>: BlockType</li>
-<li><font color="#ff9800">wallSign</font>: BlockType</li>
-<li><font color="#ff9800">warpedButton</font>: BlockType</li>
-<li><font color="#ff9800">warpedDoor</font>: BlockType</li>
-<li><font color="#ff9800">warpedDoubleSlab</font>: BlockType</li>
-<li><font color="#ff9800">warpedFence</font>: BlockType</li>
-<li><font color="#ff9800">warpedFenceGate</font>: BlockType</li>
-<li><font color="#ff9800">warpedFungus</font>: BlockType</li>
-<li><font color="#ff9800">warpedHyphae</font>: BlockType</li>
-<li><font color="#ff9800">warpedNylium</font>: BlockType</li>
-<li><font color="#ff9800">warpedPlanks</font>: BlockType</li>
-<li><font color="#ff9800">warpedPressurePlate</font>: BlockType</li>
-<li><font color="#ff9800">warpedRoots</font>: BlockType</li>
-<li><font color="#ff9800">warpedSlab</font>: BlockType</li>
-<li><font color="#ff9800">warpedStairs</font>: BlockType</li>
-<li><font color="#ff9800">warpedStandingSign</font>: BlockType</li>
-<li><font color="#ff9800">warpedStem</font>: BlockType</li>
-<li><font color="#ff9800">warpedTrapdoor</font>: BlockType</li>
-<li><font color="#ff9800">warpedWallSign</font>: BlockType</li>
-<li><font color="#ff9800">warpedWartBlock</font>: BlockType</li>
-<li><font color="#ff9800">water</font>: BlockType</li>
-<li><font color="#ff9800">waterlily</font>: BlockType</li>
-<li><font color="#ff9800">waxedCopper</font>: BlockType</li>
-<li><font color="#ff9800">waxedCutCopper</font>: BlockType</li>
-<li><font color="#ff9800">waxedCutCopperSlab</font>: BlockType</li>
-<li><font color="#ff9800">waxedCutCopperStairs</font>: BlockType</li>
-<li><font color="#ff9800">waxedDoubleCutCopperSlab</font>: BlockType</li>
-<li><font color="#ff9800">waxedExposedCopper</font>: BlockType</li>
-<li><font color="#ff9800">waxedExposedCutCopper</font>: BlockType</li>
-<li><font color="#ff9800">waxedExposedCutCopperSlab</font>: BlockType</li>
-<li><font color="#ff9800">waxedExposedCutCopperStairs</font>: BlockType</li>
-<li><font color="#ff9800">waxedExposedDoubleCutCopperSlab</font>: BlockType</li>
-<li><font color="#ff9800">waxedOxidizedCopper</font>: BlockType</li>
-<li><font color="#ff9800">waxedOxidizedCutCopper</font>: BlockType</li>
-<li><font color="#ff9800">waxedOxidizedCutCopperSlab</font>: BlockType</li>
-<li><font color="#ff9800">waxedOxidizedCutCopperStairs</font>: BlockType</li>
-<li><font color="#ff9800">waxedOxidizedDoubleCutCopperSlab</font>: BlockType</li>
-<li><font color="#ff9800">waxedWeatheredCopper</font>: BlockType</li>
-<li><font color="#ff9800">waxedWeatheredCutCopper</font>: BlockType</li>
-<li><font color="#ff9800">waxedWeatheredCutCopperSlab</font>: BlockType</li>
-<li><font color="#ff9800">waxedWeatheredCutCopperStairs</font>: BlockType</li>
-<li><font color="#ff9800">waxedWeatheredDoubleCutCopperSlab</font>: BlockType</li>
-<li><font color="#ff9800">weatheredCopper</font>: BlockType</li>
-<li><font color="#ff9800">weatheredCutCopper</font>: BlockType</li>
-<li><font color="#ff9800">weatheredCutCopperSlab</font>: BlockType</li>
-<li><font color="#ff9800">weatheredCutCopperStairs</font>: BlockType</li>
-<li><font color="#ff9800">weatheredDoubleCutCopperSlab</font>: BlockType</li>
-<li><font color="#ff9800">web</font>: BlockType</li>
-<li><font color="#ff9800">weepingVines</font>: BlockType</li>
-<li><font color="#ff9800">wheat</font>: BlockType</li>
-<li><font color="#ff9800">whiteCandle</font>: BlockType</li>
-<li><font color="#ff9800">whiteCandleCake</font>: BlockType</li>
-<li><font color="#ff9800">whiteGlazedTerracotta</font>: BlockType</li>
-<li><font color="#ff9800">witherRose</font>: BlockType</li>
-<li><font color="#ff9800">wood</font>: BlockType</li>
-<li><font color="#ff9800">woodenButton</font>: BlockType</li>
-<li><font color="#ff9800">woodenDoor</font>: BlockType</li>
-<li><font color="#ff9800">woodenPressurePlate</font>: BlockType</li>
-<li><font color="#ff9800">woodenSlab</font>: BlockType</li>
-<li><font color="#ff9800">wool</font>: BlockType</li>
-<li><font color="#ff9800">yellowCandle</font>: BlockType</li>
-<li><font color="#ff9800">yellowCandleCake</font>: BlockType</li>
-<li><font color="#ff9800">yellowFlower</font>: BlockType</li>
-<li><font color="#ff9800">yellowGlazedTerracotta</font>: BlockType</li>
-<li><font color="#ffc107">get</font>(typeName: string): BlockType</li>
-<li><font color="#ffc107">getAllBlockTypes</font>(): Array<BlockType></li>
+<li>acaciaButton: BlockType</li>
+<li>acaciaDoor: BlockType</li>
+<li>acaciaFenceGate: BlockType</li>
+<li>acaciaPressurePlate: BlockType</li>
+<li>acaciaStairs: BlockType</li>
+<li>acaciaStandingSign: BlockType</li>
+<li>acaciaTrapdoor: BlockType</li>
+<li>acaciaWallSign: BlockType</li>
+<li>activatorRail: BlockType</li>
+<li>air: BlockType</li>
+<li>allow: BlockType</li>
+<li>amethystBlock: BlockType</li>
+<li>amethystCluster: BlockType</li>
+<li>ancientDebris: BlockType</li>
+<li>andesiteStairs: BlockType</li>
+<li>anvil: BlockType</li>
+<li>azalea: BlockType</li>
+<li>azaleaLeaves: BlockType</li>
+<li>azaleaLeavesFlowered: BlockType</li>
+<li>bamboo: BlockType</li>
+<li>bambooSapling: BlockType</li>
+<li>barrel: BlockType</li>
+<li>barrier: BlockType</li>
+<li>basalt: BlockType</li>
+<li>beacon: BlockType</li>
+<li>bed: BlockType</li>
+<li>bedrock: BlockType</li>
+<li>beehive: BlockType</li>
+<li>beeNest: BlockType</li>
+<li>beetroot: BlockType</li>
+<li>bell: BlockType</li>
+<li>bigDripleaf: BlockType</li>
+<li>birchButton: BlockType</li>
+<li>birchDoor: BlockType</li>
+<li>birchFenceGate: BlockType</li>
+<li>birchPressurePlate: BlockType</li>
+<li>birchStairs: BlockType</li>
+<li>birchStandingSign: BlockType</li>
+<li>birchTrapdoor: BlockType</li>
+<li>birchWallSign: BlockType</li>
+<li>blackCandle: BlockType</li>
+<li>blackCandleCake: BlockType</li>
+<li>blackGlazedTerracotta: BlockType</li>
+<li>blackstone: BlockType</li>
+<li>blackstoneDoubleSlab: BlockType</li>
+<li>blackstoneSlab: BlockType</li>
+<li>blackstoneStairs: BlockType</li>
+<li>blackstoneWall: BlockType</li>
+<li>blastFurnace: BlockType</li>
+<li>blueCandle: BlockType</li>
+<li>blueCandleCake: BlockType</li>
+<li>blueGlazedTerracotta: BlockType</li>
+<li>blueIce: BlockType</li>
+<li>boneBlock: BlockType</li>
+<li>bookshelf: BlockType</li>
+<li>borderBlock: BlockType</li>
+<li>brewingStand: BlockType</li>
+<li>brickBlock: BlockType</li>
+<li>brickStairs: BlockType</li>
+<li>brownCandle: BlockType</li>
+<li>brownCandleCake: BlockType</li>
+<li>brownGlazedTerracotta: BlockType</li>
+<li>brownMushroom: BlockType</li>
+<li>brownMushroomBlock: BlockType</li>
+<li>bubbleColumn: BlockType</li>
+<li>buddingAmethyst: BlockType</li>
+<li>cactus: BlockType</li>
+<li>cake: BlockType</li>
+<li>calcite: BlockType</li>
+<li>camera: BlockType</li>
+<li>campfire: BlockType</li>
+<li>candle: BlockType</li>
+<li>candleCake: BlockType</li>
+<li>carpet: BlockType</li>
+<li>carrots: BlockType</li>
+<li>cartographyTable: BlockType</li>
+<li>carvedPumpkin: BlockType</li>
+<li>cauldron: BlockType</li>
+<li>caveVines: BlockType</li>
+<li>caveVinesBodyWithBerries: BlockType</li>
+<li>caveVinesHeadWithBerries: BlockType</li>
+<li>chain: BlockType</li>
+<li>chainCommandBlock: BlockType</li>
+<li>chemicalHeat: BlockType</li>
+<li>chemistryTable: BlockType</li>
+<li>chest: BlockType</li>
+<li>chiseledDeepslate: BlockType</li>
+<li>chiseledNetherBricks: BlockType</li>
+<li>chiseledPolishedBlackstone: BlockType</li>
+<li>chorusFlower: BlockType</li>
+<li>chorusPlant: BlockType</li>
+<li>clay: BlockType</li>
+<li>coalBlock: BlockType</li>
+<li>coalOre: BlockType</li>
+<li>cobbledDeepslate: BlockType</li>
+<li>cobbledDeepslateDoubleSlab: BlockType</li>
+<li>cobbledDeepslateSlab: BlockType</li>
+<li>cobbledDeepslateStairs: BlockType</li>
+<li>cobbledDeepslateWall: BlockType</li>
+<li>cobblestone: BlockType</li>
+<li>cobblestoneWall: BlockType</li>
+<li>cocoa: BlockType</li>
+<li>coloredTorchBp: BlockType</li>
+<li>coloredTorchRg: BlockType</li>
+<li>commandBlock: BlockType</li>
+<li>composter: BlockType</li>
+<li>concrete: BlockType</li>
+<li>concretepowder: BlockType</li>
+<li>conduit: BlockType</li>
+<li>copperBlock: BlockType</li>
+<li>copperOre: BlockType</li>
+<li>coral: BlockType</li>
+<li>coralBlock: BlockType</li>
+<li>coralFan: BlockType</li>
+<li>coralFanDead: BlockType</li>
+<li>coralFanHang: BlockType</li>
+<li>coralFanHang2: BlockType</li>
+<li>coralFanHang3: BlockType</li>
+<li>crackedDeepslateBricks: BlockType</li>
+<li>crackedDeepslateTiles: BlockType</li>
+<li>crackedNetherBricks: BlockType</li>
+<li>crackedPolishedBlackstoneBricks: BlockType</li>
+<li>craftingTable: BlockType</li>
+<li>crimsonButton: BlockType</li>
+<li>crimsonDoor: BlockType</li>
+<li>crimsonDoubleSlab: BlockType</li>
+<li>crimsonFence: BlockType</li>
+<li>crimsonFenceGate: BlockType</li>
+<li>crimsonFungus: BlockType</li>
+<li>crimsonHyphae: BlockType</li>
+<li>crimsonNylium: BlockType</li>
+<li>crimsonPlanks: BlockType</li>
+<li>crimsonPressurePlate: BlockType</li>
+<li>crimsonRoots: BlockType</li>
+<li>crimsonSlab: BlockType</li>
+<li>crimsonStairs: BlockType</li>
+<li>crimsonStandingSign: BlockType</li>
+<li>crimsonStem: BlockType</li>
+<li>crimsonTrapdoor: BlockType</li>
+<li>crimsonWallSign: BlockType</li>
+<li>cryingObsidian: BlockType</li>
+<li>cutCopper: BlockType</li>
+<li>cutCopperSlab: BlockType</li>
+<li>cutCopperStairs: BlockType</li>
+<li>cyanCandle: BlockType</li>
+<li>cyanCandleCake: BlockType</li>
+<li>cyanGlazedTerracotta: BlockType</li>
+<li>darkOakButton: BlockType</li>
+<li>darkOakDoor: BlockType</li>
+<li>darkOakFenceGate: BlockType</li>
+<li>darkOakPressurePlate: BlockType</li>
+<li>darkOakStairs: BlockType</li>
+<li>darkoakStandingSign: BlockType</li>
+<li>darkOakTrapdoor: BlockType</li>
+<li>darkoakWallSign: BlockType</li>
+<li>darkPrismarineStairs: BlockType</li>
+<li>daylightDetector: BlockType</li>
+<li>daylightDetectorInverted: BlockType</li>
+<li>deadbush: BlockType</li>
+<li>deepslate: BlockType</li>
+<li>deepslateBrickDoubleSlab: BlockType</li>
+<li>deepslateBricks: BlockType</li>
+<li>deepslateBrickSlab: BlockType</li>
+<li>deepslateBrickStairs: BlockType</li>
+<li>deepslateBrickWall: BlockType</li>
+<li>deepslateCoalOre: BlockType</li>
+<li>deepslateCopperOre: BlockType</li>
+<li>deepslateDiamondOre: BlockType</li>
+<li>deepslateEmeraldOre: BlockType</li>
+<li>deepslateGoldOre: BlockType</li>
+<li>deepslateIronOre: BlockType</li>
+<li>deepslateLapisOre: BlockType</li>
+<li>deepslateRedstoneOre: BlockType</li>
+<li>deepslateTileDoubleSlab: BlockType</li>
+<li>deepslateTiles: BlockType</li>
+<li>deepslateTileSlab: BlockType</li>
+<li>deepslateTileStairs: BlockType</li>
+<li>deepslateTileWall: BlockType</li>
+<li>deny: BlockType</li>
+<li>detectorRail: BlockType</li>
+<li>diamondBlock: BlockType</li>
+<li>diamondOre: BlockType</li>
+<li>dioriteStairs: BlockType</li>
+<li>dirt: BlockType</li>
+<li>dirtWithRoots: BlockType</li>
+<li>dispenser: BlockType</li>
+<li>doubleCutCopperSlab: BlockType</li>
+<li>doublePlant: BlockType</li>
+<li>doubleStoneSlab: BlockType</li>
+<li>doubleStoneSlab2: BlockType</li>
+<li>doubleStoneSlab3: BlockType</li>
+<li>doubleStoneSlab4: BlockType</li>
+<li>doubleWoodenSlab: BlockType</li>
+<li>dragonEgg: BlockType</li>
+<li>driedKelpBlock: BlockType</li>
+<li>dripstoneBlock: BlockType</li>
+<li>dropper: BlockType</li>
+<li>element0: BlockType</li>
+<li>element1: BlockType</li>
+<li>element10: BlockType</li>
+<li>element100: BlockType</li>
+<li>element101: BlockType</li>
+<li>element102: BlockType</li>
+<li>element103: BlockType</li>
+<li>element104: BlockType</li>
+<li>element105: BlockType</li>
+<li>element106: BlockType</li>
+<li>element107: BlockType</li>
+<li>element108: BlockType</li>
+<li>element109: BlockType</li>
+<li>element11: BlockType</li>
+<li>element110: BlockType</li>
+<li>element111: BlockType</li>
+<li>element112: BlockType</li>
+<li>element113: BlockType</li>
+<li>element114: BlockType</li>
+<li>element115: BlockType</li>
+<li>element116: BlockType</li>
+<li>element117: BlockType</li>
+<li>element118: BlockType</li>
+<li>element12: BlockType</li>
+<li>element13: BlockType</li>
+<li>element14: BlockType</li>
+<li>element15: BlockType</li>
+<li>element16: BlockType</li>
+<li>element17: BlockType</li>
+<li>element18: BlockType</li>
+<li>element19: BlockType</li>
+<li>element2: BlockType</li>
+<li>element20: BlockType</li>
+<li>element21: BlockType</li>
+<li>element22: BlockType</li>
+<li>element23: BlockType</li>
+<li>element24: BlockType</li>
+<li>element25: BlockType</li>
+<li>element26: BlockType</li>
+<li>element27: BlockType</li>
+<li>element28: BlockType</li>
+<li>element29: BlockType</li>
+<li>element3: BlockType</li>
+<li>element30: BlockType</li>
+<li>element31: BlockType</li>
+<li>element32: BlockType</li>
+<li>element33: BlockType</li>
+<li>element34: BlockType</li>
+<li>element35: BlockType</li>
+<li>element36: BlockType</li>
+<li>element37: BlockType</li>
+<li>element38: BlockType</li>
+<li>element39: BlockType</li>
+<li>element4: BlockType</li>
+<li>element40: BlockType</li>
+<li>element41: BlockType</li>
+<li>element42: BlockType</li>
+<li>element43: BlockType</li>
+<li>element44: BlockType</li>
+<li>element45: BlockType</li>
+<li>element46: BlockType</li>
+<li>element47: BlockType</li>
+<li>element48: BlockType</li>
+<li>element49: BlockType</li>
+<li>element5: BlockType</li>
+<li>element50: BlockType</li>
+<li>element51: BlockType</li>
+<li>element52: BlockType</li>
+<li>element53: BlockType</li>
+<li>element54: BlockType</li>
+<li>element55: BlockType</li>
+<li>element56: BlockType</li>
+<li>element57: BlockType</li>
+<li>element58: BlockType</li>
+<li>element59: BlockType</li>
+<li>element6: BlockType</li>
+<li>element60: BlockType</li>
+<li>element61: BlockType</li>
+<li>element62: BlockType</li>
+<li>element63: BlockType</li>
+<li>element64: BlockType</li>
+<li>element65: BlockType</li>
+<li>element66: BlockType</li>
+<li>element67: BlockType</li>
+<li>element68: BlockType</li>
+<li>element69: BlockType</li>
+<li>element7: BlockType</li>
+<li>element70: BlockType</li>
+<li>element71: BlockType</li>
+<li>element72: BlockType</li>
+<li>element73: BlockType</li>
+<li>element74: BlockType</li>
+<li>element75: BlockType</li>
+<li>element76: BlockType</li>
+<li>element77: BlockType</li>
+<li>element78: BlockType</li>
+<li>element79: BlockType</li>
+<li>element8: BlockType</li>
+<li>element80: BlockType</li>
+<li>element81: BlockType</li>
+<li>element82: BlockType</li>
+<li>element83: BlockType</li>
+<li>element84: BlockType</li>
+<li>element85: BlockType</li>
+<li>element86: BlockType</li>
+<li>element87: BlockType</li>
+<li>element88: BlockType</li>
+<li>element89: BlockType</li>
+<li>element9: BlockType</li>
+<li>element90: BlockType</li>
+<li>element91: BlockType</li>
+<li>element92: BlockType</li>
+<li>element93: BlockType</li>
+<li>element94: BlockType</li>
+<li>element95: BlockType</li>
+<li>element96: BlockType</li>
+<li>element97: BlockType</li>
+<li>element98: BlockType</li>
+<li>element99: BlockType</li>
+<li>emeraldBlock: BlockType</li>
+<li>emeraldOre: BlockType</li>
+<li>enchantingTable: BlockType</li>
+<li>endBricks: BlockType</li>
+<li>endBrickStairs: BlockType</li>
+<li>enderChest: BlockType</li>
+<li>endGateway: BlockType</li>
+<li>endPortal: BlockType</li>
+<li>endPortalFrame: BlockType</li>
+<li>endRod: BlockType</li>
+<li>endStone: BlockType</li>
+<li>exposedCopper: BlockType</li>
+<li>exposedCutCopper: BlockType</li>
+<li>exposedCutCopperSlab: BlockType</li>
+<li>exposedCutCopperStairs: BlockType</li>
+<li>exposedDoubleCutCopperSlab: BlockType</li>
+<li>farmland: BlockType</li>
+<li>fence: BlockType</li>
+<li>fenceGate: BlockType</li>
+<li>fire: BlockType</li>
+<li>fletchingTable: BlockType</li>
+<li>floweringAzalea: BlockType</li>
+<li>flowerPot: BlockType</li>
+<li>flowingLava: BlockType</li>
+<li>flowingWater: BlockType</li>
+<li>frame: BlockType</li>
+<li>frostedIce: BlockType</li>
+<li>furnace: BlockType</li>
+<li>gildedBlackstone: BlockType</li>
+<li>glass: BlockType</li>
+<li>glassPane: BlockType</li>
+<li>glowFrame: BlockType</li>
+<li>glowingobsidian: BlockType</li>
+<li>glowLichen: BlockType</li>
+<li>glowstone: BlockType</li>
+<li>goldBlock: BlockType</li>
+<li>goldenRail: BlockType</li>
+<li>goldOre: BlockType</li>
+<li>graniteStairs: BlockType</li>
+<li>grass: BlockType</li>
+<li>grassPath: BlockType</li>
+<li>gravel: BlockType</li>
+<li>grayCandle: BlockType</li>
+<li>grayCandleCake: BlockType</li>
+<li>grayGlazedTerracotta: BlockType</li>
+<li>greenCandle: BlockType</li>
+<li>greenCandleCake: BlockType</li>
+<li>greenGlazedTerracotta: BlockType</li>
+<li>grindstone: BlockType</li>
+<li>hangingRoots: BlockType</li>
+<li>hardenedClay: BlockType</li>
+<li>hardGlass: BlockType</li>
+<li>hardGlassPane: BlockType</li>
+<li>hardStainedGlass: BlockType</li>
+<li>hardStainedGlassPane: BlockType</li>
+<li>hayBlock: BlockType</li>
+<li>heavyWeightedPressurePlate: BlockType</li>
+<li>honeyBlock: BlockType</li>
+<li>honeycombBlock: BlockType</li>
+<li>hopper: BlockType</li>
+<li>ice: BlockType</li>
+<li>infestedDeepslate: BlockType</li>
+<li>infoUpdate: BlockType</li>
+<li>infoUpdate2: BlockType</li>
+<li>invisiblebedrock: BlockType</li>
+<li>ironBars: BlockType</li>
+<li>ironBlock: BlockType</li>
+<li>ironDoor: BlockType</li>
+<li>ironOre: BlockType</li>
+<li>ironTrapdoor: BlockType</li>
+<li>jigsaw: BlockType</li>
+<li>jukebox: BlockType</li>
+<li>jungleButton: BlockType</li>
+<li>jungleDoor: BlockType</li>
+<li>jungleFenceGate: BlockType</li>
+<li>junglePressurePlate: BlockType</li>
+<li>jungleStairs: BlockType</li>
+<li>jungleStandingSign: BlockType</li>
+<li>jungleTrapdoor: BlockType</li>
+<li>jungleWallSign: BlockType</li>
+<li>kelp: BlockType</li>
+<li>ladder: BlockType</li>
+<li>lantern: BlockType</li>
+<li>lapisBlock: BlockType</li>
+<li>lapisOre: BlockType</li>
+<li>largeAmethystBud: BlockType</li>
+<li>lava: BlockType</li>
+<li>lavaCauldron: BlockType</li>
+<li>leaves: BlockType</li>
+<li>leaves2: BlockType</li>
+<li>lectern: BlockType</li>
+<li>lever: BlockType</li>
+<li>lightBlock: BlockType</li>
+<li>lightBlueCandle: BlockType</li>
+<li>lightBlueCandleCake: BlockType</li>
+<li>lightBlueGlazedTerracotta: BlockType</li>
+<li>lightGrayCandle: BlockType</li>
+<li>lightGrayCandleCake: BlockType</li>
+<li>lightningRod: BlockType</li>
+<li>lightWeightedPressurePlate: BlockType</li>
+<li>limeCandle: BlockType</li>
+<li>limeCandleCake: BlockType</li>
+<li>limeGlazedTerracotta: BlockType</li>
+<li>litBlastFurnace: BlockType</li>
+<li>litDeepslateRedstoneOre: BlockType</li>
+<li>litFurnace: BlockType</li>
+<li>litPumpkin: BlockType</li>
+<li>litRedstoneLamp: BlockType</li>
+<li>litRedstoneOre: BlockType</li>
+<li>litSmoker: BlockType</li>
+<li>lodestone: BlockType</li>
+<li>log: BlockType</li>
+<li>log2: BlockType</li>
+<li>loom: BlockType</li>
+<li>magentaCandle: BlockType</li>
+<li>magentaCandleCake: BlockType</li>
+<li>magentaGlazedTerracotta: BlockType</li>
+<li>magma: BlockType</li>
+<li>mediumAmethystBud: BlockType</li>
+<li>melonBlock: BlockType</li>
+<li>melonStem: BlockType</li>
+<li>mobSpawner: BlockType</li>
+<li>monsterEgg: BlockType</li>
+<li>mossBlock: BlockType</li>
+<li>mossCarpet: BlockType</li>
+<li>mossyCobblestone: BlockType</li>
+<li>mossyCobblestoneStairs: BlockType</li>
+<li>mossyStoneBrickStairs: BlockType</li>
+<li>movingblock: BlockType</li>
+<li>mycelium: BlockType</li>
+<li>netherBrick: BlockType</li>
+<li>netherBrickFence: BlockType</li>
+<li>netherBrickStairs: BlockType</li>
+<li>netherGoldOre: BlockType</li>
+<li>netheriteBlock: BlockType</li>
+<li>netherrack: BlockType</li>
+<li>netherreactor: BlockType</li>
+<li>netherSprouts: BlockType</li>
+<li>netherWart: BlockType</li>
+<li>netherWartBlock: BlockType</li>
+<li>normalStoneStairs: BlockType</li>
+<li>noteblock: BlockType</li>
+<li>oakStairs: BlockType</li>
+<li>observer: BlockType</li>
+<li>obsidian: BlockType</li>
+<li>orangeCandle: BlockType</li>
+<li>orangeCandleCake: BlockType</li>
+<li>orangeGlazedTerracotta: BlockType</li>
+<li>oxidizedCopper: BlockType</li>
+<li>oxidizedCutCopper: BlockType</li>
+<li>oxidizedCutCopperSlab: BlockType</li>
+<li>oxidizedCutCopperStairs: BlockType</li>
+<li>oxidizedDoubleCutCopperSlab: BlockType</li>
+<li>packedIce: BlockType</li>
+<li>pinkCandle: BlockType</li>
+<li>pinkCandleCake: BlockType</li>
+<li>pinkGlazedTerracotta: BlockType</li>
+<li>piston: BlockType</li>
+<li>pistonarmcollision: BlockType</li>
+<li>planks: BlockType</li>
+<li>podzol: BlockType</li>
+<li>pointedDripstone: BlockType</li>
+<li>polishedAndesiteStairs: BlockType</li>
+<li>polishedBasalt: BlockType</li>
+<li>polishedBlackstone: BlockType</li>
+<li>polishedBlackstoneBrickDoubleSlab: BlockType</li>
+<li>polishedBlackstoneBricks: BlockType</li>
+<li>polishedBlackstoneBrickSlab: BlockType</li>
+<li>polishedBlackstoneBrickStairs: BlockType</li>
+<li>polishedBlackstoneBrickWall: BlockType</li>
+<li>polishedBlackstoneButton: BlockType</li>
+<li>polishedBlackstoneDoubleSlab: BlockType</li>
+<li>polishedBlackstonePressurePlate: BlockType</li>
+<li>polishedBlackstoneSlab: BlockType</li>
+<li>polishedBlackstoneStairs: BlockType</li>
+<li>polishedBlackstoneWall: BlockType</li>
+<li>polishedDeepslate: BlockType</li>
+<li>polishedDeepslateDoubleSlab: BlockType</li>
+<li>polishedDeepslateSlab: BlockType</li>
+<li>polishedDeepslateStairs: BlockType</li>
+<li>polishedDeepslateWall: BlockType</li>
+<li>polishedDioriteStairs: BlockType</li>
+<li>polishedGraniteStairs: BlockType</li>
+<li>portal: BlockType</li>
+<li>potatoes: BlockType</li>
+<li>powderSnow: BlockType</li>
+<li>poweredComparator: BlockType</li>
+<li>poweredRepeater: BlockType</li>
+<li>prismarine: BlockType</li>
+<li>prismarineBricksStairs: BlockType</li>
+<li>prismarineStairs: BlockType</li>
+<li>pumpkin: BlockType</li>
+<li>pumpkinStem: BlockType</li>
+<li>purpleCandle: BlockType</li>
+<li>purpleCandleCake: BlockType</li>
+<li>purpleGlazedTerracotta: BlockType</li>
+<li>purpurBlock: BlockType</li>
+<li>purpurStairs: BlockType</li>
+<li>quartzBlock: BlockType</li>
+<li>quartzBricks: BlockType</li>
+<li>quartzOre: BlockType</li>
+<li>quartzStairs: BlockType</li>
+<li>rail: BlockType</li>
+<li>rawCopperBlock: BlockType</li>
+<li>rawGoldBlock: BlockType</li>
+<li>rawIronBlock: BlockType</li>
+<li>redCandle: BlockType</li>
+<li>redCandleCake: BlockType</li>
+<li>redFlower: BlockType</li>
+<li>redGlazedTerracotta: BlockType</li>
+<li>redMushroom: BlockType</li>
+<li>redMushroomBlock: BlockType</li>
+<li>redNetherBrick: BlockType</li>
+<li>redNetherBrickStairs: BlockType</li>
+<li>redSandstone: BlockType</li>
+<li>redSandstoneStairs: BlockType</li>
+<li>redstoneBlock: BlockType</li>
+<li>redstoneLamp: BlockType</li>
+<li>redstoneOre: BlockType</li>
+<li>redstoneTorch: BlockType</li>
+<li>redstoneWire: BlockType</li>
+<li>reeds: BlockType</li>
+<li>repeatingCommandBlock: BlockType</li>
+<li>reserved6: BlockType</li>
+<li>respawnAnchor: BlockType</li>
+<li>sand: BlockType</li>
+<li>sandstone: BlockType</li>
+<li>sandstoneStairs: BlockType</li>
+<li>sapling: BlockType</li>
+<li>scaffolding: BlockType</li>
+<li>sculkSensor: BlockType</li>
+<li>seagrass: BlockType</li>
+<li>sealantern: BlockType</li>
+<li>seaPickle: BlockType</li>
+<li>shroomlight: BlockType</li>
+<li>shulkerBox: BlockType</li>
+<li>silverGlazedTerracotta: BlockType</li>
+<li>skull: BlockType</li>
+<li>slime: BlockType</li>
+<li>smallAmethystBud: BlockType</li>
+<li>smallDripleafBlock: BlockType</li>
+<li>smithingTable: BlockType</li>
+<li>smoker: BlockType</li>
+<li>smoothBasalt: BlockType</li>
+<li>smoothQuartzStairs: BlockType</li>
+<li>smoothRedSandstoneStairs: BlockType</li>
+<li>smoothSandstoneStairs: BlockType</li>
+<li>smoothStone: BlockType</li>
+<li>snow: BlockType</li>
+<li>snowLayer: BlockType</li>
+<li>soulCampfire: BlockType</li>
+<li>soulFire: BlockType</li>
+<li>soulLantern: BlockType</li>
+<li>soulSand: BlockType</li>
+<li>soulSoil: BlockType</li>
+<li>soulTorch: BlockType</li>
+<li>sponge: BlockType</li>
+<li>sporeBlossom: BlockType</li>
+<li>spruceButton: BlockType</li>
+<li>spruceDoor: BlockType</li>
+<li>spruceFenceGate: BlockType</li>
+<li>sprucePressurePlate: BlockType</li>
+<li>spruceStairs: BlockType</li>
+<li>spruceStandingSign: BlockType</li>
+<li>spruceTrapdoor: BlockType</li>
+<li>spruceWallSign: BlockType</li>
+<li>stainedGlass: BlockType</li>
+<li>stainedGlassPane: BlockType</li>
+<li>stainedHardenedClay: BlockType</li>
+<li>standingBanner: BlockType</li>
+<li>standingSign: BlockType</li>
+<li>stickyPiston: BlockType</li>
+<li>stickypistonarmcollision: BlockType</li>
+<li>stone: BlockType</li>
+<li>stonebrick: BlockType</li>
+<li>stoneBrickStairs: BlockType</li>
+<li>stoneButton: BlockType</li>
+<li>stonecutter: BlockType</li>
+<li>stonecutterBlock: BlockType</li>
+<li>stonePressurePlate: BlockType</li>
+<li>stoneSlab: BlockType</li>
+<li>stoneSlab2: BlockType</li>
+<li>stoneSlab3: BlockType</li>
+<li>stoneSlab4: BlockType</li>
+<li>stoneStairs: BlockType</li>
+<li>strippedAcaciaLog: BlockType</li>
+<li>strippedBirchLog: BlockType</li>
+<li>strippedCrimsonHyphae: BlockType</li>
+<li>strippedCrimsonStem: BlockType</li>
+<li>strippedDarkOakLog: BlockType</li>
+<li>strippedJungleLog: BlockType</li>
+<li>strippedOakLog: BlockType</li>
+<li>strippedSpruceLog: BlockType</li>
+<li>strippedWarpedHyphae: BlockType</li>
+<li>strippedWarpedStem: BlockType</li>
+<li>structureBlock: BlockType</li>
+<li>structureVoid: BlockType</li>
+<li>sweetBerryBush: BlockType</li>
+<li>tallgrass: BlockType</li>
+<li>target: BlockType</li>
+<li>tintedGlass: BlockType</li>
+<li>tnt: BlockType</li>
+<li>torch: BlockType</li>
+<li>trapdoor: BlockType</li>
+<li>trappedChest: BlockType</li>
+<li>tripwire: BlockType</li>
+<li>tripwireHook: BlockType</li>
+<li>tuff: BlockType</li>
+<li>turtleEgg: BlockType</li>
+<li>twistingVines: BlockType</li>
+<li>underwaterTorch: BlockType</li>
+<li>undyedShulkerBox: BlockType</li>
+<li>unknown: BlockType</li>
+<li>unlitRedstoneTorch: BlockType</li>
+<li>unpoweredComparator: BlockType</li>
+<li>unpoweredRepeater: BlockType</li>
+<li>vine: BlockType</li>
+<li>wallBanner: BlockType</li>
+<li>wallSign: BlockType</li>
+<li>warpedButton: BlockType</li>
+<li>warpedDoor: BlockType</li>
+<li>warpedDoubleSlab: BlockType</li>
+<li>warpedFence: BlockType</li>
+<li>warpedFenceGate: BlockType</li>
+<li>warpedFungus: BlockType</li>
+<li>warpedHyphae: BlockType</li>
+<li>warpedNylium: BlockType</li>
+<li>warpedPlanks: BlockType</li>
+<li>warpedPressurePlate: BlockType</li>
+<li>warpedRoots: BlockType</li>
+<li>warpedSlab: BlockType</li>
+<li>warpedStairs: BlockType</li>
+<li>warpedStandingSign: BlockType</li>
+<li>warpedStem: BlockType</li>
+<li>warpedTrapdoor: BlockType</li>
+<li>warpedWallSign: BlockType</li>
+<li>warpedWartBlock: BlockType</li>
+<li>water: BlockType</li>
+<li>waterlily: BlockType</li>
+<li>waxedCopper: BlockType</li>
+<li>waxedCutCopper: BlockType</li>
+<li>waxedCutCopperSlab: BlockType</li>
+<li>waxedCutCopperStairs: BlockType</li>
+<li>waxedDoubleCutCopperSlab: BlockType</li>
+<li>waxedExposedCopper: BlockType</li>
+<li>waxedExposedCutCopper: BlockType</li>
+<li>waxedExposedCutCopperSlab: BlockType</li>
+<li>waxedExposedCutCopperStairs: BlockType</li>
+<li>waxedExposedDoubleCutCopperSlab: BlockType</li>
+<li>waxedOxidizedCopper: BlockType</li>
+<li>waxedOxidizedCutCopper: BlockType</li>
+<li>waxedOxidizedCutCopperSlab: BlockType</li>
+<li>waxedOxidizedCutCopperStairs: BlockType</li>
+<li>waxedOxidizedDoubleCutCopperSlab: BlockType</li>
+<li>waxedWeatheredCopper: BlockType</li>
+<li>waxedWeatheredCutCopper: BlockType</li>
+<li>waxedWeatheredCutCopperSlab: BlockType</li>
+<li>waxedWeatheredCutCopperStairs: BlockType</li>
+<li>waxedWeatheredDoubleCutCopperSlab: BlockType</li>
+<li>weatheredCopper: BlockType</li>
+<li>weatheredCutCopper: BlockType</li>
+<li>weatheredCutCopperSlab: BlockType</li>
+<li>weatheredCutCopperStairs: BlockType</li>
+<li>weatheredDoubleCutCopperSlab: BlockType</li>
+<li>web: BlockType</li>
+<li>weepingVines: BlockType</li>
+<li>wheat: BlockType</li>
+<li>whiteCandle: BlockType</li>
+<li>whiteCandleCake: BlockType</li>
+<li>whiteGlazedTerracotta: BlockType</li>
+<li>witherRose: BlockType</li>
+<li>wood: BlockType</li>
+<li>woodenButton: BlockType</li>
+<li>woodenDoor: BlockType</li>
+<li>woodenPressurePlate: BlockType</li>
+<li>woodenSlab: BlockType</li>
+<li>wool: BlockType</li>
+<li>yellowCandle: BlockType</li>
+<li>yellowCandleCake: BlockType</li>
+<li>yellowFlower: BlockType</li>
+<li>yellowGlazedTerracotta: BlockType</li>
+<li>get(typeName: string): BlockType</li>
+<li>getAllBlockTypes(): Array<BlockType></li>
 </ul>
 </details>
 
 <details>
 <summary>BoolBlockProperty</summary>
 <ul> 
-<li><font color="#ff9800">name</font>: string</li>
-<li><font color="#ff9800">validValues</font>: Array<boolean></li>
-<li><font color="#ff9800">value</font>: boolean</li>
+<li>name: string</li>
+<li>validValues: Array<boolean></li>
+<li>value: boolean</li>
 </ul>
 </details>
 
 <details>
 <summary>Breathable</summary>
 <ul> 
-<li><font color="#ff9800">breatheBlocks</font>: Array<BlockPermutation></li>
-<li><font color="#ff9800">breathesAir</font>: boolean</li>
-<li><font color="#ff9800">breathesLava</font>: boolean</li>
-<li><font color="#ff9800">breathesSolids</font>: boolean</li>
-<li><font color="#ff9800">breathesWater</font>: boolean</li>
-<li><font color="#ff9800">generatesBubbles</font>: boolean</li>
-<li><font color="#ff9800">id</font>: string</li>
-<li><font color="#ff9800">inhaleTime</font>: number</li>
-<li><font color="#ff9800">nonBreatheBlocks</font>: Array<BlockPermutation></li>
-<li><font color="#ff9800">suffocateTime</font>: number</li>
-<li><font color="#ff9800">totalSupply</font>: number</li>
-<li><font color="#ffc107">setAirSupply</font>(value: number): void</li>
+<li>breatheBlocks: Array<BlockPermutation></li>
+<li>breathesAir: boolean</li>
+<li>breathesLava: boolean</li>
+<li>breathesSolids: boolean</li>
+<li>breathesWater: boolean</li>
+<li>generatesBubbles: boolean</li>
+<li>id: string</li>
+<li>inhaleTime: number</li>
+<li>nonBreatheBlocks: Array<BlockPermutation></li>
+<li>suffocateTime: number</li>
+<li>totalSupply: number</li>
+<li>setAirSupply(value: number): void</li>
 </ul>
 </details>
 
 <details>
 <summary>ChangeWeatherEventSignal</summary>
 <ul> 
-<li><font color="#ffc107">subscribe</font>(callback: (arg: WeatherChangedEvent) => void): (arg: WeatherChangedEvent) => void</li>
-<li><font color="#ffc107">unsubscribe</font>(callback: (arg: WeatherChangedEvent) => void): void</li>
+<li>subscribe(callback: (arg: WeatherChangedEvent) => void): (arg: WeatherChangedEvent) => void</li>
+<li>unsubscribe(callback: (arg: WeatherChangedEvent) => void): void</li>
 </ul>
 </details>
 
 <details>
 <summary>ChatEvent</summary>
 <ul> 
-<li><font color="#ff9800">message</font>: string</li>
-<li><font color="#ff9800">sender</font>: Player</li>
-<li><font color="#ff9800">sendToTargets</font>: boolean</li>
-<li><font color="#ff9800">targets</font>: Array<Player></li>
+<li>message: string</li>
+<li>sender: Player</li>
+<li>sendToTargets: boolean</li>
+<li>targets: Array<Player></li>
 </ul>
 </details>
 
 <details>
 <summary>ChatEventSignal</summary>
 <ul> 
-<li><font color="#ffc107">subscribe</font>(callback: (arg: ChatEvent) => void): (arg: ChatEvent) => void</li>
-<li><font color="#ffc107">unsubscribe</font>(callback: (arg: ChatEvent) => void): void</li>
+<li>subscribe(callback: (arg: ChatEvent) => void): (arg: ChatEvent) => void</li>
+<li>unsubscribe(callback: (arg: ChatEvent) => void): void</li>
 </ul>
 </details>
 
 <details>
 <summary>Color</summary>
 <ul> 
-<li><font color="#ff9800">id</font>: string</li>
-<li><font color="#ff9800">value</font>: number</li>
+<li>id: string</li>
+<li>value: number</li>
 </ul>
 </details>
 
 <details>
 <summary>Commands</summary>
 <ul> 
-<li><font color="#ffc107">run</font>(commandString: string): any</li>
+<li>run(commandString: string): any</li>
 </ul>
 </details>
 
 <details>
 <summary>Container</summary>
 <ul> 
-<li><font color="#ff9800">emptySlotsCount</font>: number</li>
-<li><font color="#ff9800">size</font>: number</li>
-<li><font color="#ffc107">addItem</font>(itemStack: ItemStack): void</li>
-<li><font color="#ffc107">getItem</font>(slot: number): ItemStack</li>
-<li><font color="#ffc107">setItem</font>(slot: number, itemStack: ItemStack): void</li>
-<li><font color="#ffc107">swapItems</font>(slot: number, otherSlot: number, otherContainer: Container): boolean</li>
-<li><font color="#ffc107">transferItem</font>(fromSlot: number, toSlot: number, toContainer: Container): boolean</li>
+<li>emptySlotsCount: number</li>
+<li>size: number</li>
+<li>addItem(itemStack: ItemStack): void</li>
+<li>getItem(slot: number): ItemStack</li>
+<li>setItem(slot: number, itemStack: ItemStack): void</li>
+<li>swapItems(slot: number, otherSlot: number, otherContainer: Container): boolean</li>
+<li>transferItem(fromSlot: number, toSlot: number, toContainer: Container): boolean</li>
 </ul>
 </details>
 
 <details>
 <summary>Dimension</summary>
 <ul> 
-<li><font color="#ffc107">createExplosion</font>(location: Location, radius: number, explosionOptions: ExplosionOptions): void</li>
-<li><font color="#ffc107">getBlock</font>(location: BlockLocation): Block</li>
-<li><font color="#ffc107">getEntitiesAtBlockLocation</font>(location: BlockLocation): Array<Entity></li>
-<li><font color="#ffc107">isEmpty</font>(location: BlockLocation): boolean</li>
-<li><font color="#ffc107">spawnEntity</font>(identifier: string, location: BlockLocation): Entity</li>
+<li>createExplosion(location: Location, radius: number, explosionOptions: ExplosionOptions): void</li>
+<li>getBlock(location: BlockLocation): Block</li>
+<li>getEntitiesAtBlockLocation(location: BlockLocation): Array<Entity></li>
+<li>isEmpty(location: BlockLocation): boolean</li>
+<li>spawnEntity(identifier: string, location: BlockLocation): Entity</li>
 </ul>
 </details>
 
 <details>
 <summary>Direction</summary>
 <ul> 
-<li><font color="#ff9800">down</font>: number</li>
-<li><font color="#ff9800">east</font>: number</li>
-<li><font color="#ff9800">north</font>: number</li>
-<li><font color="#ff9800">south</font>: number</li>
-<li><font color="#ff9800">up</font>: number</li>
-<li><font color="#ff9800">west</font>: number</li>
+<li>down: number</li>
+<li>east: number</li>
+<li>north: number</li>
+<li>south: number</li>
+<li>up: number</li>
+<li>west: number</li>
 </ul>
 </details>
 
 <details>
 <summary>Effect</summary>
 <ul> 
-<li><font color="#ff9800">amplifier</font>: number</li>
-<li><font color="#ff9800">displayName</font>: string</li>
-<li><font color="#ff9800">duration</font>: number</li>
+<li>amplifier: number</li>
+<li>displayName: string</li>
+<li>duration: number</li>
 </ul>
 </details>
 
 <details>
 <summary>Effects</summary>
 <ul> 
-<li><font color="#ff9800">absorption</font>: EffectType</li>
-<li><font color="#ff9800">badOmen</font>: EffectType</li>
-<li><font color="#ff9800">blindness</font>: EffectType</li>
-<li><font color="#ff9800">conduitPower</font>: EffectType</li>
-<li><font color="#ff9800">empty</font>: EffectType</li>
-<li><font color="#ff9800">fatalPoison</font>: EffectType</li>
-<li><font color="#ff9800">fireResistance</font>: EffectType</li>
-<li><font color="#ff9800">haste</font>: EffectType</li>
-<li><font color="#ff9800">healthBoost</font>: EffectType</li>
-<li><font color="#ff9800">hunger</font>: EffectType</li>
-<li><font color="#ff9800">instantDamage</font>: EffectType</li>
-<li><font color="#ff9800">instantHealth</font>: EffectType</li>
-<li><font color="#ff9800">invisibility</font>: EffectType</li>
-<li><font color="#ff9800">jumpBoost</font>: EffectType</li>
-<li><font color="#ff9800">levitation</font>: EffectType</li>
-<li><font color="#ff9800">miningFatigue</font>: EffectType</li>
-<li><font color="#ff9800">nausea</font>: EffectType</li>
-<li><font color="#ff9800">nightVision</font>: EffectType</li>
-<li><font color="#ff9800">poison</font>: EffectType</li>
-<li><font color="#ff9800">regeneration</font>: EffectType</li>
-<li><font color="#ff9800">resistance</font>: EffectType</li>
-<li><font color="#ff9800">saturation</font>: EffectType</li>
-<li><font color="#ff9800">slowFalling</font>: EffectType</li>
-<li><font color="#ff9800">slowness</font>: EffectType</li>
-<li><font color="#ff9800">speed</font>: EffectType</li>
-<li><font color="#ff9800">strength</font>: EffectType</li>
-<li><font color="#ff9800">villageHero</font>: EffectType</li>
-<li><font color="#ff9800">waterBreathing</font>: EffectType</li>
-<li><font color="#ff9800">weakness</font>: EffectType</li>
-<li><font color="#ff9800">wither</font>: EffectType</li>
+<li>absorption: EffectType</li>
+<li>badOmen: EffectType</li>
+<li>blindness: EffectType</li>
+<li>conduitPower: EffectType</li>
+<li>empty: EffectType</li>
+<li>fatalPoison: EffectType</li>
+<li>fireResistance: EffectType</li>
+<li>haste: EffectType</li>
+<li>healthBoost: EffectType</li>
+<li>hunger: EffectType</li>
+<li>instantDamage: EffectType</li>
+<li>instantHealth: EffectType</li>
+<li>invisibility: EffectType</li>
+<li>jumpBoost: EffectType</li>
+<li>levitation: EffectType</li>
+<li>miningFatigue: EffectType</li>
+<li>nausea: EffectType</li>
+<li>nightVision: EffectType</li>
+<li>poison: EffectType</li>
+<li>regeneration: EffectType</li>
+<li>resistance: EffectType</li>
+<li>saturation: EffectType</li>
+<li>slowFalling: EffectType</li>
+<li>slowness: EffectType</li>
+<li>speed: EffectType</li>
+<li>strength: EffectType</li>
+<li>villageHero: EffectType</li>
+<li>waterBreathing: EffectType</li>
+<li>weakness: EffectType</li>
+<li>wither: EffectType</li>
 </ul>
 </details>
 
 <details>
 <summary>EffectType</summary>
 <ul> 
-<li><font color="#ffc107">getName</font>(): string</li>
+<li>getName(): string</li>
 </ul>
 </details>
 
 <details>
 <summary>EmptySignal</summary>
 <ul> 
-<li><font color="#ffc107">subscribe</font>(callback: () => void): () => void</li>
-<li><font color="#ffc107">unsubscribe</font>(callback: () => void): void</li>
+<li>subscribe(callback: () => void): () => void</li>
+<li>unsubscribe(callback: () => void): void</li>
 </ul>
 </details>
 
 <details>
 <summary>Entity</summary>
 <ul> 
-<li><font color="#ff9800">id</font>: string</li>
-<li><font color="#ff9800">isSneaking</font>: boolean</li>
-<li><font color="#ff9800">location</font>: Location</li>
-<li><font color="#ff9800">nameTag</font>: string</li>
-<li><font color="#ff9800">velocity</font>: Location</li>
-<li><font color="#ffc107">addEffect</font>(effectType: EffectType, duration: number, amplifier: number): void</li>
-<li><font color="#ffc107">getComponent</font>(componentId: string): any</li>
-<li><font color="#ffc107">getComponents</font>(): Array<any></li>
-<li><font color="#ffc107">getEffect</font>(effectType: EffectType): Effect</li>
-<li><font color="#ffc107">hasComponent</font>(componentId: string): boolean</li>
-<li><font color="#ffc107">kill</font>(): void</li>
-<li><font color="#ffc107">triggerEvent</font>(eventName: string): void</li>
+<li>id: string</li>
+<li>isSneaking: boolean</li>
+<li>location: Location</li>
+<li>nameTag: string</li>
+<li>velocity: Location</li>
+<li>addEffect(effectType: EffectType, duration: number, amplifier: number): void</li>
+<li>getComponent(componentId: string): any</li>
+<li>getComponents(): Array<any></li>
+<li>getEffect(effectType: EffectType): Effect</li>
+<li>hasComponent(componentId: string): boolean</li>
+<li>kill(): void</li>
+<li>triggerEvent(eventName: string): void</li>
 </ul>
 </details>
 
 <details>
 <summary>EntityDefinitionFeedItem</summary>
 <ul> 
-<li><font color="#ff9800">growth</font>: number</li>
-<li><font color="#ff9800">item</font>: string</li>
+<li>growth: number</li>
+<li>item: string</li>
 </ul>
 </details>
 
 <details>
 <summary>EntityEvent</summary>
 <ul> 
-<li><font color="#ff9800">entity</font>: Entity</li>
+<li>entity: Entity</li>
 </ul>
 </details>
 
 <details>
 <summary>EntityEventSignal</summary>
 <ul> 
-<li><font color="#ffc107">subscribe</font>(callback: (arg: EntityEvent) => void): (arg: EntityEvent) => void</li>
-<li><font color="#ffc107">unsubscribe</font>(callback: (arg: EntityEvent) => void): void</li>
+<li>subscribe(callback: (arg: EntityEvent) => void): (arg: EntityEvent) => void</li>
+<li>unsubscribe(callback: (arg: EntityEvent) => void): void</li>
 </ul>
 </details>
 
 <details>
 <summary>Events</summary>
 <ul> 
-<li><font color="#ff9800">activatePiston</font>: ActivatePistonEventSignal</li>
-<li><font color="#ff9800">addEffect</font>: AddEffectEventSignal</li>
-<li><font color="#ff9800">beforeActivatePiston</font>: BeforeActivatePistonEventSignal</li>
-<li><font color="#ff9800">beforeChat</font>: BeforeChatEventSignal</li>
-<li><font color="#ff9800">beforeExplosion</font>: BeforeExplosionEventSignal</li>
-<li><font color="#ff9800">changeWeather</font>: ChangeWeatherEventSignal</li>
-<li><font color="#ff9800">chat</font>: ChatEventSignal</li>
-<li><font color="#ff9800">createEntity</font>: EntityEventSignal</li>
-<li><font color="#ff9800">explodeBlock</font>: ExplodeBlockSignal</li>
-<li><font color="#ff9800">explosion</font>: ExplosionEventSignal</li>
-<li><font color="#ff9800">tick</font>: EmptySignal</li>
+<li>activatePiston: ActivatePistonEventSignal</li>
+<li>addEffect: AddEffectEventSignal</li>
+<li>beforeActivatePiston: BeforeActivatePistonEventSignal</li>
+<li>beforeChat: BeforeChatEventSignal</li>
+<li>beforeExplosion: BeforeExplosionEventSignal</li>
+<li>changeWeather: ChangeWeatherEventSignal</li>
+<li>chat: ChatEventSignal</li>
+<li>createEntity: EntityEventSignal</li>
+<li>explodeBlock: ExplodeBlockSignal</li>
+<li>explosion: ExplosionEventSignal</li>
+<li>tick: EmptySignal</li>
 </ul>
 </details>
 
 <details>
 <summary>ExplodeBlockEvent</summary>
 <ul> 
-<li><font color="#ff9800">destroyedBlock</font>: Block</li>
-<li><font color="#ff9800">source</font>: Entity</li>
+<li>destroyedBlock: Block</li>
+<li>source: Entity</li>
 </ul>
 </details>
 
 <details>
 <summary>ExplodeBlockSignal</summary>
 <ul> 
-<li><font color="#ffc107">subscribe</font>(callback: (arg: ExplodeBlockEvent) => void): (arg: ExplodeBlockEvent) => void</li>
-<li><font color="#ffc107">unsubscribe</font>(callback: (arg: ExplodeBlockEvent) => void): void</li>
+<li>subscribe(callback: (arg: ExplodeBlockEvent) => void): (arg: ExplodeBlockEvent) => void</li>
+<li>unsubscribe(callback: (arg: ExplodeBlockEvent) => void): void</li>
 </ul>
 </details>
 
 <details>
 <summary>ExplosionEvent</summary>
 <ul> 
-<li><font color="#ff9800">dimension</font>: Dimension</li>
-<li><font color="#ff9800">impactedBlocks</font>: Array<BlockLocation></li>
-<li><font color="#ff9800">source</font>: Entity</li>
+<li>dimension: Dimension</li>
+<li>impactedBlocks: Array<BlockLocation></li>
+<li>source: Entity</li>
 </ul>
 </details>
 
 <details>
 <summary>ExplosionEventSignal</summary>
 <ul> 
-<li><font color="#ffc107">subscribe</font>(callback: (arg: ExplosionEvent) => void): (arg: ExplosionEvent) => void</li>
-<li><font color="#ffc107">unsubscribe</font>(callback: (arg: ExplosionEvent) => void): void</li>
+<li>subscribe(callback: (arg: ExplosionEvent) => void): (arg: ExplosionEvent) => void</li>
+<li>unsubscribe(callback: (arg: ExplosionEvent) => void): void</li>
 </ul>
 </details>
 
 <details>
 <summary>ExplosionOptions</summary>
 <ul> 
-<li><font color="#ff9800">allowUnderwater</font>: boolean</li>
-<li><font color="#ff9800">breaksBlocks</font>: boolean</li>
-<li><font color="#ff9800">causesFire</font>: boolean</li>
-<li><font color="#ff9800">source</font>: Entity</li>
+<li>allowUnderwater: boolean</li>
+<li>breaksBlocks: boolean</li>
+<li>causesFire: boolean</li>
+<li>source: Entity</li>
 	constructor()
 </ul>
 </details>
@@ -1303,19 +1303,19 @@
 <details>
 <summary>FeedItem</summary>
 <ul> 
-<li><font color="#ff9800">effects</font>: Array<FeedItemEffect></li>
-<li><font color="#ff9800">healAmount</font>: number</li>
-<li><font color="#ff9800">item</font>: string</li>
+<li>effects: Array<FeedItemEffect></li>
+<li>healAmount: number</li>
+<li>item: string</li>
 </ul>
 </details>
 
 <details>
 <summary>FeedItemEffect</summary>
 <ul> 
-<li><font color="#ff9800">amplifier</font>: number</li>
-<li><font color="#ff9800">chance</font>: number</li>
-<li><font color="#ff9800">duration</font>: number</li>
-<li><font color="#ff9800">name</font>: string</li>
+<li>amplifier: number</li>
+<li>chance: number</li>
+<li>duration: number</li>
+<li>name: string</li>
 </ul>
 </details>
 
@@ -1328,631 +1328,631 @@
 <details>
 <summary>FlyingSpeed</summary>
 <ul> 
-<li><font color="#ff9800">id</font>: string</li>
-<li><font color="#ff9800">value</font>: number</li>
+<li>id: string</li>
+<li>value: number</li>
 </ul>
 </details>
 
 <details>
 <summary>Healable</summary>
 <ul> 
-<li><font color="#ff9800">filters</font>: FilterGroup</li>
-<li><font color="#ff9800">forceUse</font>: boolean</li>
-<li><font color="#ff9800">id</font>: string</li>
-<li><font color="#ff9800">items</font>: Array<FeedItem></li>
+<li>filters: FilterGroup</li>
+<li>forceUse: boolean</li>
+<li>id: string</li>
+<li>items: Array<FeedItem></li>
 </ul>
 </details>
 
 <details>
 <summary>Health</summary>
 <ul> 
-<li><font color="#ff9800">current</font>: number</li>
-<li><font color="#ff9800">id</font>: string</li>
-<li><font color="#ff9800">value</font>: number</li>
-<li><font color="#ffc107">resetToDefaultValue</font>(): void</li>
-<li><font color="#ffc107">resetToMaxValue</font>(): void</li>
-<li><font color="#ffc107">resetToMinValue</font>(): void</li>
-<li><font color="#ffc107">setCurrent</font>(): void</li>
+<li>current: number</li>
+<li>id: string</li>
+<li>value: number</li>
+<li>resetToDefaultValue(): void</li>
+<li>resetToMaxValue(): void</li>
+<li>resetToMinValue(): void</li>
+<li>setCurrent(): void</li>
 </ul>
 </details>
 
 <details>
 <summary>IntBlockProperty</summary>
 <ul> 
-<li><font color="#ff9800">name</font>: string</li>
-<li><font color="#ff9800">validValues</font>: Array<number></li>
-<li><font color="#ff9800">value</font>: number</li>
+<li>name: string</li>
+<li>validValues: Array<number></li>
+<li>value: number</li>
 </ul>
 </details>
 
 <details>
 <summary>Inventory</summary>
 <ul> 
-<li><font color="#ff9800">additionalSlotsPerStrength</font>: number</li>
-<li><font color="#ff9800">canBeSiphonedFrom</font>: boolean</li>
-<li><font color="#ff9800">container</font>: InventoryComponentContainer</li>
-<li><font color="#ff9800">containerType</font>: string</li>
-<li><font color="#ff9800">inventorySize</font>: number</li>
-<li><font color="#ff9800">private</font>: boolean</li>
-<li><font color="#ff9800">restrictToOwner</font>: boolean</li>
+<li>additionalSlotsPerStrength: number</li>
+<li>canBeSiphonedFrom: boolean</li>
+<li>container: InventoryComponentContainer</li>
+<li>containerType: string</li>
+<li>inventorySize: number</li>
+<li>private: boolean</li>
+<li>restrictToOwner: boolean</li>
 </ul>
 </details>
 
 <details>
 <summary>InventoryComponentContainer</summary>
 <ul> 
-<li><font color="#ff9800">emptySlotsCount</font>: number</li>
-<li><font color="#ff9800">size</font>: number</li>
-<li><font color="#ffc107">addItem</font>(itemStack: ItemStack): void</li>
-<li><font color="#ffc107">getItem</font>(slot: number): ItemStack</li>
-<li><font color="#ffc107">setItem</font>(slot: number, itemStack: ItemStack): void</li>
-<li><font color="#ffc107">swapItems</font>(slot: number, otherSlot: number, otherContainer: Container): boolean</li>
-<li><font color="#ffc107">transferItem</font>(fromSlot: number, toSlot: number, toContainer: Container): boolean</li>
+<li>emptySlotsCount: number</li>
+<li>size: number</li>
+<li>addItem(itemStack: ItemStack): void</li>
+<li>getItem(slot: number): ItemStack</li>
+<li>setItem(slot: number, itemStack: ItemStack): void</li>
+<li>swapItems(slot: number, otherSlot: number, otherContainer: Container): boolean</li>
+<li>transferItem(fromSlot: number, toSlot: number, toContainer: Container): boolean</li>
 </ul>
 </details>
 
 <details>
 <summary>Items</summary>
 <ul> 
-<li><font color="#ff9800">acaciaBoat</font>: ItemType</li>
-<li><font color="#ff9800">acaciaButton</font>: ItemType</li>
-<li><font color="#ff9800">acaciaDoor</font>: ItemType</li>
-<li><font color="#ff9800">acaciaFenceGate</font>: ItemType</li>
-<li><font color="#ff9800">acaciaPressurePlate</font>: ItemType</li>
-<li><font color="#ff9800">acaciaSign</font>: ItemType</li>
-<li><font color="#ff9800">acaciaStairs</font>: ItemType</li>
-<li><font color="#ff9800">acaciaStandingSign</font>: ItemType</li>
-<li><font color="#ff9800">acaciaTrapdoor</font>: ItemType</li>
-<li><font color="#ff9800">acaciaWallSign</font>: ItemType</li>
-<li><font color="#ff9800">activatorRail</font>: ItemType</li>
-<li><font color="#ff9800">agentSpawnEgg</font>: ItemType</li>
-<li><font color="#ff9800">air</font>: ItemType</li>
-<li><font color="#ff9800">allow</font>: ItemType</li>
-<li><font color="#ff9800">amethystBlock</font>: ItemType</li>
-<li><font color="#ff9800">amethystCluster</font>: ItemType</li>
-<li><font color="#ff9800">amethystShard</font>: ItemType</li>
-<li><font color="#ff9800">ancientDebris</font>: ItemType</li>
-<li><font color="#ff9800">andesiteStairs</font>: ItemType</li>
-<li><font color="#ff9800">anvil</font>: ItemType</li>
-<li><font color="#ff9800">apple</font>: ItemType</li>
-<li><font color="#ff9800">armorStand</font>: ItemType</li>
-<li><font color="#ff9800">arrow</font>: ItemType</li>
-<li><font color="#ff9800">axolotlBucket</font>: ItemType</li>
-<li><font color="#ff9800">axolotlSpawnEgg</font>: ItemType</li>
-<li><font color="#ff9800">azalea</font>: ItemType</li>
-<li><font color="#ff9800">azaleaLeaves</font>: ItemType</li>
-<li><font color="#ff9800">azaleaLeavesFlowered</font>: ItemType</li>
-<li><font color="#ff9800">bakedPotato</font>: ItemType</li>
-<li><font color="#ff9800">balloon</font>: ItemType</li>
-<li><font color="#ff9800">bamboo</font>: ItemType</li>
-<li><font color="#ff9800">bambooSapling</font>: ItemType</li>
-<li><font color="#ff9800">banner</font>: ItemType</li>
-<li><font color="#ff9800">bannerPattern</font>: ItemType</li>
-<li><font color="#ff9800">barrel</font>: ItemType</li>
-<li><font color="#ff9800">barrier</font>: ItemType</li>
-<li><font color="#ff9800">basalt</font>: ItemType</li>
-<li><font color="#ff9800">batSpawnEgg</font>: ItemType</li>
-<li><font color="#ff9800">beacon</font>: ItemType</li>
-<li><font color="#ff9800">bed</font>: ItemType</li>
-<li><font color="#ff9800">bedrock</font>: ItemType</li>
-<li><font color="#ff9800">beef</font>: ItemType</li>
-<li><font color="#ff9800">beehive</font>: ItemType</li>
-<li><font color="#ff9800">beeNest</font>: ItemType</li>
-<li><font color="#ff9800">beeSpawnEgg</font>: ItemType</li>
-<li><font color="#ff9800">beetroot</font>: ItemType</li>
-<li><font color="#ff9800">beetrootSeeds</font>: ItemType</li>
-<li><font color="#ff9800">beetrootSoup</font>: ItemType</li>
-<li><font color="#ff9800">bell</font>: ItemType</li>
-<li><font color="#ff9800">bigDripleaf</font>: ItemType</li>
-<li><font color="#ff9800">birchBoat</font>: ItemType</li>
-<li><font color="#ff9800">birchButton</font>: ItemType</li>
-<li><font color="#ff9800">birchDoor</font>: ItemType</li>
-<li><font color="#ff9800">birchFenceGate</font>: ItemType</li>
-<li><font color="#ff9800">birchPressurePlate</font>: ItemType</li>
-<li><font color="#ff9800">birchSign</font>: ItemType</li>
-<li><font color="#ff9800">birchStairs</font>: ItemType</li>
-<li><font color="#ff9800">birchStandingSign</font>: ItemType</li>
-<li><font color="#ff9800">birchTrapdoor</font>: ItemType</li>
-<li><font color="#ff9800">birchWallSign</font>: ItemType</li>
-<li><font color="#ff9800">blackCandle</font>: ItemType</li>
-<li><font color="#ff9800">blackCandleCake</font>: ItemType</li>
-<li><font color="#ff9800">blackDye</font>: ItemType</li>
-<li><font color="#ff9800">blackGlazedTerracotta</font>: ItemType</li>
-<li><font color="#ff9800">blackstone</font>: ItemType</li>
-<li><font color="#ff9800">blackstoneDoubleSlab</font>: ItemType</li>
-<li><font color="#ff9800">blackstoneSlab</font>: ItemType</li>
-<li><font color="#ff9800">blackstoneStairs</font>: ItemType</li>
-<li><font color="#ff9800">blackstoneWall</font>: ItemType</li>
-<li><font color="#ff9800">blastFurnace</font>: ItemType</li>
-<li><font color="#ff9800">blazePowder</font>: ItemType</li>
-<li><font color="#ff9800">blazeRod</font>: ItemType</li>
-<li><font color="#ff9800">blazeSpawnEgg</font>: ItemType</li>
-<li><font color="#ff9800">bleach</font>: ItemType</li>
-<li><font color="#ff9800">blueCandle</font>: ItemType</li>
-<li><font color="#ff9800">blueCandleCake</font>: ItemType</li>
-<li><font color="#ff9800">blueDye</font>: ItemType</li>
-<li><font color="#ff9800">blueGlazedTerracotta</font>: ItemType</li>
-<li><font color="#ff9800">blueIce</font>: ItemType</li>
-<li><font color="#ff9800">boat</font>: ItemType</li>
-<li><font color="#ff9800">bone</font>: ItemType</li>
-<li><font color="#ff9800">boneBlock</font>: ItemType</li>
-<li><font color="#ff9800">boneMeal</font>: ItemType</li>
-<li><font color="#ff9800">book</font>: ItemType</li>
-<li><font color="#ff9800">bookshelf</font>: ItemType</li>
-<li><font color="#ff9800">borderBlock</font>: ItemType</li>
-<li><font color="#ff9800">bordureIndentedBannerPattern</font>: ItemType</li>
-<li><font color="#ff9800">bow</font>: ItemType</li>
-<li><font color="#ff9800">bowl</font>: ItemType</li>
-<li><font color="#ff9800">bread</font>: ItemType</li>
-<li><font color="#ff9800">brewingStand</font>: ItemType</li>
-<li><font color="#ff9800">brewingstandblock</font>: ItemType</li>
-<li><font color="#ff9800">brick</font>: ItemType</li>
-<li><font color="#ff9800">brickBlock</font>: ItemType</li>
-<li><font color="#ff9800">brickStairs</font>: ItemType</li>
-<li><font color="#ff9800">brownCandle</font>: ItemType</li>
-<li><font color="#ff9800">brownCandleCake</font>: ItemType</li>
-<li><font color="#ff9800">brownDye</font>: ItemType</li>
-<li><font color="#ff9800">brownGlazedTerracotta</font>: ItemType</li>
-<li><font color="#ff9800">brownMushroom</font>: ItemType</li>
-<li><font color="#ff9800">brownMushroomBlock</font>: ItemType</li>
-<li><font color="#ff9800">bubbleColumn</font>: ItemType</li>
-<li><font color="#ff9800">bucket</font>: ItemType</li>
-<li><font color="#ff9800">buddingAmethyst</font>: ItemType</li>
-<li><font color="#ff9800">cactus</font>: ItemType</li>
-<li><font color="#ff9800">cake</font>: ItemType</li>
-<li><font color="#ff9800">calcite</font>: ItemType</li>
-<li><font color="#ff9800">camera</font>: ItemType</li>
-<li><font color="#ff9800">campfire</font>: ItemType</li>
-<li><font color="#ff9800">candle</font>: ItemType</li>
-<li><font color="#ff9800">candleCake</font>: ItemType</li>
-<li><font color="#ff9800">carpet</font>: ItemType</li>
-<li><font color="#ff9800">carrot</font>: ItemType</li>
-<li><font color="#ff9800">carrotOnAStick</font>: ItemType</li>
-<li><font color="#ff9800">carrots</font>: ItemType</li>
-<li><font color="#ff9800">cartographyTable</font>: ItemType</li>
-<li><font color="#ff9800">carvedPumpkin</font>: ItemType</li>
-<li><font color="#ff9800">catSpawnEgg</font>: ItemType</li>
-<li><font color="#ff9800">cauldron</font>: ItemType</li>
-<li><font color="#ff9800">caveSpiderSpawnEgg</font>: ItemType</li>
-<li><font color="#ff9800">caveVines</font>: ItemType</li>
-<li><font color="#ff9800">caveVinesBodyWithBerries</font>: ItemType</li>
-<li><font color="#ff9800">caveVinesHeadWithBerries</font>: ItemType</li>
-<li><font color="#ff9800">chain</font>: ItemType</li>
-<li><font color="#ff9800">chainCommandBlock</font>: ItemType</li>
-<li><font color="#ff9800">chainmailBoots</font>: ItemType</li>
-<li><font color="#ff9800">chainmailChestplate</font>: ItemType</li>
-<li><font color="#ff9800">chainmailHelmet</font>: ItemType</li>
-<li><font color="#ff9800">chainmailLeggings</font>: ItemType</li>
-<li><font color="#ff9800">charcoal</font>: ItemType</li>
-<li><font color="#ff9800">chemicalHeat</font>: ItemType</li>
-<li><font color="#ff9800">chemistryTable</font>: ItemType</li>
-<li><font color="#ff9800">chest</font>: ItemType</li>
-<li><font color="#ff9800">chestMinecart</font>: ItemType</li>
-<li><font color="#ff9800">chicken</font>: ItemType</li>
-<li><font color="#ff9800">chickenSpawnEgg</font>: ItemType</li>
-<li><font color="#ff9800">chiseledDeepslate</font>: ItemType</li>
-<li><font color="#ff9800">chiseledNetherBricks</font>: ItemType</li>
-<li><font color="#ff9800">chiseledPolishedBlackstone</font>: ItemType</li>
-<li><font color="#ff9800">chorusFlower</font>: ItemType</li>
-<li><font color="#ff9800">chorusFruit</font>: ItemType</li>
-<li><font color="#ff9800">chorusPlant</font>: ItemType</li>
-<li><font color="#ff9800">clay</font>: ItemType</li>
-<li><font color="#ff9800">clayBall</font>: ItemType</li>
-<li><font color="#ff9800">clock</font>: ItemType</li>
-<li><font color="#ff9800">coal</font>: ItemType</li>
-<li><font color="#ff9800">coalBlock</font>: ItemType</li>
-<li><font color="#ff9800">coalOre</font>: ItemType</li>
-<li><font color="#ff9800">cobbledDeepslate</font>: ItemType</li>
-<li><font color="#ff9800">cobbledDeepslateDoubleSlab</font>: ItemType</li>
-<li><font color="#ff9800">cobbledDeepslateSlab</font>: ItemType</li>
-<li><font color="#ff9800">cobbledDeepslateStairs</font>: ItemType</li>
-<li><font color="#ff9800">cobbledDeepslateWall</font>: ItemType</li>
-<li><font color="#ff9800">cobblestone</font>: ItemType</li>
-<li><font color="#ff9800">cobblestoneWall</font>: ItemType</li>
-<li><font color="#ff9800">cocoa</font>: ItemType</li>
-<li><font color="#ff9800">cocoaBeans</font>: ItemType</li>
-<li><font color="#ff9800">cod</font>: ItemType</li>
-<li><font color="#ff9800">codBucket</font>: ItemType</li>
-<li><font color="#ff9800">codSpawnEgg</font>: ItemType</li>
-<li><font color="#ff9800">coloredTorchBp</font>: ItemType</li>
-<li><font color="#ff9800">coloredTorchRg</font>: ItemType</li>
-<li><font color="#ff9800">commandBlock</font>: ItemType</li>
-<li><font color="#ff9800">commandBlockMinecart</font>: ItemType</li>
-<li><font color="#ff9800">comparator</font>: ItemType</li>
-<li><font color="#ff9800">compass</font>: ItemType</li>
-<li><font color="#ff9800">composter</font>: ItemType</li>
-<li><font color="#ff9800">compound</font>: ItemType</li>
-<li><font color="#ff9800">concrete</font>: ItemType</li>
-<li><font color="#ff9800">concretePowder</font>: ItemType</li>
-<li><font color="#ff9800">conduit</font>: ItemType</li>
-<li><font color="#ff9800">cookedBeef</font>: ItemType</li>
-<li><font color="#ff9800">cookedChicken</font>: ItemType</li>
-<li><font color="#ff9800">cookedCod</font>: ItemType</li>
-<li><font color="#ff9800">cookedMutton</font>: ItemType</li>
-<li><font color="#ff9800">cookedPorkchop</font>: ItemType</li>
-<li><font color="#ff9800">cookedRabbit</font>: ItemType</li>
-<li><font color="#ff9800">cookedSalmon</font>: ItemType</li>
-<li><font color="#ff9800">cookie</font>: ItemType</li>
-<li><font color="#ff9800">copperBlock</font>: ItemType</li>
-<li><font color="#ff9800">copperIngot</font>: ItemType</li>
-<li><font color="#ff9800">copperOre</font>: ItemType</li>
-<li><font color="#ff9800">coral</font>: ItemType</li>
-<li><font color="#ff9800">coralBlock</font>: ItemType</li>
-<li><font color="#ff9800">coralFan</font>: ItemType</li>
-<li><font color="#ff9800">coralFanDead</font>: ItemType</li>
-<li><font color="#ff9800">coralFanHang</font>: ItemType</li>
-<li><font color="#ff9800">coralFanHang2</font>: ItemType</li>
-<li><font color="#ff9800">coralFanHang3</font>: ItemType</li>
-<li><font color="#ff9800">cowSpawnEgg</font>: ItemType</li>
-<li><font color="#ff9800">crackedDeepslateBricks</font>: ItemType</li>
-<li><font color="#ff9800">crackedDeepslateTiles</font>: ItemType</li>
-<li><font color="#ff9800">crackedNetherBricks</font>: ItemType</li>
-<li><font color="#ff9800">crackedPolishedBlackstoneBricks</font>: ItemType</li>
-<li><font color="#ff9800">craftingTable</font>: ItemType</li>
-<li><font color="#ff9800">creeperBannerPattern</font>: ItemType</li>
-<li><font color="#ff9800">creeperSpawnEgg</font>: ItemType</li>
-<li><font color="#ff9800">crimsonButton</font>: ItemType</li>
-<li><font color="#ff9800">crimsonDoor</font>: ItemType</li>
-<li><font color="#ff9800">crimsonDoubleSlab</font>: ItemType</li>
-<li><font color="#ff9800">crimsonFence</font>: ItemType</li>
-<li><font color="#ff9800">crimsonFenceGate</font>: ItemType</li>
-<li><font color="#ff9800">crimsonFungus</font>: ItemType</li>
-<li><font color="#ff9800">crimsonHyphae</font>: ItemType</li>
-<li><font color="#ff9800">crimsonNylium</font>: ItemType</li>
-<li><font color="#ff9800">crimsonPlanks</font>: ItemType</li>
-<li><font color="#ff9800">crimsonPressurePlate</font>: ItemType</li>
-<li><font color="#ff9800">crimsonRoots</font>: ItemType</li>
-<li><font color="#ff9800">crimsonSign</font>: ItemType</li>
-<li><font color="#ff9800">crimsonSlab</font>: ItemType</li>
-<li><font color="#ff9800">crimsonStairs</font>: ItemType</li>
-<li><font color="#ff9800">crimsonStandingSign</font>: ItemType</li>
-<li><font color="#ff9800">crimsonStem</font>: ItemType</li>
-<li><font color="#ff9800">crimsonTrapdoor</font>: ItemType</li>
-<li><font color="#ff9800">crimsonWallSign</font>: ItemType</li>
-<li><font color="#ff9800">crossbow</font>: ItemType</li>
-<li><font color="#ff9800">cryingObsidian</font>: ItemType</li>
-<li><font color="#ff9800">cutCopper</font>: ItemType</li>
-<li><font color="#ff9800">cutCopperSlab</font>: ItemType</li>
-<li><font color="#ff9800">cutCopperStairs</font>: ItemType</li>
-<li><font color="#ff9800">cyanCandle</font>: ItemType</li>
-<li><font color="#ff9800">cyanCandleCake</font>: ItemType</li>
-<li><font color="#ff9800">cyanDye</font>: ItemType</li>
-<li><font color="#ff9800">cyanGlazedTerracotta</font>: ItemType</li>
-<li><font color="#ff9800">darkOakBoat</font>: ItemType</li>
-<li><font color="#ff9800">darkOakButton</font>: ItemType</li>
-<li><font color="#ff9800">darkOakDoor</font>: ItemType</li>
-<li><font color="#ff9800">darkOakFenceGate</font>: ItemType</li>
-<li><font color="#ff9800">darkOakPressurePlate</font>: ItemType</li>
-<li><font color="#ff9800">darkOakSign</font>: ItemType</li>
-<li><font color="#ff9800">darkOakStairs</font>: ItemType</li>
-<li><font color="#ff9800">darkoakStandingSign</font>: ItemType</li>
-<li><font color="#ff9800">darkOakTrapdoor</font>: ItemType</li>
-<li><font color="#ff9800">darkoakWallSign</font>: ItemType</li>
-<li><font color="#ff9800">darkPrismarineStairs</font>: ItemType</li>
-<li><font color="#ff9800">daylightDetector</font>: ItemType</li>
-<li><font color="#ff9800">daylightDetectorInverted</font>: ItemType</li>
-<li><font color="#ff9800">deadbush</font>: ItemType</li>
-<li><font color="#ff9800">debugStick</font>: ItemType</li>
-<li><font color="#ff9800">deepslate</font>: ItemType</li>
-<li><font color="#ff9800">deepslateBrickDoubleSlab</font>: ItemType</li>
-<li><font color="#ff9800">deepslateBricks</font>: ItemType</li>
-<li><font color="#ff9800">deepslateBrickSlab</font>: ItemType</li>
-<li><font color="#ff9800">deepslateBrickStairs</font>: ItemType</li>
-<li><font color="#ff9800">deepslateBrickWall</font>: ItemType</li>
-<li><font color="#ff9800">deepslateCoalOre</font>: ItemType</li>
-<li><font color="#ff9800">deepslateCopperOre</font>: ItemType</li>
-<li><font color="#ff9800">deepslateDiamondOre</font>: ItemType</li>
-<li><font color="#ff9800">deepslateEmeraldOre</font>: ItemType</li>
-<li><font color="#ff9800">deepslateGoldOre</font>: ItemType</li>
-<li><font color="#ff9800">deepslateIronOre</font>: ItemType</li>
-<li><font color="#ff9800">deepslateLapisOre</font>: ItemType</li>
-<li><font color="#ff9800">deepslateRedstoneOre</font>: ItemType</li>
-<li><font color="#ff9800">deepslateTileDoubleSlab</font>: ItemType</li>
-<li><font color="#ff9800">deepslateTiles</font>: ItemType</li>
-<li><font color="#ff9800">deepslateTileSlab</font>: ItemType</li>
-<li><font color="#ff9800">deepslateTileStairs</font>: ItemType</li>
-<li><font color="#ff9800">deepslateTileWall</font>: ItemType</li>
-<li><font color="#ff9800">deny</font>: ItemType</li>
-<li><font color="#ff9800">detectorRail</font>: ItemType</li>
-<li><font color="#ff9800">diamond</font>: ItemType</li>
-<li><font color="#ff9800">diamondAxe</font>: ItemType</li>
-<li><font color="#ff9800">diamondBlock</font>: ItemType</li>
-<li><font color="#ff9800">diamondBoots</font>: ItemType</li>
-<li><font color="#ff9800">diamondChestplate</font>: ItemType</li>
-<li><font color="#ff9800">diamondHelmet</font>: ItemType</li>
-<li><font color="#ff9800">diamondHoe</font>: ItemType</li>
-<li><font color="#ff9800">diamondHorseArmor</font>: ItemType</li>
-<li><font color="#ff9800">diamondLeggings</font>: ItemType</li>
-<li><font color="#ff9800">diamondOre</font>: ItemType</li>
-<li><font color="#ff9800">diamondPickaxe</font>: ItemType</li>
-<li><font color="#ff9800">diamondShovel</font>: ItemType</li>
-<li><font color="#ff9800">diamondSword</font>: ItemType</li>
-<li><font color="#ff9800">dioriteStairs</font>: ItemType</li>
-<li><font color="#ff9800">dirt</font>: ItemType</li>
-<li><font color="#ff9800">dirtWithRoots</font>: ItemType</li>
-<li><font color="#ff9800">dispenser</font>: ItemType</li>
-<li><font color="#ff9800">dolphinSpawnEgg</font>: ItemType</li>
-<li><font color="#ff9800">donkeySpawnEgg</font>: ItemType</li>
-<li><font color="#ff9800">doubleCutCopperSlab</font>: ItemType</li>
-<li><font color="#ff9800">doublePlant</font>: ItemType</li>
-<li><font color="#ff9800">doubleStoneSlab</font>: ItemType</li>
-<li><font color="#ff9800">doubleStoneSlab2</font>: ItemType</li>
-<li><font color="#ff9800">doubleStoneSlab3</font>: ItemType</li>
-<li><font color="#ff9800">doubleStoneSlab4</font>: ItemType</li>
-<li><font color="#ff9800">doubleWoodenSlab</font>: ItemType</li>
-<li><font color="#ff9800">dragonBreath</font>: ItemType</li>
-<li><font color="#ff9800">dragonEgg</font>: ItemType</li>
-<li><font color="#ff9800">driedKelp</font>: ItemType</li>
-<li><font color="#ff9800">driedKelpBlock</font>: ItemType</li>
-<li><font color="#ff9800">dripstoneBlock</font>: ItemType</li>
-<li><font color="#ff9800">dropper</font>: ItemType</li>
-<li><font color="#ff9800">drownedSpawnEgg</font>: ItemType</li>
-<li><font color="#ff9800">dye</font>: ItemType</li>
-<li><font color="#ff9800">egg</font>: ItemType</li>
-<li><font color="#ff9800">elderGuardianSpawnEgg</font>: ItemType</li>
-<li><font color="#ff9800">element0</font>: ItemType</li>
-<li><font color="#ff9800">element1</font>: ItemType</li>
-<li><font color="#ff9800">element10</font>: ItemType</li>
-<li><font color="#ff9800">element100</font>: ItemType</li>
-<li><font color="#ff9800">element101</font>: ItemType</li>
-<li><font color="#ff9800">element102</font>: ItemType</li>
-<li><font color="#ff9800">element103</font>: ItemType</li>
-<li><font color="#ff9800">element104</font>: ItemType</li>
-<li><font color="#ff9800">element105</font>: ItemType</li>
-<li><font color="#ff9800">element106</font>: ItemType</li>
-<li><font color="#ff9800">element107</font>: ItemType</li>
-<li><font color="#ff9800">element108</font>: ItemType</li>
-<li><font color="#ff9800">element109</font>: ItemType</li>
-<li><font color="#ff9800">element11</font>: ItemType</li>
-<li><font color="#ff9800">element110</font>: ItemType</li>
-<li><font color="#ff9800">element111</font>: ItemType</li>
-<li><font color="#ff9800">element112</font>: ItemType</li>
-<li><font color="#ff9800">element113</font>: ItemType</li>
-<li><font color="#ff9800">element114</font>: ItemType</li>
-<li><font color="#ff9800">element115</font>: ItemType</li>
-<li><font color="#ff9800">element116</font>: ItemType</li>
-<li><font color="#ff9800">element117</font>: ItemType</li>
-<li><font color="#ff9800">element118</font>: ItemType</li>
-<li><font color="#ff9800">element12</font>: ItemType</li>
-<li><font color="#ff9800">element13</font>: ItemType</li>
-<li><font color="#ff9800">element14</font>: ItemType</li>
-<li><font color="#ff9800">element15</font>: ItemType</li>
-<li><font color="#ff9800">element16</font>: ItemType</li>
-<li><font color="#ff9800">element17</font>: ItemType</li>
-<li><font color="#ff9800">element18</font>: ItemType</li>
-<li><font color="#ff9800">element19</font>: ItemType</li>
-<li><font color="#ff9800">element2</font>: ItemType</li>
-<li><font color="#ff9800">element20</font>: ItemType</li>
-<li><font color="#ff9800">element21</font>: ItemType</li>
-<li><font color="#ff9800">element22</font>: ItemType</li>
-<li><font color="#ff9800">element23</font>: ItemType</li>
-<li><font color="#ff9800">element24</font>: ItemType</li>
-<li><font color="#ff9800">element25</font>: ItemType</li>
-<li><font color="#ff9800">element26</font>: ItemType</li>
-<li><font color="#ff9800">element27</font>: ItemType</li>
-<li><font color="#ff9800">element28</font>: ItemType</li>
-<li><font color="#ff9800">element29</font>: ItemType</li>
-<li><font color="#ff9800">element3</font>: ItemType</li>
-<li><font color="#ff9800">element30</font>: ItemType</li>
-<li><font color="#ff9800">element31</font>: ItemType</li>
-<li><font color="#ff9800">element32</font>: ItemType</li>
-<li><font color="#ff9800">element33</font>: ItemType</li>
-<li><font color="#ff9800">element34</font>: ItemType</li>
-<li><font color="#ff9800">element35</font>: ItemType</li>
-<li><font color="#ff9800">element36</font>: ItemType</li>
-<li><font color="#ff9800">element37</font>: ItemType</li>
-<li><font color="#ff9800">element38</font>: ItemType</li>
-<li><font color="#ff9800">element39</font>: ItemType</li>
-<li><font color="#ff9800">element4</font>: ItemType</li>
-<li><font color="#ff9800">element40</font>: ItemType</li>
-<li><font color="#ff9800">element41</font>: ItemType</li>
-<li><font color="#ff9800">element42</font>: ItemType</li>
-<li><font color="#ff9800">element43</font>: ItemType</li>
-<li><font color="#ff9800">element44</font>: ItemType</li>
-<li><font color="#ff9800">element45</font>: ItemType</li>
-<li><font color="#ff9800">element46</font>: ItemType</li>
-<li><font color="#ff9800">element47</font>: ItemType</li>
-<li><font color="#ff9800">element48</font>: ItemType</li>
-<li><font color="#ff9800">element49</font>: ItemType</li>
-<li><font color="#ff9800">element5</font>: ItemType</li>
-<li><font color="#ff9800">element50</font>: ItemType</li>
-<li><font color="#ff9800">element51</font>: ItemType</li>
-<li><font color="#ff9800">element52</font>: ItemType</li>
-<li><font color="#ff9800">element53</font>: ItemType</li>
-<li><font color="#ff9800">element54</font>: ItemType</li>
-<li><font color="#ff9800">element55</font>: ItemType</li>
-<li><font color="#ff9800">element56</font>: ItemType</li>
-<li><font color="#ff9800">element57</font>: ItemType</li>
-<li><font color="#ff9800">element58</font>: ItemType</li>
-<li><font color="#ff9800">element59</font>: ItemType</li>
-<li><font color="#ff9800">element6</font>: ItemType</li>
-<li><font color="#ff9800">element60</font>: ItemType</li>
-<li><font color="#ff9800">element61</font>: ItemType</li>
-<li><font color="#ff9800">element62</font>: ItemType</li>
-<li><font color="#ff9800">element63</font>: ItemType</li>
-<li><font color="#ff9800">element64</font>: ItemType</li>
-<li><font color="#ff9800">element65</font>: ItemType</li>
-<li><font color="#ff9800">element66</font>: ItemType</li>
-<li><font color="#ff9800">element67</font>: ItemType</li>
-<li><font color="#ff9800">element68</font>: ItemType</li>
-<li><font color="#ff9800">element69</font>: ItemType</li>
-<li><font color="#ff9800">element7</font>: ItemType</li>
-<li><font color="#ff9800">element70</font>: ItemType</li>
-<li><font color="#ff9800">element71</font>: ItemType</li>
-<li><font color="#ff9800">element72</font>: ItemType</li>
-<li><font color="#ff9800">element73</font>: ItemType</li>
-<li><font color="#ff9800">element74</font>: ItemType</li>
-<li><font color="#ff9800">element75</font>: ItemType</li>
-<li><font color="#ff9800">element76</font>: ItemType</li>
-<li><font color="#ff9800">element77</font>: ItemType</li>
-<li><font color="#ff9800">element78</font>: ItemType</li>
-<li><font color="#ff9800">element79</font>: ItemType</li>
-<li><font color="#ff9800">element8</font>: ItemType</li>
-<li><font color="#ff9800">element80</font>: ItemType</li>
-<li><font color="#ff9800">element81</font>: ItemType</li>
-<li><font color="#ff9800">element82</font>: ItemType</li>
-<li><font color="#ff9800">element83</font>: ItemType</li>
-<li><font color="#ff9800">element84</font>: ItemType</li>
-<li><font color="#ff9800">element85</font>: ItemType</li>
-<li><font color="#ff9800">element86</font>: ItemType</li>
-<li><font color="#ff9800">element87</font>: ItemType</li>
-<li><font color="#ff9800">element88</font>: ItemType</li>
-<li><font color="#ff9800">element89</font>: ItemType</li>
-<li><font color="#ff9800">element9</font>: ItemType</li>
-<li><font color="#ff9800">element90</font>: ItemType</li>
-<li><font color="#ff9800">element91</font>: ItemType</li>
-<li><font color="#ff9800">element92</font>: ItemType</li>
-<li><font color="#ff9800">element93</font>: ItemType</li>
-<li><font color="#ff9800">element94</font>: ItemType</li>
-<li><font color="#ff9800">element95</font>: ItemType</li>
-<li><font color="#ff9800">element96</font>: ItemType</li>
-<li><font color="#ff9800">element97</font>: ItemType</li>
-<li><font color="#ff9800">element98</font>: ItemType</li>
-<li><font color="#ff9800">element99</font>: ItemType</li>
-<li><font color="#ff9800">elytra</font>: ItemType</li>
-<li><font color="#ff9800">emerald</font>: ItemType</li>
-<li><font color="#ff9800">emeraldBlock</font>: ItemType</li>
-<li><font color="#ff9800">emeraldOre</font>: ItemType</li>
-<li><font color="#ff9800">emptyMap</font>: ItemType</li>
-<li><font color="#ff9800">enchantedBook</font>: ItemType</li>
-<li><font color="#ff9800">enchantedGoldenApple</font>: ItemType</li>
-<li><font color="#ff9800">enchantingTable</font>: ItemType</li>
-<li><font color="#ff9800">endBricks</font>: ItemType</li>
-<li><font color="#ff9800">endBrickStairs</font>: ItemType</li>
-<li><font color="#ff9800">endCrystal</font>: ItemType</li>
-<li><font color="#ff9800">enderChest</font>: ItemType</li>
-<li><font color="#ff9800">enderEye</font>: ItemType</li>
-<li><font color="#ff9800">endermanSpawnEgg</font>: ItemType</li>
-<li><font color="#ff9800">endermiteSpawnEgg</font>: ItemType</li>
-<li><font color="#ff9800">enderPearl</font>: ItemType</li>
-<li><font color="#ff9800">endGateway</font>: ItemType</li>
-<li><font color="#ff9800">endPortal</font>: ItemType</li>
-<li><font color="#ff9800">endPortalFrame</font>: ItemType</li>
-<li><font color="#ff9800">endRod</font>: ItemType</li>
-<li><font color="#ff9800">endStone</font>: ItemType</li>
-<li><font color="#ff9800">evokerSpawnEgg</font>: ItemType</li>
-<li><font color="#ff9800">experienceBottle</font>: ItemType</li>
-<li><font color="#ff9800">exposedCopper</font>: ItemType</li>
-<li><font color="#ff9800">exposedCutCopper</font>: ItemType</li>
-<li><font color="#ff9800">exposedCutCopperSlab</font>: ItemType</li>
-<li><font color="#ff9800">exposedCutCopperStairs</font>: ItemType</li>
-<li><font color="#ff9800">exposedDoubleCutCopperSlab</font>: ItemType</li>
-<li><font color="#ff9800">farmland</font>: ItemType</li>
-<li><font color="#ff9800">feather</font>: ItemType</li>
-<li><font color="#ff9800">fence</font>: ItemType</li>
-<li><font color="#ff9800">fenceGate</font>: ItemType</li>
-<li><font color="#ff9800">fermentedSpiderEye</font>: ItemType</li>
-<li><font color="#ff9800">fieldMasonedBannerPattern</font>: ItemType</li>
-<li><font color="#ff9800">filledMap</font>: ItemType</li>
-<li><font color="#ff9800">fire</font>: ItemType</li>
-<li><font color="#ff9800">fireCharge</font>: ItemType</li>
-<li><font color="#ff9800">fireworkRocket</font>: ItemType</li>
-<li><font color="#ff9800">fireworkStar</font>: ItemType</li>
-<li><font color="#ff9800">fishingRod</font>: ItemType</li>
-<li><font color="#ff9800">fletchingTable</font>: ItemType</li>
-<li><font color="#ff9800">flint</font>: ItemType</li>
-<li><font color="#ff9800">flintAndSteel</font>: ItemType</li>
-<li><font color="#ff9800">flowerBannerPattern</font>: ItemType</li>
-<li><font color="#ff9800">floweringAzalea</font>: ItemType</li>
-<li><font color="#ff9800">flowerPot</font>: ItemType</li>
-<li><font color="#ff9800">flowingLava</font>: ItemType</li>
-<li><font color="#ff9800">flowingWater</font>: ItemType</li>
-<li><font color="#ff9800">foxSpawnEgg</font>: ItemType</li>
-<li><font color="#ff9800">frame</font>: ItemType</li>
-<li><font color="#ff9800">frostedIce</font>: ItemType</li>
-<li><font color="#ff9800">furnace</font>: ItemType</li>
-<li><font color="#ff9800">ghastSpawnEgg</font>: ItemType</li>
-<li><font color="#ff9800">ghastTear</font>: ItemType</li>
-<li><font color="#ff9800">gildedBlackstone</font>: ItemType</li>
-<li><font color="#ff9800">glass</font>: ItemType</li>
-<li><font color="#ff9800">glassBottle</font>: ItemType</li>
-<li><font color="#ff9800">glassPane</font>: ItemType</li>
-<li><font color="#ff9800">glisteringMelonSlice</font>: ItemType</li>
-<li><font color="#ff9800">glowBerries</font>: ItemType</li>
-<li><font color="#ff9800">glowFrame</font>: ItemType</li>
-<li><font color="#ff9800">glowingobsidian</font>: ItemType</li>
-<li><font color="#ff9800">glowInkSac</font>: ItemType</li>
-<li><font color="#ff9800">glowLichen</font>: ItemType</li>
-<li><font color="#ff9800">glowSquidSpawnEgg</font>: ItemType</li>
-<li><font color="#ff9800">glowStick</font>: ItemType</li>
-<li><font color="#ff9800">glowstone</font>: ItemType</li>
-<li><font color="#ff9800">glowstoneDust</font>: ItemType</li>
-<li><font color="#ff9800">goatHorn</font>: ItemType</li>
-<li><font color="#ff9800">goatSpawnEgg</font>: ItemType</li>
-<li><font color="#ff9800">goldBlock</font>: ItemType</li>
-<li><font color="#ff9800">goldenApple</font>: ItemType</li>
-<li><font color="#ff9800">goldenAxe</font>: ItemType</li>
-<li><font color="#ff9800">goldenBoots</font>: ItemType</li>
-<li><font color="#ff9800">goldenCarrot</font>: ItemType</li>
-<li><font color="#ff9800">goldenChestplate</font>: ItemType</li>
-<li><font color="#ff9800">goldenHelmet</font>: ItemType</li>
-<li><font color="#ff9800">goldenHoe</font>: ItemType</li>
-<li><font color="#ff9800">goldenHorseArmor</font>: ItemType</li>
-<li><font color="#ff9800">goldenLeggings</font>: ItemType</li>
-<li><font color="#ff9800">goldenPickaxe</font>: ItemType</li>
-<li><font color="#ff9800">goldenRail</font>: ItemType</li>
-<li><font color="#ff9800">goldenShovel</font>: ItemType</li>
-<li><font color="#ff9800">goldenSword</font>: ItemType</li>
-<li><font color="#ff9800">goldIngot</font>: ItemType</li>
-<li><font color="#ff9800">goldNugget</font>: ItemType</li>
-<li><font color="#ff9800">goldOre</font>: ItemType</li>
-<li><font color="#ff9800">graniteStairs</font>: ItemType</li>
-<li><font color="#ff9800">grass</font>: ItemType</li>
-<li><font color="#ff9800">grassPath</font>: ItemType</li>
-<li><font color="#ff9800">gravel</font>: ItemType</li>
-<li><font color="#ff9800">grayCandle</font>: ItemType</li>
-<li><font color="#ff9800">grayCandleCake</font>: ItemType</li>
-<li><font color="#ff9800">grayDye</font>: ItemType</li>
-<li><font color="#ff9800">grayGlazedTerracotta</font>: ItemType</li>
-<li><font color="#ff9800">greenCandle</font>: ItemType</li>
-<li><font color="#ff9800">greenCandleCake</font>: ItemType</li>
-<li><font color="#ff9800">greenDye</font>: ItemType</li>
-<li><font color="#ff9800">greenGlazedTerracotta</font>: ItemType</li>
-<li><font color="#ff9800">grindstone</font>: ItemType</li>
-<li><font color="#ff9800">guardianSpawnEgg</font>: ItemType</li>
-<li><font color="#ff9800">gunpowder</font>: ItemType</li>
-<li><font color="#ff9800">hangingRoots</font>: ItemType</li>
-<li><font color="#ff9800">hardenedClay</font>: ItemType</li>
-<li><font color="#ff9800">hardGlass</font>: ItemType</li>
-<li><font color="#ff9800">hardGlassPane</font>: ItemType</li>
-<li><font color="#ff9800">hardStainedGlass</font>: ItemType</li>
-<li><font color="#ff9800">hardStainedGlassPane</font>: ItemType</li>
-<li><font color="#ff9800">hayBlock</font>: ItemType</li>
-<li><font color="#ff9800">heartOfTheSea</font>: ItemType</li>
-<li><font color="#ff9800">heavyWeightedPressurePlate</font>: ItemType</li>
-<li><font color="#ff9800">hoglinSpawnEgg</font>: ItemType</li>
-<li><font color="#ff9800">honeyBlock</font>: ItemType</li>
-<li><font color="#ff9800">honeyBottle</font>: ItemType</li>
-<li><font color="#ff9800">honeycomb</font>: ItemType</li>
-<li><font color="#ff9800">honeycombBlock</font>: ItemType</li>
-<li><font color="#ff9800">hopper</font>: ItemType</li>
-<li><font color="#ff9800">hopperMinecart</font>: ItemType</li>
-<li><font color="#ff9800">horseSpawnEgg</font>: ItemType</li>
-<li><font color="#ff9800">huskSpawnEgg</font>: ItemType</li>
-<li><font color="#ff9800">ice</font>: ItemType</li>
-<li><font color="#ff9800">iceBomb</font>: ItemType</li>
-<li><font color="#ff9800">infestedDeepslate</font>: ItemType</li>
-<li><font color="#ff9800">infoUpdate</font>: ItemType</li>
-<li><font color="#ff9800">infoUpdate2</font>: ItemType</li>
-<li><font color="#ff9800">inkSac</font>: ItemType</li>
-<li><font color="#ff9800">invisiblebedrock</font>: ItemType</li>
-<li><font color="#ff9800">ironAxe</font>: ItemType</li>
-<li><font color="#ff9800">ironBars</font>: ItemType</li>
-<li><font color="#ff9800">ironBlock</font>: ItemType</li>
-<li><font color="#ff9800">ironBoots</font>: ItemType</li>
-<li><font color="#ff9800">ironChestplate</font>: ItemType</li>
-<li><font color="#ff9800">ironDoor</font>: ItemType</li>
-<li><font color="#ff9800">ironHelmet</font>: ItemType</li>
-<li><font color="#ff9800">ironHoe</font>: ItemType</li>
-<li><font color="#ff9800">ironHorseArmor</font>: ItemType</li>
-<li><font color="#ff9800">ironIngot</font>: ItemType</li>
-<li><font color="#ff9800">ironLeggings</font>: ItemType</li>
-<li><font color="#ff9800">ironNugget</font>: ItemType</li>
-<li><font color="#ff9800">ironOre</font>: ItemType</li>
-<li><font color="#ff9800">ironPickaxe</font>: ItemType</li>
-<li><font color="#ff9800">ironShovel</font>: ItemType</li>
-<li><font color="#ff9800">ironSword</font>: ItemType</li>
-<li><font color="#ff9800">ironTrapdoor</font>: ItemType</li>
+<li>acaciaBoat: ItemType</li>
+<li>acaciaButton: ItemType</li>
+<li>acaciaDoor: ItemType</li>
+<li>acaciaFenceGate: ItemType</li>
+<li>acaciaPressurePlate: ItemType</li>
+<li>acaciaSign: ItemType</li>
+<li>acaciaStairs: ItemType</li>
+<li>acaciaStandingSign: ItemType</li>
+<li>acaciaTrapdoor: ItemType</li>
+<li>acaciaWallSign: ItemType</li>
+<li>activatorRail: ItemType</li>
+<li>agentSpawnEgg: ItemType</li>
+<li>air: ItemType</li>
+<li>allow: ItemType</li>
+<li>amethystBlock: ItemType</li>
+<li>amethystCluster: ItemType</li>
+<li>amethystShard: ItemType</li>
+<li>ancientDebris: ItemType</li>
+<li>andesiteStairs: ItemType</li>
+<li>anvil: ItemType</li>
+<li>apple: ItemType</li>
+<li>armorStand: ItemType</li>
+<li>arrow: ItemType</li>
+<li>axolotlBucket: ItemType</li>
+<li>axolotlSpawnEgg: ItemType</li>
+<li>azalea: ItemType</li>
+<li>azaleaLeaves: ItemType</li>
+<li>azaleaLeavesFlowered: ItemType</li>
+<li>bakedPotato: ItemType</li>
+<li>balloon: ItemType</li>
+<li>bamboo: ItemType</li>
+<li>bambooSapling: ItemType</li>
+<li>banner: ItemType</li>
+<li>bannerPattern: ItemType</li>
+<li>barrel: ItemType</li>
+<li>barrier: ItemType</li>
+<li>basalt: ItemType</li>
+<li>batSpawnEgg: ItemType</li>
+<li>beacon: ItemType</li>
+<li>bed: ItemType</li>
+<li>bedrock: ItemType</li>
+<li>beef: ItemType</li>
+<li>beehive: ItemType</li>
+<li>beeNest: ItemType</li>
+<li>beeSpawnEgg: ItemType</li>
+<li>beetroot: ItemType</li>
+<li>beetrootSeeds: ItemType</li>
+<li>beetrootSoup: ItemType</li>
+<li>bell: ItemType</li>
+<li>bigDripleaf: ItemType</li>
+<li>birchBoat: ItemType</li>
+<li>birchButton: ItemType</li>
+<li>birchDoor: ItemType</li>
+<li>birchFenceGate: ItemType</li>
+<li>birchPressurePlate: ItemType</li>
+<li>birchSign: ItemType</li>
+<li>birchStairs: ItemType</li>
+<li>birchStandingSign: ItemType</li>
+<li>birchTrapdoor: ItemType</li>
+<li>birchWallSign: ItemType</li>
+<li>blackCandle: ItemType</li>
+<li>blackCandleCake: ItemType</li>
+<li>blackDye: ItemType</li>
+<li>blackGlazedTerracotta: ItemType</li>
+<li>blackstone: ItemType</li>
+<li>blackstoneDoubleSlab: ItemType</li>
+<li>blackstoneSlab: ItemType</li>
+<li>blackstoneStairs: ItemType</li>
+<li>blackstoneWall: ItemType</li>
+<li>blastFurnace: ItemType</li>
+<li>blazePowder: ItemType</li>
+<li>blazeRod: ItemType</li>
+<li>blazeSpawnEgg: ItemType</li>
+<li>bleach: ItemType</li>
+<li>blueCandle: ItemType</li>
+<li>blueCandleCake: ItemType</li>
+<li>blueDye: ItemType</li>
+<li>blueGlazedTerracotta: ItemType</li>
+<li>blueIce: ItemType</li>
+<li>boat: ItemType</li>
+<li>bone: ItemType</li>
+<li>boneBlock: ItemType</li>
+<li>boneMeal: ItemType</li>
+<li>book: ItemType</li>
+<li>bookshelf: ItemType</li>
+<li>borderBlock: ItemType</li>
+<li>bordureIndentedBannerPattern: ItemType</li>
+<li>bow: ItemType</li>
+<li>bowl: ItemType</li>
+<li>bread: ItemType</li>
+<li>brewingStand: ItemType</li>
+<li>brewingstandblock: ItemType</li>
+<li>brick: ItemType</li>
+<li>brickBlock: ItemType</li>
+<li>brickStairs: ItemType</li>
+<li>brownCandle: ItemType</li>
+<li>brownCandleCake: ItemType</li>
+<li>brownDye: ItemType</li>
+<li>brownGlazedTerracotta: ItemType</li>
+<li>brownMushroom: ItemType</li>
+<li>brownMushroomBlock: ItemType</li>
+<li>bubbleColumn: ItemType</li>
+<li>bucket: ItemType</li>
+<li>buddingAmethyst: ItemType</li>
+<li>cactus: ItemType</li>
+<li>cake: ItemType</li>
+<li>calcite: ItemType</li>
+<li>camera: ItemType</li>
+<li>campfire: ItemType</li>
+<li>candle: ItemType</li>
+<li>candleCake: ItemType</li>
+<li>carpet: ItemType</li>
+<li>carrot: ItemType</li>
+<li>carrotOnAStick: ItemType</li>
+<li>carrots: ItemType</li>
+<li>cartographyTable: ItemType</li>
+<li>carvedPumpkin: ItemType</li>
+<li>catSpawnEgg: ItemType</li>
+<li>cauldron: ItemType</li>
+<li>caveSpiderSpawnEgg: ItemType</li>
+<li>caveVines: ItemType</li>
+<li>caveVinesBodyWithBerries: ItemType</li>
+<li>caveVinesHeadWithBerries: ItemType</li>
+<li>chain: ItemType</li>
+<li>chainCommandBlock: ItemType</li>
+<li>chainmailBoots: ItemType</li>
+<li>chainmailChestplate: ItemType</li>
+<li>chainmailHelmet: ItemType</li>
+<li>chainmailLeggings: ItemType</li>
+<li>charcoal: ItemType</li>
+<li>chemicalHeat: ItemType</li>
+<li>chemistryTable: ItemType</li>
+<li>chest: ItemType</li>
+<li>chestMinecart: ItemType</li>
+<li>chicken: ItemType</li>
+<li>chickenSpawnEgg: ItemType</li>
+<li>chiseledDeepslate: ItemType</li>
+<li>chiseledNetherBricks: ItemType</li>
+<li>chiseledPolishedBlackstone: ItemType</li>
+<li>chorusFlower: ItemType</li>
+<li>chorusFruit: ItemType</li>
+<li>chorusPlant: ItemType</li>
+<li>clay: ItemType</li>
+<li>clayBall: ItemType</li>
+<li>clock: ItemType</li>
+<li>coal: ItemType</li>
+<li>coalBlock: ItemType</li>
+<li>coalOre: ItemType</li>
+<li>cobbledDeepslate: ItemType</li>
+<li>cobbledDeepslateDoubleSlab: ItemType</li>
+<li>cobbledDeepslateSlab: ItemType</li>
+<li>cobbledDeepslateStairs: ItemType</li>
+<li>cobbledDeepslateWall: ItemType</li>
+<li>cobblestone: ItemType</li>
+<li>cobblestoneWall: ItemType</li>
+<li>cocoa: ItemType</li>
+<li>cocoaBeans: ItemType</li>
+<li>cod: ItemType</li>
+<li>codBucket: ItemType</li>
+<li>codSpawnEgg: ItemType</li>
+<li>coloredTorchBp: ItemType</li>
+<li>coloredTorchRg: ItemType</li>
+<li>commandBlock: ItemType</li>
+<li>commandBlockMinecart: ItemType</li>
+<li>comparator: ItemType</li>
+<li>compass: ItemType</li>
+<li>composter: ItemType</li>
+<li>compound: ItemType</li>
+<li>concrete: ItemType</li>
+<li>concretePowder: ItemType</li>
+<li>conduit: ItemType</li>
+<li>cookedBeef: ItemType</li>
+<li>cookedChicken: ItemType</li>
+<li>cookedCod: ItemType</li>
+<li>cookedMutton: ItemType</li>
+<li>cookedPorkchop: ItemType</li>
+<li>cookedRabbit: ItemType</li>
+<li>cookedSalmon: ItemType</li>
+<li>cookie: ItemType</li>
+<li>copperBlock: ItemType</li>
+<li>copperIngot: ItemType</li>
+<li>copperOre: ItemType</li>
+<li>coral: ItemType</li>
+<li>coralBlock: ItemType</li>
+<li>coralFan: ItemType</li>
+<li>coralFanDead: ItemType</li>
+<li>coralFanHang: ItemType</li>
+<li>coralFanHang2: ItemType</li>
+<li>coralFanHang3: ItemType</li>
+<li>cowSpawnEgg: ItemType</li>
+<li>crackedDeepslateBricks: ItemType</li>
+<li>crackedDeepslateTiles: ItemType</li>
+<li>crackedNetherBricks: ItemType</li>
+<li>crackedPolishedBlackstoneBricks: ItemType</li>
+<li>craftingTable: ItemType</li>
+<li>creeperBannerPattern: ItemType</li>
+<li>creeperSpawnEgg: ItemType</li>
+<li>crimsonButton: ItemType</li>
+<li>crimsonDoor: ItemType</li>
+<li>crimsonDoubleSlab: ItemType</li>
+<li>crimsonFence: ItemType</li>
+<li>crimsonFenceGate: ItemType</li>
+<li>crimsonFungus: ItemType</li>
+<li>crimsonHyphae: ItemType</li>
+<li>crimsonNylium: ItemType</li>
+<li>crimsonPlanks: ItemType</li>
+<li>crimsonPressurePlate: ItemType</li>
+<li>crimsonRoots: ItemType</li>
+<li>crimsonSign: ItemType</li>
+<li>crimsonSlab: ItemType</li>
+<li>crimsonStairs: ItemType</li>
+<li>crimsonStandingSign: ItemType</li>
+<li>crimsonStem: ItemType</li>
+<li>crimsonTrapdoor: ItemType</li>
+<li>crimsonWallSign: ItemType</li>
+<li>crossbow: ItemType</li>
+<li>cryingObsidian: ItemType</li>
+<li>cutCopper: ItemType</li>
+<li>cutCopperSlab: ItemType</li>
+<li>cutCopperStairs: ItemType</li>
+<li>cyanCandle: ItemType</li>
+<li>cyanCandleCake: ItemType</li>
+<li>cyanDye: ItemType</li>
+<li>cyanGlazedTerracotta: ItemType</li>
+<li>darkOakBoat: ItemType</li>
+<li>darkOakButton: ItemType</li>
+<li>darkOakDoor: ItemType</li>
+<li>darkOakFenceGate: ItemType</li>
+<li>darkOakPressurePlate: ItemType</li>
+<li>darkOakSign: ItemType</li>
+<li>darkOakStairs: ItemType</li>
+<li>darkoakStandingSign: ItemType</li>
+<li>darkOakTrapdoor: ItemType</li>
+<li>darkoakWallSign: ItemType</li>
+<li>darkPrismarineStairs: ItemType</li>
+<li>daylightDetector: ItemType</li>
+<li>daylightDetectorInverted: ItemType</li>
+<li>deadbush: ItemType</li>
+<li>debugStick: ItemType</li>
+<li>deepslate: ItemType</li>
+<li>deepslateBrickDoubleSlab: ItemType</li>
+<li>deepslateBricks: ItemType</li>
+<li>deepslateBrickSlab: ItemType</li>
+<li>deepslateBrickStairs: ItemType</li>
+<li>deepslateBrickWall: ItemType</li>
+<li>deepslateCoalOre: ItemType</li>
+<li>deepslateCopperOre: ItemType</li>
+<li>deepslateDiamondOre: ItemType</li>
+<li>deepslateEmeraldOre: ItemType</li>
+<li>deepslateGoldOre: ItemType</li>
+<li>deepslateIronOre: ItemType</li>
+<li>deepslateLapisOre: ItemType</li>
+<li>deepslateRedstoneOre: ItemType</li>
+<li>deepslateTileDoubleSlab: ItemType</li>
+<li>deepslateTiles: ItemType</li>
+<li>deepslateTileSlab: ItemType</li>
+<li>deepslateTileStairs: ItemType</li>
+<li>deepslateTileWall: ItemType</li>
+<li>deny: ItemType</li>
+<li>detectorRail: ItemType</li>
+<li>diamond: ItemType</li>
+<li>diamondAxe: ItemType</li>
+<li>diamondBlock: ItemType</li>
+<li>diamondBoots: ItemType</li>
+<li>diamondChestplate: ItemType</li>
+<li>diamondHelmet: ItemType</li>
+<li>diamondHoe: ItemType</li>
+<li>diamondHorseArmor: ItemType</li>
+<li>diamondLeggings: ItemType</li>
+<li>diamondOre: ItemType</li>
+<li>diamondPickaxe: ItemType</li>
+<li>diamondShovel: ItemType</li>
+<li>diamondSword: ItemType</li>
+<li>dioriteStairs: ItemType</li>
+<li>dirt: ItemType</li>
+<li>dirtWithRoots: ItemType</li>
+<li>dispenser: ItemType</li>
+<li>dolphinSpawnEgg: ItemType</li>
+<li>donkeySpawnEgg: ItemType</li>
+<li>doubleCutCopperSlab: ItemType</li>
+<li>doublePlant: ItemType</li>
+<li>doubleStoneSlab: ItemType</li>
+<li>doubleStoneSlab2: ItemType</li>
+<li>doubleStoneSlab3: ItemType</li>
+<li>doubleStoneSlab4: ItemType</li>
+<li>doubleWoodenSlab: ItemType</li>
+<li>dragonBreath: ItemType</li>
+<li>dragonEgg: ItemType</li>
+<li>driedKelp: ItemType</li>
+<li>driedKelpBlock: ItemType</li>
+<li>dripstoneBlock: ItemType</li>
+<li>dropper: ItemType</li>
+<li>drownedSpawnEgg: ItemType</li>
+<li>dye: ItemType</li>
+<li>egg: ItemType</li>
+<li>elderGuardianSpawnEgg: ItemType</li>
+<li>element0: ItemType</li>
+<li>element1: ItemType</li>
+<li>element10: ItemType</li>
+<li>element100: ItemType</li>
+<li>element101: ItemType</li>
+<li>element102: ItemType</li>
+<li>element103: ItemType</li>
+<li>element104: ItemType</li>
+<li>element105: ItemType</li>
+<li>element106: ItemType</li>
+<li>element107: ItemType</li>
+<li>element108: ItemType</li>
+<li>element109: ItemType</li>
+<li>element11: ItemType</li>
+<li>element110: ItemType</li>
+<li>element111: ItemType</li>
+<li>element112: ItemType</li>
+<li>element113: ItemType</li>
+<li>element114: ItemType</li>
+<li>element115: ItemType</li>
+<li>element116: ItemType</li>
+<li>element117: ItemType</li>
+<li>element118: ItemType</li>
+<li>element12: ItemType</li>
+<li>element13: ItemType</li>
+<li>element14: ItemType</li>
+<li>element15: ItemType</li>
+<li>element16: ItemType</li>
+<li>element17: ItemType</li>
+<li>element18: ItemType</li>
+<li>element19: ItemType</li>
+<li>element2: ItemType</li>
+<li>element20: ItemType</li>
+<li>element21: ItemType</li>
+<li>element22: ItemType</li>
+<li>element23: ItemType</li>
+<li>element24: ItemType</li>
+<li>element25: ItemType</li>
+<li>element26: ItemType</li>
+<li>element27: ItemType</li>
+<li>element28: ItemType</li>
+<li>element29: ItemType</li>
+<li>element3: ItemType</li>
+<li>element30: ItemType</li>
+<li>element31: ItemType</li>
+<li>element32: ItemType</li>
+<li>element33: ItemType</li>
+<li>element34: ItemType</li>
+<li>element35: ItemType</li>
+<li>element36: ItemType</li>
+<li>element37: ItemType</li>
+<li>element38: ItemType</li>
+<li>element39: ItemType</li>
+<li>element4: ItemType</li>
+<li>element40: ItemType</li>
+<li>element41: ItemType</li>
+<li>element42: ItemType</li>
+<li>element43: ItemType</li>
+<li>element44: ItemType</li>
+<li>element45: ItemType</li>
+<li>element46: ItemType</li>
+<li>element47: ItemType</li>
+<li>element48: ItemType</li>
+<li>element49: ItemType</li>
+<li>element5: ItemType</li>
+<li>element50: ItemType</li>
+<li>element51: ItemType</li>
+<li>element52: ItemType</li>
+<li>element53: ItemType</li>
+<li>element54: ItemType</li>
+<li>element55: ItemType</li>
+<li>element56: ItemType</li>
+<li>element57: ItemType</li>
+<li>element58: ItemType</li>
+<li>element59: ItemType</li>
+<li>element6: ItemType</li>
+<li>element60: ItemType</li>
+<li>element61: ItemType</li>
+<li>element62: ItemType</li>
+<li>element63: ItemType</li>
+<li>element64: ItemType</li>
+<li>element65: ItemType</li>
+<li>element66: ItemType</li>
+<li>element67: ItemType</li>
+<li>element68: ItemType</li>
+<li>element69: ItemType</li>
+<li>element7: ItemType</li>
+<li>element70: ItemType</li>
+<li>element71: ItemType</li>
+<li>element72: ItemType</li>
+<li>element73: ItemType</li>
+<li>element74: ItemType</li>
+<li>element75: ItemType</li>
+<li>element76: ItemType</li>
+<li>element77: ItemType</li>
+<li>element78: ItemType</li>
+<li>element79: ItemType</li>
+<li>element8: ItemType</li>
+<li>element80: ItemType</li>
+<li>element81: ItemType</li>
+<li>element82: ItemType</li>
+<li>element83: ItemType</li>
+<li>element84: ItemType</li>
+<li>element85: ItemType</li>
+<li>element86: ItemType</li>
+<li>element87: ItemType</li>
+<li>element88: ItemType</li>
+<li>element89: ItemType</li>
+<li>element9: ItemType</li>
+<li>element90: ItemType</li>
+<li>element91: ItemType</li>
+<li>element92: ItemType</li>
+<li>element93: ItemType</li>
+<li>element94: ItemType</li>
+<li>element95: ItemType</li>
+<li>element96: ItemType</li>
+<li>element97: ItemType</li>
+<li>element98: ItemType</li>
+<li>element99: ItemType</li>
+<li>elytra: ItemType</li>
+<li>emerald: ItemType</li>
+<li>emeraldBlock: ItemType</li>
+<li>emeraldOre: ItemType</li>
+<li>emptyMap: ItemType</li>
+<li>enchantedBook: ItemType</li>
+<li>enchantedGoldenApple: ItemType</li>
+<li>enchantingTable: ItemType</li>
+<li>endBricks: ItemType</li>
+<li>endBrickStairs: ItemType</li>
+<li>endCrystal: ItemType</li>
+<li>enderChest: ItemType</li>
+<li>enderEye: ItemType</li>
+<li>endermanSpawnEgg: ItemType</li>
+<li>endermiteSpawnEgg: ItemType</li>
+<li>enderPearl: ItemType</li>
+<li>endGateway: ItemType</li>
+<li>endPortal: ItemType</li>
+<li>endPortalFrame: ItemType</li>
+<li>endRod: ItemType</li>
+<li>endStone: ItemType</li>
+<li>evokerSpawnEgg: ItemType</li>
+<li>experienceBottle: ItemType</li>
+<li>exposedCopper: ItemType</li>
+<li>exposedCutCopper: ItemType</li>
+<li>exposedCutCopperSlab: ItemType</li>
+<li>exposedCutCopperStairs: ItemType</li>
+<li>exposedDoubleCutCopperSlab: ItemType</li>
+<li>farmland: ItemType</li>
+<li>feather: ItemType</li>
+<li>fence: ItemType</li>
+<li>fenceGate: ItemType</li>
+<li>fermentedSpiderEye: ItemType</li>
+<li>fieldMasonedBannerPattern: ItemType</li>
+<li>filledMap: ItemType</li>
+<li>fire: ItemType</li>
+<li>fireCharge: ItemType</li>
+<li>fireworkRocket: ItemType</li>
+<li>fireworkStar: ItemType</li>
+<li>fishingRod: ItemType</li>
+<li>fletchingTable: ItemType</li>
+<li>flint: ItemType</li>
+<li>flintAndSteel: ItemType</li>
+<li>flowerBannerPattern: ItemType</li>
+<li>floweringAzalea: ItemType</li>
+<li>flowerPot: ItemType</li>
+<li>flowingLava: ItemType</li>
+<li>flowingWater: ItemType</li>
+<li>foxSpawnEgg: ItemType</li>
+<li>frame: ItemType</li>
+<li>frostedIce: ItemType</li>
+<li>furnace: ItemType</li>
+<li>ghastSpawnEgg: ItemType</li>
+<li>ghastTear: ItemType</li>
+<li>gildedBlackstone: ItemType</li>
+<li>glass: ItemType</li>
+<li>glassBottle: ItemType</li>
+<li>glassPane: ItemType</li>
+<li>glisteringMelonSlice: ItemType</li>
+<li>glowBerries: ItemType</li>
+<li>glowFrame: ItemType</li>
+<li>glowingobsidian: ItemType</li>
+<li>glowInkSac: ItemType</li>
+<li>glowLichen: ItemType</li>
+<li>glowSquidSpawnEgg: ItemType</li>
+<li>glowStick: ItemType</li>
+<li>glowstone: ItemType</li>
+<li>glowstoneDust: ItemType</li>
+<li>goatHorn: ItemType</li>
+<li>goatSpawnEgg: ItemType</li>
+<li>goldBlock: ItemType</li>
+<li>goldenApple: ItemType</li>
+<li>goldenAxe: ItemType</li>
+<li>goldenBoots: ItemType</li>
+<li>goldenCarrot: ItemType</li>
+<li>goldenChestplate: ItemType</li>
+<li>goldenHelmet: ItemType</li>
+<li>goldenHoe: ItemType</li>
+<li>goldenHorseArmor: ItemType</li>
+<li>goldenLeggings: ItemType</li>
+<li>goldenPickaxe: ItemType</li>
+<li>goldenRail: ItemType</li>
+<li>goldenShovel: ItemType</li>
+<li>goldenSword: ItemType</li>
+<li>goldIngot: ItemType</li>
+<li>goldNugget: ItemType</li>
+<li>goldOre: ItemType</li>
+<li>graniteStairs: ItemType</li>
+<li>grass: ItemType</li>
+<li>grassPath: ItemType</li>
+<li>gravel: ItemType</li>
+<li>grayCandle: ItemType</li>
+<li>grayCandleCake: ItemType</li>
+<li>grayDye: ItemType</li>
+<li>grayGlazedTerracotta: ItemType</li>
+<li>greenCandle: ItemType</li>
+<li>greenCandleCake: ItemType</li>
+<li>greenDye: ItemType</li>
+<li>greenGlazedTerracotta: ItemType</li>
+<li>grindstone: ItemType</li>
+<li>guardianSpawnEgg: ItemType</li>
+<li>gunpowder: ItemType</li>
+<li>hangingRoots: ItemType</li>
+<li>hardenedClay: ItemType</li>
+<li>hardGlass: ItemType</li>
+<li>hardGlassPane: ItemType</li>
+<li>hardStainedGlass: ItemType</li>
+<li>hardStainedGlassPane: ItemType</li>
+<li>hayBlock: ItemType</li>
+<li>heartOfTheSea: ItemType</li>
+<li>heavyWeightedPressurePlate: ItemType</li>
+<li>hoglinSpawnEgg: ItemType</li>
+<li>honeyBlock: ItemType</li>
+<li>honeyBottle: ItemType</li>
+<li>honeycomb: ItemType</li>
+<li>honeycombBlock: ItemType</li>
+<li>hopper: ItemType</li>
+<li>hopperMinecart: ItemType</li>
+<li>horseSpawnEgg: ItemType</li>
+<li>huskSpawnEgg: ItemType</li>
+<li>ice: ItemType</li>
+<li>iceBomb: ItemType</li>
+<li>infestedDeepslate: ItemType</li>
+<li>infoUpdate: ItemType</li>
+<li>infoUpdate2: ItemType</li>
+<li>inkSac: ItemType</li>
+<li>invisiblebedrock: ItemType</li>
+<li>ironAxe: ItemType</li>
+<li>ironBars: ItemType</li>
+<li>ironBlock: ItemType</li>
+<li>ironBoots: ItemType</li>
+<li>ironChestplate: ItemType</li>
+<li>ironDoor: ItemType</li>
+<li>ironHelmet: ItemType</li>
+<li>ironHoe: ItemType</li>
+<li>ironHorseArmor: ItemType</li>
+<li>ironIngot: ItemType</li>
+<li>ironLeggings: ItemType</li>
+<li>ironNugget: ItemType</li>
+<li>ironOre: ItemType</li>
+<li>ironPickaxe: ItemType</li>
+<li>ironShovel: ItemType</li>
+<li>ironSword: ItemType</li>
+<li>ironTrapdoor: ItemType</li>
 <li>item.acaciaDoor: ItemType</li>
 <li>item.bed: ItemType</li>
 <li>item.beetroot: ItemType</li>
@@ -1980,1947 +1980,1947 @@
 <li>item.warpedDoor: ItemType</li>
 <li>item.wheat: ItemType</li>
 <li>item.woodenDoor: ItemType</li>
-<li><font color="#ff9800">jigsaw</font>: ItemType</li>
-<li><font color="#ff9800">jukebox</font>: ItemType</li>
-<li><font color="#ff9800">jungleBoat</font>: ItemType</li>
-<li><font color="#ff9800">jungleButton</font>: ItemType</li>
-<li><font color="#ff9800">jungleDoor</font>: ItemType</li>
-<li><font color="#ff9800">jungleFenceGate</font>: ItemType</li>
-<li><font color="#ff9800">junglePressurePlate</font>: ItemType</li>
-<li><font color="#ff9800">jungleSign</font>: ItemType</li>
-<li><font color="#ff9800">jungleStairs</font>: ItemType</li>
-<li><font color="#ff9800">jungleStandingSign</font>: ItemType</li>
-<li><font color="#ff9800">jungleTrapdoor</font>: ItemType</li>
-<li><font color="#ff9800">jungleWallSign</font>: ItemType</li>
-<li><font color="#ff9800">kelp</font>: ItemType</li>
-<li><font color="#ff9800">ladder</font>: ItemType</li>
-<li><font color="#ff9800">lantern</font>: ItemType</li>
-<li><font color="#ff9800">lapisBlock</font>: ItemType</li>
-<li><font color="#ff9800">lapisLazuli</font>: ItemType</li>
-<li><font color="#ff9800">lapisOre</font>: ItemType</li>
-<li><font color="#ff9800">largeAmethystBud</font>: ItemType</li>
-<li><font color="#ff9800">lava</font>: ItemType</li>
-<li><font color="#ff9800">lavaBucket</font>: ItemType</li>
-<li><font color="#ff9800">lavaCauldron</font>: ItemType</li>
-<li><font color="#ff9800">lead</font>: ItemType</li>
-<li><font color="#ff9800">leather</font>: ItemType</li>
-<li><font color="#ff9800">leatherBoots</font>: ItemType</li>
-<li><font color="#ff9800">leatherChestplate</font>: ItemType</li>
-<li><font color="#ff9800">leatherHelmet</font>: ItemType</li>
-<li><font color="#ff9800">leatherHorseArmor</font>: ItemType</li>
-<li><font color="#ff9800">leatherLeggings</font>: ItemType</li>
-<li><font color="#ff9800">leaves</font>: ItemType</li>
-<li><font color="#ff9800">leaves2</font>: ItemType</li>
-<li><font color="#ff9800">lectern</font>: ItemType</li>
-<li><font color="#ff9800">lever</font>: ItemType</li>
-<li><font color="#ff9800">lightBlock</font>: ItemType</li>
-<li><font color="#ff9800">lightBlueCandle</font>: ItemType</li>
-<li><font color="#ff9800">lightBlueCandleCake</font>: ItemType</li>
-<li><font color="#ff9800">lightBlueDye</font>: ItemType</li>
-<li><font color="#ff9800">lightBlueGlazedTerracotta</font>: ItemType</li>
-<li><font color="#ff9800">lightGrayCandle</font>: ItemType</li>
-<li><font color="#ff9800">lightGrayCandleCake</font>: ItemType</li>
-<li><font color="#ff9800">lightGrayDye</font>: ItemType</li>
-<li><font color="#ff9800">lightningRod</font>: ItemType</li>
-<li><font color="#ff9800">lightWeightedPressurePlate</font>: ItemType</li>
-<li><font color="#ff9800">limeCandle</font>: ItemType</li>
-<li><font color="#ff9800">limeCandleCake</font>: ItemType</li>
-<li><font color="#ff9800">limeDye</font>: ItemType</li>
-<li><font color="#ff9800">limeGlazedTerracotta</font>: ItemType</li>
-<li><font color="#ff9800">lingeringPotion</font>: ItemType</li>
-<li><font color="#ff9800">litBlastFurnace</font>: ItemType</li>
-<li><font color="#ff9800">litDeepslateRedstoneOre</font>: ItemType</li>
-<li><font color="#ff9800">litFurnace</font>: ItemType</li>
-<li><font color="#ff9800">litPumpkin</font>: ItemType</li>
-<li><font color="#ff9800">litRedstoneLamp</font>: ItemType</li>
-<li><font color="#ff9800">litRedstoneOre</font>: ItemType</li>
-<li><font color="#ff9800">litSmoker</font>: ItemType</li>
-<li><font color="#ff9800">llamaSpawnEgg</font>: ItemType</li>
-<li><font color="#ff9800">lodestone</font>: ItemType</li>
-<li><font color="#ff9800">lodestoneCompass</font>: ItemType</li>
-<li><font color="#ff9800">log</font>: ItemType</li>
-<li><font color="#ff9800">log2</font>: ItemType</li>
-<li><font color="#ff9800">loom</font>: ItemType</li>
-<li><font color="#ff9800">magentaCandle</font>: ItemType</li>
-<li><font color="#ff9800">magentaCandleCake</font>: ItemType</li>
-<li><font color="#ff9800">magentaDye</font>: ItemType</li>
-<li><font color="#ff9800">magentaGlazedTerracotta</font>: ItemType</li>
-<li><font color="#ff9800">magma</font>: ItemType</li>
-<li><font color="#ff9800">magmaCream</font>: ItemType</li>
-<li><font color="#ff9800">magmaCubeSpawnEgg</font>: ItemType</li>
-<li><font color="#ff9800">medicine</font>: ItemType</li>
-<li><font color="#ff9800">mediumAmethystBud</font>: ItemType</li>
-<li><font color="#ff9800">melonBlock</font>: ItemType</li>
-<li><font color="#ff9800">melonSeeds</font>: ItemType</li>
-<li><font color="#ff9800">melonSlice</font>: ItemType</li>
-<li><font color="#ff9800">melonStem</font>: ItemType</li>
-<li><font color="#ff9800">milkBucket</font>: ItemType</li>
-<li><font color="#ff9800">minecart</font>: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:acacia_boat: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:acacia_button: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:acacia_door: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:acacia_fence_gate: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:acacia_pressure_plate: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:acacia_sign: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:acacia_stairs: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:acacia_standing_sign: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:acacia_trapdoor: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:acacia_wall_sign: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:activator_rail: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:agent_spawn_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:air: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:allow: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:amethyst_block: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:amethyst_cluster: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:amethyst_shard: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:ancient_debris: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:andesite_stairs: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:anvil: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:apple: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:armor_stand: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:arrow: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:axolotl_bucket: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:axolotl_spawn_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:azalea: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:azalea_leaves: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:azalea_leaves_flowered: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:baked_potato: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:balloon: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:bamboo: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:bamboo_sapling: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:banner: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:banner_pattern: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:barrel: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:barrier: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:basalt: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:bat_spawn_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:beacon: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:bed: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:bedrock: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:bee_nest: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:bee_spawn_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:beef: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:beehive: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:beetroot: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:beetroot_seeds: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:beetroot_soup: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:bell: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:big_dripleaf: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:birch_boat: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:birch_button: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:birch_door: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:birch_fence_gate: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:birch_pressure_plate: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:birch_sign: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:birch_stairs: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:birch_standing_sign: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:birch_trapdoor: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:birch_wall_sign: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:black_candle: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:black_candle_cake: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:black_dye: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:black_glazed_terracotta: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:blackstone: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:blackstone_double_slab: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:blackstone_slab: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:blackstone_stairs: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:blackstone_wall: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:blast_furnace: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:blaze_powder: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:blaze_rod: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:blaze_spawn_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:bleach: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:blue_candle: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:blue_candle_cake: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:blue_dye: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:blue_glazed_terracotta: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:blue_ice: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:boat: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:bone: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:bone_block: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:bone_meal: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:book: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:bookshelf: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:border_block: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:bordure_indented_banner_pattern: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:bow: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:bowl: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:bread: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:brewing_stand: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:brewingstandblock: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:brick: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:brick_block: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:brick_stairs: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:brown_candle: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:brown_candle_cake: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:brown_dye: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:brown_glazed_terracotta: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:brown_mushroom: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:brown_mushroom_block: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:bubble_column: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:bucket: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:budding_amethyst: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:cactus: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:cake: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:calcite: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:camera: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:campfire: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:candle: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:candle_cake: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:carpet: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:carrot: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:carrot_on_a_stick: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:carrots: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:cartography_table: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:carved_pumpkin: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:cat_spawn_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:cauldron: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:cave_spider_spawn_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:cave_vines: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:cave_vines_body_with_berries: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:cave_vines_head_with_berries: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:chain: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:chain_command_block: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:chainmail_boots: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:chainmail_chestplate: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:chainmail_helmet: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:chainmail_leggings: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:charcoal: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:chemical_heat: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:chemistry_table: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:chest: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:chest_minecart: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:chicken: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:chicken_spawn_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:chiseled_deepslate: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:chiseled_nether_bricks: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:chiseled_polished_blackstone: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:chorus_flower: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:chorus_fruit: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:chorus_plant: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:clay: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:clay_ball: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:clock: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:coal: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:coal_block: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:coal_ore: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:cobbled_deepslate: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:cobbled_deepslate_double_slab: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:cobbled_deepslate_slab: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:cobbled_deepslate_stairs: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:cobbled_deepslate_wall: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:cobblestone: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:cobblestone_wall: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:cocoa: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:cocoa_beans: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:cod: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:cod_bucket: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:cod_spawn_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:colored_torch_bp: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:colored_torch_rg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:command_block: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:command_block_minecart: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:comparator: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:compass: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:composter: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:compound: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:concrete: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:concrete_powder: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:conduit: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:cooked_beef: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:cooked_chicken: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:cooked_cod: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:cooked_mutton: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:cooked_porkchop: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:cooked_rabbit: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:cooked_salmon: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:cookie: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:copper_block: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:copper_ingot: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:copper_ore: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:coral: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:coral_block: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:coral_fan: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:coral_fan_dead: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:coral_fan_hang: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:coral_fan_hang2: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:coral_fan_hang3: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:cow_spawn_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:cracked_deepslate_bricks: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:cracked_deepslate_tiles: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:cracked_nether_bricks: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:cracked_polished_blackstone_bricks: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:crafting_table: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:creeper_banner_pattern: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:creeper_spawn_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:crimson_button: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:crimson_door: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:crimson_double_slab: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:crimson_fence: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:crimson_fence_gate: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:crimson_fungus: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:crimson_hyphae: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:crimson_nylium: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:crimson_planks: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:crimson_pressure_plate: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:crimson_roots: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:crimson_sign: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:crimson_slab: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:crimson_stairs: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:crimson_standing_sign: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:crimson_stem: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:crimson_trapdoor: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:crimson_wall_sign: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:crossbow: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:crying_obsidian: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:cut_copper: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:cut_copper_slab: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:cut_copper_stairs: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:cyan_candle: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:cyan_candle_cake: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:cyan_dye: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:cyan_glazed_terracotta: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:dark_oak_boat: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:dark_oak_button: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:dark_oak_door: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:dark_oak_fence_gate: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:dark_oak_pressure_plate: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:dark_oak_sign: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:dark_oak_stairs: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:dark_oak_trapdoor: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:dark_prismarine_stairs: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:darkoak_standing_sign: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:darkoak_wall_sign: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:daylight_detector: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:daylight_detector_inverted: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:deadbush: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:debug_stick: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:deepslate: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:deepslate_brick_double_slab: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:deepslate_brick_slab: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:deepslate_brick_stairs: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:deepslate_brick_wall: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:deepslate_bricks: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:deepslate_coal_ore: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:deepslate_copper_ore: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:deepslate_diamond_ore: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:deepslate_emerald_ore: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:deepslate_gold_ore: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:deepslate_iron_ore: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:deepslate_lapis_ore: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:deepslate_redstone_ore: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:deepslate_tile_double_slab: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:deepslate_tile_slab: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:deepslate_tile_stairs: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:deepslate_tile_wall: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:deepslate_tiles: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:deny: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:detector_rail: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:diamond: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:diamond_axe: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:diamond_block: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:diamond_boots: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:diamond_chestplate: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:diamond_helmet: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:diamond_hoe: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:diamond_horse_armor: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:diamond_leggings: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:diamond_ore: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:diamond_pickaxe: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:diamond_shovel: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:diamond_sword: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:diorite_stairs: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:dirt: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:dirt_with_roots: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:dispenser: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:dolphin_spawn_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:donkey_spawn_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:double_cut_copper_slab: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:double_plant: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:double_stone_slab: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:double_stone_slab2: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:double_stone_slab3: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:double_stone_slab4: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:double_wooden_slab: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:dragon_breath: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:dragon_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:dried_kelp: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:dried_kelp_block: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:dripstone_block: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:dropper: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:drowned_spawn_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:dye: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:elder_guardian_spawn_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_0: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_1: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_10: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_100: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_101: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_102: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_103: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_104: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_105: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_106: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_107: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_108: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_109: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_11: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_110: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_111: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_112: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_113: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_114: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_115: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_116: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_117: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_118: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_12: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_13: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_14: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_15: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_16: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_17: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_18: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_19: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_2: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_20: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_21: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_22: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_23: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_24: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_25: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_26: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_27: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_28: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_29: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_3: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_30: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_31: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_32: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_33: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_34: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_35: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_36: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_37: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_38: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_39: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_4: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_40: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_41: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_42: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_43: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_44: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_45: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_46: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_47: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_48: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_49: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_5: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_50: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_51: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_52: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_53: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_54: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_55: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_56: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_57: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_58: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_59: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_6: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_60: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_61: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_62: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_63: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_64: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_65: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_66: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_67: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_68: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_69: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_7: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_70: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_71: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_72: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_73: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_74: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_75: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_76: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_77: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_78: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_79: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_8: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_80: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_81: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_82: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_83: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_84: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_85: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_86: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_87: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_88: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_89: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_9: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_90: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_91: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_92: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_93: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_94: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_95: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_96: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_97: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_98: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:element_99: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:elytra: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:emerald: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:emerald_block: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:emerald_ore: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:empty_map: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:enchanted_book: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:enchanted_golden_apple: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:enchanting_table: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:end_brick_stairs: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:end_bricks: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:end_crystal: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:end_gateway: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:end_portal: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:end_portal_frame: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:end_rod: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:end_stone: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:ender_chest: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:ender_eye: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:ender_pearl: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:enderman_spawn_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:endermite_spawn_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:evoker_spawn_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:experience_bottle: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:exposed_copper: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:exposed_cut_copper: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:exposed_cut_copper_slab: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:exposed_cut_copper_stairs: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:exposed_double_cut_copper_slab: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:farmland: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:feather: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:fence: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:fence_gate: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:fermented_spider_eye: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:field_masoned_banner_pattern: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:filled_map: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:fire: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:fire_charge: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:firework_rocket: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:firework_star: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:fishing_rod: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:fletching_table: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:flint: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:flint_and_steel: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:flower_banner_pattern: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:flower_pot: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:flowering_azalea: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:flowing_lava: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:flowing_water: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:fox_spawn_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:frame: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:frosted_ice: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:furnace: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:ghast_spawn_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:ghast_tear: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:gilded_blackstone: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:glass: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:glass_bottle: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:glass_pane: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:glistering_melon_slice: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:glow_berries: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:glow_frame: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:glow_ink_sac: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:glow_lichen: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:glow_squid_spawn_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:glow_stick: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:glowingobsidian: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:glowstone: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:glowstone_dust: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:goat_horn: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:goat_spawn_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:gold_block: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:gold_ingot: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:gold_nugget: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:gold_ore: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:golden_apple: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:golden_axe: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:golden_boots: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:golden_carrot: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:golden_chestplate: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:golden_helmet: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:golden_hoe: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:golden_horse_armor: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:golden_leggings: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:golden_pickaxe: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:golden_rail: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:golden_shovel: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:golden_sword: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:granite_stairs: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:grass: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:grass_path: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:gravel: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:gray_candle: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:gray_candle_cake: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:gray_dye: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:gray_glazed_terracotta: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:green_candle: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:green_candle_cake: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:green_dye: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:green_glazed_terracotta: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:grindstone: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:guardian_spawn_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:gunpowder: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:hanging_roots: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:hard_glass: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:hard_glass_pane: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:hard_stained_glass: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:hard_stained_glass_pane: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:hardened_clay: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:hay_block: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:heart_of_the_sea: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:heavy_weighted_pressure_plate: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:hoglin_spawn_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:honey_block: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:honey_bottle: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:honeycomb: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:honeycomb_block: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:hopper: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:hopper_minecart: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:horse_spawn_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:husk_spawn_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:ice: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:ice_bomb: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:infested_deepslate: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:info_update: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:info_update2: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:ink_sac: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:invisiblebedrock: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:iron_axe: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:iron_bars: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:iron_block: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:iron_boots: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:iron_chestplate: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:iron_door: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:iron_helmet: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:iron_hoe: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:iron_horse_armor: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:iron_ingot: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:iron_leggings: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:iron_nugget: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:iron_ore: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:iron_pickaxe: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:iron_shovel: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:iron_sword: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:iron_trapdoor: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:item.acacia_door: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:item.bed: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:item.beetroot: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:item.birch_door: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:item.cake: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:item.camera: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:item.campfire: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:item.cauldron: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:item.chain: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:item.crimson_door: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:item.dark_oak_door: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:item.flower_pot: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:item.frame: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:item.glow_frame: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:item.hopper: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:item.iron_door: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:item.jungle_door: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:item.kelp: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:item.nether_sprouts: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:item.nether_wart: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:item.reeds: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:item.skull: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:item.soul_campfire: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:item.spruce_door: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:item.warped_door: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:item.wheat: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:item.wooden_door: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:jigsaw: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:jukebox: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:jungle_boat: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:jungle_button: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:jungle_door: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:jungle_fence_gate: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:jungle_pressure_plate: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:jungle_sign: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:jungle_stairs: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:jungle_standing_sign: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:jungle_trapdoor: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:jungle_wall_sign: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:kelp: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:ladder: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:lantern: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:lapis_block: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:lapis_lazuli: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:lapis_ore: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:large_amethyst_bud: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:lava: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:lava_bucket: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:lava_cauldron: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:lead: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:leather: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:leather_boots: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:leather_chestplate: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:leather_helmet: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:leather_horse_armor: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:leather_leggings: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:leaves: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:leaves2: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:lectern: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:lever: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:light_block: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:light_blue_candle: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:light_blue_candle_cake: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:light_blue_dye: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:light_blue_glazed_terracotta: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:light_gray_candle: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:light_gray_candle_cake: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:light_gray_dye: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:light_weighted_pressure_plate: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:lightning_rod: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:lime_candle: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:lime_candle_cake: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:lime_dye: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:lime_glazed_terracotta: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:lingering_potion: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:lit_blast_furnace: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:lit_deepslate_redstone_ore: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:lit_furnace: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:lit_pumpkin: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:lit_redstone_lamp: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:lit_redstone_ore: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:lit_smoker: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:llama_spawn_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:lodestone: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:lodestone_compass: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:log: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:log2: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:loom: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:magenta_candle: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:magenta_candle_cake: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:magenta_dye: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:magenta_glazed_terracotta: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:magma: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:magma_cream: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:magma_cube_spawn_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:medicine: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:medium_amethyst_bud: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:melon_block: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:melon_seeds: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:melon_slice: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:melon_stem: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:milk_bucket: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:minecart: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:mob_spawner: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:mojang_banner_pattern: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:monster_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:mooshroom_spawn_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:moss_block: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:moss_carpet: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:mossy_cobblestone: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:mossy_cobblestone_stairs: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:mossy_stone_brick_stairs: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:movingblock: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:mule_spawn_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:mushroom_stew: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:music_disc_11: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:music_disc_13: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:music_disc_blocks: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:music_disc_cat: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:music_disc_chirp: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:music_disc_far: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:music_disc_mall: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:music_disc_mellohi: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:music_disc_pigstep: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:music_disc_stal: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:music_disc_strad: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:music_disc_wait: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:music_disc_ward: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:mutton: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:mycelium: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:name_tag: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:nautilus_shell: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:nether_brick: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:nether_brick_fence: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:nether_brick_stairs: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:nether_gold_ore: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:nether_sprouts: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:nether_star: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:nether_wart: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:nether_wart_block: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:netherbrick: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:netherite_axe: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:netherite_block: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:netherite_boots: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:netherite_chestplate: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:netherite_helmet: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:netherite_hoe: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:netherite_ingot: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:netherite_leggings: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:netherite_pickaxe: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:netherite_scrap: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:netherite_shovel: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:netherite_sword: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:netherrack: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:netherreactor: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:normal_stone_stairs: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:noteblock: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:npc_spawn_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:oak_boat: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:oak_sign: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:oak_stairs: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:observer: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:obsidian: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:ocelot_spawn_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:orange_candle: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:orange_candle_cake: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:orange_dye: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:orange_glazed_terracotta: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:oxidized_copper: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:oxidized_cut_copper: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:oxidized_cut_copper_slab: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:oxidized_cut_copper_stairs: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:oxidized_double_cut_copper_slab: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:packed_ice: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:painting: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:panda_spawn_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:paper: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:parrot_spawn_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:phantom_membrane: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:phantom_spawn_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:pig_spawn_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:piglin_banner_pattern: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:piglin_brute_spawn_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:piglin_spawn_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:pillager_spawn_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:pink_candle: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:pink_candle_cake: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:pink_dye: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:pink_glazed_terracotta: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:piston: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:pistonarmcollision: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:planks: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:podzol: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:pointed_dripstone: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:poisonous_potato: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:polar_bear_spawn_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:polished_andesite_stairs: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:polished_basalt: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:polished_blackstone: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:polished_blackstone_brick_double_slab: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:polished_blackstone_brick_slab: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:polished_blackstone_brick_stairs: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:polished_blackstone_brick_wall: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:polished_blackstone_bricks: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:polished_blackstone_button: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:polished_blackstone_double_slab: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:polished_blackstone_pressure_plate: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:polished_blackstone_slab: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:polished_blackstone_stairs: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:polished_blackstone_wall: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:polished_deepslate: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:polished_deepslate_double_slab: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:polished_deepslate_slab: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:polished_deepslate_stairs: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:polished_deepslate_wall: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:polished_diorite_stairs: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:polished_granite_stairs: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:popped_chorus_fruit: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:porkchop: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:portal: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:potato: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:potatoes: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:potion: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:powder_snow: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:powder_snow_bucket: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:powered_comparator: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:powered_repeater: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:prismarine: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:prismarine_bricks_stairs: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:prismarine_crystals: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:prismarine_shard: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:prismarine_stairs: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:pufferfish: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:pufferfish_bucket: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:pufferfish_spawn_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:pumpkin: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:pumpkin_pie: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:pumpkin_seeds: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:pumpkin_stem: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:purple_candle: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:purple_candle_cake: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:purple_dye: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:purple_glazed_terracotta: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:purpur_block: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:purpur_stairs: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:quartz: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:quartz_block: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:quartz_bricks: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:quartz_ore: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:quartz_stairs: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:rabbit: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:rabbit_foot: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:rabbit_hide: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:rabbit_spawn_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:rabbit_stew: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:rail: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:rapid_fertilizer: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:ravager_spawn_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:raw_copper: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:raw_copper_block: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:raw_gold: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:raw_gold_block: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:raw_iron: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:raw_iron_block: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:real_double_stone_slab: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:real_double_stone_slab2: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:real_double_stone_slab3: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:real_double_stone_slab4: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:red_candle: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:red_candle_cake: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:red_dye: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:red_flower: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:red_glazed_terracotta: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:red_mushroom: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:red_mushroom_block: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:red_nether_brick: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:red_nether_brick_stairs: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:red_sandstone: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:red_sandstone_stairs: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:redstone: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:redstone_block: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:redstone_lamp: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:redstone_ore: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:redstone_torch: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:redstone_wire: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:repeater: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:repeating_command_block: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:reserved6: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:respawn_anchor: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:rotten_flesh: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:saddle: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:salmon: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:salmon_bucket: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:salmon_spawn_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:sand: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:sandstone: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:sandstone_stairs: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:sapling: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:scaffolding: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:sculk_sensor: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:scute: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:sea_pickle: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:seagrass: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:sealantern: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:shears: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:sheep_spawn_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:shield: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:shroomlight: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:shulker_box: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:shulker_shell: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:shulker_spawn_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:silver_glazed_terracotta: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:silverfish_spawn_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:skeleton_horse_spawn_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:skeleton_spawn_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:skull: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:skull_banner_pattern: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:slime: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:slime_ball: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:slime_spawn_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:small_amethyst_bud: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:small_dripleaf_block: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:smithing_table: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:smoker: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:smooth_basalt: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:smooth_quartz_stairs: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:smooth_red_sandstone_stairs: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:smooth_sandstone_stairs: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:smooth_stone: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:snow: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:snow_layer: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:snowball: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:soul_campfire: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:soul_fire: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:soul_lantern: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:soul_sand: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:soul_soil: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:soul_torch: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:sparkler: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:spawn_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:spider_eye: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:spider_spawn_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:splash_potion: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:sponge: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:spore_blossom: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:spruce_boat: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:spruce_button: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:spruce_door: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:spruce_fence_gate: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:spruce_pressure_plate: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:spruce_sign: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:spruce_stairs: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:spruce_standing_sign: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:spruce_trapdoor: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:spruce_wall_sign: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:spyglass: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:squid_spawn_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:stained_glass: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:stained_glass_pane: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:stained_hardened_clay: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:standing_banner: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:standing_sign: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:stick: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:sticky_piston: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:stickypistonarmcollision: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:stone: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:stone_axe: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:stone_brick_stairs: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:stone_button: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:stone_hoe: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:stone_pickaxe: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:stone_pressure_plate: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:stone_shovel: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:stone_stairs: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:stone_sword: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:stonebrick: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:stonecutter: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:stonecutter_block: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:stray_spawn_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:strider_spawn_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:string: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:stripped_acacia_log: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:stripped_birch_log: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:stripped_crimson_hyphae: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:stripped_crimson_stem: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:stripped_dark_oak_log: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:stripped_jungle_log: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:stripped_oak_log: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:stripped_spruce_log: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:stripped_warped_hyphae: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:stripped_warped_stem: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:structure_block: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:structure_void: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:sugar: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:sugar_cane: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:suspicious_stew: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:sweet_berries: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:sweet_berry_bush: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:tallgrass: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:target: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:tinted_glass: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:tnt: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:tnt_minecart: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:torch: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:totem_of_undying: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:trapdoor: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:trapped_chest: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:trident: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:tripwire: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:tripwire_hook: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:tropical_fish: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:tropical_fish_bucket: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:tropical_fish_spawn_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:tuff: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:turtle_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:turtle_helmet: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:turtle_spawn_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:twisting_vines: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:underwater_torch: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:undyed_shulker_box: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:unknown: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:unlit_redstone_torch: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:unpowered_comparator: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:unpowered_repeater: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:vex_spawn_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:villager_spawn_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:vindicator_spawn_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:vine: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:wall_banner: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:wall_sign: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:wandering_trader_spawn_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:warped_button: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:warped_door: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:warped_double_slab: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:warped_fence: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:warped_fence_gate: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:warped_fungus: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:warped_fungus_on_a_stick: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:warped_hyphae: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:warped_nylium: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:warped_planks: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:warped_pressure_plate: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:warped_roots: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:warped_sign: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:warped_slab: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:warped_stairs: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:warped_standing_sign: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:warped_stem: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:warped_trapdoor: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:warped_wall_sign: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:warped_wart_block: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:water: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:water_bucket: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:waterlily: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:waxed_copper: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:waxed_cut_copper: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:waxed_cut_copper_slab: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:waxed_cut_copper_stairs: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:waxed_double_cut_copper_slab: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:waxed_exposed_copper: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:waxed_exposed_cut_copper: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:waxed_exposed_cut_copper_slab: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:waxed_exposed_cut_copper_stairs: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:waxed_exposed_double_cut_copper_slab: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:waxed_oxidized_copper: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:waxed_oxidized_cut_copper: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:waxed_oxidized_cut_copper_slab: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:waxed_oxidized_cut_copper_stairs: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:waxed_oxidized_double_cut_copper_slab: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:waxed_weathered_copper: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:waxed_weathered_cut_copper: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:waxed_weathered_cut_copper_slab: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:waxed_weathered_cut_copper_stairs: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:waxed_weathered_double_cut_copper_slab: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:weathered_copper: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:weathered_cut_copper: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:weathered_cut_copper_slab: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:weathered_cut_copper_stairs: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:weathered_double_cut_copper_slab: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:web: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:weeping_vines: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:wheat: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:wheat_seeds: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:white_candle: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:white_candle_cake: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:white_dye: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:white_glazed_terracotta: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:witch_spawn_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:wither_rose: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:wither_skeleton_spawn_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:wolf_spawn_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:wood: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:wooden_axe: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:wooden_button: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:wooden_door: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:wooden_hoe: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:wooden_pickaxe: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:wooden_pressure_plate: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:wooden_shovel: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:wooden_slab: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:wooden_sword: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:wool: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:writable_book: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:written_book: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:yellow_candle: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:yellow_candle_cake: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:yellow_dye: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:yellow_flower: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:yellow_glazed_terracotta: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:zoglin_spawn_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:zombie_horse_spawn_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:zombie_pigman_spawn_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:zombie_spawn_egg: ItemType</li>
-<li><font color="#ff9800">minecraft</font>:zombie_villager_spawn_egg: ItemType</li>
-<li><font color="#ff9800">mobSpawner</font>: ItemType</li>
-<li><font color="#ff9800">mojangBannerPattern</font>: ItemType</li>
-<li><font color="#ff9800">monsterEgg</font>: ItemType</li>
-<li><font color="#ff9800">mooshroomSpawnEgg</font>: ItemType</li>
-<li><font color="#ff9800">mossBlock</font>: ItemType</li>
-<li><font color="#ff9800">mossCarpet</font>: ItemType</li>
-<li><font color="#ff9800">mossyCobblestone</font>: ItemType</li>
-<li><font color="#ff9800">mossyCobblestoneStairs</font>: ItemType</li>
-<li><font color="#ff9800">mossyStoneBrickStairs</font>: ItemType</li>
-<li><font color="#ff9800">movingblock</font>: ItemType</li>
-<li><font color="#ff9800">muleSpawnEgg</font>: ItemType</li>
-<li><font color="#ff9800">mushroomStew</font>: ItemType</li>
-<li><font color="#ff9800">musicDisc11</font>: ItemType</li>
-<li><font color="#ff9800">musicDisc13</font>: ItemType</li>
-<li><font color="#ff9800">musicDiscBlocks</font>: ItemType</li>
-<li><font color="#ff9800">musicDiscCat</font>: ItemType</li>
-<li><font color="#ff9800">musicDiscChirp</font>: ItemType</li>
-<li><font color="#ff9800">musicDiscFar</font>: ItemType</li>
-<li><font color="#ff9800">musicDiscMall</font>: ItemType</li>
-<li><font color="#ff9800">musicDiscMellohi</font>: ItemType</li>
-<li><font color="#ff9800">musicDiscPigstep</font>: ItemType</li>
-<li><font color="#ff9800">musicDiscStal</font>: ItemType</li>
-<li><font color="#ff9800">musicDiscStrad</font>: ItemType</li>
-<li><font color="#ff9800">musicDiscWait</font>: ItemType</li>
-<li><font color="#ff9800">musicDiscWard</font>: ItemType</li>
-<li><font color="#ff9800">mutton</font>: ItemType</li>
-<li><font color="#ff9800">mycelium</font>: ItemType</li>
-<li><font color="#ff9800">nameTag</font>: ItemType</li>
-<li><font color="#ff9800">nautilusShell</font>: ItemType</li>
-<li><font color="#ff9800">netherbrick</font>: ItemType</li>
-<li><font color="#ff9800">netherBrick</font>: ItemType</li>
-<li><font color="#ff9800">netherBrickFence</font>: ItemType</li>
-<li><font color="#ff9800">netherBrickStairs</font>: ItemType</li>
-<li><font color="#ff9800">netherGoldOre</font>: ItemType</li>
-<li><font color="#ff9800">netheriteAxe</font>: ItemType</li>
-<li><font color="#ff9800">netheriteBlock</font>: ItemType</li>
-<li><font color="#ff9800">netheriteBoots</font>: ItemType</li>
-<li><font color="#ff9800">netheriteChestplate</font>: ItemType</li>
-<li><font color="#ff9800">netheriteHelmet</font>: ItemType</li>
-<li><font color="#ff9800">netheriteHoe</font>: ItemType</li>
-<li><font color="#ff9800">netheriteIngot</font>: ItemType</li>
-<li><font color="#ff9800">netheriteLeggings</font>: ItemType</li>
-<li><font color="#ff9800">netheritePickaxe</font>: ItemType</li>
-<li><font color="#ff9800">netheriteScrap</font>: ItemType</li>
-<li><font color="#ff9800">netheriteShovel</font>: ItemType</li>
-<li><font color="#ff9800">netheriteSword</font>: ItemType</li>
-<li><font color="#ff9800">netherrack</font>: ItemType</li>
-<li><font color="#ff9800">netherreactor</font>: ItemType</li>
-<li><font color="#ff9800">netherSprouts</font>: ItemType</li>
-<li><font color="#ff9800">netherStar</font>: ItemType</li>
-<li><font color="#ff9800">netherWart</font>: ItemType</li>
-<li><font color="#ff9800">netherWartBlock</font>: ItemType</li>
-<li><font color="#ff9800">normalStoneStairs</font>: ItemType</li>
-<li><font color="#ff9800">noteblock</font>: ItemType</li>
-<li><font color="#ff9800">npcSpawnEgg</font>: ItemType</li>
-<li><font color="#ff9800">oakBoat</font>: ItemType</li>
-<li><font color="#ff9800">oakSign</font>: ItemType</li>
-<li><font color="#ff9800">oakStairs</font>: ItemType</li>
-<li><font color="#ff9800">observer</font>: ItemType</li>
-<li><font color="#ff9800">obsidian</font>: ItemType</li>
-<li><font color="#ff9800">ocelotSpawnEgg</font>: ItemType</li>
-<li><font color="#ff9800">orangeCandle</font>: ItemType</li>
-<li><font color="#ff9800">orangeCandleCake</font>: ItemType</li>
-<li><font color="#ff9800">orangeDye</font>: ItemType</li>
-<li><font color="#ff9800">orangeGlazedTerracotta</font>: ItemType</li>
-<li><font color="#ff9800">oxidizedCopper</font>: ItemType</li>
-<li><font color="#ff9800">oxidizedCutCopper</font>: ItemType</li>
-<li><font color="#ff9800">oxidizedCutCopperSlab</font>: ItemType</li>
-<li><font color="#ff9800">oxidizedCutCopperStairs</font>: ItemType</li>
-<li><font color="#ff9800">oxidizedDoubleCutCopperSlab</font>: ItemType</li>
-<li><font color="#ff9800">packedIce</font>: ItemType</li>
-<li><font color="#ff9800">painting</font>: ItemType</li>
-<li><font color="#ff9800">pandaSpawnEgg</font>: ItemType</li>
-<li><font color="#ff9800">paper</font>: ItemType</li>
-<li><font color="#ff9800">parrotSpawnEgg</font>: ItemType</li>
-<li><font color="#ff9800">phantomMembrane</font>: ItemType</li>
-<li><font color="#ff9800">phantomSpawnEgg</font>: ItemType</li>
-<li><font color="#ff9800">piglinBannerPattern</font>: ItemType</li>
-<li><font color="#ff9800">piglinBruteSpawnEgg</font>: ItemType</li>
-<li><font color="#ff9800">piglinSpawnEgg</font>: ItemType</li>
-<li><font color="#ff9800">pigSpawnEgg</font>: ItemType</li>
-<li><font color="#ff9800">pillagerSpawnEgg</font>: ItemType</li>
-<li><font color="#ff9800">pinkCandle</font>: ItemType</li>
-<li><font color="#ff9800">pinkCandleCake</font>: ItemType</li>
-<li><font color="#ff9800">pinkDye</font>: ItemType</li>
-<li><font color="#ff9800">pinkGlazedTerracotta</font>: ItemType</li>
-<li><font color="#ff9800">piston</font>: ItemType</li>
-<li><font color="#ff9800">pistonarmcollision</font>: ItemType</li>
-<li><font color="#ff9800">planks</font>: ItemType</li>
-<li><font color="#ff9800">podzol</font>: ItemType</li>
-<li><font color="#ff9800">pointedDripstone</font>: ItemType</li>
-<li><font color="#ff9800">poisonousPotato</font>: ItemType</li>
-<li><font color="#ff9800">polarBearSpawnEgg</font>: ItemType</li>
-<li><font color="#ff9800">polishedAndesiteStairs</font>: ItemType</li>
-<li><font color="#ff9800">polishedBasalt</font>: ItemType</li>
-<li><font color="#ff9800">polishedBlackstone</font>: ItemType</li>
-<li><font color="#ff9800">polishedBlackstoneBrickDoubleSlab</font>: ItemType</li>
-<li><font color="#ff9800">polishedBlackstoneBricks</font>: ItemType</li>
-<li><font color="#ff9800">polishedBlackstoneBrickSlab</font>: ItemType</li>
-<li><font color="#ff9800">polishedBlackstoneBrickStairs</font>: ItemType</li>
-<li><font color="#ff9800">polishedBlackstoneBrickWall</font>: ItemType</li>
-<li><font color="#ff9800">polishedBlackstoneButton</font>: ItemType</li>
-<li><font color="#ff9800">polishedBlackstoneDoubleSlab</font>: ItemType</li>
-<li><font color="#ff9800">polishedBlackstonePressurePlate</font>: ItemType</li>
-<li><font color="#ff9800">polishedBlackstoneSlab</font>: ItemType</li>
-<li><font color="#ff9800">polishedBlackstoneStairs</font>: ItemType</li>
-<li><font color="#ff9800">polishedBlackstoneWall</font>: ItemType</li>
-<li><font color="#ff9800">polishedDeepslate</font>: ItemType</li>
-<li><font color="#ff9800">polishedDeepslateDoubleSlab</font>: ItemType</li>
-<li><font color="#ff9800">polishedDeepslateSlab</font>: ItemType</li>
-<li><font color="#ff9800">polishedDeepslateStairs</font>: ItemType</li>
-<li><font color="#ff9800">polishedDeepslateWall</font>: ItemType</li>
-<li><font color="#ff9800">polishedDioriteStairs</font>: ItemType</li>
-<li><font color="#ff9800">polishedGraniteStairs</font>: ItemType</li>
-<li><font color="#ff9800">poppedChorusFruit</font>: ItemType</li>
-<li><font color="#ff9800">porkchop</font>: ItemType</li>
-<li><font color="#ff9800">portal</font>: ItemType</li>
-<li><font color="#ff9800">potato</font>: ItemType</li>
-<li><font color="#ff9800">potatoes</font>: ItemType</li>
-<li><font color="#ff9800">potion</font>: ItemType</li>
-<li><font color="#ff9800">powderSnow</font>: ItemType</li>
-<li><font color="#ff9800">powderSnowBucket</font>: ItemType</li>
-<li><font color="#ff9800">poweredComparator</font>: ItemType</li>
-<li><font color="#ff9800">poweredRepeater</font>: ItemType</li>
-<li><font color="#ff9800">prismarine</font>: ItemType</li>
-<li><font color="#ff9800">prismarineBricksStairs</font>: ItemType</li>
-<li><font color="#ff9800">prismarineCrystals</font>: ItemType</li>
-<li><font color="#ff9800">prismarineShard</font>: ItemType</li>
-<li><font color="#ff9800">prismarineStairs</font>: ItemType</li>
-<li><font color="#ff9800">pufferfish</font>: ItemType</li>
-<li><font color="#ff9800">pufferfishBucket</font>: ItemType</li>
-<li><font color="#ff9800">pufferfishSpawnEgg</font>: ItemType</li>
-<li><font color="#ff9800">pumpkin</font>: ItemType</li>
-<li><font color="#ff9800">pumpkinPie</font>: ItemType</li>
-<li><font color="#ff9800">pumpkinSeeds</font>: ItemType</li>
-<li><font color="#ff9800">pumpkinStem</font>: ItemType</li>
-<li><font color="#ff9800">purpleCandle</font>: ItemType</li>
-<li><font color="#ff9800">purpleCandleCake</font>: ItemType</li>
-<li><font color="#ff9800">purpleDye</font>: ItemType</li>
-<li><font color="#ff9800">purpleGlazedTerracotta</font>: ItemType</li>
-<li><font color="#ff9800">purpurBlock</font>: ItemType</li>
-<li><font color="#ff9800">purpurStairs</font>: ItemType</li>
-<li><font color="#ff9800">quartz</font>: ItemType</li>
-<li><font color="#ff9800">quartzBlock</font>: ItemType</li>
-<li><font color="#ff9800">quartzBricks</font>: ItemType</li>
-<li><font color="#ff9800">quartzOre</font>: ItemType</li>
-<li><font color="#ff9800">quartzStairs</font>: ItemType</li>
-<li><font color="#ff9800">rabbit</font>: ItemType</li>
-<li><font color="#ff9800">rabbitFoot</font>: ItemType</li>
-<li><font color="#ff9800">rabbitHide</font>: ItemType</li>
-<li><font color="#ff9800">rabbitSpawnEgg</font>: ItemType</li>
-<li><font color="#ff9800">rabbitStew</font>: ItemType</li>
-<li><font color="#ff9800">rail</font>: ItemType</li>
-<li><font color="#ff9800">rapidFertilizer</font>: ItemType</li>
-<li><font color="#ff9800">ravagerSpawnEgg</font>: ItemType</li>
-<li><font color="#ff9800">rawCopper</font>: ItemType</li>
-<li><font color="#ff9800">rawCopperBlock</font>: ItemType</li>
-<li><font color="#ff9800">rawGold</font>: ItemType</li>
-<li><font color="#ff9800">rawGoldBlock</font>: ItemType</li>
-<li><font color="#ff9800">rawIron</font>: ItemType</li>
-<li><font color="#ff9800">rawIronBlock</font>: ItemType</li>
-<li><font color="#ff9800">realDoubleStoneSlab</font>: ItemType</li>
-<li><font color="#ff9800">realDoubleStoneSlab2</font>: ItemType</li>
-<li><font color="#ff9800">realDoubleStoneSlab3</font>: ItemType</li>
-<li><font color="#ff9800">realDoubleStoneSlab4</font>: ItemType</li>
-<li><font color="#ff9800">redCandle</font>: ItemType</li>
-<li><font color="#ff9800">redCandleCake</font>: ItemType</li>
-<li><font color="#ff9800">redDye</font>: ItemType</li>
-<li><font color="#ff9800">redFlower</font>: ItemType</li>
-<li><font color="#ff9800">redGlazedTerracotta</font>: ItemType</li>
-<li><font color="#ff9800">redMushroom</font>: ItemType</li>
-<li><font color="#ff9800">redMushroomBlock</font>: ItemType</li>
-<li><font color="#ff9800">redNetherBrick</font>: ItemType</li>
-<li><font color="#ff9800">redNetherBrickStairs</font>: ItemType</li>
-<li><font color="#ff9800">redSandstone</font>: ItemType</li>
-<li><font color="#ff9800">redSandstoneStairs</font>: ItemType</li>
-<li><font color="#ff9800">redstone</font>: ItemType</li>
-<li><font color="#ff9800">redstoneBlock</font>: ItemType</li>
-<li><font color="#ff9800">redstoneLamp</font>: ItemType</li>
-<li><font color="#ff9800">redstoneOre</font>: ItemType</li>
-<li><font color="#ff9800">redstoneTorch</font>: ItemType</li>
-<li><font color="#ff9800">redstoneWire</font>: ItemType</li>
-<li><font color="#ff9800">repeater</font>: ItemType</li>
-<li><font color="#ff9800">repeatingCommandBlock</font>: ItemType</li>
-<li><font color="#ff9800">reserved6</font>: ItemType</li>
-<li><font color="#ff9800">respawnAnchor</font>: ItemType</li>
-<li><font color="#ff9800">rottenFlesh</font>: ItemType</li>
-<li><font color="#ff9800">saddle</font>: ItemType</li>
-<li><font color="#ff9800">salmon</font>: ItemType</li>
-<li><font color="#ff9800">salmonBucket</font>: ItemType</li>
-<li><font color="#ff9800">salmonSpawnEgg</font>: ItemType</li>
-<li><font color="#ff9800">sand</font>: ItemType</li>
-<li><font color="#ff9800">sandstone</font>: ItemType</li>
-<li><font color="#ff9800">sandstoneStairs</font>: ItemType</li>
-<li><font color="#ff9800">sapling</font>: ItemType</li>
-<li><font color="#ff9800">scaffolding</font>: ItemType</li>
-<li><font color="#ff9800">sculkSensor</font>: ItemType</li>
-<li><font color="#ff9800">scute</font>: ItemType</li>
-<li><font color="#ff9800">seagrass</font>: ItemType</li>
-<li><font color="#ff9800">sealantern</font>: ItemType</li>
-<li><font color="#ff9800">seaPickle</font>: ItemType</li>
-<li><font color="#ff9800">shears</font>: ItemType</li>
-<li><font color="#ff9800">sheepSpawnEgg</font>: ItemType</li>
-<li><font color="#ff9800">shield</font>: ItemType</li>
-<li><font color="#ff9800">shroomlight</font>: ItemType</li>
-<li><font color="#ff9800">shulkerBox</font>: ItemType</li>
-<li><font color="#ff9800">shulkerShell</font>: ItemType</li>
-<li><font color="#ff9800">shulkerSpawnEgg</font>: ItemType</li>
-<li><font color="#ff9800">silverfishSpawnEgg</font>: ItemType</li>
-<li><font color="#ff9800">silverGlazedTerracotta</font>: ItemType</li>
-<li><font color="#ff9800">skeletonHorseSpawnEgg</font>: ItemType</li>
-<li><font color="#ff9800">skeletonSpawnEgg</font>: ItemType</li>
-<li><font color="#ff9800">skull</font>: ItemType</li>
-<li><font color="#ff9800">skullBannerPattern</font>: ItemType</li>
-<li><font color="#ff9800">slime</font>: ItemType</li>
-<li><font color="#ff9800">slimeBall</font>: ItemType</li>
-<li><font color="#ff9800">slimeSpawnEgg</font>: ItemType</li>
-<li><font color="#ff9800">smallAmethystBud</font>: ItemType</li>
-<li><font color="#ff9800">smallDripleafBlock</font>: ItemType</li>
-<li><font color="#ff9800">smithingTable</font>: ItemType</li>
-<li><font color="#ff9800">smoker</font>: ItemType</li>
-<li><font color="#ff9800">smoothBasalt</font>: ItemType</li>
-<li><font color="#ff9800">smoothQuartzStairs</font>: ItemType</li>
-<li><font color="#ff9800">smoothRedSandstoneStairs</font>: ItemType</li>
-<li><font color="#ff9800">smoothSandstoneStairs</font>: ItemType</li>
-<li><font color="#ff9800">smoothStone</font>: ItemType</li>
-<li><font color="#ff9800">snow</font>: ItemType</li>
-<li><font color="#ff9800">snowball</font>: ItemType</li>
-<li><font color="#ff9800">snowLayer</font>: ItemType</li>
-<li><font color="#ff9800">soulCampfire</font>: ItemType</li>
-<li><font color="#ff9800">soulFire</font>: ItemType</li>
-<li><font color="#ff9800">soulLantern</font>: ItemType</li>
-<li><font color="#ff9800">soulSand</font>: ItemType</li>
-<li><font color="#ff9800">soulSoil</font>: ItemType</li>
-<li><font color="#ff9800">soulTorch</font>: ItemType</li>
-<li><font color="#ff9800">sparkler</font>: ItemType</li>
-<li><font color="#ff9800">spawnEgg</font>: ItemType</li>
-<li><font color="#ff9800">spiderEye</font>: ItemType</li>
-<li><font color="#ff9800">spiderSpawnEgg</font>: ItemType</li>
-<li><font color="#ff9800">splashPotion</font>: ItemType</li>
-<li><font color="#ff9800">sponge</font>: ItemType</li>
-<li><font color="#ff9800">sporeBlossom</font>: ItemType</li>
-<li><font color="#ff9800">spruceBoat</font>: ItemType</li>
-<li><font color="#ff9800">spruceButton</font>: ItemType</li>
-<li><font color="#ff9800">spruceDoor</font>: ItemType</li>
-<li><font color="#ff9800">spruceFenceGate</font>: ItemType</li>
-<li><font color="#ff9800">sprucePressurePlate</font>: ItemType</li>
-<li><font color="#ff9800">spruceSign</font>: ItemType</li>
-<li><font color="#ff9800">spruceStairs</font>: ItemType</li>
-<li><font color="#ff9800">spruceStandingSign</font>: ItemType</li>
-<li><font color="#ff9800">spruceTrapdoor</font>: ItemType</li>
-<li><font color="#ff9800">spruceWallSign</font>: ItemType</li>
-<li><font color="#ff9800">spyglass</font>: ItemType</li>
-<li><font color="#ff9800">squidSpawnEgg</font>: ItemType</li>
-<li><font color="#ff9800">stainedGlass</font>: ItemType</li>
-<li><font color="#ff9800">stainedGlassPane</font>: ItemType</li>
-<li><font color="#ff9800">stainedHardenedClay</font>: ItemType</li>
-<li><font color="#ff9800">standingBanner</font>: ItemType</li>
-<li><font color="#ff9800">standingSign</font>: ItemType</li>
-<li><font color="#ff9800">stick</font>: ItemType</li>
-<li><font color="#ff9800">stickyPiston</font>: ItemType</li>
-<li><font color="#ff9800">stickypistonarmcollision</font>: ItemType</li>
-<li><font color="#ff9800">stone</font>: ItemType</li>
-<li><font color="#ff9800">stoneAxe</font>: ItemType</li>
-<li><font color="#ff9800">stonebrick</font>: ItemType</li>
-<li><font color="#ff9800">stoneBrickStairs</font>: ItemType</li>
-<li><font color="#ff9800">stoneButton</font>: ItemType</li>
-<li><font color="#ff9800">stonecutter</font>: ItemType</li>
-<li><font color="#ff9800">stonecutterBlock</font>: ItemType</li>
-<li><font color="#ff9800">stoneHoe</font>: ItemType</li>
-<li><font color="#ff9800">stonePickaxe</font>: ItemType</li>
-<li><font color="#ff9800">stonePressurePlate</font>: ItemType</li>
-<li><font color="#ff9800">stoneShovel</font>: ItemType</li>
-<li><font color="#ff9800">stoneStairs</font>: ItemType</li>
-<li><font color="#ff9800">stoneSword</font>: ItemType</li>
-<li><font color="#ff9800">straySpawnEgg</font>: ItemType</li>
-<li><font color="#ff9800">striderSpawnEgg</font>: ItemType</li>
-<li><font color="#ff9800">string</font>: ItemType</li>
-<li><font color="#ff9800">strippedAcaciaLog</font>: ItemType</li>
-<li><font color="#ff9800">strippedBirchLog</font>: ItemType</li>
-<li><font color="#ff9800">strippedCrimsonHyphae</font>: ItemType</li>
-<li><font color="#ff9800">strippedCrimsonStem</font>: ItemType</li>
-<li><font color="#ff9800">strippedDarkOakLog</font>: ItemType</li>
-<li><font color="#ff9800">strippedJungleLog</font>: ItemType</li>
-<li><font color="#ff9800">strippedOakLog</font>: ItemType</li>
-<li><font color="#ff9800">strippedSpruceLog</font>: ItemType</li>
-<li><font color="#ff9800">strippedWarpedHyphae</font>: ItemType</li>
-<li><font color="#ff9800">strippedWarpedStem</font>: ItemType</li>
-<li><font color="#ff9800">structureBlock</font>: ItemType</li>
-<li><font color="#ff9800">structureVoid</font>: ItemType</li>
-<li><font color="#ff9800">sugar</font>: ItemType</li>
-<li><font color="#ff9800">sugarCane</font>: ItemType</li>
-<li><font color="#ff9800">suspiciousStew</font>: ItemType</li>
-<li><font color="#ff9800">sweetBerries</font>: ItemType</li>
-<li><font color="#ff9800">sweetBerryBush</font>: ItemType</li>
-<li><font color="#ff9800">tallgrass</font>: ItemType</li>
-<li><font color="#ff9800">target</font>: ItemType</li>
-<li><font color="#ff9800">tintedGlass</font>: ItemType</li>
-<li><font color="#ff9800">tnt</font>: ItemType</li>
-<li><font color="#ff9800">tntMinecart</font>: ItemType</li>
-<li><font color="#ff9800">torch</font>: ItemType</li>
-<li><font color="#ff9800">totemOfUndying</font>: ItemType</li>
-<li><font color="#ff9800">trapdoor</font>: ItemType</li>
-<li><font color="#ff9800">trappedChest</font>: ItemType</li>
-<li><font color="#ff9800">trident</font>: ItemType</li>
-<li><font color="#ff9800">tripwire</font>: ItemType</li>
-<li><font color="#ff9800">tripwireHook</font>: ItemType</li>
-<li><font color="#ff9800">tropicalFish</font>: ItemType</li>
-<li><font color="#ff9800">tropicalFishBucket</font>: ItemType</li>
-<li><font color="#ff9800">tropicalFishSpawnEgg</font>: ItemType</li>
-<li><font color="#ff9800">tuff</font>: ItemType</li>
-<li><font color="#ff9800">turtleEgg</font>: ItemType</li>
-<li><font color="#ff9800">turtleHelmet</font>: ItemType</li>
-<li><font color="#ff9800">turtleSpawnEgg</font>: ItemType</li>
-<li><font color="#ff9800">twistingVines</font>: ItemType</li>
-<li><font color="#ff9800">underwaterTorch</font>: ItemType</li>
-<li><font color="#ff9800">undyedShulkerBox</font>: ItemType</li>
-<li><font color="#ff9800">unknown</font>: ItemType</li>
-<li><font color="#ff9800">unlitRedstoneTorch</font>: ItemType</li>
-<li><font color="#ff9800">unpoweredComparator</font>: ItemType</li>
-<li><font color="#ff9800">unpoweredRepeater</font>: ItemType</li>
-<li><font color="#ff9800">vexSpawnEgg</font>: ItemType</li>
-<li><font color="#ff9800">villagerSpawnEgg</font>: ItemType</li>
-<li><font color="#ff9800">vindicatorSpawnEgg</font>: ItemType</li>
-<li><font color="#ff9800">vine</font>: ItemType</li>
-<li><font color="#ff9800">wallBanner</font>: ItemType</li>
-<li><font color="#ff9800">wallSign</font>: ItemType</li>
-<li><font color="#ff9800">wanderingTraderSpawnEgg</font>: ItemType</li>
-<li><font color="#ff9800">warpedButton</font>: ItemType</li>
-<li><font color="#ff9800">warpedDoor</font>: ItemType</li>
-<li><font color="#ff9800">warpedDoubleSlab</font>: ItemType</li>
-<li><font color="#ff9800">warpedFence</font>: ItemType</li>
-<li><font color="#ff9800">warpedFenceGate</font>: ItemType</li>
-<li><font color="#ff9800">warpedFungus</font>: ItemType</li>
-<li><font color="#ff9800">warpedFungusOnAStick</font>: ItemType</li>
-<li><font color="#ff9800">warpedHyphae</font>: ItemType</li>
-<li><font color="#ff9800">warpedNylium</font>: ItemType</li>
-<li><font color="#ff9800">warpedPlanks</font>: ItemType</li>
-<li><font color="#ff9800">warpedPressurePlate</font>: ItemType</li>
-<li><font color="#ff9800">warpedRoots</font>: ItemType</li>
-<li><font color="#ff9800">warpedSign</font>: ItemType</li>
-<li><font color="#ff9800">warpedSlab</font>: ItemType</li>
-<li><font color="#ff9800">warpedStairs</font>: ItemType</li>
-<li><font color="#ff9800">warpedStandingSign</font>: ItemType</li>
-<li><font color="#ff9800">warpedStem</font>: ItemType</li>
-<li><font color="#ff9800">warpedTrapdoor</font>: ItemType</li>
-<li><font color="#ff9800">warpedWallSign</font>: ItemType</li>
-<li><font color="#ff9800">warpedWartBlock</font>: ItemType</li>
-<li><font color="#ff9800">water</font>: ItemType</li>
-<li><font color="#ff9800">waterBucket</font>: ItemType</li>
-<li><font color="#ff9800">waterlily</font>: ItemType</li>
-<li><font color="#ff9800">waxedCopper</font>: ItemType</li>
-<li><font color="#ff9800">waxedCutCopper</font>: ItemType</li>
-<li><font color="#ff9800">waxedCutCopperSlab</font>: ItemType</li>
-<li><font color="#ff9800">waxedCutCopperStairs</font>: ItemType</li>
-<li><font color="#ff9800">waxedDoubleCutCopperSlab</font>: ItemType</li>
-<li><font color="#ff9800">waxedExposedCopper</font>: ItemType</li>
-<li><font color="#ff9800">waxedExposedCutCopper</font>: ItemType</li>
-<li><font color="#ff9800">waxedExposedCutCopperSlab</font>: ItemType</li>
-<li><font color="#ff9800">waxedExposedCutCopperStairs</font>: ItemType</li>
-<li><font color="#ff9800">waxedExposedDoubleCutCopperSlab</font>: ItemType</li>
-<li><font color="#ff9800">waxedOxidizedCopper</font>: ItemType</li>
-<li><font color="#ff9800">waxedOxidizedCutCopper</font>: ItemType</li>
-<li><font color="#ff9800">waxedOxidizedCutCopperSlab</font>: ItemType</li>
-<li><font color="#ff9800">waxedOxidizedCutCopperStairs</font>: ItemType</li>
-<li><font color="#ff9800">waxedOxidizedDoubleCutCopperSlab</font>: ItemType</li>
-<li><font color="#ff9800">waxedWeatheredCopper</font>: ItemType</li>
-<li><font color="#ff9800">waxedWeatheredCutCopper</font>: ItemType</li>
-<li><font color="#ff9800">waxedWeatheredCutCopperSlab</font>: ItemType</li>
-<li><font color="#ff9800">waxedWeatheredCutCopperStairs</font>: ItemType</li>
-<li><font color="#ff9800">waxedWeatheredDoubleCutCopperSlab</font>: ItemType</li>
-<li><font color="#ff9800">weatheredCopper</font>: ItemType</li>
-<li><font color="#ff9800">weatheredCutCopper</font>: ItemType</li>
-<li><font color="#ff9800">weatheredCutCopperSlab</font>: ItemType</li>
-<li><font color="#ff9800">weatheredCutCopperStairs</font>: ItemType</li>
-<li><font color="#ff9800">weatheredDoubleCutCopperSlab</font>: ItemType</li>
-<li><font color="#ff9800">web</font>: ItemType</li>
-<li><font color="#ff9800">weepingVines</font>: ItemType</li>
-<li><font color="#ff9800">wheat</font>: ItemType</li>
-<li><font color="#ff9800">wheatSeeds</font>: ItemType</li>
-<li><font color="#ff9800">whiteCandle</font>: ItemType</li>
-<li><font color="#ff9800">whiteCandleCake</font>: ItemType</li>
-<li><font color="#ff9800">whiteDye</font>: ItemType</li>
-<li><font color="#ff9800">whiteGlazedTerracotta</font>: ItemType</li>
-<li><font color="#ff9800">witchSpawnEgg</font>: ItemType</li>
-<li><font color="#ff9800">witherRose</font>: ItemType</li>
-<li><font color="#ff9800">witherSkeletonSpawnEgg</font>: ItemType</li>
-<li><font color="#ff9800">wolfSpawnEgg</font>: ItemType</li>
-<li><font color="#ff9800">wood</font>: ItemType</li>
-<li><font color="#ff9800">woodenAxe</font>: ItemType</li>
-<li><font color="#ff9800">woodenButton</font>: ItemType</li>
-<li><font color="#ff9800">woodenDoor</font>: ItemType</li>
-<li><font color="#ff9800">woodenHoe</font>: ItemType</li>
-<li><font color="#ff9800">woodenPickaxe</font>: ItemType</li>
-<li><font color="#ff9800">woodenPressurePlate</font>: ItemType</li>
-<li><font color="#ff9800">woodenShovel</font>: ItemType</li>
-<li><font color="#ff9800">woodenSlab</font>: ItemType</li>
-<li><font color="#ff9800">woodenSword</font>: ItemType</li>
-<li><font color="#ff9800">wool</font>: ItemType</li>
-<li><font color="#ff9800">writableBook</font>: ItemType</li>
-<li><font color="#ff9800">writtenBook</font>: ItemType</li>
-<li><font color="#ff9800">yellowCandle</font>: ItemType</li>
-<li><font color="#ff9800">yellowCandleCake</font>: ItemType</li>
-<li><font color="#ff9800">yellowDye</font>: ItemType</li>
-<li><font color="#ff9800">yellowFlower</font>: ItemType</li>
-<li><font color="#ff9800">yellowGlazedTerracotta</font>: ItemType</li>
-<li><font color="#ff9800">zoglinSpawnEgg</font>: ItemType</li>
-<li><font color="#ff9800">zombieHorseSpawnEgg</font>: ItemType</li>
-<li><font color="#ff9800">zombiePigmanSpawnEgg</font>: ItemType</li>
-<li><font color="#ff9800">zombieSpawnEgg</font>: ItemType</li>
-<li><font color="#ff9800">zombieVillagerSpawnEgg</font>: ItemType</li>
+<li>jigsaw: ItemType</li>
+<li>jukebox: ItemType</li>
+<li>jungleBoat: ItemType</li>
+<li>jungleButton: ItemType</li>
+<li>jungleDoor: ItemType</li>
+<li>jungleFenceGate: ItemType</li>
+<li>junglePressurePlate: ItemType</li>
+<li>jungleSign: ItemType</li>
+<li>jungleStairs: ItemType</li>
+<li>jungleStandingSign: ItemType</li>
+<li>jungleTrapdoor: ItemType</li>
+<li>jungleWallSign: ItemType</li>
+<li>kelp: ItemType</li>
+<li>ladder: ItemType</li>
+<li>lantern: ItemType</li>
+<li>lapisBlock: ItemType</li>
+<li>lapisLazuli: ItemType</li>
+<li>lapisOre: ItemType</li>
+<li>largeAmethystBud: ItemType</li>
+<li>lava: ItemType</li>
+<li>lavaBucket: ItemType</li>
+<li>lavaCauldron: ItemType</li>
+<li>lead: ItemType</li>
+<li>leather: ItemType</li>
+<li>leatherBoots: ItemType</li>
+<li>leatherChestplate: ItemType</li>
+<li>leatherHelmet: ItemType</li>
+<li>leatherHorseArmor: ItemType</li>
+<li>leatherLeggings: ItemType</li>
+<li>leaves: ItemType</li>
+<li>leaves2: ItemType</li>
+<li>lectern: ItemType</li>
+<li>lever: ItemType</li>
+<li>lightBlock: ItemType</li>
+<li>lightBlueCandle: ItemType</li>
+<li>lightBlueCandleCake: ItemType</li>
+<li>lightBlueDye: ItemType</li>
+<li>lightBlueGlazedTerracotta: ItemType</li>
+<li>lightGrayCandle: ItemType</li>
+<li>lightGrayCandleCake: ItemType</li>
+<li>lightGrayDye: ItemType</li>
+<li>lightningRod: ItemType</li>
+<li>lightWeightedPressurePlate: ItemType</li>
+<li>limeCandle: ItemType</li>
+<li>limeCandleCake: ItemType</li>
+<li>limeDye: ItemType</li>
+<li>limeGlazedTerracotta: ItemType</li>
+<li>lingeringPotion: ItemType</li>
+<li>litBlastFurnace: ItemType</li>
+<li>litDeepslateRedstoneOre: ItemType</li>
+<li>litFurnace: ItemType</li>
+<li>litPumpkin: ItemType</li>
+<li>litRedstoneLamp: ItemType</li>
+<li>litRedstoneOre: ItemType</li>
+<li>litSmoker: ItemType</li>
+<li>llamaSpawnEgg: ItemType</li>
+<li>lodestone: ItemType</li>
+<li>lodestoneCompass: ItemType</li>
+<li>log: ItemType</li>
+<li>log2: ItemType</li>
+<li>loom: ItemType</li>
+<li>magentaCandle: ItemType</li>
+<li>magentaCandleCake: ItemType</li>
+<li>magentaDye: ItemType</li>
+<li>magentaGlazedTerracotta: ItemType</li>
+<li>magma: ItemType</li>
+<li>magmaCream: ItemType</li>
+<li>magmaCubeSpawnEgg: ItemType</li>
+<li>medicine: ItemType</li>
+<li>mediumAmethystBud: ItemType</li>
+<li>melonBlock: ItemType</li>
+<li>melonSeeds: ItemType</li>
+<li>melonSlice: ItemType</li>
+<li>melonStem: ItemType</li>
+<li>milkBucket: ItemType</li>
+<li>minecart: ItemType</li>
+<li>minecraft:acacia_boat: ItemType</li>
+<li>minecraft:acacia_button: ItemType</li>
+<li>minecraft:acacia_door: ItemType</li>
+<li>minecraft:acacia_fence_gate: ItemType</li>
+<li>minecraft:acacia_pressure_plate: ItemType</li>
+<li>minecraft:acacia_sign: ItemType</li>
+<li>minecraft:acacia_stairs: ItemType</li>
+<li>minecraft:acacia_standing_sign: ItemType</li>
+<li>minecraft:acacia_trapdoor: ItemType</li>
+<li>minecraft:acacia_wall_sign: ItemType</li>
+<li>minecraft:activator_rail: ItemType</li>
+<li>minecraft:agent_spawn_egg: ItemType</li>
+<li>minecraft:air: ItemType</li>
+<li>minecraft:allow: ItemType</li>
+<li>minecraft:amethyst_block: ItemType</li>
+<li>minecraft:amethyst_cluster: ItemType</li>
+<li>minecraft:amethyst_shard: ItemType</li>
+<li>minecraft:ancient_debris: ItemType</li>
+<li>minecraft:andesite_stairs: ItemType</li>
+<li>minecraft:anvil: ItemType</li>
+<li>minecraft:apple: ItemType</li>
+<li>minecraft:armor_stand: ItemType</li>
+<li>minecraft:arrow: ItemType</li>
+<li>minecraft:axolotl_bucket: ItemType</li>
+<li>minecraft:axolotl_spawn_egg: ItemType</li>
+<li>minecraft:azalea: ItemType</li>
+<li>minecraft:azalea_leaves: ItemType</li>
+<li>minecraft:azalea_leaves_flowered: ItemType</li>
+<li>minecraft:baked_potato: ItemType</li>
+<li>minecraft:balloon: ItemType</li>
+<li>minecraft:bamboo: ItemType</li>
+<li>minecraft:bamboo_sapling: ItemType</li>
+<li>minecraft:banner: ItemType</li>
+<li>minecraft:banner_pattern: ItemType</li>
+<li>minecraft:barrel: ItemType</li>
+<li>minecraft:barrier: ItemType</li>
+<li>minecraft:basalt: ItemType</li>
+<li>minecraft:bat_spawn_egg: ItemType</li>
+<li>minecraft:beacon: ItemType</li>
+<li>minecraft:bed: ItemType</li>
+<li>minecraft:bedrock: ItemType</li>
+<li>minecraft:bee_nest: ItemType</li>
+<li>minecraft:bee_spawn_egg: ItemType</li>
+<li>minecraft:beef: ItemType</li>
+<li>minecraft:beehive: ItemType</li>
+<li>minecraft:beetroot: ItemType</li>
+<li>minecraft:beetroot_seeds: ItemType</li>
+<li>minecraft:beetroot_soup: ItemType</li>
+<li>minecraft:bell: ItemType</li>
+<li>minecraft:big_dripleaf: ItemType</li>
+<li>minecraft:birch_boat: ItemType</li>
+<li>minecraft:birch_button: ItemType</li>
+<li>minecraft:birch_door: ItemType</li>
+<li>minecraft:birch_fence_gate: ItemType</li>
+<li>minecraft:birch_pressure_plate: ItemType</li>
+<li>minecraft:birch_sign: ItemType</li>
+<li>minecraft:birch_stairs: ItemType</li>
+<li>minecraft:birch_standing_sign: ItemType</li>
+<li>minecraft:birch_trapdoor: ItemType</li>
+<li>minecraft:birch_wall_sign: ItemType</li>
+<li>minecraft:black_candle: ItemType</li>
+<li>minecraft:black_candle_cake: ItemType</li>
+<li>minecraft:black_dye: ItemType</li>
+<li>minecraft:black_glazed_terracotta: ItemType</li>
+<li>minecraft:blackstone: ItemType</li>
+<li>minecraft:blackstone_double_slab: ItemType</li>
+<li>minecraft:blackstone_slab: ItemType</li>
+<li>minecraft:blackstone_stairs: ItemType</li>
+<li>minecraft:blackstone_wall: ItemType</li>
+<li>minecraft:blast_furnace: ItemType</li>
+<li>minecraft:blaze_powder: ItemType</li>
+<li>minecraft:blaze_rod: ItemType</li>
+<li>minecraft:blaze_spawn_egg: ItemType</li>
+<li>minecraft:bleach: ItemType</li>
+<li>minecraft:blue_candle: ItemType</li>
+<li>minecraft:blue_candle_cake: ItemType</li>
+<li>minecraft:blue_dye: ItemType</li>
+<li>minecraft:blue_glazed_terracotta: ItemType</li>
+<li>minecraft:blue_ice: ItemType</li>
+<li>minecraft:boat: ItemType</li>
+<li>minecraft:bone: ItemType</li>
+<li>minecraft:bone_block: ItemType</li>
+<li>minecraft:bone_meal: ItemType</li>
+<li>minecraft:book: ItemType</li>
+<li>minecraft:bookshelf: ItemType</li>
+<li>minecraft:border_block: ItemType</li>
+<li>minecraft:bordure_indented_banner_pattern: ItemType</li>
+<li>minecraft:bow: ItemType</li>
+<li>minecraft:bowl: ItemType</li>
+<li>minecraft:bread: ItemType</li>
+<li>minecraft:brewing_stand: ItemType</li>
+<li>minecraft:brewingstandblock: ItemType</li>
+<li>minecraft:brick: ItemType</li>
+<li>minecraft:brick_block: ItemType</li>
+<li>minecraft:brick_stairs: ItemType</li>
+<li>minecraft:brown_candle: ItemType</li>
+<li>minecraft:brown_candle_cake: ItemType</li>
+<li>minecraft:brown_dye: ItemType</li>
+<li>minecraft:brown_glazed_terracotta: ItemType</li>
+<li>minecraft:brown_mushroom: ItemType</li>
+<li>minecraft:brown_mushroom_block: ItemType</li>
+<li>minecraft:bubble_column: ItemType</li>
+<li>minecraft:bucket: ItemType</li>
+<li>minecraft:budding_amethyst: ItemType</li>
+<li>minecraft:cactus: ItemType</li>
+<li>minecraft:cake: ItemType</li>
+<li>minecraft:calcite: ItemType</li>
+<li>minecraft:camera: ItemType</li>
+<li>minecraft:campfire: ItemType</li>
+<li>minecraft:candle: ItemType</li>
+<li>minecraft:candle_cake: ItemType</li>
+<li>minecraft:carpet: ItemType</li>
+<li>minecraft:carrot: ItemType</li>
+<li>minecraft:carrot_on_a_stick: ItemType</li>
+<li>minecraft:carrots: ItemType</li>
+<li>minecraft:cartography_table: ItemType</li>
+<li>minecraft:carved_pumpkin: ItemType</li>
+<li>minecraft:cat_spawn_egg: ItemType</li>
+<li>minecraft:cauldron: ItemType</li>
+<li>minecraft:cave_spider_spawn_egg: ItemType</li>
+<li>minecraft:cave_vines: ItemType</li>
+<li>minecraft:cave_vines_body_with_berries: ItemType</li>
+<li>minecraft:cave_vines_head_with_berries: ItemType</li>
+<li>minecraft:chain: ItemType</li>
+<li>minecraft:chain_command_block: ItemType</li>
+<li>minecraft:chainmail_boots: ItemType</li>
+<li>minecraft:chainmail_chestplate: ItemType</li>
+<li>minecraft:chainmail_helmet: ItemType</li>
+<li>minecraft:chainmail_leggings: ItemType</li>
+<li>minecraft:charcoal: ItemType</li>
+<li>minecraft:chemical_heat: ItemType</li>
+<li>minecraft:chemistry_table: ItemType</li>
+<li>minecraft:chest: ItemType</li>
+<li>minecraft:chest_minecart: ItemType</li>
+<li>minecraft:chicken: ItemType</li>
+<li>minecraft:chicken_spawn_egg: ItemType</li>
+<li>minecraft:chiseled_deepslate: ItemType</li>
+<li>minecraft:chiseled_nether_bricks: ItemType</li>
+<li>minecraft:chiseled_polished_blackstone: ItemType</li>
+<li>minecraft:chorus_flower: ItemType</li>
+<li>minecraft:chorus_fruit: ItemType</li>
+<li>minecraft:chorus_plant: ItemType</li>
+<li>minecraft:clay: ItemType</li>
+<li>minecraft:clay_ball: ItemType</li>
+<li>minecraft:clock: ItemType</li>
+<li>minecraft:coal: ItemType</li>
+<li>minecraft:coal_block: ItemType</li>
+<li>minecraft:coal_ore: ItemType</li>
+<li>minecraft:cobbled_deepslate: ItemType</li>
+<li>minecraft:cobbled_deepslate_double_slab: ItemType</li>
+<li>minecraft:cobbled_deepslate_slab: ItemType</li>
+<li>minecraft:cobbled_deepslate_stairs: ItemType</li>
+<li>minecraft:cobbled_deepslate_wall: ItemType</li>
+<li>minecraft:cobblestone: ItemType</li>
+<li>minecraft:cobblestone_wall: ItemType</li>
+<li>minecraft:cocoa: ItemType</li>
+<li>minecraft:cocoa_beans: ItemType</li>
+<li>minecraft:cod: ItemType</li>
+<li>minecraft:cod_bucket: ItemType</li>
+<li>minecraft:cod_spawn_egg: ItemType</li>
+<li>minecraft:colored_torch_bp: ItemType</li>
+<li>minecraft:colored_torch_rg: ItemType</li>
+<li>minecraft:command_block: ItemType</li>
+<li>minecraft:command_block_minecart: ItemType</li>
+<li>minecraft:comparator: ItemType</li>
+<li>minecraft:compass: ItemType</li>
+<li>minecraft:composter: ItemType</li>
+<li>minecraft:compound: ItemType</li>
+<li>minecraft:concrete: ItemType</li>
+<li>minecraft:concrete_powder: ItemType</li>
+<li>minecraft:conduit: ItemType</li>
+<li>minecraft:cooked_beef: ItemType</li>
+<li>minecraft:cooked_chicken: ItemType</li>
+<li>minecraft:cooked_cod: ItemType</li>
+<li>minecraft:cooked_mutton: ItemType</li>
+<li>minecraft:cooked_porkchop: ItemType</li>
+<li>minecraft:cooked_rabbit: ItemType</li>
+<li>minecraft:cooked_salmon: ItemType</li>
+<li>minecraft:cookie: ItemType</li>
+<li>minecraft:copper_block: ItemType</li>
+<li>minecraft:copper_ingot: ItemType</li>
+<li>minecraft:copper_ore: ItemType</li>
+<li>minecraft:coral: ItemType</li>
+<li>minecraft:coral_block: ItemType</li>
+<li>minecraft:coral_fan: ItemType</li>
+<li>minecraft:coral_fan_dead: ItemType</li>
+<li>minecraft:coral_fan_hang: ItemType</li>
+<li>minecraft:coral_fan_hang2: ItemType</li>
+<li>minecraft:coral_fan_hang3: ItemType</li>
+<li>minecraft:cow_spawn_egg: ItemType</li>
+<li>minecraft:cracked_deepslate_bricks: ItemType</li>
+<li>minecraft:cracked_deepslate_tiles: ItemType</li>
+<li>minecraft:cracked_nether_bricks: ItemType</li>
+<li>minecraft:cracked_polished_blackstone_bricks: ItemType</li>
+<li>minecraft:crafting_table: ItemType</li>
+<li>minecraft:creeper_banner_pattern: ItemType</li>
+<li>minecraft:creeper_spawn_egg: ItemType</li>
+<li>minecraft:crimson_button: ItemType</li>
+<li>minecraft:crimson_door: ItemType</li>
+<li>minecraft:crimson_double_slab: ItemType</li>
+<li>minecraft:crimson_fence: ItemType</li>
+<li>minecraft:crimson_fence_gate: ItemType</li>
+<li>minecraft:crimson_fungus: ItemType</li>
+<li>minecraft:crimson_hyphae: ItemType</li>
+<li>minecraft:crimson_nylium: ItemType</li>
+<li>minecraft:crimson_planks: ItemType</li>
+<li>minecraft:crimson_pressure_plate: ItemType</li>
+<li>minecraft:crimson_roots: ItemType</li>
+<li>minecraft:crimson_sign: ItemType</li>
+<li>minecraft:crimson_slab: ItemType</li>
+<li>minecraft:crimson_stairs: ItemType</li>
+<li>minecraft:crimson_standing_sign: ItemType</li>
+<li>minecraft:crimson_stem: ItemType</li>
+<li>minecraft:crimson_trapdoor: ItemType</li>
+<li>minecraft:crimson_wall_sign: ItemType</li>
+<li>minecraft:crossbow: ItemType</li>
+<li>minecraft:crying_obsidian: ItemType</li>
+<li>minecraft:cut_copper: ItemType</li>
+<li>minecraft:cut_copper_slab: ItemType</li>
+<li>minecraft:cut_copper_stairs: ItemType</li>
+<li>minecraft:cyan_candle: ItemType</li>
+<li>minecraft:cyan_candle_cake: ItemType</li>
+<li>minecraft:cyan_dye: ItemType</li>
+<li>minecraft:cyan_glazed_terracotta: ItemType</li>
+<li>minecraft:dark_oak_boat: ItemType</li>
+<li>minecraft:dark_oak_button: ItemType</li>
+<li>minecraft:dark_oak_door: ItemType</li>
+<li>minecraft:dark_oak_fence_gate: ItemType</li>
+<li>minecraft:dark_oak_pressure_plate: ItemType</li>
+<li>minecraft:dark_oak_sign: ItemType</li>
+<li>minecraft:dark_oak_stairs: ItemType</li>
+<li>minecraft:dark_oak_trapdoor: ItemType</li>
+<li>minecraft:dark_prismarine_stairs: ItemType</li>
+<li>minecraft:darkoak_standing_sign: ItemType</li>
+<li>minecraft:darkoak_wall_sign: ItemType</li>
+<li>minecraft:daylight_detector: ItemType</li>
+<li>minecraft:daylight_detector_inverted: ItemType</li>
+<li>minecraft:deadbush: ItemType</li>
+<li>minecraft:debug_stick: ItemType</li>
+<li>minecraft:deepslate: ItemType</li>
+<li>minecraft:deepslate_brick_double_slab: ItemType</li>
+<li>minecraft:deepslate_brick_slab: ItemType</li>
+<li>minecraft:deepslate_brick_stairs: ItemType</li>
+<li>minecraft:deepslate_brick_wall: ItemType</li>
+<li>minecraft:deepslate_bricks: ItemType</li>
+<li>minecraft:deepslate_coal_ore: ItemType</li>
+<li>minecraft:deepslate_copper_ore: ItemType</li>
+<li>minecraft:deepslate_diamond_ore: ItemType</li>
+<li>minecraft:deepslate_emerald_ore: ItemType</li>
+<li>minecraft:deepslate_gold_ore: ItemType</li>
+<li>minecraft:deepslate_iron_ore: ItemType</li>
+<li>minecraft:deepslate_lapis_ore: ItemType</li>
+<li>minecraft:deepslate_redstone_ore: ItemType</li>
+<li>minecraft:deepslate_tile_double_slab: ItemType</li>
+<li>minecraft:deepslate_tile_slab: ItemType</li>
+<li>minecraft:deepslate_tile_stairs: ItemType</li>
+<li>minecraft:deepslate_tile_wall: ItemType</li>
+<li>minecraft:deepslate_tiles: ItemType</li>
+<li>minecraft:deny: ItemType</li>
+<li>minecraft:detector_rail: ItemType</li>
+<li>minecraft:diamond: ItemType</li>
+<li>minecraft:diamond_axe: ItemType</li>
+<li>minecraft:diamond_block: ItemType</li>
+<li>minecraft:diamond_boots: ItemType</li>
+<li>minecraft:diamond_chestplate: ItemType</li>
+<li>minecraft:diamond_helmet: ItemType</li>
+<li>minecraft:diamond_hoe: ItemType</li>
+<li>minecraft:diamond_horse_armor: ItemType</li>
+<li>minecraft:diamond_leggings: ItemType</li>
+<li>minecraft:diamond_ore: ItemType</li>
+<li>minecraft:diamond_pickaxe: ItemType</li>
+<li>minecraft:diamond_shovel: ItemType</li>
+<li>minecraft:diamond_sword: ItemType</li>
+<li>minecraft:diorite_stairs: ItemType</li>
+<li>minecraft:dirt: ItemType</li>
+<li>minecraft:dirt_with_roots: ItemType</li>
+<li>minecraft:dispenser: ItemType</li>
+<li>minecraft:dolphin_spawn_egg: ItemType</li>
+<li>minecraft:donkey_spawn_egg: ItemType</li>
+<li>minecraft:double_cut_copper_slab: ItemType</li>
+<li>minecraft:double_plant: ItemType</li>
+<li>minecraft:double_stone_slab: ItemType</li>
+<li>minecraft:double_stone_slab2: ItemType</li>
+<li>minecraft:double_stone_slab3: ItemType</li>
+<li>minecraft:double_stone_slab4: ItemType</li>
+<li>minecraft:double_wooden_slab: ItemType</li>
+<li>minecraft:dragon_breath: ItemType</li>
+<li>minecraft:dragon_egg: ItemType</li>
+<li>minecraft:dried_kelp: ItemType</li>
+<li>minecraft:dried_kelp_block: ItemType</li>
+<li>minecraft:dripstone_block: ItemType</li>
+<li>minecraft:dropper: ItemType</li>
+<li>minecraft:drowned_spawn_egg: ItemType</li>
+<li>minecraft:dye: ItemType</li>
+<li>minecraft:egg: ItemType</li>
+<li>minecraft:elder_guardian_spawn_egg: ItemType</li>
+<li>minecraft:element_0: ItemType</li>
+<li>minecraft:element_1: ItemType</li>
+<li>minecraft:element_10: ItemType</li>
+<li>minecraft:element_100: ItemType</li>
+<li>minecraft:element_101: ItemType</li>
+<li>minecraft:element_102: ItemType</li>
+<li>minecraft:element_103: ItemType</li>
+<li>minecraft:element_104: ItemType</li>
+<li>minecraft:element_105: ItemType</li>
+<li>minecraft:element_106: ItemType</li>
+<li>minecraft:element_107: ItemType</li>
+<li>minecraft:element_108: ItemType</li>
+<li>minecraft:element_109: ItemType</li>
+<li>minecraft:element_11: ItemType</li>
+<li>minecraft:element_110: ItemType</li>
+<li>minecraft:element_111: ItemType</li>
+<li>minecraft:element_112: ItemType</li>
+<li>minecraft:element_113: ItemType</li>
+<li>minecraft:element_114: ItemType</li>
+<li>minecraft:element_115: ItemType</li>
+<li>minecraft:element_116: ItemType</li>
+<li>minecraft:element_117: ItemType</li>
+<li>minecraft:element_118: ItemType</li>
+<li>minecraft:element_12: ItemType</li>
+<li>minecraft:element_13: ItemType</li>
+<li>minecraft:element_14: ItemType</li>
+<li>minecraft:element_15: ItemType</li>
+<li>minecraft:element_16: ItemType</li>
+<li>minecraft:element_17: ItemType</li>
+<li>minecraft:element_18: ItemType</li>
+<li>minecraft:element_19: ItemType</li>
+<li>minecraft:element_2: ItemType</li>
+<li>minecraft:element_20: ItemType</li>
+<li>minecraft:element_21: ItemType</li>
+<li>minecraft:element_22: ItemType</li>
+<li>minecraft:element_23: ItemType</li>
+<li>minecraft:element_24: ItemType</li>
+<li>minecraft:element_25: ItemType</li>
+<li>minecraft:element_26: ItemType</li>
+<li>minecraft:element_27: ItemType</li>
+<li>minecraft:element_28: ItemType</li>
+<li>minecraft:element_29: ItemType</li>
+<li>minecraft:element_3: ItemType</li>
+<li>minecraft:element_30: ItemType</li>
+<li>minecraft:element_31: ItemType</li>
+<li>minecraft:element_32: ItemType</li>
+<li>minecraft:element_33: ItemType</li>
+<li>minecraft:element_34: ItemType</li>
+<li>minecraft:element_35: ItemType</li>
+<li>minecraft:element_36: ItemType</li>
+<li>minecraft:element_37: ItemType</li>
+<li>minecraft:element_38: ItemType</li>
+<li>minecraft:element_39: ItemType</li>
+<li>minecraft:element_4: ItemType</li>
+<li>minecraft:element_40: ItemType</li>
+<li>minecraft:element_41: ItemType</li>
+<li>minecraft:element_42: ItemType</li>
+<li>minecraft:element_43: ItemType</li>
+<li>minecraft:element_44: ItemType</li>
+<li>minecraft:element_45: ItemType</li>
+<li>minecraft:element_46: ItemType</li>
+<li>minecraft:element_47: ItemType</li>
+<li>minecraft:element_48: ItemType</li>
+<li>minecraft:element_49: ItemType</li>
+<li>minecraft:element_5: ItemType</li>
+<li>minecraft:element_50: ItemType</li>
+<li>minecraft:element_51: ItemType</li>
+<li>minecraft:element_52: ItemType</li>
+<li>minecraft:element_53: ItemType</li>
+<li>minecraft:element_54: ItemType</li>
+<li>minecraft:element_55: ItemType</li>
+<li>minecraft:element_56: ItemType</li>
+<li>minecraft:element_57: ItemType</li>
+<li>minecraft:element_58: ItemType</li>
+<li>minecraft:element_59: ItemType</li>
+<li>minecraft:element_6: ItemType</li>
+<li>minecraft:element_60: ItemType</li>
+<li>minecraft:element_61: ItemType</li>
+<li>minecraft:element_62: ItemType</li>
+<li>minecraft:element_63: ItemType</li>
+<li>minecraft:element_64: ItemType</li>
+<li>minecraft:element_65: ItemType</li>
+<li>minecraft:element_66: ItemType</li>
+<li>minecraft:element_67: ItemType</li>
+<li>minecraft:element_68: ItemType</li>
+<li>minecraft:element_69: ItemType</li>
+<li>minecraft:element_7: ItemType</li>
+<li>minecraft:element_70: ItemType</li>
+<li>minecraft:element_71: ItemType</li>
+<li>minecraft:element_72: ItemType</li>
+<li>minecraft:element_73: ItemType</li>
+<li>minecraft:element_74: ItemType</li>
+<li>minecraft:element_75: ItemType</li>
+<li>minecraft:element_76: ItemType</li>
+<li>minecraft:element_77: ItemType</li>
+<li>minecraft:element_78: ItemType</li>
+<li>minecraft:element_79: ItemType</li>
+<li>minecraft:element_8: ItemType</li>
+<li>minecraft:element_80: ItemType</li>
+<li>minecraft:element_81: ItemType</li>
+<li>minecraft:element_82: ItemType</li>
+<li>minecraft:element_83: ItemType</li>
+<li>minecraft:element_84: ItemType</li>
+<li>minecraft:element_85: ItemType</li>
+<li>minecraft:element_86: ItemType</li>
+<li>minecraft:element_87: ItemType</li>
+<li>minecraft:element_88: ItemType</li>
+<li>minecraft:element_89: ItemType</li>
+<li>minecraft:element_9: ItemType</li>
+<li>minecraft:element_90: ItemType</li>
+<li>minecraft:element_91: ItemType</li>
+<li>minecraft:element_92: ItemType</li>
+<li>minecraft:element_93: ItemType</li>
+<li>minecraft:element_94: ItemType</li>
+<li>minecraft:element_95: ItemType</li>
+<li>minecraft:element_96: ItemType</li>
+<li>minecraft:element_97: ItemType</li>
+<li>minecraft:element_98: ItemType</li>
+<li>minecraft:element_99: ItemType</li>
+<li>minecraft:elytra: ItemType</li>
+<li>minecraft:emerald: ItemType</li>
+<li>minecraft:emerald_block: ItemType</li>
+<li>minecraft:emerald_ore: ItemType</li>
+<li>minecraft:empty_map: ItemType</li>
+<li>minecraft:enchanted_book: ItemType</li>
+<li>minecraft:enchanted_golden_apple: ItemType</li>
+<li>minecraft:enchanting_table: ItemType</li>
+<li>minecraft:end_brick_stairs: ItemType</li>
+<li>minecraft:end_bricks: ItemType</li>
+<li>minecraft:end_crystal: ItemType</li>
+<li>minecraft:end_gateway: ItemType</li>
+<li>minecraft:end_portal: ItemType</li>
+<li>minecraft:end_portal_frame: ItemType</li>
+<li>minecraft:end_rod: ItemType</li>
+<li>minecraft:end_stone: ItemType</li>
+<li>minecraft:ender_chest: ItemType</li>
+<li>minecraft:ender_eye: ItemType</li>
+<li>minecraft:ender_pearl: ItemType</li>
+<li>minecraft:enderman_spawn_egg: ItemType</li>
+<li>minecraft:endermite_spawn_egg: ItemType</li>
+<li>minecraft:evoker_spawn_egg: ItemType</li>
+<li>minecraft:experience_bottle: ItemType</li>
+<li>minecraft:exposed_copper: ItemType</li>
+<li>minecraft:exposed_cut_copper: ItemType</li>
+<li>minecraft:exposed_cut_copper_slab: ItemType</li>
+<li>minecraft:exposed_cut_copper_stairs: ItemType</li>
+<li>minecraft:exposed_double_cut_copper_slab: ItemType</li>
+<li>minecraft:farmland: ItemType</li>
+<li>minecraft:feather: ItemType</li>
+<li>minecraft:fence: ItemType</li>
+<li>minecraft:fence_gate: ItemType</li>
+<li>minecraft:fermented_spider_eye: ItemType</li>
+<li>minecraft:field_masoned_banner_pattern: ItemType</li>
+<li>minecraft:filled_map: ItemType</li>
+<li>minecraft:fire: ItemType</li>
+<li>minecraft:fire_charge: ItemType</li>
+<li>minecraft:firework_rocket: ItemType</li>
+<li>minecraft:firework_star: ItemType</li>
+<li>minecraft:fishing_rod: ItemType</li>
+<li>minecraft:fletching_table: ItemType</li>
+<li>minecraft:flint: ItemType</li>
+<li>minecraft:flint_and_steel: ItemType</li>
+<li>minecraft:flower_banner_pattern: ItemType</li>
+<li>minecraft:flower_pot: ItemType</li>
+<li>minecraft:flowering_azalea: ItemType</li>
+<li>minecraft:flowing_lava: ItemType</li>
+<li>minecraft:flowing_water: ItemType</li>
+<li>minecraft:fox_spawn_egg: ItemType</li>
+<li>minecraft:frame: ItemType</li>
+<li>minecraft:frosted_ice: ItemType</li>
+<li>minecraft:furnace: ItemType</li>
+<li>minecraft:ghast_spawn_egg: ItemType</li>
+<li>minecraft:ghast_tear: ItemType</li>
+<li>minecraft:gilded_blackstone: ItemType</li>
+<li>minecraft:glass: ItemType</li>
+<li>minecraft:glass_bottle: ItemType</li>
+<li>minecraft:glass_pane: ItemType</li>
+<li>minecraft:glistering_melon_slice: ItemType</li>
+<li>minecraft:glow_berries: ItemType</li>
+<li>minecraft:glow_frame: ItemType</li>
+<li>minecraft:glow_ink_sac: ItemType</li>
+<li>minecraft:glow_lichen: ItemType</li>
+<li>minecraft:glow_squid_spawn_egg: ItemType</li>
+<li>minecraft:glow_stick: ItemType</li>
+<li>minecraft:glowingobsidian: ItemType</li>
+<li>minecraft:glowstone: ItemType</li>
+<li>minecraft:glowstone_dust: ItemType</li>
+<li>minecraft:goat_horn: ItemType</li>
+<li>minecraft:goat_spawn_egg: ItemType</li>
+<li>minecraft:gold_block: ItemType</li>
+<li>minecraft:gold_ingot: ItemType</li>
+<li>minecraft:gold_nugget: ItemType</li>
+<li>minecraft:gold_ore: ItemType</li>
+<li>minecraft:golden_apple: ItemType</li>
+<li>minecraft:golden_axe: ItemType</li>
+<li>minecraft:golden_boots: ItemType</li>
+<li>minecraft:golden_carrot: ItemType</li>
+<li>minecraft:golden_chestplate: ItemType</li>
+<li>minecraft:golden_helmet: ItemType</li>
+<li>minecraft:golden_hoe: ItemType</li>
+<li>minecraft:golden_horse_armor: ItemType</li>
+<li>minecraft:golden_leggings: ItemType</li>
+<li>minecraft:golden_pickaxe: ItemType</li>
+<li>minecraft:golden_rail: ItemType</li>
+<li>minecraft:golden_shovel: ItemType</li>
+<li>minecraft:golden_sword: ItemType</li>
+<li>minecraft:granite_stairs: ItemType</li>
+<li>minecraft:grass: ItemType</li>
+<li>minecraft:grass_path: ItemType</li>
+<li>minecraft:gravel: ItemType</li>
+<li>minecraft:gray_candle: ItemType</li>
+<li>minecraft:gray_candle_cake: ItemType</li>
+<li>minecraft:gray_dye: ItemType</li>
+<li>minecraft:gray_glazed_terracotta: ItemType</li>
+<li>minecraft:green_candle: ItemType</li>
+<li>minecraft:green_candle_cake: ItemType</li>
+<li>minecraft:green_dye: ItemType</li>
+<li>minecraft:green_glazed_terracotta: ItemType</li>
+<li>minecraft:grindstone: ItemType</li>
+<li>minecraft:guardian_spawn_egg: ItemType</li>
+<li>minecraft:gunpowder: ItemType</li>
+<li>minecraft:hanging_roots: ItemType</li>
+<li>minecraft:hard_glass: ItemType</li>
+<li>minecraft:hard_glass_pane: ItemType</li>
+<li>minecraft:hard_stained_glass: ItemType</li>
+<li>minecraft:hard_stained_glass_pane: ItemType</li>
+<li>minecraft:hardened_clay: ItemType</li>
+<li>minecraft:hay_block: ItemType</li>
+<li>minecraft:heart_of_the_sea: ItemType</li>
+<li>minecraft:heavy_weighted_pressure_plate: ItemType</li>
+<li>minecraft:hoglin_spawn_egg: ItemType</li>
+<li>minecraft:honey_block: ItemType</li>
+<li>minecraft:honey_bottle: ItemType</li>
+<li>minecraft:honeycomb: ItemType</li>
+<li>minecraft:honeycomb_block: ItemType</li>
+<li>minecraft:hopper: ItemType</li>
+<li>minecraft:hopper_minecart: ItemType</li>
+<li>minecraft:horse_spawn_egg: ItemType</li>
+<li>minecraft:husk_spawn_egg: ItemType</li>
+<li>minecraft:ice: ItemType</li>
+<li>minecraft:ice_bomb: ItemType</li>
+<li>minecraft:infested_deepslate: ItemType</li>
+<li>minecraft:info_update: ItemType</li>
+<li>minecraft:info_update2: ItemType</li>
+<li>minecraft:ink_sac: ItemType</li>
+<li>minecraft:invisiblebedrock: ItemType</li>
+<li>minecraft:iron_axe: ItemType</li>
+<li>minecraft:iron_bars: ItemType</li>
+<li>minecraft:iron_block: ItemType</li>
+<li>minecraft:iron_boots: ItemType</li>
+<li>minecraft:iron_chestplate: ItemType</li>
+<li>minecraft:iron_door: ItemType</li>
+<li>minecraft:iron_helmet: ItemType</li>
+<li>minecraft:iron_hoe: ItemType</li>
+<li>minecraft:iron_horse_armor: ItemType</li>
+<li>minecraft:iron_ingot: ItemType</li>
+<li>minecraft:iron_leggings: ItemType</li>
+<li>minecraft:iron_nugget: ItemType</li>
+<li>minecraft:iron_ore: ItemType</li>
+<li>minecraft:iron_pickaxe: ItemType</li>
+<li>minecraft:iron_shovel: ItemType</li>
+<li>minecraft:iron_sword: ItemType</li>
+<li>minecraft:iron_trapdoor: ItemType</li>
+<li>minecraft:item.acacia_door: ItemType</li>
+<li>minecraft:item.bed: ItemType</li>
+<li>minecraft:item.beetroot: ItemType</li>
+<li>minecraft:item.birch_door: ItemType</li>
+<li>minecraft:item.cake: ItemType</li>
+<li>minecraft:item.camera: ItemType</li>
+<li>minecraft:item.campfire: ItemType</li>
+<li>minecraft:item.cauldron: ItemType</li>
+<li>minecraft:item.chain: ItemType</li>
+<li>minecraft:item.crimson_door: ItemType</li>
+<li>minecraft:item.dark_oak_door: ItemType</li>
+<li>minecraft:item.flower_pot: ItemType</li>
+<li>minecraft:item.frame: ItemType</li>
+<li>minecraft:item.glow_frame: ItemType</li>
+<li>minecraft:item.hopper: ItemType</li>
+<li>minecraft:item.iron_door: ItemType</li>
+<li>minecraft:item.jungle_door: ItemType</li>
+<li>minecraft:item.kelp: ItemType</li>
+<li>minecraft:item.nether_sprouts: ItemType</li>
+<li>minecraft:item.nether_wart: ItemType</li>
+<li>minecraft:item.reeds: ItemType</li>
+<li>minecraft:item.skull: ItemType</li>
+<li>minecraft:item.soul_campfire: ItemType</li>
+<li>minecraft:item.spruce_door: ItemType</li>
+<li>minecraft:item.warped_door: ItemType</li>
+<li>minecraft:item.wheat: ItemType</li>
+<li>minecraft:item.wooden_door: ItemType</li>
+<li>minecraft:jigsaw: ItemType</li>
+<li>minecraft:jukebox: ItemType</li>
+<li>minecraft:jungle_boat: ItemType</li>
+<li>minecraft:jungle_button: ItemType</li>
+<li>minecraft:jungle_door: ItemType</li>
+<li>minecraft:jungle_fence_gate: ItemType</li>
+<li>minecraft:jungle_pressure_plate: ItemType</li>
+<li>minecraft:jungle_sign: ItemType</li>
+<li>minecraft:jungle_stairs: ItemType</li>
+<li>minecraft:jungle_standing_sign: ItemType</li>
+<li>minecraft:jungle_trapdoor: ItemType</li>
+<li>minecraft:jungle_wall_sign: ItemType</li>
+<li>minecraft:kelp: ItemType</li>
+<li>minecraft:ladder: ItemType</li>
+<li>minecraft:lantern: ItemType</li>
+<li>minecraft:lapis_block: ItemType</li>
+<li>minecraft:lapis_lazuli: ItemType</li>
+<li>minecraft:lapis_ore: ItemType</li>
+<li>minecraft:large_amethyst_bud: ItemType</li>
+<li>minecraft:lava: ItemType</li>
+<li>minecraft:lava_bucket: ItemType</li>
+<li>minecraft:lava_cauldron: ItemType</li>
+<li>minecraft:lead: ItemType</li>
+<li>minecraft:leather: ItemType</li>
+<li>minecraft:leather_boots: ItemType</li>
+<li>minecraft:leather_chestplate: ItemType</li>
+<li>minecraft:leather_helmet: ItemType</li>
+<li>minecraft:leather_horse_armor: ItemType</li>
+<li>minecraft:leather_leggings: ItemType</li>
+<li>minecraft:leaves: ItemType</li>
+<li>minecraft:leaves2: ItemType</li>
+<li>minecraft:lectern: ItemType</li>
+<li>minecraft:lever: ItemType</li>
+<li>minecraft:light_block: ItemType</li>
+<li>minecraft:light_blue_candle: ItemType</li>
+<li>minecraft:light_blue_candle_cake: ItemType</li>
+<li>minecraft:light_blue_dye: ItemType</li>
+<li>minecraft:light_blue_glazed_terracotta: ItemType</li>
+<li>minecraft:light_gray_candle: ItemType</li>
+<li>minecraft:light_gray_candle_cake: ItemType</li>
+<li>minecraft:light_gray_dye: ItemType</li>
+<li>minecraft:light_weighted_pressure_plate: ItemType</li>
+<li>minecraft:lightning_rod: ItemType</li>
+<li>minecraft:lime_candle: ItemType</li>
+<li>minecraft:lime_candle_cake: ItemType</li>
+<li>minecraft:lime_dye: ItemType</li>
+<li>minecraft:lime_glazed_terracotta: ItemType</li>
+<li>minecraft:lingering_potion: ItemType</li>
+<li>minecraft:lit_blast_furnace: ItemType</li>
+<li>minecraft:lit_deepslate_redstone_ore: ItemType</li>
+<li>minecraft:lit_furnace: ItemType</li>
+<li>minecraft:lit_pumpkin: ItemType</li>
+<li>minecraft:lit_redstone_lamp: ItemType</li>
+<li>minecraft:lit_redstone_ore: ItemType</li>
+<li>minecraft:lit_smoker: ItemType</li>
+<li>minecraft:llama_spawn_egg: ItemType</li>
+<li>minecraft:lodestone: ItemType</li>
+<li>minecraft:lodestone_compass: ItemType</li>
+<li>minecraft:log: ItemType</li>
+<li>minecraft:log2: ItemType</li>
+<li>minecraft:loom: ItemType</li>
+<li>minecraft:magenta_candle: ItemType</li>
+<li>minecraft:magenta_candle_cake: ItemType</li>
+<li>minecraft:magenta_dye: ItemType</li>
+<li>minecraft:magenta_glazed_terracotta: ItemType</li>
+<li>minecraft:magma: ItemType</li>
+<li>minecraft:magma_cream: ItemType</li>
+<li>minecraft:magma_cube_spawn_egg: ItemType</li>
+<li>minecraft:medicine: ItemType</li>
+<li>minecraft:medium_amethyst_bud: ItemType</li>
+<li>minecraft:melon_block: ItemType</li>
+<li>minecraft:melon_seeds: ItemType</li>
+<li>minecraft:melon_slice: ItemType</li>
+<li>minecraft:melon_stem: ItemType</li>
+<li>minecraft:milk_bucket: ItemType</li>
+<li>minecraft:minecart: ItemType</li>
+<li>minecraft:mob_spawner: ItemType</li>
+<li>minecraft:mojang_banner_pattern: ItemType</li>
+<li>minecraft:monster_egg: ItemType</li>
+<li>minecraft:mooshroom_spawn_egg: ItemType</li>
+<li>minecraft:moss_block: ItemType</li>
+<li>minecraft:moss_carpet: ItemType</li>
+<li>minecraft:mossy_cobblestone: ItemType</li>
+<li>minecraft:mossy_cobblestone_stairs: ItemType</li>
+<li>minecraft:mossy_stone_brick_stairs: ItemType</li>
+<li>minecraft:movingblock: ItemType</li>
+<li>minecraft:mule_spawn_egg: ItemType</li>
+<li>minecraft:mushroom_stew: ItemType</li>
+<li>minecraft:music_disc_11: ItemType</li>
+<li>minecraft:music_disc_13: ItemType</li>
+<li>minecraft:music_disc_blocks: ItemType</li>
+<li>minecraft:music_disc_cat: ItemType</li>
+<li>minecraft:music_disc_chirp: ItemType</li>
+<li>minecraft:music_disc_far: ItemType</li>
+<li>minecraft:music_disc_mall: ItemType</li>
+<li>minecraft:music_disc_mellohi: ItemType</li>
+<li>minecraft:music_disc_pigstep: ItemType</li>
+<li>minecraft:music_disc_stal: ItemType</li>
+<li>minecraft:music_disc_strad: ItemType</li>
+<li>minecraft:music_disc_wait: ItemType</li>
+<li>minecraft:music_disc_ward: ItemType</li>
+<li>minecraft:mutton: ItemType</li>
+<li>minecraft:mycelium: ItemType</li>
+<li>minecraft:name_tag: ItemType</li>
+<li>minecraft:nautilus_shell: ItemType</li>
+<li>minecraft:nether_brick: ItemType</li>
+<li>minecraft:nether_brick_fence: ItemType</li>
+<li>minecraft:nether_brick_stairs: ItemType</li>
+<li>minecraft:nether_gold_ore: ItemType</li>
+<li>minecraft:nether_sprouts: ItemType</li>
+<li>minecraft:nether_star: ItemType</li>
+<li>minecraft:nether_wart: ItemType</li>
+<li>minecraft:nether_wart_block: ItemType</li>
+<li>minecraft:netherbrick: ItemType</li>
+<li>minecraft:netherite_axe: ItemType</li>
+<li>minecraft:netherite_block: ItemType</li>
+<li>minecraft:netherite_boots: ItemType</li>
+<li>minecraft:netherite_chestplate: ItemType</li>
+<li>minecraft:netherite_helmet: ItemType</li>
+<li>minecraft:netherite_hoe: ItemType</li>
+<li>minecraft:netherite_ingot: ItemType</li>
+<li>minecraft:netherite_leggings: ItemType</li>
+<li>minecraft:netherite_pickaxe: ItemType</li>
+<li>minecraft:netherite_scrap: ItemType</li>
+<li>minecraft:netherite_shovel: ItemType</li>
+<li>minecraft:netherite_sword: ItemType</li>
+<li>minecraft:netherrack: ItemType</li>
+<li>minecraft:netherreactor: ItemType</li>
+<li>minecraft:normal_stone_stairs: ItemType</li>
+<li>minecraft:noteblock: ItemType</li>
+<li>minecraft:npc_spawn_egg: ItemType</li>
+<li>minecraft:oak_boat: ItemType</li>
+<li>minecraft:oak_sign: ItemType</li>
+<li>minecraft:oak_stairs: ItemType</li>
+<li>minecraft:observer: ItemType</li>
+<li>minecraft:obsidian: ItemType</li>
+<li>minecraft:ocelot_spawn_egg: ItemType</li>
+<li>minecraft:orange_candle: ItemType</li>
+<li>minecraft:orange_candle_cake: ItemType</li>
+<li>minecraft:orange_dye: ItemType</li>
+<li>minecraft:orange_glazed_terracotta: ItemType</li>
+<li>minecraft:oxidized_copper: ItemType</li>
+<li>minecraft:oxidized_cut_copper: ItemType</li>
+<li>minecraft:oxidized_cut_copper_slab: ItemType</li>
+<li>minecraft:oxidized_cut_copper_stairs: ItemType</li>
+<li>minecraft:oxidized_double_cut_copper_slab: ItemType</li>
+<li>minecraft:packed_ice: ItemType</li>
+<li>minecraft:painting: ItemType</li>
+<li>minecraft:panda_spawn_egg: ItemType</li>
+<li>minecraft:paper: ItemType</li>
+<li>minecraft:parrot_spawn_egg: ItemType</li>
+<li>minecraft:phantom_membrane: ItemType</li>
+<li>minecraft:phantom_spawn_egg: ItemType</li>
+<li>minecraft:pig_spawn_egg: ItemType</li>
+<li>minecraft:piglin_banner_pattern: ItemType</li>
+<li>minecraft:piglin_brute_spawn_egg: ItemType</li>
+<li>minecraft:piglin_spawn_egg: ItemType</li>
+<li>minecraft:pillager_spawn_egg: ItemType</li>
+<li>minecraft:pink_candle: ItemType</li>
+<li>minecraft:pink_candle_cake: ItemType</li>
+<li>minecraft:pink_dye: ItemType</li>
+<li>minecraft:pink_glazed_terracotta: ItemType</li>
+<li>minecraft:piston: ItemType</li>
+<li>minecraft:pistonarmcollision: ItemType</li>
+<li>minecraft:planks: ItemType</li>
+<li>minecraft:podzol: ItemType</li>
+<li>minecraft:pointed_dripstone: ItemType</li>
+<li>minecraft:poisonous_potato: ItemType</li>
+<li>minecraft:polar_bear_spawn_egg: ItemType</li>
+<li>minecraft:polished_andesite_stairs: ItemType</li>
+<li>minecraft:polished_basalt: ItemType</li>
+<li>minecraft:polished_blackstone: ItemType</li>
+<li>minecraft:polished_blackstone_brick_double_slab: ItemType</li>
+<li>minecraft:polished_blackstone_brick_slab: ItemType</li>
+<li>minecraft:polished_blackstone_brick_stairs: ItemType</li>
+<li>minecraft:polished_blackstone_brick_wall: ItemType</li>
+<li>minecraft:polished_blackstone_bricks: ItemType</li>
+<li>minecraft:polished_blackstone_button: ItemType</li>
+<li>minecraft:polished_blackstone_double_slab: ItemType</li>
+<li>minecraft:polished_blackstone_pressure_plate: ItemType</li>
+<li>minecraft:polished_blackstone_slab: ItemType</li>
+<li>minecraft:polished_blackstone_stairs: ItemType</li>
+<li>minecraft:polished_blackstone_wall: ItemType</li>
+<li>minecraft:polished_deepslate: ItemType</li>
+<li>minecraft:polished_deepslate_double_slab: ItemType</li>
+<li>minecraft:polished_deepslate_slab: ItemType</li>
+<li>minecraft:polished_deepslate_stairs: ItemType</li>
+<li>minecraft:polished_deepslate_wall: ItemType</li>
+<li>minecraft:polished_diorite_stairs: ItemType</li>
+<li>minecraft:polished_granite_stairs: ItemType</li>
+<li>minecraft:popped_chorus_fruit: ItemType</li>
+<li>minecraft:porkchop: ItemType</li>
+<li>minecraft:portal: ItemType</li>
+<li>minecraft:potato: ItemType</li>
+<li>minecraft:potatoes: ItemType</li>
+<li>minecraft:potion: ItemType</li>
+<li>minecraft:powder_snow: ItemType</li>
+<li>minecraft:powder_snow_bucket: ItemType</li>
+<li>minecraft:powered_comparator: ItemType</li>
+<li>minecraft:powered_repeater: ItemType</li>
+<li>minecraft:prismarine: ItemType</li>
+<li>minecraft:prismarine_bricks_stairs: ItemType</li>
+<li>minecraft:prismarine_crystals: ItemType</li>
+<li>minecraft:prismarine_shard: ItemType</li>
+<li>minecraft:prismarine_stairs: ItemType</li>
+<li>minecraft:pufferfish: ItemType</li>
+<li>minecraft:pufferfish_bucket: ItemType</li>
+<li>minecraft:pufferfish_spawn_egg: ItemType</li>
+<li>minecraft:pumpkin: ItemType</li>
+<li>minecraft:pumpkin_pie: ItemType</li>
+<li>minecraft:pumpkin_seeds: ItemType</li>
+<li>minecraft:pumpkin_stem: ItemType</li>
+<li>minecraft:purple_candle: ItemType</li>
+<li>minecraft:purple_candle_cake: ItemType</li>
+<li>minecraft:purple_dye: ItemType</li>
+<li>minecraft:purple_glazed_terracotta: ItemType</li>
+<li>minecraft:purpur_block: ItemType</li>
+<li>minecraft:purpur_stairs: ItemType</li>
+<li>minecraft:quartz: ItemType</li>
+<li>minecraft:quartz_block: ItemType</li>
+<li>minecraft:quartz_bricks: ItemType</li>
+<li>minecraft:quartz_ore: ItemType</li>
+<li>minecraft:quartz_stairs: ItemType</li>
+<li>minecraft:rabbit: ItemType</li>
+<li>minecraft:rabbit_foot: ItemType</li>
+<li>minecraft:rabbit_hide: ItemType</li>
+<li>minecraft:rabbit_spawn_egg: ItemType</li>
+<li>minecraft:rabbit_stew: ItemType</li>
+<li>minecraft:rail: ItemType</li>
+<li>minecraft:rapid_fertilizer: ItemType</li>
+<li>minecraft:ravager_spawn_egg: ItemType</li>
+<li>minecraft:raw_copper: ItemType</li>
+<li>minecraft:raw_copper_block: ItemType</li>
+<li>minecraft:raw_gold: ItemType</li>
+<li>minecraft:raw_gold_block: ItemType</li>
+<li>minecraft:raw_iron: ItemType</li>
+<li>minecraft:raw_iron_block: ItemType</li>
+<li>minecraft:real_double_stone_slab: ItemType</li>
+<li>minecraft:real_double_stone_slab2: ItemType</li>
+<li>minecraft:real_double_stone_slab3: ItemType</li>
+<li>minecraft:real_double_stone_slab4: ItemType</li>
+<li>minecraft:red_candle: ItemType</li>
+<li>minecraft:red_candle_cake: ItemType</li>
+<li>minecraft:red_dye: ItemType</li>
+<li>minecraft:red_flower: ItemType</li>
+<li>minecraft:red_glazed_terracotta: ItemType</li>
+<li>minecraft:red_mushroom: ItemType</li>
+<li>minecraft:red_mushroom_block: ItemType</li>
+<li>minecraft:red_nether_brick: ItemType</li>
+<li>minecraft:red_nether_brick_stairs: ItemType</li>
+<li>minecraft:red_sandstone: ItemType</li>
+<li>minecraft:red_sandstone_stairs: ItemType</li>
+<li>minecraft:redstone: ItemType</li>
+<li>minecraft:redstone_block: ItemType</li>
+<li>minecraft:redstone_lamp: ItemType</li>
+<li>minecraft:redstone_ore: ItemType</li>
+<li>minecraft:redstone_torch: ItemType</li>
+<li>minecraft:redstone_wire: ItemType</li>
+<li>minecraft:repeater: ItemType</li>
+<li>minecraft:repeating_command_block: ItemType</li>
+<li>minecraft:reserved6: ItemType</li>
+<li>minecraft:respawn_anchor: ItemType</li>
+<li>minecraft:rotten_flesh: ItemType</li>
+<li>minecraft:saddle: ItemType</li>
+<li>minecraft:salmon: ItemType</li>
+<li>minecraft:salmon_bucket: ItemType</li>
+<li>minecraft:salmon_spawn_egg: ItemType</li>
+<li>minecraft:sand: ItemType</li>
+<li>minecraft:sandstone: ItemType</li>
+<li>minecraft:sandstone_stairs: ItemType</li>
+<li>minecraft:sapling: ItemType</li>
+<li>minecraft:scaffolding: ItemType</li>
+<li>minecraft:sculk_sensor: ItemType</li>
+<li>minecraft:scute: ItemType</li>
+<li>minecraft:sea_pickle: ItemType</li>
+<li>minecraft:seagrass: ItemType</li>
+<li>minecraft:sealantern: ItemType</li>
+<li>minecraft:shears: ItemType</li>
+<li>minecraft:sheep_spawn_egg: ItemType</li>
+<li>minecraft:shield: ItemType</li>
+<li>minecraft:shroomlight: ItemType</li>
+<li>minecraft:shulker_box: ItemType</li>
+<li>minecraft:shulker_shell: ItemType</li>
+<li>minecraft:shulker_spawn_egg: ItemType</li>
+<li>minecraft:silver_glazed_terracotta: ItemType</li>
+<li>minecraft:silverfish_spawn_egg: ItemType</li>
+<li>minecraft:skeleton_horse_spawn_egg: ItemType</li>
+<li>minecraft:skeleton_spawn_egg: ItemType</li>
+<li>minecraft:skull: ItemType</li>
+<li>minecraft:skull_banner_pattern: ItemType</li>
+<li>minecraft:slime: ItemType</li>
+<li>minecraft:slime_ball: ItemType</li>
+<li>minecraft:slime_spawn_egg: ItemType</li>
+<li>minecraft:small_amethyst_bud: ItemType</li>
+<li>minecraft:small_dripleaf_block: ItemType</li>
+<li>minecraft:smithing_table: ItemType</li>
+<li>minecraft:smoker: ItemType</li>
+<li>minecraft:smooth_basalt: ItemType</li>
+<li>minecraft:smooth_quartz_stairs: ItemType</li>
+<li>minecraft:smooth_red_sandstone_stairs: ItemType</li>
+<li>minecraft:smooth_sandstone_stairs: ItemType</li>
+<li>minecraft:smooth_stone: ItemType</li>
+<li>minecraft:snow: ItemType</li>
+<li>minecraft:snow_layer: ItemType</li>
+<li>minecraft:snowball: ItemType</li>
+<li>minecraft:soul_campfire: ItemType</li>
+<li>minecraft:soul_fire: ItemType</li>
+<li>minecraft:soul_lantern: ItemType</li>
+<li>minecraft:soul_sand: ItemType</li>
+<li>minecraft:soul_soil: ItemType</li>
+<li>minecraft:soul_torch: ItemType</li>
+<li>minecraft:sparkler: ItemType</li>
+<li>minecraft:spawn_egg: ItemType</li>
+<li>minecraft:spider_eye: ItemType</li>
+<li>minecraft:spider_spawn_egg: ItemType</li>
+<li>minecraft:splash_potion: ItemType</li>
+<li>minecraft:sponge: ItemType</li>
+<li>minecraft:spore_blossom: ItemType</li>
+<li>minecraft:spruce_boat: ItemType</li>
+<li>minecraft:spruce_button: ItemType</li>
+<li>minecraft:spruce_door: ItemType</li>
+<li>minecraft:spruce_fence_gate: ItemType</li>
+<li>minecraft:spruce_pressure_plate: ItemType</li>
+<li>minecraft:spruce_sign: ItemType</li>
+<li>minecraft:spruce_stairs: ItemType</li>
+<li>minecraft:spruce_standing_sign: ItemType</li>
+<li>minecraft:spruce_trapdoor: ItemType</li>
+<li>minecraft:spruce_wall_sign: ItemType</li>
+<li>minecraft:spyglass: ItemType</li>
+<li>minecraft:squid_spawn_egg: ItemType</li>
+<li>minecraft:stained_glass: ItemType</li>
+<li>minecraft:stained_glass_pane: ItemType</li>
+<li>minecraft:stained_hardened_clay: ItemType</li>
+<li>minecraft:standing_banner: ItemType</li>
+<li>minecraft:standing_sign: ItemType</li>
+<li>minecraft:stick: ItemType</li>
+<li>minecraft:sticky_piston: ItemType</li>
+<li>minecraft:stickypistonarmcollision: ItemType</li>
+<li>minecraft:stone: ItemType</li>
+<li>minecraft:stone_axe: ItemType</li>
+<li>minecraft:stone_brick_stairs: ItemType</li>
+<li>minecraft:stone_button: ItemType</li>
+<li>minecraft:stone_hoe: ItemType</li>
+<li>minecraft:stone_pickaxe: ItemType</li>
+<li>minecraft:stone_pressure_plate: ItemType</li>
+<li>minecraft:stone_shovel: ItemType</li>
+<li>minecraft:stone_stairs: ItemType</li>
+<li>minecraft:stone_sword: ItemType</li>
+<li>minecraft:stonebrick: ItemType</li>
+<li>minecraft:stonecutter: ItemType</li>
+<li>minecraft:stonecutter_block: ItemType</li>
+<li>minecraft:stray_spawn_egg: ItemType</li>
+<li>minecraft:strider_spawn_egg: ItemType</li>
+<li>minecraft:string: ItemType</li>
+<li>minecraft:stripped_acacia_log: ItemType</li>
+<li>minecraft:stripped_birch_log: ItemType</li>
+<li>minecraft:stripped_crimson_hyphae: ItemType</li>
+<li>minecraft:stripped_crimson_stem: ItemType</li>
+<li>minecraft:stripped_dark_oak_log: ItemType</li>
+<li>minecraft:stripped_jungle_log: ItemType</li>
+<li>minecraft:stripped_oak_log: ItemType</li>
+<li>minecraft:stripped_spruce_log: ItemType</li>
+<li>minecraft:stripped_warped_hyphae: ItemType</li>
+<li>minecraft:stripped_warped_stem: ItemType</li>
+<li>minecraft:structure_block: ItemType</li>
+<li>minecraft:structure_void: ItemType</li>
+<li>minecraft:sugar: ItemType</li>
+<li>minecraft:sugar_cane: ItemType</li>
+<li>minecraft:suspicious_stew: ItemType</li>
+<li>minecraft:sweet_berries: ItemType</li>
+<li>minecraft:sweet_berry_bush: ItemType</li>
+<li>minecraft:tallgrass: ItemType</li>
+<li>minecraft:target: ItemType</li>
+<li>minecraft:tinted_glass: ItemType</li>
+<li>minecraft:tnt: ItemType</li>
+<li>minecraft:tnt_minecart: ItemType</li>
+<li>minecraft:torch: ItemType</li>
+<li>minecraft:totem_of_undying: ItemType</li>
+<li>minecraft:trapdoor: ItemType</li>
+<li>minecraft:trapped_chest: ItemType</li>
+<li>minecraft:trident: ItemType</li>
+<li>minecraft:tripwire: ItemType</li>
+<li>minecraft:tripwire_hook: ItemType</li>
+<li>minecraft:tropical_fish: ItemType</li>
+<li>minecraft:tropical_fish_bucket: ItemType</li>
+<li>minecraft:tropical_fish_spawn_egg: ItemType</li>
+<li>minecraft:tuff: ItemType</li>
+<li>minecraft:turtle_egg: ItemType</li>
+<li>minecraft:turtle_helmet: ItemType</li>
+<li>minecraft:turtle_spawn_egg: ItemType</li>
+<li>minecraft:twisting_vines: ItemType</li>
+<li>minecraft:underwater_torch: ItemType</li>
+<li>minecraft:undyed_shulker_box: ItemType</li>
+<li>minecraft:unknown: ItemType</li>
+<li>minecraft:unlit_redstone_torch: ItemType</li>
+<li>minecraft:unpowered_comparator: ItemType</li>
+<li>minecraft:unpowered_repeater: ItemType</li>
+<li>minecraft:vex_spawn_egg: ItemType</li>
+<li>minecraft:villager_spawn_egg: ItemType</li>
+<li>minecraft:vindicator_spawn_egg: ItemType</li>
+<li>minecraft:vine: ItemType</li>
+<li>minecraft:wall_banner: ItemType</li>
+<li>minecraft:wall_sign: ItemType</li>
+<li>minecraft:wandering_trader_spawn_egg: ItemType</li>
+<li>minecraft:warped_button: ItemType</li>
+<li>minecraft:warped_door: ItemType</li>
+<li>minecraft:warped_double_slab: ItemType</li>
+<li>minecraft:warped_fence: ItemType</li>
+<li>minecraft:warped_fence_gate: ItemType</li>
+<li>minecraft:warped_fungus: ItemType</li>
+<li>minecraft:warped_fungus_on_a_stick: ItemType</li>
+<li>minecraft:warped_hyphae: ItemType</li>
+<li>minecraft:warped_nylium: ItemType</li>
+<li>minecraft:warped_planks: ItemType</li>
+<li>minecraft:warped_pressure_plate: ItemType</li>
+<li>minecraft:warped_roots: ItemType</li>
+<li>minecraft:warped_sign: ItemType</li>
+<li>minecraft:warped_slab: ItemType</li>
+<li>minecraft:warped_stairs: ItemType</li>
+<li>minecraft:warped_standing_sign: ItemType</li>
+<li>minecraft:warped_stem: ItemType</li>
+<li>minecraft:warped_trapdoor: ItemType</li>
+<li>minecraft:warped_wall_sign: ItemType</li>
+<li>minecraft:warped_wart_block: ItemType</li>
+<li>minecraft:water: ItemType</li>
+<li>minecraft:water_bucket: ItemType</li>
+<li>minecraft:waterlily: ItemType</li>
+<li>minecraft:waxed_copper: ItemType</li>
+<li>minecraft:waxed_cut_copper: ItemType</li>
+<li>minecraft:waxed_cut_copper_slab: ItemType</li>
+<li>minecraft:waxed_cut_copper_stairs: ItemType</li>
+<li>minecraft:waxed_double_cut_copper_slab: ItemType</li>
+<li>minecraft:waxed_exposed_copper: ItemType</li>
+<li>minecraft:waxed_exposed_cut_copper: ItemType</li>
+<li>minecraft:waxed_exposed_cut_copper_slab: ItemType</li>
+<li>minecraft:waxed_exposed_cut_copper_stairs: ItemType</li>
+<li>minecraft:waxed_exposed_double_cut_copper_slab: ItemType</li>
+<li>minecraft:waxed_oxidized_copper: ItemType</li>
+<li>minecraft:waxed_oxidized_cut_copper: ItemType</li>
+<li>minecraft:waxed_oxidized_cut_copper_slab: ItemType</li>
+<li>minecraft:waxed_oxidized_cut_copper_stairs: ItemType</li>
+<li>minecraft:waxed_oxidized_double_cut_copper_slab: ItemType</li>
+<li>minecraft:waxed_weathered_copper: ItemType</li>
+<li>minecraft:waxed_weathered_cut_copper: ItemType</li>
+<li>minecraft:waxed_weathered_cut_copper_slab: ItemType</li>
+<li>minecraft:waxed_weathered_cut_copper_stairs: ItemType</li>
+<li>minecraft:waxed_weathered_double_cut_copper_slab: ItemType</li>
+<li>minecraft:weathered_copper: ItemType</li>
+<li>minecraft:weathered_cut_copper: ItemType</li>
+<li>minecraft:weathered_cut_copper_slab: ItemType</li>
+<li>minecraft:weathered_cut_copper_stairs: ItemType</li>
+<li>minecraft:weathered_double_cut_copper_slab: ItemType</li>
+<li>minecraft:web: ItemType</li>
+<li>minecraft:weeping_vines: ItemType</li>
+<li>minecraft:wheat: ItemType</li>
+<li>minecraft:wheat_seeds: ItemType</li>
+<li>minecraft:white_candle: ItemType</li>
+<li>minecraft:white_candle_cake: ItemType</li>
+<li>minecraft:white_dye: ItemType</li>
+<li>minecraft:white_glazed_terracotta: ItemType</li>
+<li>minecraft:witch_spawn_egg: ItemType</li>
+<li>minecraft:wither_rose: ItemType</li>
+<li>minecraft:wither_skeleton_spawn_egg: ItemType</li>
+<li>minecraft:wolf_spawn_egg: ItemType</li>
+<li>minecraft:wood: ItemType</li>
+<li>minecraft:wooden_axe: ItemType</li>
+<li>minecraft:wooden_button: ItemType</li>
+<li>minecraft:wooden_door: ItemType</li>
+<li>minecraft:wooden_hoe: ItemType</li>
+<li>minecraft:wooden_pickaxe: ItemType</li>
+<li>minecraft:wooden_pressure_plate: ItemType</li>
+<li>minecraft:wooden_shovel: ItemType</li>
+<li>minecraft:wooden_slab: ItemType</li>
+<li>minecraft:wooden_sword: ItemType</li>
+<li>minecraft:wool: ItemType</li>
+<li>minecraft:writable_book: ItemType</li>
+<li>minecraft:written_book: ItemType</li>
+<li>minecraft:yellow_candle: ItemType</li>
+<li>minecraft:yellow_candle_cake: ItemType</li>
+<li>minecraft:yellow_dye: ItemType</li>
+<li>minecraft:yellow_flower: ItemType</li>
+<li>minecraft:yellow_glazed_terracotta: ItemType</li>
+<li>minecraft:zoglin_spawn_egg: ItemType</li>
+<li>minecraft:zombie_horse_spawn_egg: ItemType</li>
+<li>minecraft:zombie_pigman_spawn_egg: ItemType</li>
+<li>minecraft:zombie_spawn_egg: ItemType</li>
+<li>minecraft:zombie_villager_spawn_egg: ItemType</li>
+<li>mobSpawner: ItemType</li>
+<li>mojangBannerPattern: ItemType</li>
+<li>monsterEgg: ItemType</li>
+<li>mooshroomSpawnEgg: ItemType</li>
+<li>mossBlock: ItemType</li>
+<li>mossCarpet: ItemType</li>
+<li>mossyCobblestone: ItemType</li>
+<li>mossyCobblestoneStairs: ItemType</li>
+<li>mossyStoneBrickStairs: ItemType</li>
+<li>movingblock: ItemType</li>
+<li>muleSpawnEgg: ItemType</li>
+<li>mushroomStew: ItemType</li>
+<li>musicDisc11: ItemType</li>
+<li>musicDisc13: ItemType</li>
+<li>musicDiscBlocks: ItemType</li>
+<li>musicDiscCat: ItemType</li>
+<li>musicDiscChirp: ItemType</li>
+<li>musicDiscFar: ItemType</li>
+<li>musicDiscMall: ItemType</li>
+<li>musicDiscMellohi: ItemType</li>
+<li>musicDiscPigstep: ItemType</li>
+<li>musicDiscStal: ItemType</li>
+<li>musicDiscStrad: ItemType</li>
+<li>musicDiscWait: ItemType</li>
+<li>musicDiscWard: ItemType</li>
+<li>mutton: ItemType</li>
+<li>mycelium: ItemType</li>
+<li>nameTag: ItemType</li>
+<li>nautilusShell: ItemType</li>
+<li>netherbrick: ItemType</li>
+<li>netherBrick: ItemType</li>
+<li>netherBrickFence: ItemType</li>
+<li>netherBrickStairs: ItemType</li>
+<li>netherGoldOre: ItemType</li>
+<li>netheriteAxe: ItemType</li>
+<li>netheriteBlock: ItemType</li>
+<li>netheriteBoots: ItemType</li>
+<li>netheriteChestplate: ItemType</li>
+<li>netheriteHelmet: ItemType</li>
+<li>netheriteHoe: ItemType</li>
+<li>netheriteIngot: ItemType</li>
+<li>netheriteLeggings: ItemType</li>
+<li>netheritePickaxe: ItemType</li>
+<li>netheriteScrap: ItemType</li>
+<li>netheriteShovel: ItemType</li>
+<li>netheriteSword: ItemType</li>
+<li>netherrack: ItemType</li>
+<li>netherreactor: ItemType</li>
+<li>netherSprouts: ItemType</li>
+<li>netherStar: ItemType</li>
+<li>netherWart: ItemType</li>
+<li>netherWartBlock: ItemType</li>
+<li>normalStoneStairs: ItemType</li>
+<li>noteblock: ItemType</li>
+<li>npcSpawnEgg: ItemType</li>
+<li>oakBoat: ItemType</li>
+<li>oakSign: ItemType</li>
+<li>oakStairs: ItemType</li>
+<li>observer: ItemType</li>
+<li>obsidian: ItemType</li>
+<li>ocelotSpawnEgg: ItemType</li>
+<li>orangeCandle: ItemType</li>
+<li>orangeCandleCake: ItemType</li>
+<li>orangeDye: ItemType</li>
+<li>orangeGlazedTerracotta: ItemType</li>
+<li>oxidizedCopper: ItemType</li>
+<li>oxidizedCutCopper: ItemType</li>
+<li>oxidizedCutCopperSlab: ItemType</li>
+<li>oxidizedCutCopperStairs: ItemType</li>
+<li>oxidizedDoubleCutCopperSlab: ItemType</li>
+<li>packedIce: ItemType</li>
+<li>painting: ItemType</li>
+<li>pandaSpawnEgg: ItemType</li>
+<li>paper: ItemType</li>
+<li>parrotSpawnEgg: ItemType</li>
+<li>phantomMembrane: ItemType</li>
+<li>phantomSpawnEgg: ItemType</li>
+<li>piglinBannerPattern: ItemType</li>
+<li>piglinBruteSpawnEgg: ItemType</li>
+<li>piglinSpawnEgg: ItemType</li>
+<li>pigSpawnEgg: ItemType</li>
+<li>pillagerSpawnEgg: ItemType</li>
+<li>pinkCandle: ItemType</li>
+<li>pinkCandleCake: ItemType</li>
+<li>pinkDye: ItemType</li>
+<li>pinkGlazedTerracotta: ItemType</li>
+<li>piston: ItemType</li>
+<li>pistonarmcollision: ItemType</li>
+<li>planks: ItemType</li>
+<li>podzol: ItemType</li>
+<li>pointedDripstone: ItemType</li>
+<li>poisonousPotato: ItemType</li>
+<li>polarBearSpawnEgg: ItemType</li>
+<li>polishedAndesiteStairs: ItemType</li>
+<li>polishedBasalt: ItemType</li>
+<li>polishedBlackstone: ItemType</li>
+<li>polishedBlackstoneBrickDoubleSlab: ItemType</li>
+<li>polishedBlackstoneBricks: ItemType</li>
+<li>polishedBlackstoneBrickSlab: ItemType</li>
+<li>polishedBlackstoneBrickStairs: ItemType</li>
+<li>polishedBlackstoneBrickWall: ItemType</li>
+<li>polishedBlackstoneButton: ItemType</li>
+<li>polishedBlackstoneDoubleSlab: ItemType</li>
+<li>polishedBlackstonePressurePlate: ItemType</li>
+<li>polishedBlackstoneSlab: ItemType</li>
+<li>polishedBlackstoneStairs: ItemType</li>
+<li>polishedBlackstoneWall: ItemType</li>
+<li>polishedDeepslate: ItemType</li>
+<li>polishedDeepslateDoubleSlab: ItemType</li>
+<li>polishedDeepslateSlab: ItemType</li>
+<li>polishedDeepslateStairs: ItemType</li>
+<li>polishedDeepslateWall: ItemType</li>
+<li>polishedDioriteStairs: ItemType</li>
+<li>polishedGraniteStairs: ItemType</li>
+<li>poppedChorusFruit: ItemType</li>
+<li>porkchop: ItemType</li>
+<li>portal: ItemType</li>
+<li>potato: ItemType</li>
+<li>potatoes: ItemType</li>
+<li>potion: ItemType</li>
+<li>powderSnow: ItemType</li>
+<li>powderSnowBucket: ItemType</li>
+<li>poweredComparator: ItemType</li>
+<li>poweredRepeater: ItemType</li>
+<li>prismarine: ItemType</li>
+<li>prismarineBricksStairs: ItemType</li>
+<li>prismarineCrystals: ItemType</li>
+<li>prismarineShard: ItemType</li>
+<li>prismarineStairs: ItemType</li>
+<li>pufferfish: ItemType</li>
+<li>pufferfishBucket: ItemType</li>
+<li>pufferfishSpawnEgg: ItemType</li>
+<li>pumpkin: ItemType</li>
+<li>pumpkinPie: ItemType</li>
+<li>pumpkinSeeds: ItemType</li>
+<li>pumpkinStem: ItemType</li>
+<li>purpleCandle: ItemType</li>
+<li>purpleCandleCake: ItemType</li>
+<li>purpleDye: ItemType</li>
+<li>purpleGlazedTerracotta: ItemType</li>
+<li>purpurBlock: ItemType</li>
+<li>purpurStairs: ItemType</li>
+<li>quartz: ItemType</li>
+<li>quartzBlock: ItemType</li>
+<li>quartzBricks: ItemType</li>
+<li>quartzOre: ItemType</li>
+<li>quartzStairs: ItemType</li>
+<li>rabbit: ItemType</li>
+<li>rabbitFoot: ItemType</li>
+<li>rabbitHide: ItemType</li>
+<li>rabbitSpawnEgg: ItemType</li>
+<li>rabbitStew: ItemType</li>
+<li>rail: ItemType</li>
+<li>rapidFertilizer: ItemType</li>
+<li>ravagerSpawnEgg: ItemType</li>
+<li>rawCopper: ItemType</li>
+<li>rawCopperBlock: ItemType</li>
+<li>rawGold: ItemType</li>
+<li>rawGoldBlock: ItemType</li>
+<li>rawIron: ItemType</li>
+<li>rawIronBlock: ItemType</li>
+<li>realDoubleStoneSlab: ItemType</li>
+<li>realDoubleStoneSlab2: ItemType</li>
+<li>realDoubleStoneSlab3: ItemType</li>
+<li>realDoubleStoneSlab4: ItemType</li>
+<li>redCandle: ItemType</li>
+<li>redCandleCake: ItemType</li>
+<li>redDye: ItemType</li>
+<li>redFlower: ItemType</li>
+<li>redGlazedTerracotta: ItemType</li>
+<li>redMushroom: ItemType</li>
+<li>redMushroomBlock: ItemType</li>
+<li>redNetherBrick: ItemType</li>
+<li>redNetherBrickStairs: ItemType</li>
+<li>redSandstone: ItemType</li>
+<li>redSandstoneStairs: ItemType</li>
+<li>redstone: ItemType</li>
+<li>redstoneBlock: ItemType</li>
+<li>redstoneLamp: ItemType</li>
+<li>redstoneOre: ItemType</li>
+<li>redstoneTorch: ItemType</li>
+<li>redstoneWire: ItemType</li>
+<li>repeater: ItemType</li>
+<li>repeatingCommandBlock: ItemType</li>
+<li>reserved6: ItemType</li>
+<li>respawnAnchor: ItemType</li>
+<li>rottenFlesh: ItemType</li>
+<li>saddle: ItemType</li>
+<li>salmon: ItemType</li>
+<li>salmonBucket: ItemType</li>
+<li>salmonSpawnEgg: ItemType</li>
+<li>sand: ItemType</li>
+<li>sandstone: ItemType</li>
+<li>sandstoneStairs: ItemType</li>
+<li>sapling: ItemType</li>
+<li>scaffolding: ItemType</li>
+<li>sculkSensor: ItemType</li>
+<li>scute: ItemType</li>
+<li>seagrass: ItemType</li>
+<li>sealantern: ItemType</li>
+<li>seaPickle: ItemType</li>
+<li>shears: ItemType</li>
+<li>sheepSpawnEgg: ItemType</li>
+<li>shield: ItemType</li>
+<li>shroomlight: ItemType</li>
+<li>shulkerBox: ItemType</li>
+<li>shulkerShell: ItemType</li>
+<li>shulkerSpawnEgg: ItemType</li>
+<li>silverfishSpawnEgg: ItemType</li>
+<li>silverGlazedTerracotta: ItemType</li>
+<li>skeletonHorseSpawnEgg: ItemType</li>
+<li>skeletonSpawnEgg: ItemType</li>
+<li>skull: ItemType</li>
+<li>skullBannerPattern: ItemType</li>
+<li>slime: ItemType</li>
+<li>slimeBall: ItemType</li>
+<li>slimeSpawnEgg: ItemType</li>
+<li>smallAmethystBud: ItemType</li>
+<li>smallDripleafBlock: ItemType</li>
+<li>smithingTable: ItemType</li>
+<li>smoker: ItemType</li>
+<li>smoothBasalt: ItemType</li>
+<li>smoothQuartzStairs: ItemType</li>
+<li>smoothRedSandstoneStairs: ItemType</li>
+<li>smoothSandstoneStairs: ItemType</li>
+<li>smoothStone: ItemType</li>
+<li>snow: ItemType</li>
+<li>snowball: ItemType</li>
+<li>snowLayer: ItemType</li>
+<li>soulCampfire: ItemType</li>
+<li>soulFire: ItemType</li>
+<li>soulLantern: ItemType</li>
+<li>soulSand: ItemType</li>
+<li>soulSoil: ItemType</li>
+<li>soulTorch: ItemType</li>
+<li>sparkler: ItemType</li>
+<li>spawnEgg: ItemType</li>
+<li>spiderEye: ItemType</li>
+<li>spiderSpawnEgg: ItemType</li>
+<li>splashPotion: ItemType</li>
+<li>sponge: ItemType</li>
+<li>sporeBlossom: ItemType</li>
+<li>spruceBoat: ItemType</li>
+<li>spruceButton: ItemType</li>
+<li>spruceDoor: ItemType</li>
+<li>spruceFenceGate: ItemType</li>
+<li>sprucePressurePlate: ItemType</li>
+<li>spruceSign: ItemType</li>
+<li>spruceStairs: ItemType</li>
+<li>spruceStandingSign: ItemType</li>
+<li>spruceTrapdoor: ItemType</li>
+<li>spruceWallSign: ItemType</li>
+<li>spyglass: ItemType</li>
+<li>squidSpawnEgg: ItemType</li>
+<li>stainedGlass: ItemType</li>
+<li>stainedGlassPane: ItemType</li>
+<li>stainedHardenedClay: ItemType</li>
+<li>standingBanner: ItemType</li>
+<li>standingSign: ItemType</li>
+<li>stick: ItemType</li>
+<li>stickyPiston: ItemType</li>
+<li>stickypistonarmcollision: ItemType</li>
+<li>stone: ItemType</li>
+<li>stoneAxe: ItemType</li>
+<li>stonebrick: ItemType</li>
+<li>stoneBrickStairs: ItemType</li>
+<li>stoneButton: ItemType</li>
+<li>stonecutter: ItemType</li>
+<li>stonecutterBlock: ItemType</li>
+<li>stoneHoe: ItemType</li>
+<li>stonePickaxe: ItemType</li>
+<li>stonePressurePlate: ItemType</li>
+<li>stoneShovel: ItemType</li>
+<li>stoneStairs: ItemType</li>
+<li>stoneSword: ItemType</li>
+<li>straySpawnEgg: ItemType</li>
+<li>striderSpawnEgg: ItemType</li>
+<li>string: ItemType</li>
+<li>strippedAcaciaLog: ItemType</li>
+<li>strippedBirchLog: ItemType</li>
+<li>strippedCrimsonHyphae: ItemType</li>
+<li>strippedCrimsonStem: ItemType</li>
+<li>strippedDarkOakLog: ItemType</li>
+<li>strippedJungleLog: ItemType</li>
+<li>strippedOakLog: ItemType</li>
+<li>strippedSpruceLog: ItemType</li>
+<li>strippedWarpedHyphae: ItemType</li>
+<li>strippedWarpedStem: ItemType</li>
+<li>structureBlock: ItemType</li>
+<li>structureVoid: ItemType</li>
+<li>sugar: ItemType</li>
+<li>sugarCane: ItemType</li>
+<li>suspiciousStew: ItemType</li>
+<li>sweetBerries: ItemType</li>
+<li>sweetBerryBush: ItemType</li>
+<li>tallgrass: ItemType</li>
+<li>target: ItemType</li>
+<li>tintedGlass: ItemType</li>
+<li>tnt: ItemType</li>
+<li>tntMinecart: ItemType</li>
+<li>torch: ItemType</li>
+<li>totemOfUndying: ItemType</li>
+<li>trapdoor: ItemType</li>
+<li>trappedChest: ItemType</li>
+<li>trident: ItemType</li>
+<li>tripwire: ItemType</li>
+<li>tripwireHook: ItemType</li>
+<li>tropicalFish: ItemType</li>
+<li>tropicalFishBucket: ItemType</li>
+<li>tropicalFishSpawnEgg: ItemType</li>
+<li>tuff: ItemType</li>
+<li>turtleEgg: ItemType</li>
+<li>turtleHelmet: ItemType</li>
+<li>turtleSpawnEgg: ItemType</li>
+<li>twistingVines: ItemType</li>
+<li>underwaterTorch: ItemType</li>
+<li>undyedShulkerBox: ItemType</li>
+<li>unknown: ItemType</li>
+<li>unlitRedstoneTorch: ItemType</li>
+<li>unpoweredComparator: ItemType</li>
+<li>unpoweredRepeater: ItemType</li>
+<li>vexSpawnEgg: ItemType</li>
+<li>villagerSpawnEgg: ItemType</li>
+<li>vindicatorSpawnEgg: ItemType</li>
+<li>vine: ItemType</li>
+<li>wallBanner: ItemType</li>
+<li>wallSign: ItemType</li>
+<li>wanderingTraderSpawnEgg: ItemType</li>
+<li>warpedButton: ItemType</li>
+<li>warpedDoor: ItemType</li>
+<li>warpedDoubleSlab: ItemType</li>
+<li>warpedFence: ItemType</li>
+<li>warpedFenceGate: ItemType</li>
+<li>warpedFungus: ItemType</li>
+<li>warpedFungusOnAStick: ItemType</li>
+<li>warpedHyphae: ItemType</li>
+<li>warpedNylium: ItemType</li>
+<li>warpedPlanks: ItemType</li>
+<li>warpedPressurePlate: ItemType</li>
+<li>warpedRoots: ItemType</li>
+<li>warpedSign: ItemType</li>
+<li>warpedSlab: ItemType</li>
+<li>warpedStairs: ItemType</li>
+<li>warpedStandingSign: ItemType</li>
+<li>warpedStem: ItemType</li>
+<li>warpedTrapdoor: ItemType</li>
+<li>warpedWallSign: ItemType</li>
+<li>warpedWartBlock: ItemType</li>
+<li>water: ItemType</li>
+<li>waterBucket: ItemType</li>
+<li>waterlily: ItemType</li>
+<li>waxedCopper: ItemType</li>
+<li>waxedCutCopper: ItemType</li>
+<li>waxedCutCopperSlab: ItemType</li>
+<li>waxedCutCopperStairs: ItemType</li>
+<li>waxedDoubleCutCopperSlab: ItemType</li>
+<li>waxedExposedCopper: ItemType</li>
+<li>waxedExposedCutCopper: ItemType</li>
+<li>waxedExposedCutCopperSlab: ItemType</li>
+<li>waxedExposedCutCopperStairs: ItemType</li>
+<li>waxedExposedDoubleCutCopperSlab: ItemType</li>
+<li>waxedOxidizedCopper: ItemType</li>
+<li>waxedOxidizedCutCopper: ItemType</li>
+<li>waxedOxidizedCutCopperSlab: ItemType</li>
+<li>waxedOxidizedCutCopperStairs: ItemType</li>
+<li>waxedOxidizedDoubleCutCopperSlab: ItemType</li>
+<li>waxedWeatheredCopper: ItemType</li>
+<li>waxedWeatheredCutCopper: ItemType</li>
+<li>waxedWeatheredCutCopperSlab: ItemType</li>
+<li>waxedWeatheredCutCopperStairs: ItemType</li>
+<li>waxedWeatheredDoubleCutCopperSlab: ItemType</li>
+<li>weatheredCopper: ItemType</li>
+<li>weatheredCutCopper: ItemType</li>
+<li>weatheredCutCopperSlab: ItemType</li>
+<li>weatheredCutCopperStairs: ItemType</li>
+<li>weatheredDoubleCutCopperSlab: ItemType</li>
+<li>web: ItemType</li>
+<li>weepingVines: ItemType</li>
+<li>wheat: ItemType</li>
+<li>wheatSeeds: ItemType</li>
+<li>whiteCandle: ItemType</li>
+<li>whiteCandleCake: ItemType</li>
+<li>whiteDye: ItemType</li>
+<li>whiteGlazedTerracotta: ItemType</li>
+<li>witchSpawnEgg: ItemType</li>
+<li>witherRose: ItemType</li>
+<li>witherSkeletonSpawnEgg: ItemType</li>
+<li>wolfSpawnEgg: ItemType</li>
+<li>wood: ItemType</li>
+<li>woodenAxe: ItemType</li>
+<li>woodenButton: ItemType</li>
+<li>woodenDoor: ItemType</li>
+<li>woodenHoe: ItemType</li>
+<li>woodenPickaxe: ItemType</li>
+<li>woodenPressurePlate: ItemType</li>
+<li>woodenShovel: ItemType</li>
+<li>woodenSlab: ItemType</li>
+<li>woodenSword: ItemType</li>
+<li>wool: ItemType</li>
+<li>writableBook: ItemType</li>
+<li>writtenBook: ItemType</li>
+<li>yellowCandle: ItemType</li>
+<li>yellowCandleCake: ItemType</li>
+<li>yellowDye: ItemType</li>
+<li>yellowFlower: ItemType</li>
+<li>yellowGlazedTerracotta: ItemType</li>
+<li>zoglinSpawnEgg: ItemType</li>
+<li>zombieHorseSpawnEgg: ItemType</li>
+<li>zombiePigmanSpawnEgg: ItemType</li>
+<li>zombieSpawnEgg: ItemType</li>
+<li>zombieVillagerSpawnEgg: ItemType</li>
 </ul>
 </details>
 
 <details>
 <summary>ItemStack</summary>
 <ul> 
-<li><font color="#ff9800">amount</font>: number</li>
-<li><font color="#ff9800">data</font>: number</li>
-<li><font color="#ff9800">id</font>: string</li>
-<li><font color="#ffc107">constructor</font>(itemType: ItemType, amount: number, data: number)</li>
+<li>amount: number</li>
+<li>data: number</li>
+<li>id: string</li>
+<li>constructor(itemType: ItemType, amount: number, data: number)</li>
 </ul>
 </details>
 
 <details>
 <summary>ItemType</summary>
 <ul> 
-<li><font color="#ffc107">getName</font>(): string</li>
+<li>getName(): string</li>
 </ul>
 </details>
 
 <details>
 <summary>LavaMovement</summary>
 <ul> 
-<li><font color="#ff9800">current</font>: number</li>
-<li><font color="#ff9800">id</font>: string</li>
-<li><font color="#ff9800">value</font>: number</li>
-<li><font color="#ffc107">resetToDefaultValue</font>(): void</li>
-<li><font color="#ffc107">resetToMaxValue</font>(): void</li>
-<li><font color="#ffc107">resetToMinValue</font>(): void</li>
-<li><font color="#ffc107">setCurrent</font>(): void</li>
+<li>current: number</li>
+<li>id: string</li>
+<li>value: number</li>
+<li>resetToDefaultValue(): void</li>
+<li>resetToMaxValue(): void</li>
+<li>resetToMinValue(): void</li>
+<li>setCurrent(): void</li>
 </ul>
 </details>
 
 <details>
 <summary>Leashable</summary>
 <ul> 
-<li><font color="#ff9800">id</font>: string</li>
-<li><font color="#ff9800">softDistance</font>: number</li>
-<li><font color="#ffc107">leash</font>(leashHolder: Entity): void</li>
-<li><font color="#ffc107">unleash</font>(): void</li>
+<li>id: string</li>
+<li>softDistance: number</li>
+<li>leash(leashHolder: Entity): void</li>
+<li>unleash(): void</li>
 </ul>
 </details>
 
 <details>
 <summary>Location</summary>
 <ul> 
-<li><font color="#ff9800">x</font>: number</li>
-<li><font color="#ff9800">y</font>: number</li>
-<li><font color="#ff9800">z</font>: number</li>
-<li><font color="#ffc107">constructor</font>(x: number, y: number, z: number)</li>
-<li><font color="#ffc107">equals</font>(other: Location): boolean</li>
-<li><font color="#ffc107">isNear</font>(other: Location, epsilon: number): boolean</li>
+<li>x: number</li>
+<li>y: number</li>
+<li>z: number</li>
+<li>constructor(x: number, y: number, z: number)</li>
+<li>equals(other: Location): boolean</li>
+<li>isNear(other: Location, epsilon: number): boolean</li>
 </ul>
 </details>
 
 <details>
 <summary>MountTaming</summary>
 <ul> 
-<li><font color="#ff9800">id</font>: string</li>
-<li><font color="#ffc107">setTamed</font>(showParticles: boolean): void</li>
+<li>id: string</li>
+<li>setTamed(showParticles: boolean): void</li>
 </ul>
 </details>
 
 <details>
 <summary>Movement</summary>
 <ul> 
-<li><font color="#ff9800">current</font>: number</li>
-<li><font color="#ff9800">id</font>: string</li>
-<li><font color="#ff9800">value</font>: number</li>
-<li><font color="#ffc107">resetToDefaultValue</font>(): void</li>
-<li><font color="#ffc107">resetToMaxValue</font>(): void</li>
-<li><font color="#ffc107">resetToMinValue</font>(): void</li>
-<li><font color="#ffc107">setCurrent</font>(): void</li>
+<li>current: number</li>
+<li>id: string</li>
+<li>value: number</li>
+<li>resetToDefaultValue(): void</li>
+<li>resetToMaxValue(): void</li>
+<li>resetToMinValue(): void</li>
+<li>setCurrent(): void</li>
 </ul>
 </details>
 
 <details>
 <summary>MovementAmphibious</summary>
 <ul> 
-<li><font color="#ff9800">id</font>: string</li>
-<li><font color="#ff9800">maxTurn</font>: number</li>
+<li>id: string</li>
+<li>maxTurn: number</li>
 </ul>
 </details>
 
 <details>
 <summary>MovementBasic</summary>
 <ul> 
-<li><font color="#ff9800">id</font>: string</li>
-<li><font color="#ff9800">maxTurn</font>: number</li>
+<li>id: string</li>
+<li>maxTurn: number</li>
 </ul>
 </details>
 
 <details>
 <summary>MovementFly</summary>
 <ul> 
-<li><font color="#ff9800">id</font>: string</li>
-<li><font color="#ff9800">maxTurn</font>: number</li>
+<li>id: string</li>
+<li>maxTurn: number</li>
 </ul>
 </details>
 
 <details>
 <summary>MovementGeneric</summary>
 <ul> 
-<li><font color="#ff9800">id</font>: string</li>
-<li><font color="#ff9800">maxTurn</font>: number</li>
+<li>id: string</li>
+<li>maxTurn: number</li>
 </ul>
 </details>
 
 <details>
 <summary>MovementGlide</summary>
 <ul> 
-<li><font color="#ff9800">id</font>: string</li>
-<li><font color="#ff9800">maxTurn</font>: number</li>
-<li><font color="#ff9800">speedWhenTurning</font>: number</li>
-<li><font color="#ff9800">startSpeed</font>: number</li>
+<li>id: string</li>
+<li>maxTurn: number</li>
+<li>speedWhenTurning: number</li>
+<li>startSpeed: number</li>
 </ul>
 </details>
 
 <details>
 <summary>MovementHover</summary>
 <ul> 
-<li><font color="#ff9800">id</font>: string</li>
-<li><font color="#ff9800">maxTurn</font>: number</li>
+<li>id: string</li>
+<li>maxTurn: number</li>
 </ul>
 </details>
 
 <details>
 <summary>MovementJump</summary>
 <ul> 
-<li><font color="#ff9800">id</font>: string</li>
-<li><font color="#ff9800">maxTurn</font>: number</li>
+<li>id: string</li>
+<li>maxTurn: number</li>
 </ul>
 </details>
 
 <details>
 <summary>MovementSkip</summary>
 <ul> 
-<li><font color="#ff9800">id</font>: string</li>
-<li><font color="#ff9800">maxTurn</font>: number</li>
+<li>id: string</li>
+<li>maxTurn: number</li>
 </ul>
 </details>
 
 <details>
 <summary>MovementSway</summary>
 <ul> 
-<li><font color="#ff9800">id</font>: string</li>
-<li><font color="#ff9800">maxTurn</font>: number</li>
-<li><font color="#ff9800">swayAmplitude</font>: number</li>
-<li><font color="#ff9800">swayFrequency</font>: number</li>
+<li>id: string</li>
+<li>maxTurn: number</li>
+<li>swayAmplitude: number</li>
+<li>swayFrequency: number</li>
 </ul>
 </details>
 
 <details>
 <summary>NavigationClimb</summary>
 <ul> 
-<li><font color="#ff9800">avoidDamageBlocks</font>: boolean</li>
-<li><font color="#ff9800">avoidPortals</font>: boolean</li>
-<li><font color="#ff9800">avoidSun</font>: boolean</li>
-<li><font color="#ff9800">avoidWater</font>: boolean</li>
-<li><font color="#ff9800">canBreach</font>: boolean</li>
-<li><font color="#ff9800">canBreakDoors</font>: boolean</li>
-<li><font color="#ff9800">canFloat</font>: boolean</li>
-<li><font color="#ff9800">canJump</font>: boolean</li>
-<li><font color="#ff9800">canOpenDoors</font>: boolean</li>
-<li><font color="#ff9800">canOpenIronDoors</font>: boolean</li>
-<li><font color="#ff9800">canPassDoors</font>: boolean</li>
-<li><font color="#ff9800">canPathFromAir</font>: boolean</li>
-<li><font color="#ff9800">canPathOverLava</font>: boolean</li>
-<li><font color="#ff9800">canPathOverWater</font>: boolean</li>
-<li><font color="#ff9800">canSink</font>: boolean</li>
-<li><font color="#ff9800">canSwim</font>: boolean</li>
-<li><font color="#ff9800">canWalk</font>: boolean</li>
-<li><font color="#ff9800">canWalkInLava</font>: boolean</li>
-<li><font color="#ff9800">id</font>: string</li>
-<li><font color="#ff9800">isAmphibious</font>: boolean</li>
+<li>avoidDamageBlocks: boolean</li>
+<li>avoidPortals: boolean</li>
+<li>avoidSun: boolean</li>
+<li>avoidWater: boolean</li>
+<li>canBreach: boolean</li>
+<li>canBreakDoors: boolean</li>
+<li>canFloat: boolean</li>
+<li>canJump: boolean</li>
+<li>canOpenDoors: boolean</li>
+<li>canOpenIronDoors: boolean</li>
+<li>canPassDoors: boolean</li>
+<li>canPathFromAir: boolean</li>
+<li>canPathOverLava: boolean</li>
+<li>canPathOverWater: boolean</li>
+<li>canSink: boolean</li>
+<li>canSwim: boolean</li>
+<li>canWalk: boolean</li>
+<li>canWalkInLava: boolean</li>
+<li>id: string</li>
+<li>isAmphibious: boolean</li>
 </ul>
 </details>
 
 <details>
 <summary>NavigationFloat</summary>
 <ul> 
-<li><font color="#ff9800">avoidDamageBlocks</font>: boolean</li>
-<li><font color="#ff9800">avoidPortals</font>: boolean</li>
-<li><font color="#ff9800">avoidSun</font>: boolean</li>
-<li><font color="#ff9800">avoidWater</font>: boolean</li>
-<li><font color="#ff9800">canBreach</font>: boolean</li>
-<li><font color="#ff9800">canBreakDoors</font>: boolean</li>
-<li><font color="#ff9800">canFloat</font>: boolean</li>
-<li><font color="#ff9800">canJump</font>: boolean</li>
-<li><font color="#ff9800">canOpenDoors</font>: boolean</li>
-<li><font color="#ff9800">canOpenIronDoors</font>: boolean</li>
-<li><font color="#ff9800">canPassDoors</font>: boolean</li>
-<li><font color="#ff9800">canPathFromAir</font>: boolean</li>
-<li><font color="#ff9800">canPathOverLava</font>: boolean</li>
-<li><font color="#ff9800">canPathOverWater</font>: boolean</li>
-<li><font color="#ff9800">canSink</font>: boolean</li>
-<li><font color="#ff9800">canSwim</font>: boolean</li>
-<li><font color="#ff9800">canWalk</font>: boolean</li>
-<li><font color="#ff9800">canWalkInLava</font>: boolean</li>
-<li><font color="#ff9800">id</font>: string</li>
-<li><font color="#ff9800">isAmphibious</font>: boolean</li>
+<li>avoidDamageBlocks: boolean</li>
+<li>avoidPortals: boolean</li>
+<li>avoidSun: boolean</li>
+<li>avoidWater: boolean</li>
+<li>canBreach: boolean</li>
+<li>canBreakDoors: boolean</li>
+<li>canFloat: boolean</li>
+<li>canJump: boolean</li>
+<li>canOpenDoors: boolean</li>
+<li>canOpenIronDoors: boolean</li>
+<li>canPassDoors: boolean</li>
+<li>canPathFromAir: boolean</li>
+<li>canPathOverLava: boolean</li>
+<li>canPathOverWater: boolean</li>
+<li>canSink: boolean</li>
+<li>canSwim: boolean</li>
+<li>canWalk: boolean</li>
+<li>canWalkInLava: boolean</li>
+<li>id: string</li>
+<li>isAmphibious: boolean</li>
 </ul>
 </details>
 
 <details>
 <summary>NavigationFly</summary>
 <ul> 
-<li><font color="#ff9800">avoidDamageBlocks</font>: boolean</li>
-<li><font color="#ff9800">avoidPortals</font>: boolean</li>
-<li><font color="#ff9800">avoidSun</font>: boolean</li>
-<li><font color="#ff9800">avoidWater</font>: boolean</li>
-<li><font color="#ff9800">canBreach</font>: boolean</li>
-<li><font color="#ff9800">canBreakDoors</font>: boolean</li>
-<li><font color="#ff9800">canFloat</font>: boolean</li>
-<li><font color="#ff9800">canJump</font>: boolean</li>
-<li><font color="#ff9800">canOpenDoors</font>: boolean</li>
-<li><font color="#ff9800">canOpenIronDoors</font>: boolean</li>
-<li><font color="#ff9800">canPassDoors</font>: boolean</li>
-<li><font color="#ff9800">canPathFromAir</font>: boolean</li>
-<li><font color="#ff9800">canPathOverLava</font>: boolean</li>
-<li><font color="#ff9800">canPathOverWater</font>: boolean</li>
-<li><font color="#ff9800">canSink</font>: boolean</li>
-<li><font color="#ff9800">canSwim</font>: boolean</li>
-<li><font color="#ff9800">canWalk</font>: boolean</li>
-<li><font color="#ff9800">canWalkInLava</font>: boolean</li>
-<li><font color="#ff9800">id</font>: string</li>
-<li><font color="#ff9800">isAmphibious</font>: boolean</li>
+<li>avoidDamageBlocks: boolean</li>
+<li>avoidPortals: boolean</li>
+<li>avoidSun: boolean</li>
+<li>avoidWater: boolean</li>
+<li>canBreach: boolean</li>
+<li>canBreakDoors: boolean</li>
+<li>canFloat: boolean</li>
+<li>canJump: boolean</li>
+<li>canOpenDoors: boolean</li>
+<li>canOpenIronDoors: boolean</li>
+<li>canPassDoors: boolean</li>
+<li>canPathFromAir: boolean</li>
+<li>canPathOverLava: boolean</li>
+<li>canPathOverWater: boolean</li>
+<li>canSink: boolean</li>
+<li>canSwim: boolean</li>
+<li>canWalk: boolean</li>
+<li>canWalkInLava: boolean</li>
+<li>id: string</li>
+<li>isAmphibious: boolean</li>
 </ul>
 </details>
 
 <details>
 <summary>NavigationGeneric</summary>
 <ul> 
-<li><font color="#ff9800">avoidDamageBlocks</font>: boolean</li>
-<li><font color="#ff9800">avoidPortals</font>: boolean</li>
-<li><font color="#ff9800">avoidSun</font>: boolean</li>
-<li><font color="#ff9800">avoidWater</font>: boolean</li>
-<li><font color="#ff9800">canBreach</font>: boolean</li>
-<li><font color="#ff9800">canBreakDoors</font>: boolean</li>
-<li><font color="#ff9800">canFloat</font>: boolean</li>
-<li><font color="#ff9800">canJump</font>: boolean</li>
-<li><font color="#ff9800">canOpenDoors</font>: boolean</li>
-<li><font color="#ff9800">canOpenIronDoors</font>: boolean</li>
-<li><font color="#ff9800">canPassDoors</font>: boolean</li>
-<li><font color="#ff9800">canPathFromAir</font>: boolean</li>
-<li><font color="#ff9800">canPathOverLava</font>: boolean</li>
-<li><font color="#ff9800">canPathOverWater</font>: boolean</li>
-<li><font color="#ff9800">canSink</font>: boolean</li>
-<li><font color="#ff9800">canSwim</font>: boolean</li>
-<li><font color="#ff9800">canWalk</font>: boolean</li>
-<li><font color="#ff9800">canWalkInLava</font>: boolean</li>
-<li><font color="#ff9800">id</font>: string</li>
-<li><font color="#ff9800">isAmphibious</font>: boolean</li>
+<li>avoidDamageBlocks: boolean</li>
+<li>avoidPortals: boolean</li>
+<li>avoidSun: boolean</li>
+<li>avoidWater: boolean</li>
+<li>canBreach: boolean</li>
+<li>canBreakDoors: boolean</li>
+<li>canFloat: boolean</li>
+<li>canJump: boolean</li>
+<li>canOpenDoors: boolean</li>
+<li>canOpenIronDoors: boolean</li>
+<li>canPassDoors: boolean</li>
+<li>canPathFromAir: boolean</li>
+<li>canPathOverLava: boolean</li>
+<li>canPathOverWater: boolean</li>
+<li>canSink: boolean</li>
+<li>canSwim: boolean</li>
+<li>canWalk: boolean</li>
+<li>canWalkInLava: boolean</li>
+<li>id: string</li>
+<li>isAmphibious: boolean</li>
 </ul>
 </details>
 
 <details>
 <summary>NavigationHover</summary>
 <ul> 
-<li><font color="#ff9800">avoidDamageBlocks</font>: boolean</li>
-<li><font color="#ff9800">avoidPortals</font>: boolean</li>
-<li><font color="#ff9800">avoidSun</font>: boolean</li>
-<li><font color="#ff9800">avoidWater</font>: boolean</li>
-<li><font color="#ff9800">canBreach</font>: boolean</li>
-<li><font color="#ff9800">canBreakDoors</font>: boolean</li>
-<li><font color="#ff9800">canFloat</font>: boolean</li>
-<li><font color="#ff9800">canJump</font>: boolean</li>
-<li><font color="#ff9800">canOpenDoors</font>: boolean</li>
-<li><font color="#ff9800">canOpenIronDoors</font>: boolean</li>
-<li><font color="#ff9800">canPassDoors</font>: boolean</li>
-<li><font color="#ff9800">canPathFromAir</font>: boolean</li>
-<li><font color="#ff9800">canPathOverLava</font>: boolean</li>
-<li><font color="#ff9800">canPathOverWater</font>: boolean</li>
-<li><font color="#ff9800">canSink</font>: boolean</li>
-<li><font color="#ff9800">canSwim</font>: boolean</li>
-<li><font color="#ff9800">canWalk</font>: boolean</li>
-<li><font color="#ff9800">canWalkInLava</font>: boolean</li>
-<li><font color="#ff9800">id</font>: string</li>
-<li><font color="#ff9800">isAmphibious</font>: boolean</li>
+<li>avoidDamageBlocks: boolean</li>
+<li>avoidPortals: boolean</li>
+<li>avoidSun: boolean</li>
+<li>avoidWater: boolean</li>
+<li>canBreach: boolean</li>
+<li>canBreakDoors: boolean</li>
+<li>canFloat: boolean</li>
+<li>canJump: boolean</li>
+<li>canOpenDoors: boolean</li>
+<li>canOpenIronDoors: boolean</li>
+<li>canPassDoors: boolean</li>
+<li>canPathFromAir: boolean</li>
+<li>canPathOverLava: boolean</li>
+<li>canPathOverWater: boolean</li>
+<li>canSink: boolean</li>
+<li>canSwim: boolean</li>
+<li>canWalk: boolean</li>
+<li>canWalkInLava: boolean</li>
+<li>id: string</li>
+<li>isAmphibious: boolean</li>
 </ul>
 </details>
 
 <details>
 <summary>NavigationWalk</summary>
 <ul> 
-<li><font color="#ff9800">avoidDamageBlocks</font>: boolean</li>
-<li><font color="#ff9800">avoidPortals</font>: boolean</li>
-<li><font color="#ff9800">avoidSun</font>: boolean</li>
-<li><font color="#ff9800">avoidWater</font>: boolean</li>
-<li><font color="#ff9800">canBreach</font>: boolean</li>
-<li><font color="#ff9800">canBreakDoors</font>: boolean</li>
-<li><font color="#ff9800">canFloat</font>: boolean</li>
-<li><font color="#ff9800">canJump</font>: boolean</li>
-<li><font color="#ff9800">canOpenDoors</font>: boolean</li>
-<li><font color="#ff9800">canOpenIronDoors</font>: boolean</li>
-<li><font color="#ff9800">canPassDoors</font>: boolean</li>
-<li><font color="#ff9800">canPathFromAir</font>: boolean</li>
-<li><font color="#ff9800">canPathOverLava</font>: boolean</li>
-<li><font color="#ff9800">canPathOverWater</font>: boolean</li>
-<li><font color="#ff9800">canSink</font>: boolean</li>
-<li><font color="#ff9800">canSwim</font>: boolean</li>
-<li><font color="#ff9800">canWalk</font>: boolean</li>
-<li><font color="#ff9800">canWalkInLava</font>: boolean</li>
-<li><font color="#ff9800">id</font>: string</li>
-<li><font color="#ff9800">isAmphibious</font>: boolean</li>
+<li>avoidDamageBlocks: boolean</li>
+<li>avoidPortals: boolean</li>
+<li>avoidSun: boolean</li>
+<li>avoidWater: boolean</li>
+<li>canBreach: boolean</li>
+<li>canBreakDoors: boolean</li>
+<li>canFloat: boolean</li>
+<li>canJump: boolean</li>
+<li>canOpenDoors: boolean</li>
+<li>canOpenIronDoors: boolean</li>
+<li>canPassDoors: boolean</li>
+<li>canPathFromAir: boolean</li>
+<li>canPathOverLava: boolean</li>
+<li>canPathOverWater: boolean</li>
+<li>canSink: boolean</li>
+<li>canSwim: boolean</li>
+<li>canWalk: boolean</li>
+<li>canWalkInLava: boolean</li>
+<li>id: string</li>
+<li>isAmphibious: boolean</li>
 </ul>
 </details>
 
 <details>
 <summary>Player</summary>
 <ul> 
-<li><font color="#ff9800">id</font>: string</li>
-<li><font color="#ff9800">isSneaking</font>: boolean</li>
-<li><font color="#ff9800">location</font>: Location</li>
-<li><font color="#ff9800">name</font>: string</li>
-<li><font color="#ff9800">nameTag</font>: string</li>
-<li><font color="#ff9800">velocity</font>: Location</li>
-<li><font color="#ffc107">addEffect</font>(effectType: EffectType, duration: number, amplifier: number): void</li>
-<li><font color="#ffc107">getComponent</font>(componentId: string): any</li>
-<li><font color="#ffc107">getComponents</font>(): Array<any></li>
-<li><font color="#ffc107">getEffect</font>(effectType: EffectType): Effect</li>
-<li><font color="#ffc107">hasComponent</font>(componentId: string): boolean</li>
-<li><font color="#ffc107">kill</font>(): void</li>
-<li><font color="#ffc107">triggerEvent</font>(eventName: string): void</li>
+<li>id: string</li>
+<li>isSneaking: boolean</li>
+<li>location: Location</li>
+<li>name: string</li>
+<li>nameTag: string</li>
+<li>velocity: Location</li>
+<li>addEffect(effectType: EffectType, duration: number, amplifier: number): void</li>
+<li>getComponent(componentId: string): any</li>
+<li>getComponents(): Array<any></li>
+<li>getEffect(effectType: EffectType): Effect</li>
+<li>hasComponent(componentId: string): boolean</li>
+<li>kill(): void</li>
+<li>triggerEvent(eventName: string): void</li>
 </ul>
 </details>
 
 <details>
 <summary>Rideable</summary>
 <ul> 
-<li><font color="#ff9800">controllingSeat</font>: number</li>
-<li><font color="#ff9800">crouchingSkipInteract</font>: boolean</li>
-<li><font color="#ff9800">familyTypes</font>: Array<any></li>
-<li><font color="#ff9800">id</font>: string</li>
-<li><font color="#ff9800">interactText</font>: string</li>
-<li><font color="#ff9800">pullInEntities</font>: boolean</li>
-<li><font color="#ff9800">riderCanInteract</font>: boolean</li>
-<li><font color="#ff9800">seatCount</font>: number</li>
-<li><font color="#ff9800">seats</font>: Array<Seat></li>
-<li><font color="#ffc107">addRider</font>(rider: Entity): boolean</li>
-<li><font color="#ffc107">ejectRider</font>(rider: Entity): void</li>
-<li><font color="#ffc107">ejectRiders</font>(): void</li>
+<li>controllingSeat: number</li>
+<li>crouchingSkipInteract: boolean</li>
+<li>familyTypes: Array<any></li>
+<li>id: string</li>
+<li>interactText: string</li>
+<li>pullInEntities: boolean</li>
+<li>riderCanInteract: boolean</li>
+<li>seatCount: number</li>
+<li>seats: Array<Seat></li>
+<li>addRider(rider: Entity): boolean</li>
+<li>ejectRider(rider: Entity): void</li>
+<li>ejectRiders(): void</li>
 </ul>
 </details>
 
 <details>
 <summary>Seat</summary>
 <ul> 
-<li><font color="#ff9800">lockRiderRotation</font>: number</li>
-<li><font color="#ff9800">maxRiderCount</font>: number</li>
-<li><font color="#ff9800">minRiderCount</font>: number</li>
-<li><font color="#ff9800">position</font>: Location</li>
+<li>lockRiderRotation: number</li>
+<li>maxRiderCount: number</li>
+<li>minRiderCount: number</li>
+<li>position: Location</li>
 </ul>
 </details>
 
 <details>
 <summary>Strength</summary>
 <ul> 
-<li><font color="#ff9800">id</font>: string</li>
-<li><font color="#ff9800">max</font>: number</li>
-<li><font color="#ff9800">value</font>: number</li>
+<li>id: string</li>
+<li>max: number</li>
+<li>value: number</li>
 </ul>
 </details>
 
 <details>
 <summary>StringBlockProperty</summary>
 <ul> 
-<li><font color="#ff9800">name</font>: string</li>
-<li><font color="#ff9800">validValues</font>: Array<any></li>
-<li><font color="#ff9800">value</font>: string</li>
+<li>name: string</li>
+<li>validValues: Array<any></li>
+<li>value: string</li>
 </ul>
 </details>
 
 <details>
 <summary>Tameable</summary>
 <ul> 
-<li><font color="#ff9800">id</font>: string</li>
-<li><font color="#ff9800">probability</font>: number</li>
-<li><font color="#ff9800">tameEvent</font>: Trigger</li>
-<li><font color="#ff9800">tameItems</font>: Array<any></li>
-<li><font color="#ffc107">tame</font>(): boolean</li>
+<li>id: string</li>
+<li>probability: number</li>
+<li>tameEvent: Trigger</li>
+<li>tameItems: Array<any></li>
+<li>tame(): boolean</li>
 </ul>
 </details>
 
@@ -3933,31 +3933,31 @@
 <details>
 <summary>UnderwaterMovement</summary>
 <ul> 
-<li><font color="#ff9800">current</font>: number</li>
-<li><font color="#ff9800">id</font>: string</li>
-<li><font color="#ff9800">value</font>: number</li>
-<li><font color="#ffc107">resetToDefaultValue</font>(): void</li>
-<li><font color="#ffc107">resetToMaxValue</font>(): void</li>
-<li><font color="#ffc107">resetToMinValue</font>(): void</li>
-<li><font color="#ffc107">setCurrent</font>(): void</li>
+<li>current: number</li>
+<li>id: string</li>
+<li>value: number</li>
+<li>resetToDefaultValue(): void</li>
+<li>resetToMaxValue(): void</li>
+<li>resetToMinValue(): void</li>
+<li>setCurrent(): void</li>
 </ul>
 </details>
 
 <details>
 <summary>WeatherChangedEvent</summary>
 <ul> 
-<li><font color="#ff9800">dimension</font>: string</li>
-<li><font color="#ff9800">lightning</font>: boolean</li>
-<li><font color="#ff9800">raining</font>: boolean</li>
+<li>dimension: string</li>
+<li>lightning: boolean</li>
+<li>raining: boolean</li>
 </ul>
 </details>
 
 <details>
 <summary>World</summary>
 <ul> 
-<li><font color="#ff9800">events</font>: Events</li>
-<li><font color="#ffc107">getDimension</font>(dimensionName: ('overworld'|'nether'|'the end')): Dimension</li>
-<li><font color="#ffc107">getPlayers</font>(): Array<Player></li>
+<li>events: Events</li>
+<li>getDimension(dimensionName: ('overworld'|'nether'|'the end')): Dimension</li>
+<li>getPlayers(): Array<Player></li>
 </ul>
 </details>
 
